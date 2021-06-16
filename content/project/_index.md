@@ -1,10 +1,10 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: My Projects
+description: "This is where they live online."
+author: "Harshvardhan"
 show_post_thumbnail: true
 show_author_byline: true
-show_post_date: false
+show_post_date: true
 # for listing page layout
 layout: list-grid # list, list-sidebar, list-grid
 
