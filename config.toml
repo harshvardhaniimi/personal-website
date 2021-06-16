@@ -105,10 +105,6 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://open.spotify.com/user/6z25jqql0glx8o5aqhp8xkumr?si=uVIGCHsOQEOsoTvAu3Qhfw&nd=1"
   [[params.social]]
-      icon      = "quora" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.quora.com/profile/Harshvardhan-50"
-  [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
       url       = "/blog/index.xml"

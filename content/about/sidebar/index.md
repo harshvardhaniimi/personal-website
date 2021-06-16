@@ -1,19 +1,19 @@
 ---
 ## Configure sidebar content in narrow column
-author: "Emily Cooper"
-role: "Social media strategy @ Savoir"
-avatar_shape: rounded # circle, square, rounded
+author: "Harshvardhan"
+role: ""
+avatar_shape: circle # circle, square, rounded
 show_social_links: true # specify social accounts in site config
 show_audio_link: true
 audio_link_label: "How to say my name"
-link_list_label: "Interests" # bookmarks, elsewhere, etc.
+link_list_label: "Next goals" # bookmarks, elsewhere, etc.
 link_list:
-- name: Paris
-  url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
-  url: https://en.wikipedia.org/wiki/Pastry
-- name: People
-  url: https://en.wikipedia.org/wiki/People
+- name: Great Smoky Mountains
+  url: https://en.wikipedia.org/wiki/Great_Smoky_Mountains
+- name: 100 Books
+  url: https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23
+- name: What's the third?
+  url: 
 ---
 
 ** index doesn't contain a body, just front matter above.
