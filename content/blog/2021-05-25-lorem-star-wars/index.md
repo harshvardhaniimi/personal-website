@@ -5,7 +5,7 @@ excerpt: "Add tabbed sections to your posts."
 date: 2021-05-25
 author: "Alison Hill"
 draft: false
-# layout options: single, single-sidebar
+layout options: sidebar-listing
 layout: single
 categories:
 - Theme features
