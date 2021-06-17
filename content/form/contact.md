@@ -1,7 +1,7 @@
 ---
 title: Contact
 name: Contact Us Form
-description: "Liked something? Have some suggestion or question? Please contact me using this form. Or email me at [hello@harsh17.in](mailto:hello@harsh17.in)"
+description: "This contact form doesn't work. Please email me at [hello@harsh17.in](mailto:hello@harsh17.in)."
 date: 2019-02-25T13:38:41-06:00
 draft: false
 url: contact

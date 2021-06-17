@@ -31,7 +31,7 @@ enableEmoji = true
   orgName = "Harshvardhan"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
-  logo = "/img/logo.png"
+  logo = "/img/avatar.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
