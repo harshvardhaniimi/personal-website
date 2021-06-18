@@ -1,7 +1,7 @@
 ---
 title: "Harshvardhan"
 subtitle: ""
-description: "I like statistics and business analytics, and have worked on AI and ML projects with big data in real-life applications. I finished my MBA from IIM Indore in 2021. In my free time, I read, trek, cook and listen to music."
+description: "  I am learning analytical techniques to solve real-life problems. The [end goal]() is to have a free, humanistic and happy world. In my free time, I read, trek, cook and listen to music."
 date: 2019-02-18T12:27:33-06:00
 images:
   - img/harsh_eu.jpg
