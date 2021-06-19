@@ -1,6 +1,6 @@
 ---
 title: Malaria Vaccine Coverage
-author: R package build
+author: M Harshvardhan and Pritam Ranjan
 date: '2020-12-20'
 slug: []
 tags: []
