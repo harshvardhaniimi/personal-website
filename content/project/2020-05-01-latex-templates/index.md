@@ -1,5 +1,6 @@
 ---
 title: LaTeX Templates
+summary: LaTeX templates developed by me
 author: Harshvardhan
 date: '2020-05-01'
 slug: []

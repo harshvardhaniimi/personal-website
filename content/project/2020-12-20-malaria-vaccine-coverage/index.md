@@ -1,6 +1,7 @@
 ---
 title: Malaria Vaccine Coverage
 author: M Harshvardhan and Pritam Ranjan
+summary: Research Paper on Malaria Vaccine Coverage Prediction
 date: '2020-12-20'
 slug: []
 tags: []

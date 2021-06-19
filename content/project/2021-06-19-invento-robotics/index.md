@@ -1,6 +1,7 @@
 ---
 title: Invento Robotics
 subtitle: Launching Humanoid Robots
+summary: Marketing case study on launch of Mitra — a humanoid robot
 author: M Harshvardhan and Bipul Kumar
 date: '2021-06-19'
 slug: []

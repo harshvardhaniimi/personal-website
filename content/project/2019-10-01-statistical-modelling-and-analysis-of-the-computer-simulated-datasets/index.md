@@ -1,5 +1,6 @@
 ---
 title: Modelling and Simulation
+summary: Research paper on statistical modelling and analysis of computer-simulated datasets
 author: M Harshvardhan and Pritam Ranjan
 date: '2019-10-01'
 slug: []
