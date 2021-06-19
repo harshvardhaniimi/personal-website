@@ -1,5 +1,6 @@
 ---
 title: Alpha, Delta, Gamma and Theta Waves
+summary: Brain waves generated using R (tuneR)
 author: Harshvardhan
 date: '2020-04-14'
 slug: []

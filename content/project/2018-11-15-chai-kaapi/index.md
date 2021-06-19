@@ -1,6 +1,6 @@
 ---
 title: Chai Kaapi
-summary: Analytics live project
+summary: Analytics live project for a fast food chain in India
 author: Harshvardhan
 date: '2018-11-15'
 slug: []

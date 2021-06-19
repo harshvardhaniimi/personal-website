@@ -1,5 +1,6 @@
 ---
 title: Quotes Generator
+summary: Shiny app to present quotes on the fly
 author: Harshvardhan
 date: '2020-11-24'
 slug: []

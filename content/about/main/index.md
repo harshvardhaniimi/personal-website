@@ -14,6 +14,8 @@ intro: |
   I like listening to music, mostly Bollywood. My playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is getting traction off late on Spotify. Do give it a try.
   
   [Curriculum vitae](/docs/cv.pdf)
+  
+  [Old Website](https://sites.google.com/view/harsh17/)
 
 show_outro: true
 

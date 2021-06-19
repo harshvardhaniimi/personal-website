@@ -1,5 +1,6 @@
 ---
 title: Technical Efficiency of Indian Higher Educational Institutes
+summary: Measuring efficiency of Indian higher education institutes using Data Envelopment Analysis
 author: Harshvardhan
 date: '2019-03-17'
 slug: []
