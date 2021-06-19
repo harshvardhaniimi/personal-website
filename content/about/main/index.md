@@ -5,7 +5,7 @@ number_featured: 1 # pulling from mainSections in config.toml
 number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
-  I completed my BA and MBA from IIM Indore in April 2021. I was an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) exchange student at the [University of Latvia (Latvijas Universitate)](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org) in 2016.
+  I completed my BA and MBA from [IIM Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/) in April 2021. I was an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) exchange student at the [University of Latvia (Latvijas Universitate)](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org) in 2016.
   
   I like programming and solving problems through that. I started to code in C/C++, but over time picked up R. I know the basics of Java and HTML. R, these days, happens to be my go-to language. Apart from mathematics and statistics, I am also fond of philosophy, political economics and sociology.
   
