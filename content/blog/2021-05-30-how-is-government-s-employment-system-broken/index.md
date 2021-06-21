@@ -1,6 +1,7 @@
 ---
 title: How is Government's Employment System Broken?
 subtitle: "Public Policy and Management"
+summary: My thoughts on why government hiring is broken and needs system-level redesign to improve.
 author: Harshvardhan
 date: '2021-05-30'
 slug: []
