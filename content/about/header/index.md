@@ -3,7 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi there! Welcome.
+  Hi there! Welcome to my home.
 ---
 
 <!-- this is a subheadline -->
