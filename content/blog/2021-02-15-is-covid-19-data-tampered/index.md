@@ -71,9 +71,13 @@ Explore the world map below to see evidence of manipulation for each country.
 
 ## As of May 23, 2021
 
-The countries with very little evidence of manipulation --- RMSE less than 3 --- are the following. \> Comoros, Somalia, Dominica, Republic of Congo, Vatican, Solomon Islands, United Republic of Tanzania, Samoa, Vanuatu, Marshall Islands, Federated States of Micronesia.
+The countries with very little evidence of manipulation --- RMSE less than 3 --- are the following. 
 
-The countries with very strong evidence of manipulation --- RMSE more than 22 --- are the following. \> Belarus, Tajikistan, Netherlands, Russia, Egypt, Iran, Iraq, Qatar, South Korea, Colombia, Italy, Turkey, Honduras, Brazil, China, Kuwait, Mexico, Algeria, El Salvador.
+> Comoros, Somalia, Dominica, Republic of Congo, Vatican, Solomon Islands, United Republic of Tanzania, Samoa, Vanuatu, Marshall Islands, Federated States of Micronesia.
+
+The countries with very strong evidence of manipulation --- RMSE more than 22 --- are the following. 
+
+> Belarus, Tajikistan, Netherlands, Russia, Egypt, Iran, Iraq, Qatar, South Korea, Colombia, Italy, Turkey, Honduras, Brazil, China, Kuwait, Mexico, Algeria, El Salvador.
 
 My home, India, doesn't show strong evidence of manipulation (RMSE = 7.32). China (RMSE = 22.6) and Russia (RMSE = 28.9) show major evidence of manipulation. **These results are as on May 23, 2021 and can change in future. Use the app below for live results.**
 

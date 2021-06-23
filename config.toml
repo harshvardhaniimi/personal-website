@@ -155,7 +155,7 @@ enableRobotsTXT = true
     disable = false
   [privacy.googleAnalytics]
     disable = false
-    anonymizeIP = true
+    anonymizeIP = false
     respectDoNotTrack = true
   [privacy.instagram]
     disable = false
@@ -171,4 +171,11 @@ enableRobotsTXT = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+# Permalinks
+[permalinks]
+  blog = "/:section/:slug/"
+  project = "/:section/:slug/"
+  notes = "/:section/:slug/"
+  
 
