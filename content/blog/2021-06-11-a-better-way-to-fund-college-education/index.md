@@ -1,6 +1,7 @@
 ---
 title: A (better) Way to Fund College Education
-subtitle: No Student Debt or Burden on the National Treasury 
+subtitle: No Student Debt or Burden on the National Treasury
+summary: How about a listed mutual fund for investing in college education?
 author: Harshvardhan
 date: '2020-08-11'
 slug: []

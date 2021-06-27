@@ -1,6 +1,7 @@
 ---
 title: Demonstrating Shiny Apps
 subtitle: Guest Lecture for PhD Students at IIM Indore
+sumary: My guest lecture on Shiny apps for FPM (PhD) students at IIM Indore
 author: Harshvardhan
 date: '2020-05-31'
 slug: []

@@ -1,6 +1,7 @@
 ---
 title: Exploring My Spotify Listening
 subtitle: Creating My Own Year-in-Review
+summary: I analyse my listening stats and patterns using R.
 author: Harshvardhan
 date: '2020-06-03'
 slug: []

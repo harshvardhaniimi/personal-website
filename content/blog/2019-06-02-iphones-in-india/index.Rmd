@@ -1,6 +1,7 @@
 ---
 title: iPhones in India
 subtitle: Why isn't Apple Taking India Seriously?
+summary: Why is Apple ignorning such a big market like India?
 author: Harshvardhan
 date: '2019-06-02'
 slug: []

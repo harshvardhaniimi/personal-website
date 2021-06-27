@@ -1,6 +1,7 @@
 ---
 title: Gartner Hype Cycle
 subtitle: Understanding when technologies gain and lose popularity
+summary: Technologies come and go. The real question is can you predict its popularity? 
 author: Harshvardhan
 date: '2019-11-25'
 slug: []

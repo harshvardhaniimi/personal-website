@@ -1,5 +1,6 @@
 ---
 title: Presentation on LaTeX
+summary: My workshop on using LaTeX for IIM Indore community
 author: Harshvardhan
 date: '2018-11-24'
 slug: []

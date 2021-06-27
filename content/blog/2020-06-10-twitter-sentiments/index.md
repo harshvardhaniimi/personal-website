@@ -1,5 +1,7 @@
 ---
 title: Sentiment Analysis of Tweets
+subtitle: Using rTweet package in R to analyse live tweets
+summary: Using rTweet package in R to analyse live tweets from Twitter
 author: Harshvardhan
 date: '2020-06-10'
 slug: twitter-sentiments

@@ -1,6 +1,7 @@
 ---
 title: Museums and Experience Tourism
 subtitle: I want to experience a place and not just see artifacts
+summary: Museums are a thing of past. Google has more over-the-top information than I need. Why not target for the experience instead of expertise?
 author: Harshvardhan
 date: '2019-05-05'
 slug: []

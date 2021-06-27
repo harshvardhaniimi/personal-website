@@ -1,6 +1,7 @@
 ---
 title: Is COVID-19 Data tampered?
 subtitle: Testing Benford's Law on COVID-19 Data Reported by Countries
+summary: Is there any evidence of tampering or manipulation in COVID-19 daily cases reported by countries? Using Benford analysis in R, I try to reach at some conclusion.
 author: Harshvardhan
 date: '2021-02-15'
 slug: []

@@ -1,5 +1,7 @@
 ---
 title: 'How to decide: to do, or not to do?'
+subtitle: Thinking about the most crucial dilemma of all time.
+summary: Thinking about the most crucial dilemma of all time.
 author: Harshvardhan
 date: '2019-04-13'
 slug: []

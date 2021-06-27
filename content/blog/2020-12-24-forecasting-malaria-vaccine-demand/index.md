@@ -1,6 +1,7 @@
 ---
 title: Forecasting Malaria Vaccine Demand
 subtitle: Some interesting insights from my research work on forecasting demand of Malaria vaccines
+summary: Summary of my research work on forecasting coverage for Malaria vaccines
 author: Harshvardhan
 date: '2020-12-24'
 slug: []
@@ -56,11 +57,11 @@ Using these assumptions and inputs, we forecasted the coverage for next 38 years
 
 Here is the vaccine coverage at two crucial time points: soon after the time of launch and at the end of simulation (38 years after launch).
 
-![Vaccine coverage at t=0 and t=38](images/Screenshot 2021-06-17 at 11.04.25 PM.png)
+![Vaccine coverage at t=0 and t=38](images/Screenshot%202021-06-17%20at%2011.04.25%20PM.png)
 
 Vaccine coverage through the years is as follows:
 
-![vaccine coverage ratio over the years](images/Screenshot 2021-06-17 at 11.22.23 PM.png)
+![vaccine coverage ratio over the years](images/Screenshot%202021-06-17%20at%2011.22.23%20PM.png)
 
 ## What's Even More Interesting
 

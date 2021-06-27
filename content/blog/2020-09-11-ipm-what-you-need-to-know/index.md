@@ -1,6 +1,7 @@
 ---
 title: 'IPM: What You Need To Know'
 subtitle: Quick Primer on How to Prepare for IPM
+summary: A Quick Primer on How to Prepare for IPM
 author: Harshvardhan
 date: '2020-09-11'
 slug: []

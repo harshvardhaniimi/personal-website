@@ -1,6 +1,7 @@
 ---
 title: Understanding Profits of Non-profits
 subtitle: What to do with IIM Indore’s capital fund of Rs 500 crore?
+summary: Non-profits do end up with more capital than they need. What kind of earnings redistribution system do they need?
 author: Harshvardhan
 date: '2020-03-07'
 slug: []
