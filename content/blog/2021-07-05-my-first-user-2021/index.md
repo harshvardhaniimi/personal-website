@@ -3,7 +3,7 @@ title: My First useR 2021!
 subtitle: Attending My First Academic Conference
 summary: Learnings from the first academic conference I ever participated.
 author: Harshvardhan
-date: '2021-07-05'
+date: '2021-07-04'
 slug: []
 categories:
   - thoughts
