@@ -4,10 +4,14 @@ subtitle: Attending My First Academic Conference
 summary: Learnings from the first academic conference I ever participated.
 author: Harshvardhan
 date: '2021-07-04'
-slug: []
+slug: my-first-user-2021
 categories:
-  - thoughts
-tags: []
+  - R
+  - statistics
+  - workshop
+tags:
+  - statistics
+  - R
 layout: single-sidebar
 ---
 
