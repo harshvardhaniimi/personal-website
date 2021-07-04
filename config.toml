@@ -171,12 +171,5 @@ enableRobotsTXT = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-
-# Permalinks
-# Adding permalinks is stopping future rendering - so removing it
-#[permalinks]
-#  blog = "/:section/:slug/"
-#  project = "/:section/:slug/"
-#  notes = "/:section/:slug/"
   
 
