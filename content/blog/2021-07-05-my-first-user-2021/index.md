@@ -1,24 +1,26 @@
 ---
-title: My First useR 2021
+title: iPhones in India
+subtitle: Why isn't Apple Taking India Seriously?
+summary: Why is Apple ignorning such a big market like India?
 author: Harshvardhan
-summary: Lessons from the first academic conference I ever participated.
-date: '2021-07-05'
+date: '2019-06-02'
 slug: []
 categories:
-  - R
-  - statistics
-  - workshop
-tags:
-  - R
-  - statistics
-subtitle: ''
-excerpt: ''
-series: ~
+  - thoughts
+tags: []
 layout: single-sidebar
 ---
 
-This year, I am participating in [useR 2021](https://user2021.r-project.org), the R conference. It is my first conference so I expect to miss out on a few things but still hope to learn as much as I can. I am relatively free for the next week so learning as much as possible from the conference will be my central focus. 
+Apple, as you very well know, is facing falling iPhone sales - for various reasons. One primary cause is the increased life of phones and long upgrade cycle. So, to maintain similar levels of profit, they either have to increase the margins; perhaps the reason for remarkably high prices for the current line. Or, they can learn a lesson on global expansion from the cigarettes industry.
 
-Sadly, I didn't realise I had to register for tutorials separately — I thought one registration was all that's needed. I cannot attend the tutorials but it is likely that the authors would upload materials on their personal website, where I can pick up when needed. The complete session plan is [here](/docs/useR_2021_schedule.pdf).
+I see quite a similarity between now and 90s for Apple. Apple is trying new things like then - which in itself is a good thing - but to make the same profits, it's massively milking its existing consumer base. The current market in the US and Europe is quite saturated as almost everyone already owns iPhones. To enable growth, they need to find more people who buy their products. 
 
+What I don't understand is the ignorance of India. India is the second largest global market. After China, which Apple has a quite colossal presence in, India should be a natural target. But they aren't just not focusing on acquiring new consumers but also have low-key efforts for service of existing consumers. 
 
+To a certain extent, they're right: India has a vast population whose yearly income is less than that of an iPhone. But that's not all; there are still many people who would like to get an iPhone and can afford it - the top 25%. There is a reason why OnePlus's biggest market is India.
+
+It's not that Indians don't like iPhones - they love it. Recently Apple started manufacturing 6s in India, and it is the new hot cake. People are buying four-year-old iPhone! 
+
+To Apple's defence, they can blame the high tariffs for such high prices and internal regulations for not having any service centres. But that's not enough considering OnePlus or Google have their service centres here, up and running. 
+
+About the high prices: I think Apple can reduce the margin for a while. Even if it can't do that, it could use some form of Apple financing. Most people who can afford Rs 40,000 right now can afford to pay another Rs 20,000 over the next two years. But before all that, it should focus on improving the services here. There are no official Apple service centres in the country.
