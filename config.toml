@@ -1,4 +1,4 @@
-baseURL = "https://hv.netlify.app/"
+baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Harshvardhan"
@@ -172,4 +172,8 @@ enableRobotsTXT = true
     disable = false
     privacyEnhanced = true
   
-
+# Permalinks
+[permalinks]
+  blog = "/:section/:slug/"
+  project = "/:section/:slug/"
+  notes = "/:section/:slug/"
