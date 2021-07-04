@@ -173,9 +173,10 @@ enableRobotsTXT = true
     privacyEnhanced = true
 
 # Permalinks
-[permalinks]
-  blog = "/:section/:slug/"
-  project = "/:section/:slug/"
-  notes = "/:section/:slug/"
+# Adding permalinks is stopping future rendering - so removing it
+#[permalinks]
+#  blog = "/:section/:slug/"
+#  project = "/:section/:slug/"
+#  notes = "/:section/:slug/"
   
 
