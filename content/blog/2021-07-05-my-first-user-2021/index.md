@@ -1,7 +1,7 @@
 ---
 title: My First useR 2021!
-subtitle: Why isn't Apple Taking India Seriously?
-summary: Why is Apple ignorning such a big market like India?
+subtitle: Attending My First Academic Conference
+summary: Learnings from the first academic conference I ever participated.
 author: Harshvardhan
 date: '2019-06-02'
 slug: []
