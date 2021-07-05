@@ -31,17 +31,19 @@ A critical problem with using books as alternative to documentation is the inabi
 
 **Solution?** Apart from a disclaimer in the printed book to check the current version, I cannot think of anything more. I suspect hardly anyone buys the printed copies of the books as the free version is available online.
 
-In the presentation, I got the idea of changing the permalinks on my website to `year/month/slug` format instead of the current `section/slug` format. After sleeping over it, I decided against it because I frequently update my old blogs and sometimes also change publishing dates (some may call it wrong practice). Therefore, for consistency and unbroken URLs, I will continue with `section/slug`.
+In the presentation, I got the idea of changing the permalinks on my website to `year/month/slug` format instead of the current `/slug` format. After sleeping over it, I decided against it because I frequently update my old blogs and sometimes also change publishing dates (some may call it wrong practice). Therefore, for consistency and unbroken URLs, I will continue with `/slug`.
 
 Yihui mentioned about the talk by David Robinson on "The unreasonable effectiveness of public work", available on the Rstudio [website](https://www.rstudio.com/resources/rstudioconf-2019/the-unreasonable-effectiveness-of-public-work/). I will watch it soon.
 
 He had some tips to share on blogging:
 
 - Only after publishing more than 30 posts should you really consider themes. As a beginner, do not spend a lot of time on this. I use [Hugo Apero](https://github.com/hugo-apero/hugo-apero-docs) for this website, and thanks to Yihui and [Alison Hill](https://alison.rbind.io), I do not have to worry a lot about my themes.
-- enable comments so that there is a dialouge between the author and the readers. I will enable them soon on my own website.
+- Enable comments so that there is a dialouge between the author and the readers. My experience with comments hasn't bee great. Around three years ago, I used to host my site on Wordpress and had comments enabled. The comment fields were filled with spam, even inappropriate spam. Further, I have found putting my email directly has provided me better engagement. (Once I received comments via email from halfway across the world and it made my day!)
 - Probably pagination in the list of blogs is not a good option. Yihui says he likes to see what all have you written at a glance and clicking next after every five articles breaks flow. I have increased my articles on a page to 20, which I believe is a good balance between currency and flow.
 
 ![Key Message for Yihui's Talk](images/yihui.png)
+
+I am definitely going to be more casual about my blogs from now on.
 
 [Slides](slides.yihui.org/2021-useR-journey.html)
 
