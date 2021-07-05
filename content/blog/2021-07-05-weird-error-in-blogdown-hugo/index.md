@@ -5,7 +5,7 @@ date: '2021-07-05'
 slug: weird-error-in-blogdown-hugo
 categories:
   - package
-  - social
+  - blog
 tags: []
 ---
 
@@ -19,4 +19,6 @@ So, I copy pasted another blog into the new blog and checked if that still shows
 
 > There I found it! The error was in the date. As soon as I changed the date to yesterday, it worked perfectly. 
 
-But why this error? I remembered distinctly I had published blogs on the same day as today. Probably because at the time of publishing it was July 5, 2021 in my local time (India), whereas in UTC or USA it was still July 4, 2021. Hugo doesn't allow publishing with future dates. Weird, right?
+But why this error? I remembered distinctly I had published blogs on the same day as today. Probably because at the time of publishing it was July 5, 2021 in my local time (India), whereas in UTC or USA it was still July 4, 2021. Hugo doesn't allow publishing with future dates. 
+
+Weird, right?
