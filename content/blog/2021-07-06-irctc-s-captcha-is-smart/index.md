@@ -1,5 +1,6 @@
 ---
 title: IRCTC's Captcha is Smart
+summary: Why not integrate captcha and ads?
 author: Harshvardhan
 date: '2021-07-06'
 slug: irctc-captcha-is-smart

@@ -1,5 +1,6 @@
 ---
 title: Weird error in Blogdown/Hugo
+summary: Eerie behaviour by Hugo
 author: Harshvardhan
 date: '2021-07-05'
 slug: weird-error-in-blogdown-hugo
