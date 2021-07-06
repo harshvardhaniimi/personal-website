@@ -1,10 +1,9 @@
 ---
-title: My First useR 2021!
-subtitle: Attending My First Academic Conference
-summary: Learnings from the first academic conference I ever participated.
+title: Yihui on Blogging and Writing Books
+summary: Attending My First Academic Conference
 author: Harshvardhan
-date: '2021-07-04'
-slug: my-first-user-2021
+date: '2021-07-05'
+slug: yihui-on-blogging-and-writing-books
 categories:
   - R
   - statistics
