@@ -9,8 +9,12 @@ categories:
 tags: []
 ---
 
-IRCTC's captcha system is quite smart. You can't do away with captcha systems. They are everywhere identifying robots from humans. At the same time, people don't want to see ads and use ad-blockers specifically for that purpose. Why not integrate both — captcha and ads?
+I realised IRCTC's captcha system is a very smart move. Why? Well, you can't do away with captcha systems. They are everywhere identifying robots from humans. At the same time, people don't want to see ads and everyone uses ad-blockers specifically for that purpose. Why not integrate something indispensible with something disliked?
+
+That's what IRCTC did.
 
 ![irctc captcha](images/irctc.png)
+
+You will have to read the ad to know what is the captcha code. By asking you to type "Jeevan saathi" as code, it naturally anchors you to choose this LIC insurance product over other when you but insurance products next time.
 
 The system is provided by [Simpli5d](https://nlpcaptcha.in/en/index.html) which also boasts of customers like Axis Bank, Tata, Visa, Volkswagen, and many more.
