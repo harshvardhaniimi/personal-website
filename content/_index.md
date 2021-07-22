@@ -1,7 +1,7 @@
 ---
 title: "Harshvardhan"
 subtitle: "Standing on the shoulders of giants"
-description: "  I am learning analytical techniques to solve real-life problems. The [end goal](/blog/2019-04-13-how-to-decide-to-do-or-not-to-do/) is to have a free, humanistic and happy world. In my free time, I read, trek, cook and listen to music."
+description: "  I am learning analytical techniques to solve real-life problems. The [end goal](/how-to-decide-to-do-or-not-to-do/) is to have a free, humanistic and happy world. In my free time, I read, trek, cook and listen to music."
 date: 2019-02-18T12:27:33-06:00
 images:
   - img/harsh_eu.jpg
