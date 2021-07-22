@@ -30,7 +30,7 @@ enableRobotsTXT = true
     
 [params]
   orgName = "Harshvardhan"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "Standing on the Shoulders of Giants"
   favicon = "/img/favicon.ico"
   logo = "/img/avatar.png"
   mainSections = ["blog", "project", "talk"]
