@@ -13,8 +13,8 @@ layout: list-sidebar # list, list-sidebar, list-grid
 sidebar: 
   title: Blizzard of Random Thoughts
   description: |
-    I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences. You would also find
-    some posts on working with R.
+    I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences. You 
+    would also find some posts on working with R.
 
   author: "Harshvardhan"
   text_link_label: Subscribe via RSS
