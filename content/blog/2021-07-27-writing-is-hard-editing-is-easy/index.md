@@ -15,7 +15,7 @@ tags:
 layout: single-sidebar
 ---
 
-Every time I write, I end up reading it sometime in future. That's expected — if I won't read what I write, who else will — and is most accurate with the contents of my website. I have written most parts of it for my records, and I occasionally go over them to revise my learnings.
+Every time I write, I end up reading it sometime in future. That's obvious — if I won't read what I write, who else will — and is most accurate with this website. I have written most parts of it for my records, and I occasionally go over them to revise my learnings.
 
 Looking back at old writings means finding a lot of errors, mostly grammatical errors. Though I resist the temptation to edit the already published articles, the pedantic me takes over and rewrites my mistakes. 
 
