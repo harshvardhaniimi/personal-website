@@ -10,7 +10,6 @@ categories:
   - R
 tags:
   - government
-layout: single-sidebar
 ---
 
 __For preprint of the actual paper, [click here](https://arxiv.org/pdf/2012.11124.pdf).__

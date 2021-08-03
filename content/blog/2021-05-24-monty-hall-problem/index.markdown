@@ -11,10 +11,6 @@ tags:
   - statistics
   - probability
   - confusing
-draft: false
-images:
-series:
-layout: single-sidebar
 ---
 
 I first heard of Monty Hall problem around four years ago. In class, a professor showed us how we weren't willing to change our decisions even after suggestive evidence showed us otherwise. What's Monty Hall problem, you ask?

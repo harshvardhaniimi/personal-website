@@ -9,7 +9,6 @@ categories:
   - workshop
 tags:
   - statistics
-layout: single-sidebar
 ---
 
 I gave a presentation on LaTeX on 23rd November 2017 at IIM Indore – my home college. I claim to be no expert on the subject as this presentation was aimed at just kindling the spark amongst the students for them to start experimenting with it, and in more general sense, to encourage them to learn skills off the books.

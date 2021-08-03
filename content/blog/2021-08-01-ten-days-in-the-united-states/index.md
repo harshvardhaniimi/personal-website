@@ -14,7 +14,6 @@ tags:
   - government
   - india
   - life
-layout: single-sidebar
 ---
 
 I recently moved to United States (USA or America as everyone calls it) for my PhD at the Haslam College of Business, University of Tennessee. Travelling during the pandemic is a major safety issue. Though vaccinations are common these days and I am fully vaccinated, I can't assure the same for all my fellow passengers. Airlines require and provide masks and sanitisers during travel but we all know its not enough. With these little risks, I left my home on July 20, 2021 to start the new phase of my life.

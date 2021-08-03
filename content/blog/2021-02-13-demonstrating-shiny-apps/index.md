@@ -15,7 +15,6 @@ categories:
 tags:
   - iim indore
   - statistics
-layout: single-sidebar
 ---
 
 Recently, I gave a presentation on R Shiny Apps to an FPM (PhD) class. Although the session was quite brief in itself, we developed a small central limit theorem demonstrator. It's not feature-rich or anything - just serves the purpose of seeing central limit theorem in action. Thanks a lot to [Prof Pritam Ranjan](https://sites.google.com/site/drpritamranjan/) for giving me this wonderful opportunity.
