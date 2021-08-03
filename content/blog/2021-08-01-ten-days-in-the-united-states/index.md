@@ -1,5 +1,6 @@
 ---
 title: Ten days in the United States
+summary: Cultural and technological shocks
 author: Harshvardhan
 date: '2021-08-01'
 slug: ten-days-in-the-united-states
