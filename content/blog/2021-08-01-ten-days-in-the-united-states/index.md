@@ -48,9 +48,9 @@ Recently Venmo and Cashapp became popular which are like Paytm wallet that we ha
 
 ### Food
 
-Servings in US are way more than a typical meal. Unfortunately, there are no half-servings either. For $6.99, we get a plate full of food that you can eat once, pack, reheat and eat again, pack, reheat and eat again. However, I saw an obese American kid finish all that in a single meal!
+Servings in US are way more than a typical meal. Unfortunately, there are no half-servings either. For $6.99, we get a plate full of food that you can eat once, pack, reheat and eat again, pack, reheat and eat again.
 
-I learnt that the servings are huge because many cannot afford to have three square meals and therefore aim to complete their daily calorie requirements with a single meal. Serving half of the food for half the price, and consuming them twice in a day would be a healthier alternative.
+Later, I learnt that the servings are huge because many cannot afford to have three square meals and therefore aim to complete their daily calorie requirements with a single meal. Serving half of the food for half the price, and consuming them twice in a day would be a healthier alternative.
 
 It is very easy to spot unhealthy food. McDonalds and Burger King are affordable and easy to find. However, fresh fruits, vegetables, salads, meat, etc. is much more expensive and elusive. How come fresh uncooked chicken is more expensive than a chicken burger!?
 
