@@ -43,7 +43,7 @@ He had some tips to share on blogging:
 
 I am definitely going to be more casual about my blogs from now on.
 
-[Slides](slides.yihui.org/2021-useR-journey.html)
+[Slides](https://slides.yihui.org/2021-useR-journey.html)
 
 
 
