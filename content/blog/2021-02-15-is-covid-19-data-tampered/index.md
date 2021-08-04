@@ -38,11 +38,10 @@ My approach is simple and direct. Using the COVID-19 data available at [Our Worl
 
 Explore the world map below to see evidence of manipulation for each country.
 
-{{< panelset class="greetings" >}}
-{{< panel name="Map-plot! :earth_asia:" >}}
   ![mapplot of all countries](images/country.png)
-{{< /panel >}}
-{{< panel name="Code :computer:" >}}
+
+> R Codes
+
   
   ```r
   ##### Map plot
@@ -66,8 +65,6 @@ Explore the world map below to see evidence of manipulation for each country.
   
   ggsave("country.png")
   ```
-{{< /panel >}}
-{{< /panelset >}}
 
 ## As of May 23, 2021
 
