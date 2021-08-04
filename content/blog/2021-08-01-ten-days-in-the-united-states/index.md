@@ -76,8 +76,6 @@ Carrying these identification's physical copy is risky and unsafe. You can lose 
 
 > These shocks make me appreciate how far have we (India) come today. Internet certaily has been the driving force. I have deeply believed India is the future and would be the place where the world would look up to in the next decade. All these only make my conviction stronger.
 
-Of course, the list isn't complete and I will add more ideas!
-
 
 
 
