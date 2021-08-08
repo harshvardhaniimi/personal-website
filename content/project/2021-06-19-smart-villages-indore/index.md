@@ -2,7 +2,7 @@
 title: Smart Villages Indore
 summary: Creating and deploying web-based content for the Government of Madhya Pradesh
 author: Harshvardhan
-date: '2016-11-1'
+date: '2016-11-01'
 slug: []
 categories:
   - life
