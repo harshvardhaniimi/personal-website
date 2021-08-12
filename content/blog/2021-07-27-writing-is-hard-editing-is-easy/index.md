@@ -28,6 +28,8 @@ In his book "How to Write a Lot?" Paul Silvia beautifully addresses a lot of con
 
 When that time on the calendar becomes regular and a habit, it breaks the monotonicity of thinking and punching the keyboard. My brain usually recreates the sentence conveying the same idea when I read the original sentence. Often the revised article has better structure and organisation.
 
+Scientific writing however is a different game. Yihui Xie [wrote](https://yihui.org/en/2008/05/on-scientific-writing/) long agoabout its nuances and brings out some interesting ideas on writing. Another much more engaging article is on [How to Write Consistently Boring Literature](http://iros2008.inria.fr/Templates/boring_paper.pdf).
+
 I started my website and blog in 2017. Initially, I hosted it as a WordPress website and purchased the domain (harshvadhan.xyz) from GoDaddy. The domain was relatively cheap for the first year but got seriously expensive soon. As a parsimonious student, I didn't renew my domain and moved on to Google Sites, which was free and surprisingly simple to get started. 
 
 Eventually, I brought a new domain (harsh17.in) with Google Domains primarily because it assured me of a fixed yearly bill, which was cheaper in the long run. I was happy with my domain hosting, but there were severe limitations on things possible with Google Sites.
@@ -40,4 +42,8 @@ Sometime last year, I heard about Blogdown. I tried it twice and had failed both
 
 Soon after having the publishing part sorted, the question about content came up. I went through iterations of what I wrote and transported my old writings to the new website — providing new eyes to ancient writings (as old as 2016) and updating them. Minute changes that didn't alter the content except for correcting old mistakes.
 
-I cannot invest in multiple reviews for my blog posts. Blog posts are the quick way of conveying ideas, and editing and reviewing them like a research paper would kill its joy. It is the place where I can be lucid and make mistakes. The best I can do is put them through a grammar check (Grammarly?) and reread if all makes sense. I hope my writing improves by the day, and someday even the first draft shines!
+I cannot invest in multiple reviews for my blog posts. Blog posts are the quick way of conveying ideas, and editing and reviewing them like a research paper would kill its joy. It is the place where I can be lucid and make mistakes. The best I can do is put them through a grammar check (Grammarly?) and reread if all makes sense.
+
+
+
+
