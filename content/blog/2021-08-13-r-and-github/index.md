@@ -23,4 +23,3 @@ If you are starting a project, jump to this. If you had a project that used pass
 <https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/>
 
 <https://happygitwithr.com/credential-caching.html#credential-caching>
-
