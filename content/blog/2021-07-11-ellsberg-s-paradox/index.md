@@ -17,7 +17,7 @@ tags:
 draft: false
 ---
 
-I was reading the book "How Not to Be Wrong: The Power of Mathematical Thinking" by Jordan Ellenberg. The book introduces a paradox named after Daniel Ellsberg, a young analyst at RAND Corporation and famous for leaking the Pentagon papers to civilians. Von Neumann and Morgenstern had proven that all individuals acted based on certain rules so as to maximise their utilities (*The Theory of Games and Economic Behaviour*, [year])**add link**. While working at RAND on humans taking decisions under the face of uncertainty, he devised a famous experiment, now known as Ellsbeg's Paradox.
+I was reading the book "How Not to Be Wrong: The Power of Mathematical Thinking" by Jordan Ellenberg. The book introduces a paradox named after Daniel Ellsberg, a young analyst at RAND Corporation and famous for leaking the Pentagon papers to civilians. Von Neumann and Morgenstern had proven that all individuals acted based on certain rules so as to maximize their utilities ([*The Theory of Games and Economic Behaviour*](https://www.goodreads.com/book/show/483055.Theory_of_Games_and_Economic_Behavior), 1944). While working at RAND on humans taking decisions under the face of uncertainty, he devised a famous experiment, now known as Ellsbeg's Paradox.
 
 > Suppose there is an urn (or a bag) with ninety balls inside. You know that that thirty of the balls are red; concerning the other sixty balls, you know only that some are black and some are yellow. The experimenter describes to you the following bets:
 >
@@ -28,7 +28,7 @@ I was reading the book "How Not to Be Wrong: The Power of Mathematical Thinking"
 >
 > Which bet do you prefer; **Red** or **Black**? What about **Not-red** vs **Not-black**?
 >
-> *How Not to Be Wrong: The Power of Mathematical Thinking, [author name]*
+> [*How Not to Be Wrong: The Power of Mathematical Thinking*](https://www.goodreads.com/book/show/18693884-how-not-to-be-wrong)*, Jordan Ellenberg*
 
 ### Simulation
 
@@ -73,9 +73,9 @@ Depending on how many black balls are in the urn, you have different probabiliti
 
 #### Catching Up
 
-However, our original experiment wasn't about choosing any of these individual colours, it was choosing between the four bets: **Red**, **Not-red**, **Black** and **Not-black**. Which of these is the better option? Let's find out!
+However, our original experiment wasn't about choosing any of these individual colors, it was choosing between the four bets: **Red**, **Not-red**, **Black** and **Not-black**. Which of these is the better option? Let's find out!
 
-The probability of **Red** remains fixed at one-third, no matter what is the combination of black and yellow. Therefore, the probability of **Not-red** also remains fixed at two-third. The probability of **Black** varies between 1/60 to 59/60. Therefore, the probability of **Not-black** varies from 59/60 to 1/60. Let's visualise all of these!
+The probability of **Red** remains fixed at one-third, no matter what is the combination of black and yellow. Therefore, the probability of **Not-red** also remains fixed at two-third. The probability of **Black** varies between 1/60 to 59/60. Therefore, the probability of **Not-black** varies from 59/60 to 1/60. Let's visualize all of these!
 
 Bets **Not-red** and **Not-black** are represented by blue and gray respectively.
 
@@ -98,4 +98,4 @@ However, Ellsberg found that almost everyone preferred the **Not-red** bet over 
 
 When individuals are presented with choices that are equally profitable, they choose the one that has lower uncertainty. This uncertainty is different from risk, which is usually measured as standard deviation in statistics. *Risks are known unknowns and uncertainties are unknown unknowns* (Donald Rumsfeld)*.* When presented with the latter, we always choose the option that has lower uncertainty.
 
-This experiment and paradox may sound trivial today but when it was first presented to the world it was a breakthrough. Utility maximisation theory by Von Neumann and Morgenstern was seriously challenged by the results. Utility theory, hitherto unchallenged, had met its first limitation. Today, these limitations are well accepted among economists.
+This experiment and paradox may sound trivial today but when it was first presented to the world it was a breakthrough. Utility maximization theory by Von Neumann and Morgenstern was seriously challenged by the results. Utility theory, hitherto unchallenged, had met its first limitation. Today, these limitations are well accepted among economists.
