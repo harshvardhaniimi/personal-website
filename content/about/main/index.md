@@ -9,7 +9,7 @@ intro: |
   
   I like programming and solving problems through that. I started to code in C/C++, but over time picked up R. I know the basics of Java and HTML. R, these days, happens to be my go-to language. Apart from mathematics and statistics, I am also fond of philosophy, political economics and sociology.
   
-  In my free time, I [read books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23), participate in adventure sports and lift my spirits with Calvin and Hobbes. I like Bollywood music and my playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is quite popular.
+  In my free time, I [read books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23), participate in adventure sports and lift my spirits with Calvin and Hobbes. I like Bollywood music and my playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is popular on Spotify.
   
   [Curriculum vitae](/docs/cv.pdf)
   
