@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-https://hv.netlify.app/*			https://www.harsh17.in/*
+https://hv.netlify.app/*			https://www.harsh17.in/:splat 301!
 https://www.harsh17.in/cv			https://www.harsh17.in/docs/cv.pdf
 https://www.harsh17.in/old		https://sites.google.com/view/harsh17/
 https://www.harsh17.in/twitter		https://twitter.com/harshbutjust
