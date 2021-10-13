@@ -22,7 +22,7 @@ Therefore, I looked up for my listening data on Spotify (thank you, GDPR!) and t
 
 Spotify allows you to download all your data through its [accounts webpage](https://www.spotify.com/us/account/privacy/). First, you need to request for all your data. This step will take something between a day or a fortnight depending how much you listen. For me, it took two working days and I got two files on streaming. Again, for heavy listeners, there will be more files.
 
-![spotify data download](images/Screenshot%202021-06-18%20at%2012.10.41%20AM.png)
+![Spotify Data Download](images/Screenshot%202021-06-18%20at%2012.10.41%20AM.png)
 
 # Let's Play Some Music!
 
@@ -52,12 +52,8 @@ head(st)
 
 To find out which artists I listen to most, let me make a visualisation for the same.
 
-{{< panelset class="greetings" >}}
-{{< panel name="My Artists :sunglasses:" >}}
-  ![my top artists](images/artists.png)
-{{< /panel >}}
-{{< panel name="Code :computer:" >}}
-  
+![My Top Artists](images/artists.png)
+
   ```r
   st %>%
   count(artistName, sort = TRUE) %>%
@@ -78,8 +74,6 @@ To find out which artists I listen to most, let me make a visualisation for the 
   * top_n(15) is going to give me top 15 entries.
   * mutate(artistName = reorder(artistName, n)) will reorder the tibble, sorted by their counts.
   * geom_bar() is used for barplots, scale_fill_distiller() is used for colourful and continuous scale. Rest functions are for cosmetic reasons.
-{{< /panel >}}
-{{< /panelset >}}
 
 As you can observe, I listened most to Arijit Singh, Pritam and AR Rahman. The top non-Indian artist here is Post Malone and Billie Ellish -- and only two in top 15. This is not surprising as I mostly like Bollywood artists as they mix classical and pop really well.
 
@@ -87,11 +81,8 @@ As you can observe, I listened most to Arijit Singh, Pritam and AR Rahman. The t
 
 Again, I will make a visualisation and use it for inference. The functions and explanations are the same as in artists.
 
-{{< panelset class="greetings" >}}
-{{< panel name="Tracks :notes:" >}}
-  ![my top tracks](images/tracks.png)
-{{< /panel >}}
-{{< panel name="Code :computer:" >}}
+  ![My Top Tracks](images/tracks.png)
+
   
   ```r
   st %>%
@@ -109,8 +100,6 @@ Again, I will make a visualisation and use it for inference. The functions and e
        fill = "Count") +
   theme_minimal()
   ```
-{{< /panel >}}
-{{< /panelset >}}
 
 In contrast to my top artists, far more non-bollywood songs feature in my top tracks. In fact, three out of top-five tracks are non-Indian.
 
@@ -122,11 +111,7 @@ Considering my listening history of artists and tracks give two different pictur
 
 One line needs to be added for selecting the artists: `filter(artistName == "KK")` before `count()` and after `st`.
 
-{{< panelset class="greetings" >}}
-{{< panel name="Tracks :notes:" >}}
-  ![kk songs](images/kk.png)
-{{< /panel >}}
-{{< panel name="Code :computer:" >}}
+  ![KK's Songs](images/kk.png)
   
   ```r
   # by KK
@@ -146,8 +131,6 @@ One line needs to be added for selecting the artists: `filter(artistName == "KK"
        fill = "Count") +
   theme_minimal()
   ```
-{{< /panel >}}
-{{< /panelset >}}
 
 ## Time of Listening
 
@@ -193,10 +176,10 @@ ggplot(df_at, aes(x = as.factor(hour), y = n, fill = period)) +
   labs(title = "When do I listen to music?")
 ```
 
-![listening timings](images/listen_clock.png)
+![When do I listen to Music?](images/listen_clock.png)
 
 I listen most in the morning between 8 AM and 12 PM. As the day proceeds, my listening also falls, virtually stopping in the afternoon. It picks up again in the evening and stays at a relatively constant level till around 10 PM.
 
-### Did you like this small exploration? Why don't you try your own and see what you find for your own music!
+#### Did you like this small exploration? Why don't you try your own and see what you find for your own music!
 
 Please feel free to contact me if you encounter any errors. My email: hello@harsh17.in.
