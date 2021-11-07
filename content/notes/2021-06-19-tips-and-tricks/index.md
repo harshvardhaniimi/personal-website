@@ -10,6 +10,10 @@ categories:
 tags: []
 ---
 
+## GitHub with R
+
+Follow these steps: <https://gist.github.com/Z3tt/3dab3535007acf108391649766409421>
+
 ## Linux Ubuntu
 
 I kept on installing and uninstalling Ubuntu, until I shifted to Mac. This list will help me keep my mind clear of small tricks involving Terminal, if I move again.
@@ -63,7 +67,7 @@ Don't forget to add `\usepackage{natbib}` in the preamble. Note that bibfile.bib
 \DeclareMathOperator*{\argmin}{argmin}
 ```
 
-Then, `$\underset{x} \argmax f(x)$` or `$\underset{x} \argmax f(x)$`. This might not be very right according to this thread, but okay -- it serves the purpose. If you find something better, tell me.
+Then, `\underset{x} \argmax f(x)` or `\underset{x} \argmax f(x)`. This might not be very right according to this thread, but okay -- it serves the purpose. If you find something better, tell me.
 
 -   To place pictures exactly in a slide, use tikz package. Exact coordinates by cm:
 
@@ -78,9 +82,9 @@ Then, `$\underset{x} \argmax f(x)$` or `$\underset{x} \argmax f(x)$`. This might
 
 The best part is that it also works for exact text placements.
 
--   **Sum (Sigma):** `$\sum_{i = 1}^{n} x_n$`
+-   **Sum (Sigma):** `\sum_{i = 1}^{n} x_n`
 
--   **Integral:** `$\int_a^b f(x) \di x$`
+-   **Integral:** `\int_a^b f(x) \di x`
 
 -   **Other math symbols:** [Overleaf](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols) and [Oeis Wiki](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols).
 
