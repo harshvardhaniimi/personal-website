@@ -31,12 +31,10 @@ From [R Studio -- Shiny Apps](https://shiny.rstudio.com):
 
 In this small guest lecture, my purpose was not to demonstrate what to do with Shiny apps, as the uses are virtually endless. My goal was to leave them on a good pedestal so that they can pick it up as and when required. The clear thing about Shiny is its ease of use.
 
-## Update on Feb 13, 2021
+### Update on Feb 13, 2021
 
 I delivered this guest lecture again for the next iteration of the course. This time, it was a full session --- I got 75 minutes to explain Shiny apps. I enjoyed it and the feedback was much better than last year.
 
 You can checkout the new slides [here](/slides2021.pdf).
 
-### Github Repository
 
-<https://github.com/harshvardhaniimi/shiny-clt/>
