@@ -29,13 +29,13 @@ Every college can make a general fund for each batch of each programme. Everyone
 
 Why would anyone buy units of these funds? Well, the student will have to agree to "return" a portion of their salary - say 10%. It would be like the Swedish pension scheme where a working professional is paying for the education they received years ago.
 
-![model on how to pay](images/Screenshot 2021-06-18 at 11.03.16 PM.png)
+![model on how to pay](images/ss1.png)
 
 ## Not all students will be able to return, as not all will be employable.
 
 The return rate can be higher for those college programmes, with an agreement with student to return higher to the fund back. These "colleges funds" will be valued by the market, considering the most recent developments (assuming the efficient market hypothesis is true to an extent). The colleges get their fees irrespective of fluctuations in the graduate's job outlook since these college funds will launch at the start of every academic year. The investors undertake all risks for the gestation period (when the student is in college). These risks are represented in the "returns" - what portion of their salary a graduate has to return.
 
-![investment and college fees](images/Screenshot 2021-06-18 at 11.45.56 PM.png)
+![investment and college fees](images/ss2.png)
 
 This solution can keep all stakeholders - colleges, students and corporates - happy together. But, of course, there are severe ramifications to this plan. Who will ultimately manage this fund? Do colleges have capabilities to handle schemes like these? These are all genuine but solvable questions. When it comes to implementation, I'm confident we can get experts who have sufficient abilities to execute such funds.
 
