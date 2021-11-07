@@ -12,7 +12,14 @@ tags: []
 
 ## GitHub with R
 
-Follow these steps: <https://gist.github.com/Z3tt/3dab3535007acf108391649766409421>
+Using Github is the popular method of version control in RStudio. I have struggled with managing Github with RStudio and in this short article I will put together pieces from different sources to fix your issues or get started with it.
+
+If you are starting a project, jump to this. If you had a project that used password for commits (discontinued today, Aug 13 2021), jump to the first article. If it still does not resolve your issues, try the next three in that order.
+
+1.  <https://gist.github.com/Z3tt/3dab3535007acf108391649766409421>
+2.  <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/>
+3.  <https://happygitwithr.com/credential-caching.html#credential-caching>
+4.  <https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/>
 
 ## Linux Ubuntu
 
