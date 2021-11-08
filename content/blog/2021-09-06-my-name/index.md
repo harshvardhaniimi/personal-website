@@ -27,4 +27,4 @@ I had the same question when people told me about the family names.
 
 By taking up a name, you signal your belonging to a particular group which may or may not work in your favour, depending on the circumstances. Wouldn't be better to have higher degrees of freedom and allowing people to choose last name as well?
 
-Academic world is
+Academic world is still oblivious to single names. 
