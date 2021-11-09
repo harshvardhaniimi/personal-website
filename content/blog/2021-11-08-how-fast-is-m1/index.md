@@ -1,6 +1,7 @@
 ---
 title: How fast is M1?
 subtitle: Comparing Apple M1 processor with Other Systems in R
+summary: Comparing Apple M1 processor with Other Systems in R
 author: Harshvardhan
 date: '2021-11-08'
 slug: how-fast-is-m1
