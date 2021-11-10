@@ -76,4 +76,10 @@ This machine had 512 GB of SSD storage, 16 GB of RAM and 1.9 GHz Intel Core i7. 
 
 ## Conclusion
 
-It was amazing to see how better was M1. Because all had the same memory (16 GB), I could technically say I was controlling for it to check how much would run time vary just by the processor and operating system change. Note that RStudio on M1 is still running with Rosetta and giving almost twice as good a performance. I am very excited about all I can do in the days to come.
+It was amazing to see how better was M1. Because all had the same memory (16 GB), I could technically say I was controlling for it to check how much would run time vary just by the processor and operating system change.
+
+Note that RStudio on M1 is still running with Rosetta and giving almost twice as good a performance. I am very excited about all I can do in the days to come.
+
+### Holy moly 😂
+
+[![Parody of Intel CEO Hitler reacts to Apple Silicon M1 launch by Zeeshan Ali Zeeshan Ali. Youtube.](images/hitler.png "Intel CEO Hitler Reacts to Apple Silicon M1")](https://www.youtube.com/watch?v=7syCGv-0VwQ)
