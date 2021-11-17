@@ -106,3 +106,5 @@ In no particular order, they are:
 *You don't get points for living in pain. -* Krishna Das (Pain, Dalai Lama and Hanuman, Spotify Workshop)
 
 *...lost in the forests...* - Rig Veda
+
+*Don't get sloppy. It's the little things that trip you up.* - The Age of Adaline
