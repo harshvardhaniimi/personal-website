@@ -136,6 +136,11 @@ enableRobotsTXT = true
     title = "What I find interesting"
     url = "/notes/"
     weight = 4
+  [[menu.header]]
+    name = "Talks"
+    title = "Talks"
+    url = "/talks/"
+    weight = 5
     
   # Configure footer  
   [[menu.footer]]
