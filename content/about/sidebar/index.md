@@ -9,7 +9,7 @@ audio_link_label: "How to say my name"
 link_list_label: "Next goals" # bookmarks, elsewhere, etc.
 link_list:
 - name: Great Smoky Mountains
-  url: https://en.wikipedia.org/wiki/Great_Smoky_Mountains
+  url: /hikes-and-adventure-sports/ 
 - name: 100 Books
   url: https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23
 - name: What's the third?
