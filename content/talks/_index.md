@@ -1,7 +1,7 @@
 ---
 title: Talks
 description: |
-  Events I have been invited to present at, shared along with slides, videos and other related resources.
+  Events I have present at, shared along with slides, videos and other related resources.
 author: "Harshvardhan"
 show_post_thumbnail: true
 thumbnail_left: true
