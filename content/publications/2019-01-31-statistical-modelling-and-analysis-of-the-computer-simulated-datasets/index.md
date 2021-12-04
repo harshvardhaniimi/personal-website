@@ -17,11 +17,10 @@ Over the last two decades, the science has come a long way from relying on only 
 
 ### Citation
 
-Harshvardhan, M., & Ranjan, P. (2019). "Statistical Modelling and Analysis of the Computer-Simulated
-Datasets". In B. Gupta, & D. Agrawal (Eds.), Handbook of Research on Cloud Computing and Big Data Applications in IoT (pp. 202-228). Hershey, PA: *IGI Global*. doi:10.4018/978-1-5225-8407-0.ch011 \[arXiv:2012.11122\]
+Harshvardhan, M., & Ranjan, P. (2019). "Statistical Modelling and Analysis of the Computer-Simulated Datasets". In B. Gupta, & D. Agrawal (Eds.), Handbook of Research on Cloud Computing and Big Data Applications in IoT (pp. 202-228). Hershey, PA: *IGI Global*. <doi:10.4018/978-1-5225-8407-0.ch011> \[[arXiv:2012.11122](https://arxiv.org/pdf/2012.11122.pdf)\]
 
 ### Links
 
 -   PDF: <https://www.harsh17.in/docs/simulation_2019.pdf>
--   arXiv: <https://arxiv.org/pdf/2012.11122>
+-   arXiv: <https://arxiv.org/abs/2012.11122>
 -   Original link: <https://www.igi-global.com/chapter/statistical-modelling-and-analysis-of-the-computer-simulated-datasets/225418>

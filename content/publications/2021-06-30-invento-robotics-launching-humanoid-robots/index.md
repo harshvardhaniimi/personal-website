@@ -18,9 +18,9 @@ Based in Bengaluru, India, Invento Robotics (Invento) was a start-up that manufa
 
 ### Citation
 
--   Harshvardhan, M. and Kumar, B. (2021). "Invento Robotics: Launching Humanoid Robots". Case Study and Teaching Note. *Ivey Publishing.* \[The Case Centre\]
+-   Harshvardhan, M. and Kumar, B. (2021). "Invento Robotics: Launching Humanoid Robots". Case Study and Teaching Note. *Ivey Publishing.* \[[The Case Centre](https://www.thecasecentre.org/products/view?id=178314)\]
 
 ### Links
 
 -   The Case Centre: <https://www.thecasecentre.org/products/view?id=178314>
--   <https://www.harsh17.in/invento-robotics/>
+-   Blog: <https://www.harsh17.in/invento-robotics/>

@@ -19,7 +19,7 @@ Gaussian process (GP) based statistical surrogates are popular, inexpensive subs
 
 Ranjan, P. and Harshvardhan, M. (2022). "The Evolution of Dynamic Gaussian Process Model with
 Applications to Malaria Vaccine Coverage Prediction". In D.D. Hanagal, R.V. Latpatel & G. Chandra
-(Eds.), Applied Statistical Methods: ISGES 2020. Springer. Singapore.
+(Eds.), Applied Statistical Methods: ISGES 2020. *Springer*. Singapore.
 
 ### Links
 - PDF: https://www.harsh17.in/docs/malaria_paper.pdf
