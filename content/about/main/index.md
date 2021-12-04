@@ -9,7 +9,7 @@ intro: |
   
   I completed BA and MBA from [IIM Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/) in April 2021. I was an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) exchange student at the [University of Latvia](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org) in 2016.
   
-  Solving real world problems and programming are my passion. I started coding in C++ and have light exposures to Java, C, SQL, HTML and Python. R, these days, happens to be my go-to language. Apart from mathematics and statistics, I am also fond of philosophy, political economics and sociology.
+  Solving real world problems is my goal and programming is my passion. I started coding in C++ and have light exposures to Java, C, SQL, HTML and Python. R, these days, happens to be my go-to language. Apart from mathematics and statistics, I am also fond of philosophy, political economics and sociology.
   
   In my free time, I [read books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23), participate in adventure sports and lift my spirits with Calvin and Hobbes. I like Bollywood music and my playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is popular on Spotify.
   
