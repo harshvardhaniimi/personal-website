@@ -22,6 +22,7 @@ Applications to Malaria Vaccine Coverage Prediction". In D.D. Hanagal, R.V. Latp
 (Eds.), Applied Statistical Methods: ISGES 2020. Springer. Singapore.
 
 ### Links
+- PDF: https://www.harsh17.in/docs/malaria_paper.pdf
 - arXiv: https://arxiv.org/abs/2012.11124
 - Google Books: https://www.google.co.in/books/edition/Applied_Statistical_Methods/h1-vzgEACAAJ?hl=en
 - Blog: https://www.harsh17.in/forecasting-malaria-vaccine-demand/
