@@ -5,7 +5,7 @@ number_featured: 1 # pulling from mainSections in config.toml
 number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
-  I am currently a doctoral student of Business Analytics and Statistics at the Haslam College of Business, [University of Tennessee](https://haslam.utk.edu/business-analytics-statistics) under supervision of [Prof Sean Willems](https://seanwillems.com). 
+  I am currently a doctoral student of Business Analytics and Statistics at the Haslam College of Business, [University of Tennessee](https://haslam.utk.edu/business-analytics-statistics) under the supervision of [Prof Sean Willems](https://seanwillems.com). 
   
   I completed BA and MBA from [IIM Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/) in April 2021. I was an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) exchange student at the [University of Latvia](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org) in 2016.
   
