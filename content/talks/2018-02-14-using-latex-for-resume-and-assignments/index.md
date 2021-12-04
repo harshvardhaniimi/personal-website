@@ -1,6 +1,7 @@
 ---
 title: Using LaTeX for Resume and Assignments
 subtitle: Hands-on workshop on using LaTeX for Resumes
+summary: Hands-on workshop on using LaTeX for Resumes
 author: Harshvardhan
 date: '2018-02-14'
 slug: using-latex-for-resume-and-assignments
