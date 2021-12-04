@@ -1,5 +1,6 @@
 ---
 title: Introduction to LaTeX
+summary: LaTeX workshop for first-time users
 author: Harshvardhan
 date: '2017-11-23'
 slug: introduction-to-latex

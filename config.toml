@@ -122,29 +122,29 @@ enableRobotsTXT = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Writings"
-    title = "My Blogs"
-    url = "/blog/"
-    weight = 2
-  [[menu.header]]
     name = "Publications"
     title = "Academic Publications"
     url = "/publications/"
-    weight = 3
-  [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 4
-  [[menu.header]]
-    name = "Notes"
-    title = "What I find interesting"
-    url = "/notes/"
-    weight = 5
+    weight = 2
   [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talks/"
+    weight = 3
+  [[menu.header]]
+    name = "Writings"
+    title = "My Blogs"
+    url = "/blog/"
+    weight = 4
+  [[menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 5
+  [[menu.header]]
+    name = "Notes"
+    title = "What I find interesting"
+    url = "/notes/"
     weight = 6
 
     
