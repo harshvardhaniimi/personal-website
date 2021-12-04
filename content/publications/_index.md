@@ -1,7 +1,6 @@
 ---
 title: Academic Publications
-description: |
-  My academic publications. My Google Scholar can be accessed [here](https://scholar.google.com/citations?user=Q-dbCggAAAAJ&hl=en).
+description: Each article's abstract is provided on this page. PDF copies of the publications can be downloaded from an article's page. If you have any questions, [shoot an email](mailto:hello@harsh17.in).
 author: "Harshvardhan"
 show_post_thumbnail: false
 thumbnail_left: false
