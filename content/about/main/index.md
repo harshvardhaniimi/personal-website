@@ -7,7 +7,7 @@ show_intro: true
 intro: |
   I am currently a doctoral student of Business Analytics and Statistics at the Haslam College of Business, [University of Tennessee](https://haslam.utk.edu/business-analytics-statistics) under supervision of [Prof Sean Willems](https://seanwillems.com). 
   
-  I completed BA and MBA from [IIM Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/) in April 2021. I was an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) exchange student at the [University of Latvia (Latvijas Universitate)](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org) in 2016.
+  I completed BA and MBA from [IIM Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/) in April 2021. I was an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) exchange student at the [University of Latvia](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org) in 2016.
   
   Solving real world problems and programming are my passion. I started coding in C++ and have light exposures to Java, C, SQL, HTML and Python. R, these days, happens to be my go-to language. Apart from mathematics and statistics, I am also fond of philosophy, political economics and sociology.
   
