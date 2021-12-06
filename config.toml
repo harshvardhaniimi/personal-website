@@ -146,6 +146,11 @@ enableRobotsTXT = true
     title = "What I find interesting"
     url = "/notes/"
     weight = 6
+  [[menu.header]]
+    name = "Next"
+    title = "Next — Today I Learned About R"
+    url = "https://www.getrevue.co/profile/harshbutjust"
+    weight = 7
 
     
   # Configure footer  
