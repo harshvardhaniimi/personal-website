@@ -21,7 +21,7 @@ My name is Harshvardhan. Since I do not have a last name, I have to force my nam
 
 ------------------------------------------------------------------------
 
-Here is a conversation I had on Teams with one of my instructors when I wanted to clarify a few things about the course.
+Here is a conversation I had on Teams with one of my instructors when I wanted to clarify a few things.
 
 > **Instructor:** Hi, what is your name? I need your name to go over your answers.
 
