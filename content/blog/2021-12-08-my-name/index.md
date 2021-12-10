@@ -12,7 +12,7 @@ categories:
 tags:
   - india
   
-draft: true
+draft: false
 ---
 
 ### TL;DR
