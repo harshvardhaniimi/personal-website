@@ -23,13 +23,13 @@ My name is Harshvardhan. Since I do not have a last name, I have to force my nam
 
 Here is a conversation I had on Teams with one of my instructors when I wanted to clarify a few things about the course.
 
-Instructor: Hi, what is your name? I need your name to go over your answers.
-Me: Harshvardhan. It would be registered in UTK system as FNU Harshvardhan or M Harshvardhan. I don't have last name so every system works differently.
-Instructor: What do you mean you do not have last name?
-Me: My legal name is Harshvardhan. No last or middle name.
-Instructor: How?
-Me: In my family its common and in India its allowed. :sweat_smile:
-Instructor: Intresting!
+> Instructor: Hi, what is your name? I need your name to go over your answers.
+> Me: Harshvardhan. It would be registered in UTK system as FNU Harshvardhan or M Harshvardhan. I don't have last name so every system works differently.
+> Instructor: What do you mean you do not have last name?
+> Me: My legal name is Harshvardhan. No last or middle name.
+> Instructor: How?
+> Me: In my family its common and in India its allowed. :sweat_smile:
+> Instructor: Intresting!
 
 This conversation was my highlight for the day. I had a hearty laugh how uncommon it was in the west not to have a last name.
 
