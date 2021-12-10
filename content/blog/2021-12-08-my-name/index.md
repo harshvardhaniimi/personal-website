@@ -4,7 +4,7 @@ subtitle: I do not have a last name and it freaks people out.
 summary: I do not have a last name and it freaks people out.
 author: Harshvardhan
 date: '2021-12-08'
-slug: name
+slug: my-name
 categories:
   - thoughts
   - publications
