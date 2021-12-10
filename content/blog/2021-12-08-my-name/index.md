@@ -29,7 +29,7 @@ Here is a conversation I had on Teams with one of my instructors when I wanted t
 > Me: My legal name is Harshvardhan. No last or middle name.
 > Instructor: How?
 > Me: In my family its common and in India its allowed. :sweat_smile:
-> Instructor: Intresting!
+> Instructor: Interesting!
 
 This conversation was my highlight for the day. I had a hearty laugh how uncommon it was in the west not to have a last name.
 
