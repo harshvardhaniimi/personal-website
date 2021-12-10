@@ -1,5 +1,7 @@
 ---
 title: My Name
+subtitle: I do not have a last name and it freaks people out.
+summary: I do not have a last name and it freaks people out.
 author: Harshvardhan
 date: '2021-12-08'
 slug: name
@@ -17,7 +19,21 @@ draft: true
 
 My name is Harshvardhan. Since I do not have a last name, I have to force my name to suit the general convention of first and last name. Thus, I also go as Harshvardhan Harshvardhan (European convention), FNU Harshvardhan (American convention), or M Harshvardhan (my [academic pen-name](https://orcid.org/0000-0001-8086-544X "ORCID")).
 
-### Thanks for continuing to read the article.
+---
+
+Here is a conversation I had on Teams with one of my instructors when I wanted to clarify a few things about the course.
+
+Instructor: Hi, what is your name? I need your name to go over your answers.
+Me: Harshvardhan. It would be registered in UTK system as FNU Harshvardhan or M Harshvardhan. I don't have last name so every system works differently.
+Instructor: What do you mean you do not have last name?
+Me: My legal name is Harshvardhan. No last or middle name.
+Instructor: How?
+Me: In my family its common and in India its allowed. :sweat_smile:
+Instructor: Intresting!
+
+This conversation was my highlight for the day. I had a hearty laugh how uncommon it was in the west not to have a last name.
+
+---
 
 Names are precious and important representations of personality. The two-three syllables call out a person as to who they are, and if they are what they're supposed to be. For humans, the general convention is to have multiple names --- first, middle and last --- and for animals we seem to be adept with single names. For dogs, a Rottweiler Tommy from North America is Tommy and so is a Doberman Tommy from India. They do not need or have family names as their human owners don't feel obligated to lend their names.
 
@@ -40,3 +56,5 @@ Academic world is still oblivious to single names. Sheherazade and Ardiantiono (
 Word, Sheherazade and Ardiantiono. Word.
 
 But anyway, the short term fix is more of a nuisance than a trouble. I have to force my name to suit the general convention of first and last name. Thus, I also go as Harshvardhan Harshvardhan (European convention), FNU Harshvardhan (American convention), or M Harshvardhan (my [academic pen-name](https://orcid.org/0000-0001-8086-544X "ORCID")).
+
+
