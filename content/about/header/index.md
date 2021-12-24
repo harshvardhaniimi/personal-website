@@ -3,7 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi there! Welcome to my home.
+  Hi there! Welcome to my [digital garden](https://www.youtube.com/watch?v=E5ERSfydB30&t=1s).
 ---
 
 <!-- this is a subheadline -->
