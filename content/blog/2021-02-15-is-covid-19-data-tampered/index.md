@@ -32,7 +32,9 @@ The law is so universal that the Income Tax Department uses it to detect fraud, 
 
 ## Approach
 
-My approach is simple and direct. Using the COVID-19 data available at [Our World in Data (John Hopkins University)](https://github.com/owid/covid-19-data/tree/master/public/data), I modelled each country's daily cases using R and found first-digit distribution using the [benford](https://cran.r-project.org/web/packages/benford/index.html) package in R. I measured how much they differed from the expected proportion as Root-Mean-Square-Error (RMSE). A lower RMSE value would mean more accurate data reporting.
+My approach is simple and direct. Using the COVID-19 data available at [Our World in Data (John Hopkins University)](https://github.com/owid/covid-19-data/tree/master/public/data), I modelled each country's daily cases using R and found first-digit distribution using the [benford](https://cran.r-project.org/web/packages/benford/index.html) package in R. 
+
+I measured how much they differed from the expected proportion as Root-Mean-Square-Error (RMSE). A lower RMSE value would mean more accurate data reporting.
 
 ## Results
 
