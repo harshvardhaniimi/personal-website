@@ -9,40 +9,50 @@ categories: []
 tags: []
 ---
 
-> [Intro slides](https://github.com/harshvardhaniimi/raster-population/blob/main/Slides.pdf) by [Harshvardhan](https://www.harsh17.in)
+I worked on this project with [Asar](https://www.asarforindia.org/) between April and June 2021 to create a Shiny app. Having a full time job didn't leave much time for side projects and this project never reached fruition. This app has limitations --- mostly computational --- but can be useful to researchers in finding urban and rural population at the country level, state level, district level, or any of the 30 levels.
+
+**What do I mean by this?**
+
+Consider you want to find how many people in Nigeria live in rural setting. All you need to do is select Nigeria, and set the level to 1. You will see a map and an option to download spreadsheets of urban and rural populations. What about Abia state of Nigeria? Shift the slider to 7 and you will have urban-rural population of every state in Nigeria. It's not complicated. It's slow but not complicated.
+
+The app works for 2020 data but extending to other years is trivial. I haven't already done it because rasters quickly explode in sizes beyond the computational power of my laptop.
+
+> [Intro slides](https://github.com/harshvardhaniimi/raster-population/blob/main/Slides.pdf)
 
 **The [Github repository](https://github.com/harshvardhaniimi/raster-population) contains codebase and related datasets/databases for Population Raster App.**
 
-The aim is to have a shiny app that creates spreadsheet with state or district level aggregated population for more than 200 country.
+**How does this app work?**
 
-- Original raster to be aggregated is regional/country-level population, sourced from Worldpop (https://www.worldpop.org/geodata/listing?id=75).
-- Partitioning raster could be: Urban-rural classification, Time-to-healthcare unit, etc.
-- Level of partitioning will be decided by the user in runtime.
+-   Original raster to be aggregated is regional/country-level population, sourced from Worldpop (<https://www.worldpop.org/geodata/listing?id=75>).
+-   Choose the level of urban-rural catchment.
+-   \[Not implemented\] Partitioning raster could also be: Urban-rural classification, Time-to-healthcare unit, etc.
+-   Level of partitioning will be decided by the user in runtime.
 
-**The current app supports Urban-Rural classification for more than 200 countries and regions.**
+**The current app supports Urban-Rural classification for more than 200 countries and regions for the year 2020.**
+
+
+---
+
 
 ### Limitations of Current Version
 
-- The app is as slow as snail,
-- It only supports urban-rural classification for partitioning,
-- It only works for year 2020.
+-   The app is as slow as snail,
+-   It only supports urban-rural classification for partitioning,
+-   It only works for year 2020.
 
 ## Future Work
 
-### High Priority 
+### High Priority
 
-- Redesign the app with partitioning raster instead of country as focus. Instead of having the choices at the navigation bar, the users should see a single screen
-where they choose the country and the partitioning raster (possibly multiple partioning rasters).
+-   Redesign the app with partitioning raster instead of country as focus. Instead of having the choices at the navigation bar, the users should see a single screen where they choose the country and the partitioning raster (possibly multiple partioning rasters).
 
-- Improving runtime speed (AWS web hosting and better caching can be explored). Currently, the app downloads population and mappings of the country for the 
-first time and reuses them when required. 
+-   Improving runtime speed (AWS web hosting and better caching can be explored). Currently, the app downloads population and mappings of the country for the first time and reuses them when required.
 
-For example, when you search the population for Latvia for the first time, it will download the relevant files and save 
-them for future use. Next time someone uses the app again for Latvia, the processing will be faster as the files are already available offline.
+For example, when you search the population for Latvia for the first time, it will download the relevant files and save them for future use. Next time someone uses the app again for Latvia, the processing will be faster as the files are already available offline.
 
 ### Low Priority
 
-- Include support for years other than 2020. This is not a difficult thing to pull off but would require extensive computing resource, beyond what a laptop can provide.
+-   Include support for years other than 2020. This is not a difficult thing to pull off but would require extensive computing resource, beyond what a laptop can provide.
 
 ## P.S.
 
