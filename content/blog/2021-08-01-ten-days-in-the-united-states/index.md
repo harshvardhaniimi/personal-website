@@ -37,7 +37,7 @@ Public transport is not a popular option for travelling within United States. Tr
 
 My experience with interstate buses wasn't positive. I booked a Greyhound bus from Knoxville, TN to Columbus, OH and the bus was seven hours late! The operator on duty shared it was due to acute shortage of drivers. [More on employment.](#employment) I was satisfied with KAT buses (Knoxville local transport), though their frequency of once in an hour could certainly be improved.
 
-Cars are the primary mode of transport here. Most residents own a car and use them as their primary transport — no matter the distance to cover. In India, we use cars for traveling within cities or between two cities if the timings of railways or buses aren't as per our convenience. Since public transport are an inferior alternative in US, cars are the end-all-be-all medium of travel.
+Cars are the primary mode of transport here. Most residents own a car and use them as their primary transport --- no matter the distance to cover. In India, we use cars for traveling within cities or between two cities if the timings of railways or buses aren't as per our convenience. Since public transport are an inferior alternative in US, cars are the end-all-be-all medium of travel.
 
 Absence of public transport is enraging in certain instances. For my new apartment, I needed to buy a some furniture but couldn't figure how to transport them from the store to my home. Everyone expected me to have a truck!? When I enquired how people move their furniture if they do not have trucks, they suggested me to check out U-Haul. U-Haul rented me trucks but I had to drive them myself. How would I know how to drive a truck!?
 
@@ -49,7 +49,7 @@ Recently Venmo and Cashapp became popular which are like Paytm wallet that we ha
 
 ### Food
 
-Servings in US are way more than a typical meal. Unfortunately, there are no half-servings either. For $6.99, we get a plate full of food that you can eat once, pack, reheat and eat again, pack, reheat and eat again.
+Servings in US are way more than a typical meal. Unfortunately, there are no half-servings either. For \$6.99, we get a plate full of food that you can eat once, pack, reheat and eat again, pack, reheat and eat again.
 
 Later, I learnt that the servings are huge because many cannot afford to have three square meals and therefore aim to complete their daily calorie requirements with a single meal. Serving half of the food for half the price, and consuming them twice in a day would be a healthier alternative.
 
@@ -57,11 +57,11 @@ It is very easy to spot unhealthy food. McDonalds and Burger King are affordable
 
 ### Wastages
 
-**Water:** The shower knobs in bathrooms cannot control the intensity of water flow; only the temperature. Guess the amount of water that's simply wasted during temperature adjustment or even during shower. 
+**Water:** The shower knobs in bathrooms cannot control the intensity of water flow; only the temperature. Guess the amount of water that's simply wasted during temperature adjustment or even during shower.
 
 **Electricity:** The electrical plugs do not have a switch for the socket. If its plugged in, its switched on. Imagine the electricity wasted because you didn't unplug your rice cooker or oven. In fact, certain equipments are never switched off at all!
 
-**Plastics:** In India, I was charged for every single plastic bag to deter me from using plastics and using my own bags. In US, I brought five items and the shopkeeper gave me six bags — for free.
+**Plastics:** In India, I was charged for every single plastic bag to deter me from using plastics and using my own bags. In US, I brought five items and the shopkeeper gave me six bags --- for free.
 
 ### Employment
 
@@ -69,19 +69,10 @@ Economic impact payment [may](https://www.barrons.com/articles/us-unemployment-l
 
 ### Identity
 
-In India, we had Aadhaar that is used for all identification. We can get it easily, it is linked to all biometric prints and its basically a QR code and a number. Even that number can be masked with temporary numbers! 
+In India, we had Aadhaar that is used for all identification. We can get it easily, it is linked to all biometric prints and its basically a QR code and a number. Even that number can be masked with temporary numbers!
 
 In comparison, US has something called Social Security number that people put in their best to hide. If the number is leaked, there could be dire consequences. Why can't they be masked? For identification required during travel, if you do not have a driving licence, you have to rely on your passport for identification. I do not think carrying passports while travelling everytime is optimal.
 
 Carrying these identification's physical copy is risky and unsafe. You can lose them or end up exposing them to unintended audiences. In India, I could have a single Digilocker account which carried all my papers and documents that were accessible for more than identification. I wish US launches some similar digital identification for all.
 
 > These shocks make me appreciate how far have we (India) come today. Internet certaily has been the driving force. I have deeply believed India is the future and would be the place where the world would look up to in the next decade. All these only make my conviction stronger.
-
-
-
-
-
-
-
-
-

@@ -9,32 +9,35 @@ categories: []
 tags: []
 ---
 
-I worked on this project with [Asar](https://www.asarforindia.org/) between April and June 2021 to create a Shiny app. Having a full time job didn't leave much time for side projects and this project never reached fruition. This app has limitations --- mostly computational --- but can be useful to researchers in finding urban and rural population at the country level, state level, district level, or any of the 30 levels.
+### I worked on this project with [Asar](https://www.asarforindia.org/) between April and June 2021 to create a Shiny app. Having a full-time job didn't leave much time for side projects, which never reached fruition. This app has limitations --- primarily computational --- but can be helpful to researchers in finding urban and rural populations at the country level, state level, district level, or any of the 30 classes.
 
 **What do I mean by this?**
 
-Consider you want to find how many people in Nigeria live in rural setting. All you need to do is select Nigeria, and set the level to 1. You will see a map and an option to download spreadsheets of urban and rural populations. What about Abia state of Nigeria? Shift the slider to 7 and you will have urban-rural population of every state in Nigeria. It's not complicated. It's slow but not complicated.
+Consider you want to find how many people in Nigeria live in a rural setting. You need to select Nigeria and set the level to 1. You will see a map and an option to download spreadsheets of urban and rural populations. What about the Abia state of Nigeria? Shift the slider to 7, and you will have the urban-rural population of every state in Nigeria. It's not complicated. It's slow but not complicated.
 
 The app works for 2020 data but extending to other years is trivial. I haven't already done it because rasters quickly explode in sizes beyond the computational power of my laptop.
 
-> [Intro slides](https://github.com/harshvardhaniimi/raster-population/blob/main/Slides.pdf)
+[Intro slides](https://github.com/harshvardhaniimi/raster-population/blob/main/Slides.pdf)
 
-**The [Github repository](https://github.com/harshvardhaniimi/raster-population) contains codebase and related datasets/databases for Population Raster App.**
+**The [Github repository](https://github.com/harshvardhaniimi/raster-population) contains codebase and related datasets/databases for Population Raster App.**
 
 **How does this app work?**
 
--   Original raster to be aggregated is regional/country-level population, sourced from Worldpop (<https://www.worldpop.org/geodata/listing?id=75>).
--   Choose the level of urban-rural catchment.
--   \[Not implemented\] Partitioning raster could also be: Urban-rural classification, Time-to-healthcare unit, etc.
--   Level of partitioning will be decided by the user in runtime.
+-   The original raster to be aggregated is regional/country-level population, sourced from Worldpop (<https://www.worldpop.org/geodata/listing?id=75>).
 
-**The current app supports Urban-Rural classification for more than 200 countries and regions for the year 2020.**
+-   Choose the level of the urban-rural catchment.
+
+-   \[Not implemented\] Partitioning raster could also be Urban-rural classification, Time-to-healthcare unit, etc.
+
+-   The level of partitioning will be decided by the user in runtime.
+
+**The current app supports Urban-Rural classification for more than 200 countries and regions for 2020.**
 
 
 ---
 
 
-### Limitations of Current Version
+Limitations of Current Version
 
 -   The app is as slow as snail,
 -   It only supports urban-rural classification for partitioning,
