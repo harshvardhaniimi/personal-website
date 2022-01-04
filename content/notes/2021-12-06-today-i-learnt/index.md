@@ -18,27 +18,6 @@ categories:
 tags: []
 ---
 
-Main list is [here](https://www.craft.do/s/ojN2NNHb7YgATv). This blog post is updated periodically.
-
-### Productivity
-
-- [Markdown Style Shortcuts](https://support.craft.do/hc/en-us/articles/360019555597-Markdown-Style-Shortcuts) (Craft Mac App)
-- [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
-- [How to Humanize Async Work](https://blog.doist.com/humanizing-async-work/)
-- [A Student’s Guide to Todoist](https://blog.doist.com/todoist-guide-for-students/)
-- [60+ Resources for Students Who Want to Stay Productive](https://blog.doist.com/60-resources-students-stay-productive/)
-- [How to Learn Anything with the Feynman Technique](https://blog.doist.com/feynman-technique/)
-- [Hedonic Adaptation: Why we're never satisfied with what we've already accomplished](https://blog.doist.com/hedonic-adaptation-comic/)
-- [The Mere Urgency Effect](https://blog.doist.com/mere-urgency-effect-comic/)
-- [[comic] The Planning Fallacy: Why We're Terrible at Setting Realistic Deadlines](https://blog.doist.com/planning-fallacy-comic/)
-- [[comic] Present Bias: Why It's So Hard to Give a Damn About Our Future Selves](https://blog.doist.com/present-bias-comic/)
-- [7 Real-Life Todoist Setups to Steal](https://blog.doist.com/todoist-setup/)
-- [The Zeigarnik Effect: Why Unfinished Work Follows Us Home [comic]](https://blog.doist.com/zeigarnik-effect-comic/)
-- [Complexity Bias: Why We Overcomplicate Our Lives [comic]](https://blog.doist.com/complexity-bias-comic/)
-- [The Two-Minute Rule: Stop Procrastinating With This Simple Trick](https://blog.doist.com/two-minute-rule/)
-- [The Life-Changing Magic of Tidying Up Your To-Do List](https://blog.doist.com/life-changing-magic-tidying-todoist/)
-- [The Sunk Cost Fallacy & Your Productivity [comic] - Doist Blog](https://blog.doist.com/sunk-cost-fallacy-comic/)
-
 ### R / Stats
 
 - [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
@@ -58,16 +37,21 @@ Main list is [here](https://www.craft.do/s/ojN2NNHb7YgATv). This blog post is up
 - [Hadley Wickham | Maintaining the house the tidyverse built | RStudio](https://www.youtube.com/watch?v=izFssYRsLZs&t=1s)
 - [Predict football season outcomes using MCMC simulations](https://github.com/curiousily/mcmc-football-prediction)
 - [Ranking of Emojis by their usage, Unicode [Dataset]](https://docs.google.com/spreadsheets/d/1Zs13WJYdZL1pNZP0dCIXkWau_tZOjK3mmJz0KNq4I30/edit#gid=196891844)
+- [Using databases with Shiny](https://emilyriederer.netlify.app/post/shiny-db/)
 
-### Not R / Stats
+### Thought-provoking Knowledge Box
 
 - [Tech is improving at an exponential rate. Here’s what that means for society](https://www.morningbrew.com/emerging-tech/stories/2021/11/24/tech-is-improving-at-an-exponential-rate-here-s-what-that-means-for-society?utm_campaign=mb&utm_medium=newsletter&utm_source=morning_brew&mid=db18db43828180889e38a0bc0e4ac362&uid=MifcoVe3xqQeEeaWE3US3gLv)
 - [A free introduction to quantum computing and quantum mechanics [New Kind of Book]](https://quantum.country)
-- [Maps, Simpson’s Paradox, Sienfield, and what not.](https://michaelnielsen.org/reinventing_explanation/index.html) [Reinventing Explanation]
+- [Maps, Simpson’s Paradox, Sienfield, and what not.](https://michaelnielsen.org/reinventing_explanation/index.html)
 - [Playboy Interview: Steven Jobs [The best interview I’ve ever read my a margin]](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
 - [Here's Why Movie Dialogue Has Gotten More Difficult To Understand (And Three Ways To Fix It)](https://www.slashfilm.com/673162/heres-why-movie-dialogue-has-gotten-more-difficult-to-understand-and-three-ways-to-fix-it/?s=09)
+- [The Mathematics of Mind-Time](https://getpocket.com/explore/item/the-mathematics-of-mind-time)
+
+### YouTube
+- [How To Speak by Patrick Winston, MIT OCW](https://www.youtube.com/watch?v=Unzc731iCUY)
 - [NASA | Thermonuclear Art – The Sun In Ultra-HD (4K)](https://www.youtube.com/watch?v=6tmbeLTHC_0)
-- [KARASU ☯︎ Japanese Lofi HipHop Mix
+- [A Buddhist asks Sadhguru a Puzzling Question #Vipassana](https://www.youtube.com/watch?v=6OdKZRnmRQ0)
 - [Most People Don't Know How Bikes Work](https://www.youtube.com/watch?v=9cNmUNHSBac)
 
 ### Cool Apps
@@ -103,6 +87,25 @@ Main list is [here](https://www.craft.do/s/ojN2NNHb7YgATv). This blog post is up
 - [Sara A. Stoudt, PhD](https://sastoudt.github.io/)
 - [Hooked on Data](https://hookedondata.org/) [Emily Robinson]
 - [Kara Woo](https://karawoo.com/)
+
+### Productivity
+
+- [Markdown Style Shortcuts](https://support.craft.do/hc/en-us/articles/360019555597-Markdown-Style-Shortcuts) (Craft Mac App)
+- [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
+- [How to Humanize Async Work](https://blog.doist.com/humanizing-async-work/)
+- [A Student’s Guide to Todoist](https://blog.doist.com/todoist-guide-for-students/)
+- [60+ Resources for Students Who Want to Stay Productive](https://blog.doist.com/60-resources-students-stay-productive/)
+- [How to Learn Anything with the Feynman Technique](https://blog.doist.com/feynman-technique/)
+- [Hedonic Adaptation: Why we're never satisfied with what we've already accomplished](https://blog.doist.com/hedonic-adaptation-comic/)
+- [The Mere Urgency Effect](https://blog.doist.com/mere-urgency-effect-comic/)
+- [[comic] The Planning Fallacy: Why We're Terrible at Setting Realistic Deadlines](https://blog.doist.com/planning-fallacy-comic/)
+- [[comic] Present Bias: Why It's So Hard to Give a Damn About Our Future Selves](https://blog.doist.com/present-bias-comic/)
+- [7 Real-Life Todoist Setups to Steal](https://blog.doist.com/todoist-setup/)
+- [The Zeigarnik Effect: Why Unfinished Work Follows Us Home [comic]](https://blog.doist.com/zeigarnik-effect-comic/)
+- [Complexity Bias: Why We Overcomplicate Our Lives [comic]](https://blog.doist.com/complexity-bias-comic/)
+- [The Two-Minute Rule: Stop Procrastinating With This Simple Trick](https://blog.doist.com/two-minute-rule/)
+- [The Life-Changing Magic of Tidying Up Your To-Do List](https://blog.doist.com/life-changing-magic-tidying-todoist/)
+- [The Sunk Cost Fallacy & Your Productivity [comic] - Doist Blog](https://blog.doist.com/sunk-cost-fallacy-comic/)
 
 
 ----
