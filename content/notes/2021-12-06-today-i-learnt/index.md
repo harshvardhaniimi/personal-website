@@ -18,6 +18,8 @@ categories:
 tags: []
 ---
 
+I occasionally update my [Goodreads](https://www.goodreads.com/user/show/66858367-harshvardhan) with the books I've read. This page contains the articles, apps and videos that I've found engaging.
+
 ### R / Stats
 
 - [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
