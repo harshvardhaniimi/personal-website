@@ -40,6 +40,7 @@ I occasionally update my [Goodreads](https://www.goodreads.com/user/show/6685836
 - [Predict football season outcomes using MCMC simulations](https://github.com/curiousily/mcmc-football-prediction)
 - [Ranking of Emojis by their usage, Unicode [Dataset]](https://docs.google.com/spreadsheets/d/1Zs13WJYdZL1pNZP0dCIXkWau_tZOjK3mmJz0KNq4I30/edit#gid=196891844)
 - [Using databases with Shiny](https://emilyriederer.netlify.app/post/shiny-db/)
+- [Making our displacement maps more representative, Facebook Research](https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/)
 
 ### Thought-provoking Knowledge Box
 
@@ -49,6 +50,10 @@ I occasionally update my [Goodreads](https://www.goodreads.com/user/show/6685836
 - [Playboy Interview: Steven Jobs [The best interview I’ve ever read my a margin]](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
 - [Here's Why Movie Dialogue Has Gotten More Difficult To Understand (And Three Ways To Fix It)](https://www.slashfilm.com/673162/heres-why-movie-dialogue-has-gotten-more-difficult-to-understand-and-three-ways-to-fix-it/?s=09)
 - [The Mathematics of Mind-Time](https://getpocket.com/explore/item/the-mathematics-of-mind-time)
+
+### (I don't know how to label them)
+- [Core Data Science researchers discuss opportunities for academics at Meta](https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/)
+
 
 ### YouTube
 - [How To Speak by Patrick Winston, MIT OCW](https://www.youtube.com/watch?v=Unzc731iCUY)
