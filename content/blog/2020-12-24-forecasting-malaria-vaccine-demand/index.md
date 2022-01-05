@@ -12,19 +12,19 @@ tags:
   - government
 ---
 
-__For preprint of the actual paper, [click here](https://arxiv.org/pdf/2012.11124.pdf).__
+**For preprint of the actual paper, [click here](https://arxiv.org/pdf/2012.11124.pdf).**
 
-Malaria is a mosquito-borne disease caused by a Plasmodium, a malarial parasite. Although Malaria is not life-threatening by its nature, it can cause severe illness and prove to be fatal if left untreated.
+Malaria is a mosquito-borne disease caused by a Plasmodium, a malarial parasite. Although Malaria is not life-threatening by its nature, it can cause severe illness and prove fatal if left untreated.
 
-In February 2019, a new Malaria vaccine RTS,S --- known by the trade name Mos-Quirix --- was approved for human trials in three countries Ghana, Malawi and Kenya, coordinated by WHO. The study is expected to get over by December 2022. However, several pharmaceutical majors have begun showing interest in the vaccine's mass production in the last few months.
+In February 2019, a new Malaria vaccine, RTS, S --- known by the trade name Mos-Quirix --- was approved for human trials in Ghana, Malawi and Kenya, coordinated by WHO. The study is expected to get over by December 2022. However, several pharmaceutical majors have begun showing interest in the vaccine's mass production in the last few months.
 
-The companies want to estimate the coverage ratio --- defined as the vaccinated population count divided by the total population. In this research, my aim was to forecast the same for all 78 affected countries using Dynamic Gaussian Process Model.
+The companies want to estimate the coverage ratio --- defined as the vaccinated population count divided by the total population. This research aimed to forecast the same for all 78 affected countries using the Dynamic Gaussian Process Model.
 
 ## Model
 
 A vaccine's coverage in a country or geography depends on several factors: how effective is the vaccine? How many people are scared of not taking the vaccines? How many doses it has? Is the disease contagious?
 
-Each country will have its own specific characteristics which are difficult to quantify. Therefore, the best approach is to select countries of "similar" characteristics instead of having one model only. In this work, we decided to work with the Human Development Index for grouping countries.
+Each country will have specific characteristics which are difficult to quantify. Therefore, the best approach is to select countries with "similar" features instead of only one model. We decided to work with the Human Development Index for grouping countries in this work.
 
 ![HDI heatmap of world](images/Screenshot%202021-06-17%20at%2010.44.52%20PM.png)
 
@@ -42,19 +42,19 @@ Dependent variable (`Y`) was the time-series coverage ratio of Malaria vaccine f
 
 ## Implementation
 
-The training data size was too big to fit a full svdGP model on a standard laptop. We implemented the localized model (i.e., lasvdGP model) developed by [Zhang et al. (2018)](https://rdrr.io/cran/DynamicGP/ "Dynamic GP - rdrr.io") for the model fitting. The localized model considers only observation that "closely resemble" itself for modelling instead of considering all points.
+The training data was too big to fit a full svdGP model on a standard laptop. We implemented the localized model (i.e., lasvdGP) developed by [Zhang et al. (2018)](https://rdrr.io/cran/DynamicGP/) for the model fitting. The localized model considers only observations that "closely resemble" itself for modelling instead of considering all points.
 
-Of the 10 countries in each group, not all are used for modelling. Instead, selected few for each variable and observation are used. This "closeness" is decided based on clustering within the country-group.
+Of the ten countries in each group, not all are used for modelling. Instead, selected few for each variable and observation are used. This "closeness" is decided based on clustering within the country group.
 
-All the methods were executed with [DynamicGP](https://rdrr.io/cran/DynamicGP/) package in R.
+We executed all the methods with [the DynamicGP](https://rdrr.io/cran/DynamicGP/) package in R.
 
 ## Results
 
 From what was known, we considered that the first dose of vaccine (X1 = 0) was given to a six-month infant (X2 = 6). Malaria is known to be non-communicable (X5 = 0). We assumed the average incidence value as 60% (X4 = 60) and the vaccine's efficacy at 70% (X3 = 70).
 
-Using these assumptions and inputs, we forecasted the coverage for next 38 years. The choice of 38 years was arbitrary, the simulation was capable to handle more. However, longer the time period considered, lesser the reliability of measure.
+We forcasted the coverage for the next 38 years using these assumptions and inputs. The choice of 38 years was arbitrary; the simulation could handle more periods---however, the more extended the time considered, the lesser the measure's reliability.
 
-Here is the vaccine coverage at two crucial time points: soon after the time of launch and at the end of simulation (38 years after launch).
+Here is the vaccine coverage at two crucial time points: soon after the launch and at the end of the simulation (38 years after launch).
 
 ![Vaccine coverage at t=0 and t=38](images/Screenshot%202021-06-17%20at%2011.04.25%20PM.png)
 
@@ -64,16 +64,12 @@ Vaccine coverage through the years is as follows:
 
 ## What's Even More Interesting
 
-As evident from the figure, some countries start with higher coverage ratios and lead thirty years down the line. Some groups, like group 8, remain low for the entire duration. Group 9 and 10 catch up quickly with the group 1 and 2.
+As evident from the figure, some countries start with higher coverage ratios and lead thirty years down the line. Some groups, like group 8, remain low for the entire duration. Group 9 and 10 catch up quickly with groups 1 and 2.
 
-Countries that are score low on HDI get all the attention, NGOs and ilk. They receive higher external funding and support. 
+Countries that score low on HDI get all the attention, NGOs and ilk. They receive higher external funding and support.
 
-Countries that score high on HDI have established infrastructure and facilities to quickly roll out the programs. The countries in groups three to eight are less better off, with eight being the worst.
+Countries that score high on HDI have established infrastructure and facilities to roll out the programs quickly. The countries in groups three to eight are less better off, with eight being the worst.
 
-There are also trends in seasonality. Much like the original data, the coverage ratios show spikes at the end of every decade from the launch year. This could be due to 'anniversary' coverage news and attention. Also, the agencies responsible for vaccinating might be pushing themselves to complete their 10-year targets. 
+There are also trends in seasonality. The coverage ratios show spikes at the end of every decade from the launch year. This could be due to 'anniversary' coverage news and attention. Also, the agencies responsible for vaccinating might be pushing themselves to complete their 10-year targets.
 
 **However, a more in-depth study is necessary to make any definitive conclusions.**
-
-
-
-
