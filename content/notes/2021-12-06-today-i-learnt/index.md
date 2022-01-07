@@ -47,11 +47,12 @@ I occasionally update my [Goodreads](https://www.goodreads.com/user/show/6685836
 -   [Tech is improving at an exponential rate. Here's what that means for society](https://www.morningbrew.com/emerging-tech/stories/2021/11/24/tech-is-improving-at-an-exponential-rate-here-s-what-that-means-for-society?utm_campaign=mb&utm_medium=newsletter&utm_source=morning_brew&mid=db18db43828180889e38a0bc0e4ac362&uid=MifcoVe3xqQeEeaWE3US3gLv)
 -   [A free introduction to quantum computing and quantum mechanics \[New Kind of Book\]](https://quantum.country)
 -   [Maps, Simpson's Paradox, Sienfield, and what not.](https://michaelnielsen.org/reinventing_explanation/index.html)
--   [Playboy Interview: Steven Jobs \[The best interview I've ever read my a margin\]](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
+-   [Playboy Interview: Steven Jobs \[The best interview I've ever read by a margin\]](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
 -   [Here's Why Movie Dialogue Has Gotten More Difficult To Understand (And Three Ways To Fix It)](https://www.slashfilm.com/673162/heres-why-movie-dialogue-has-gotten-more-difficult-to-understand-and-three-ways-to-fix-it/?s=09)
 -   [The Mathematics of Mind-Time](https://getpocket.com/explore/item/the-mathematics-of-mind-time)
 -   [Encyclopedic Knowledge, Then vs. Now - The New York Times](https://www.nytimes.com/2009/05/03/business/03digi.html)
 -   [12ft \| Microsoft Encarta Dies After Long Battle With Wikipedia - The New York Times](https://12ft.io/proxy?q=http://bits.blogs.nytimes.com/2009/03/30/microsoft-encarta-dies-after-long-battle-with-wikipedia)
+-   
 
 ### (I don't know how to label them)
 
@@ -62,6 +63,9 @@ I occasionally update my [Goodreads](https://www.goodreads.com/user/show/6685836
 -   [Data Engineers of Netflix --- Interview with Pallavi Phadnis \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906)
 -   [Supporting content decision makers with machine learning \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
 -   [My (Seemingly) Random Walk to Netflix \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/my-seemingly-random-walk-to-netflix-293d952953fa)
+-   [How Do You Create A Phenomenal Job Talk?](https://bettylai.com/blog/post/phenomenal-job-talks)
+-   [Early Civilizations Had It All Figured Out \| The New Yorker](https://www.newyorker.com/magazine/2021/11/08/early-civilizations-had-it-all-figured-out-the-dawn-of-everything)
+-   [The Surprisingly Big Business of Library E-books \| The New Yorker](https://www.newyorker.com/news/annals-of-communications/an-app-called-libby-and-the-surprisingly-big-business-of-library-e-books)
 
 ### YouTube
 
