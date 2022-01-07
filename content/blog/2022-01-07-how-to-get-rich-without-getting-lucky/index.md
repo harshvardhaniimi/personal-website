@@ -1,6 +1,7 @@
 ---
 title: How to Get Rich (without getting lucky)
 subtitle: Twitter thread from @naval
+summary: Twitter thread from @naval
 author: Harshvardhan
 date: '2022-01-07'
 slug: how-to-get-rich-without-getting-lucky
