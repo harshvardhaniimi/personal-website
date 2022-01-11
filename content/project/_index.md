@@ -1,6 +1,6 @@
 ---
 title: My Projects
-description: "This is where my publications, internships, live projects and side projects live online."
+description: "This is where my internship, live and personal projects live online."
 author: "Harshvardhan"
 show_post_thumbnail: true
 show_author_byline: false
