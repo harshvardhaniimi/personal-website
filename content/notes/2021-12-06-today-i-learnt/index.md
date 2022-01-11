@@ -41,6 +41,7 @@ I occasionally update my [Goodreads](https://www.goodreads.com/user/show/6685836
 -   [Ranking of Emojis by their usage, Unicode \[Dataset\]](https://docs.google.com/spreadsheets/d/1Zs13WJYdZL1pNZP0dCIXkWau_tZOjK3mmJz0KNq4I30/edit#gid=196891844)
 -   [Using databases with Shiny](https://emilyriederer.netlify.app/post/shiny-db/)
 -   [Transfer Learning - Machine Learning's Next Frontier](https://ruder.io/transfer-learning/)
+-   [Algorithm Archive · Arcane Algorithm Archive](https://www.algorithm-archive.org/) \[Encyclopedia of algorithms\]
 
 ### Thought-provoking Knowledge Box
 
