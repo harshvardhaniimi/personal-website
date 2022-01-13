@@ -7,6 +7,19 @@ slug: demonstrating-shiny-apps
 categories:
   - R
 tags: []
+links:
+- icon: box-open
+  icon_pack: fas
+  name: app.R
+  url: https://www.harsh17.in/docs/demonstrating-shiny-apps/app.R
+- icon: anchor
+  icon_pack: buffer
+  name: Slides 2021
+  url: https://www.harsh17.in/docs/demonstrating-shiny-apps/slides2021.pdf
+- icon: anchor
+  icon_pack: buffer
+  name: Slides 2020
+  url: https://www.harsh17.in/docs/demonstrating-shiny-apps/slides2020.pdf
 ---
 
 **Central Limit Theorem App:** [app.R](https://www.harsh17.in/docs/demonstrating-shiny-apps/app.R)
@@ -23,7 +36,7 @@ From [R Studio -- Shiny Apps](https://shiny.rstudio.com/):
 
 In this small guest lecture, my purpose was not to demonstrate what to do with Shiny apps, as the uses are virtually endless. My goal was to leave them on a good pedestal so that they can pick it up as and when required. The clear thing about Shiny is its ease of use.
 
-### Update on Feb 13, 2021 
+### Update on Feb 13, 2021
 
 I delivered this guest lecture again for the next iteration of the course. This time, it was a full session --- I got 75 minutes to explain Shiny apps. I enjoyed it and the feedback was much better than last year.
 
