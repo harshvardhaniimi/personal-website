@@ -3,7 +3,7 @@ title: Blizzard of Random Thoughts
 description: |
   I usually pen down my thoughts here.
 author: "Harshvardhan"
-show_post_thumbnail: false
+show_post_thumbnail: true
 show_author_byline: false
 show_post_date: true
 # for listing page layout
@@ -26,7 +26,7 @@ cascade:
   author: "Harshvardhan"
   show_author_byline: true
   show_post_date: true
-  show_disqus_comments: true # see disqusShortname in site config
+  show_disqus_comments: false # see disqusShortname in site config
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent posts
