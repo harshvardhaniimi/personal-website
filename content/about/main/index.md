@@ -1,8 +1,8 @@
 ---
 ## Configure page content in wide column
 title: "About Me" # leave blank to exclude
-number_featured: 1 # pulling from mainSections in config.toml
-number_categories: 0 # set to zero to exclude
+number_featured: 3 # pulling from mainSections in config.toml
+number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   I am currently a doctoral student of Business Analytics and Statistics at the Haslam College of Business, [the University of Tennessee](https://haslam.utk.edu/business-analytics-statistics), under the supervision of [Prof Sean Willems](https://seanwillems.com/).
