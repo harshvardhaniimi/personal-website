@@ -355,7 +355,166 @@ df_modified
 
 Done!
 
-# [How to append](https://stackoverflow.com/questions/70226380/how-to-append-two-tables-with-same-number-of-columns-in-kableextra/70226700#70226700) two tables with same number of columns in kableExtra?
+### [Selecting](https://stackoverflow.com/questions/70571991/reading-data-from-excel-in-r-using-variable-identifiers/70572613#70572613) Observations by Filtering Other Variables
+
+One approach is to write a function that does that for you. It matches the first three variables with what you input and returns the index(or indexes) of elements that match.
+
+`which()` returns the index of items that satisfy the condition. When I say `which(df[,1] == a)`, it will return me the index of observations in `df` where the first column matches `a`. And so on. Then, you can use `intersect()` to find the common indexes in `x1`, `x2` and `x3`. I'm using [magrittr pipes %>%](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) to simplify the coding.
+
+
+```r
+check_this = function(df, a, b, c) 
+{
+  x1 = which(df[,1] == a)
+  x2 = which(df[,2] == b)
+  x3 = which(df[,3] == c)
+  
+  v = intersect(x1, x2) %>% 
+    intersect(x3)
+  return(v)
+}
+```
+
+**Minimum Working Example** First, I'll create a dummy data frame. Then, I'll find the index using the function I just created.
+
+
+```r
+df = tibble(var1 = 1:10, 
+            var2 = 11:20, 
+            var3 = letters[1:10],
+            var4 = LETTERS[1:10])
+
+df
+```
+
+```
+## # A tibble: 10 × 4
+##     var1  var2 var3  var4 
+##    <int> <int> <chr> <chr>
+##  1     1    11 a     A    
+##  2     2    12 b     B    
+##  3     3    13 c     C    
+##  4     4    14 d     D    
+##  5     5    15 e     E    
+##  6     6    16 f     F    
+##  7     7    17 g     G    
+##  8     8    18 h     H    
+##  9     9    19 i     I    
+## 10    10    20 j     J
+```
+
+Now, let us see it in action. First, I'll pass the data frame and variables I want to match as arguments. The function will return the indices which I'll store in `l`. Then, I'll ask R to show me the rows which have indices numbers in `l`.
+
+
+```r
+# checking and storing the index of matched
+l = check_this(df, 2, 12, "b")
+
+df[l,]
+```
+
+```
+## # A tibble: 1 × 4
+##    var1  var2 var3  var4 
+##   <int> <int> <chr> <chr>
+## 1     2    12 b     B
+```
+
+Note: You could have skipped the step of storing indices in `l` by returning the selected rows of the data frame itself. The function would change to the following.
+
+
+```r
+# the function
+check_this = function(df, a, b, c) 
+{
+  x1 = which(df[,1] == a)
+  x2 = which(df[,2] == b)
+  x3 = which(df[,3] == c)
+  
+  v = intersect(x1, x2) %>% 
+    intersect(x3)
+  return(df[v,])
+}
+```
+
+### [Convert](https://stackoverflow.com/questions/70705061/how-to-convert-a-vector-of-strings-in-multiple-formats-into-dates-in-r/70705346#70705346) a vector of strings in multiple formats into dates in R
+
+#### My Solution
+
+
+```r
+# sample date
+dates <- c("2015-02-23","2015-02-12","2015-18-02","2015-25-02")
+
+# libraries
+library(testit) #for has_warning
+library(lubridate) #for date functions
+```
+
+```
+## 
+## Attaching package: 'lubridate'
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     date, intersect, setdiff, union
+```
+
+This function will correct the dates.
+
+
+```r
+correct_dates = function(dates)
+{
+  dates_new = character()
+  for(i in 1:length(dates))
+  {
+    #print(i)
+    if(has_warning(day(ydm(dates[i]))>12))
+      {dates_new = append(dates_new, ymd(dates[i]))}
+    else
+      {dates_new = append(dates_new, ydm(dates[i]))}
+  }
+  return(dates_new)
+}
+```
+
+Let's see it in action.
+
+
+```r
+dates
+```
+
+```
+## [1] "2015-02-23" "2015-02-12" "2015-18-02" "2015-25-02"
+```
+
+```r
+correct_dates(dates)
+```
+
+```
+## [1] "2015-02-23" "2015-12-02" "2015-02-18" "2015-02-25"
+```
+
+#### Much Better Solution
+
+
+```r
+dates <- c("2017-12-31","2017-12-30","2017-29-12","2017-28-12")
+as.Date(lubridate::parse_date_time(dates, c('ymd', 'ydm')))
+```
+
+```
+## [1] "2017-12-31" "2017-12-30" "2017-12-29" "2017-12-28"
+```
+
+## Table Formatting in kableExtra
+
+### [How to append](https://stackoverflow.com/questions/70226380/how-to-append-two-tables-with-same-number-of-columns-in-kableextra/70226700#70226700) two tables with same number of columns in kableExtra?
 
 I don't know how to combine the tables directly without first joining the data frames. However, using `pack_rows` to specify rows for grouping together should work for this purpose.
 
@@ -388,7 +547,7 @@ kbl(format = "latex", caption = "Combined Tables") %>%
 
 \begin{table}
 
-\caption{(\#tab:unnamed-chunk-13)Combined Tables}
+\caption{(\#tab:unnamed-chunk-21)Combined Tables}
 \centering
 \begin{tabular}[t]{l|r}
 \hline
@@ -409,28 +568,93 @@ x & y\\
 \end{tabular}
 \end{table}
 
-    \begin{table}
-    \caption{Combined Tables}
-    \centering
-    \begin{tabular}[t]{l|r}
-    \hline
-    x & y\\
-    \hline
-    \multicolumn{2}{l}{\textbf{Header 1}}\\
-    \hline
-    \hspace{1em}a & 1\\
-    \hline
-    \hspace{1em}b & 2\\
-    \hline
-    \multicolumn{2}{l}{\textbf{Header 2}}\\
-    \hline
-    \hspace{1em}c & 3\\
-    \hline
-    \hspace{1em}d & 4\\
-    \hline
-    \end{tabular}
-    \end{table}
+        \begin{table}
+        \caption{Combined Tables}
+        \centering
+        \begin{tabular}[t]{l|r}
+        \hline
+        x & y\\
+        \hline
+        \multicolumn{2}{l}{\textbf{Header 1}}\\
+        \hline
+        \hspace{1em}a & 1\\
+        \hline
+        \hspace{1em}b & 2\\
+        \hline
+        \multicolumn{2}{l}{\textbf{Header 2}}\\
+        \hline
+        \hspace{1em}c & 3\\
+        \hline
+        \hspace{1em}d & 4\\
+        \hline
+        \end{tabular}
+        \end{table}
 
-Check the documentation of `?pack_rows` from kableExtra to modify the group labels, add `\hline`s, or other such cosmetic changes.\
+Check the documentation of `?pack_rows` from `kableExtra` to modify the group labels, add `\hline`s, or other such cosmetic changes.
 
-![](images/Screen%20Shot%202022-01-14%20at%2011.36.20%20PM.png){width="5in"}
+![](images/image.png)
+
+## Simulation
+
+### [How many people are needed such that there is at least a 70% chance that one of them is born on the last day of December?](https://stackoverflow.com/questions/70226260/having-trouble-solving-simulation/70227486#70227486)
+
+The question is, "How many people are needed such that there is at least a 70% chance that one of them is born on the last day of December?". What they were finding now is "How many people are needed such that 70% have their birthdays on the last day of December?". The answer to the second question is close to zero. But the first one is much simpler.
+
+Replacing `prob <- length(which(birthday == 365)) / people` with `check = any(birthday == 365)` in their logic because at least one of them has to be born on Dec 31 will work. Then, they will be able to find if *that* number of people will have at least one person born on Dec 31.
+
+After that, they will have to rerun the simulation multiple times to generate empirical probability distribution (kind of Monte Carlo). Only then they can check for probability.
+
+#### Simulation Code
+
+
+```r
+people_count = function(i)
+{
+  set.seed(i)
+  for (people in 1:10000)
+  {
+    birthday = sample(365, size = people, replace = TRUE)
+    check = any(birthday == 365)
+    if(check == TRUE)
+    {
+      pf = people
+      break
+    }
+  }
+  return(pf)
+}
+```
+
+`people_count()` function returns the number of people required to have so that at least one of them was born on Dec 31. Then I rerun the simulation 10,000 times.
+
+
+```r
+# Number of simulations
+nsim = 10000
+l = lapply(1:nsim, people_count) %>%
+  unlist()
+```
+
+Let's see the distribution of the number of people required.
+
+
+```r
+hist(l, main = "Histogram of # People",
+     xlab = "# People")
+```
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-24-1.png" width="672" />
+
+To find actual probability, I'll use `cumsum()`.
+
+
+```r
+cdf = cumsum(l/nsim)
+which(cdf>0.7)[1]
+```
+
+```
+## [1] 292
+```
+
+So, on average, you would need 292 people to have more than a 70% chance.
