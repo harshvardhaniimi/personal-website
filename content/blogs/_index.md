@@ -3,11 +3,11 @@ title: Blizzard of Random Thoughts
 description: |
   I usually pen down my thoughts here.
 author: "Harshvardhan"
-show_post_thumbnail: true
+show_post_thumbnail: false
 show_author_byline: false
 show_post_date: true
 # for listing page layout
-layout: list-sidebar # list, list-sidebar, list-grid
+layout: list # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
