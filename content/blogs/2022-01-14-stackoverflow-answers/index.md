@@ -568,28 +568,6 @@ x & y\\
 \end{tabular}
 \end{table}
 
-        \begin{table}
-        \caption{Combined Tables}
-        \centering
-        \begin{tabular}[t]{l|r}
-        \hline
-        x & y\\
-        \hline
-        \multicolumn{2}{l}{\textbf{Header 1}}\\
-        \hline
-        \hspace{1em}a & 1\\
-        \hline
-        \hspace{1em}b & 2\\
-        \hline
-        \multicolumn{2}{l}{\textbf{Header 2}}\\
-        \hline
-        \hspace{1em}c & 3\\
-        \hline
-        \hspace{1em}d & 4\\
-        \hline
-        \end{tabular}
-        \end{table}
-
 Check the documentation of `?pack_rows` from `kableExtra` to modify the group labels, add `\hline`s, or other such cosmetic changes.
 
 ![](images/image.png)
