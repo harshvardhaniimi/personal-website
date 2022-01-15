@@ -20,7 +20,7 @@ cascade:
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent events
-    text_link_url: /
+    text_link_url: /publications/
     show_sidebar_adunit: false # show ad container
 ---
 

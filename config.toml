@@ -134,12 +134,12 @@ enableRobotsTXT = true
   [[menu.header]]
     name = "Writings"
     title = "My Blogs"
-    url = "/blog/"
+    url = "/blogs/"
     weight = 4
   [[menu.header]]
     name = "Projects"
     title = "Project Portfolio"
-    url = "/project/"
+    url = "/projects/"
     weight = 5
   [[menu.header]]
     name = "Notes"
@@ -190,6 +190,10 @@ enableRobotsTXT = true
   
 # Permalinks
 [permalinks]
-  blog = "/:slug/"
-  project = "/:slug/"
+  blogs = "/:slug/"
+  projects = "/:slug/"
   notes = "/:slug/"
+  talks = "/:slug/"
+  publications = "/:slug"
+  about = "/:slug"
+  
