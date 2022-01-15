@@ -355,4 +355,82 @@ df_modified
 
 Done!
 
+# [How to append](https://stackoverflow.com/questions/70226380/how-to-append-two-tables-with-same-number-of-columns-in-kableextra/70226700#70226700) two tables with same number of columns in kableExtra?
 
+I don't know how to combine the tables directly without first joining the data frames. However, using `pack_rows` to specify rows for grouping together should work for this purpose.
+
+
+```r
+library(kableExtra)
+```
+
+```
+## 
+## Attaching package: 'kableExtra'
+```
+
+```
+## The following object is masked from 'package:dplyr':
+## 
+##     group_rows
+```
+
+```r
+df1 = data.frame(x = c("a","b"), y=1:2)
+df2 = data.frame(x = c("c","d"), y=3:4)
+
+rbind(df1, df2) %>%
+kbl(format = "latex", caption = "Combined Tables") %>%
+  kable_paper("striped", full_width = F) %>%
+  pack_rows("Header 1", 1, 2) %>%
+  pack_rows("Header 2", 3, 4)
+```
+
+\begin{table}
+
+\caption{(\#tab:unnamed-chunk-13)Combined Tables}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+x & y\\
+\hline
+\multicolumn{2}{l}{\textbf{Header 1}}\\
+\hline
+\hspace{1em}a & 1\\
+\hline
+\hspace{1em}b & 2\\
+\hline
+\multicolumn{2}{l}{\textbf{Header 2}}\\
+\hline
+\hspace{1em}c & 3\\
+\hline
+\hspace{1em}d & 4\\
+\hline
+\end{tabular}
+\end{table}
+
+    \begin{table}
+    \caption{Combined Tables}
+    \centering
+    \begin{tabular}[t]{l|r}
+    \hline
+    x & y\\
+    \hline
+    \multicolumn{2}{l}{\textbf{Header 1}}\\
+    \hline
+    \hspace{1em}a & 1\\
+    \hline
+    \hspace{1em}b & 2\\
+    \hline
+    \multicolumn{2}{l}{\textbf{Header 2}}\\
+    \hline
+    \hspace{1em}c & 3\\
+    \hline
+    \hspace{1em}d & 4\\
+    \hline
+    \end{tabular}
+    \end{table}
+
+Check the documentation of `?pack_rows` from kableExtra to modify the group labels, add `\hline`s, or other such cosmetic changes.\
+
+![](images/Screen%20Shot%202022-01-14%20at%2011.36.20%20PM.png){width="5in"}
