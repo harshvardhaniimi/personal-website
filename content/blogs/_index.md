@@ -1,7 +1,8 @@
 ---
 title: Blizzard of Random Thoughts
 description: |
-  I usually pen down my thoughts here.
+  I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences. You 
+  would also find some posts on working with R.
 author: "Harshvardhan"
 show_post_thumbnail: false
 show_author_byline: false
