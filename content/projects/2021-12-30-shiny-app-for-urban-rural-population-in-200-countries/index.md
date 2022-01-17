@@ -14,13 +14,17 @@ links:
   url: https://github.com/harshvardhaniimi/raster-population
 ---
 
-I worked on this project with [Asar](https://www.asarforindia.org/) between April and June 2021 to create a Shiny app. Having a full-time job didn't leave much time for side projects, which never reached fruition. This app has limitations --- primarily computational --- but can be helpful to researchers in finding urban and rural populations at the country level, state level, district level, or any of the 30 classes.
+I worked on this project with [Asar](https://www.asarforindia.org/) between April and June 2021 to create a Shiny app. Having a full-time job didn't leave much time for side projects, and this project never reached fruition. This app has limitations --- primarily computational --- but can be helpful to researchers in finding urban and rural populations at the country level, state level, district level, or any of the 30 classes. The limitations are on computing power. My laptop, [despite its prowess](/how-fast-is-m1/), not good enough. Probably we need a cluster or Google/AWS computational resource.
 
-**What do I mean by this?**
+**How to use it?**
 
-Consider you want to find how many people in Nigeria live in a rural setting. You need to select Nigeria and set the level to 1. You will see a map and an option to download spreadsheets of urban and rural populations. What about the Abia state of Nigeria? Shift the slider to 7, and you will have the urban-rural population of every state in Nigeria. It's not complicated. It's slow but not complicated.
+Consider you want to find how many people in Nigeria live in a rural setting. You need to select Nigeria and set the level to 1. You will see a map and an option to download spreadsheets of urban and rural populations. What about the Abia state of Nigeria? Shift the divider value to 7, and you will have the urban-rural population of every state in Nigeria. It's not complicated. It's slow but not complicated.
+
+The divider value represents the level of detail till which you need the data. For a Taluka (in India) or a block (in US), you would choose 25. For state level data you would choose 3.
 
 The app works for 2020 data but extending to other years is trivial. I haven't already done it because rasters quickly explode in sizes beyond the computational power of my laptop.
+
+![You have to choose the country and then the divider value. 29 would be most detailed (till a plot) and 1 would be most aggregated (for a country).](featured-hex.png "Screenshot of the web app")
 
 [Intro slides](https://github.com/harshvardhaniimi/raster-population/blob/main/Slides.pdf)
 
@@ -32,15 +36,13 @@ The app works for 2020 data but extending to other years is trivial. I haven't a
 
 -   Choose the level of the urban-rural catchment.
 
--   \[Not implemented\] Partitioning raster could also be Urban-rural classification, Time-to-healthcare unit, etc.
+-   $$Not implemented$$ Partitioning raster could also be Urban-rural classification, Time-to-healthcare unit, etc.
 
 -   The level of partitioning will be decided by the user in runtime.
 
 **The current app supports Urban-Rural classification for more than 200 countries and regions for 2020.**
 
-
----
-
+------------------------------------------------------------------------
 
 Limitations of Current Version
 
@@ -64,4 +66,4 @@ For example, when you search the population for Latvia for the first time, it wi
 
 ## P.S.
 
-I do not work or engage with ASAR anymore. Due to other commitments, I had to drop this project. This app, despite its limitations, is useful.
+I do not work or engage with ASAR anymore. I had to drop this project due to other commitments. This app is useful despite its limitations.
