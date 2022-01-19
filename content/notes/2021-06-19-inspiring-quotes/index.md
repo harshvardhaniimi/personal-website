@@ -23,6 +23,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*Become the best in the world at what you do. Keep redefining what do you do until this is true.* --- Naval
+
 *It is not about the capacity to think but rather the choice of what to think about.* --- David Foster Wallace
 
 *If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.*(Antoine de Saint-Exupéry, The Little Prince)
