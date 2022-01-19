@@ -23,6 +23,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*It is not about the capacity to think but rather the choice of what to think about.* --- David Foster Wallace
+
 *If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.*(Antoine de Saint-Exupéry, The Little Prince)
 
 *Pick battles big enough to matter, small enough to win.* --- Jonathan Kozol
@@ -109,4 +111,4 @@ In no particular order, they are:
 
 *Don't get sloppy. It's the little things that trip you up.* - The Age of Adaline
 
-*“Nothing in this world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The slogan Press On! has solved and always will solve the problems of the human race.* - Calvin Coolidge. (Also in The Founder)
+*"Nothing in this world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The slogan Press On! has solved and always will solve the problems of the human race.* - Calvin Coolidge. (Also in The Founder)
