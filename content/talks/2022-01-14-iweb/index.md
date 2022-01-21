@@ -18,7 +18,7 @@ tags: []
 
 ![](images/iweb_poster.png "I Web, Therefore I Exist Poster")
 
-I'm thrilled to be giving a talk at Trenton R Users group! We're calling the talk **I Web, Therefore I Exist**.Generally speaking, I will discuss ideas on why having a personal website is important and how you can create it easily. Social media platforms are limited and occupational in treating your content. Your message might be curtailed by what LinkedIn allows or 280 characters on Twitter. Contrary to what many think, maintaining a personal website is not expensive. By the end of the talk, you will have a strong urge to control your digital identity and will know enough resources to do so in less than an hour.
+I'm thrilled to be giving a talk at Trenton R Users group! We're calling the talk **I Web, Therefore I Exist**. Generally speaking, I will discuss ideas on why having a personal website is important and how you can create it easily. Social media platforms are limited and occupational in treating your content. Your message might be curtailed by what LinkedIn allows or 280 characters on Twitter. Contrary to what many think, maintaining a personal website is not expensive. By the end of the talk, you will have a strong urge to control your digital identity and will know enough resources to do so in less than an hour.
 
 **The talk is scheduled at 2 pm (Eastern time) on January 22, 2022, on the Trenton R users group. [Click here](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzZvc2pnaGhuOGgyajJiYTU4a3AzNmI5azg1MzNjYjlwOGtvajBiYTY2ZDFrOGc5bDhjcGs4aDFuOG8gaHZzYzE3MDhAbQ&tmsrc=hvsc1708%40gmail.com) to add it to your calendar (or the button below).**
 
