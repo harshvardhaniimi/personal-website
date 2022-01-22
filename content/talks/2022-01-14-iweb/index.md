@@ -14,7 +14,9 @@ categories:
 tags: []
 ---
 
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzZvc2pnaGhuOGgyajJiYTU4a3AzNmI5azg1MzNjYjlwOGtvajBiYTY2ZDFrOGc5bDhjcGs4aDFuOG8gaHZzYzE3MDhAbQ&amp;tmsrc=hvsc1708%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+Interactive Slides: [Keynote](https://drive.google.com/file/d/1grOse1OGVCaTnT_DX_rGTrxSTCUTUjz1/view?usp=sharing)
+
+PDF: [PDF](/docs/talks/iweb-talk.pdf)
 
 ![](images/iweb_poster.png "I Web, Therefore I Exist Poster")
 
