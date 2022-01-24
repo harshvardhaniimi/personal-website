@@ -25,13 +25,8 @@ Github has a hard limit of 100 mb per file and I occasionally fail trying to upl
 
 ### Full Steps
 
-First, ensure you have only the actions you do not want to commit.
+First, ensure you have only the changes you do not want to commit. If I try commiting with `.key` file, it will fail as it's larger than 100 mb.
 
-![](images/Screen%20Shot%202022-01-24%20at%205.32.37%20PM.png "Git Pane in RStudio")
+![](images/Screen%20Shot%202022-01-24%20at%205.45.58%20PM.png "Git Pane in RStudio")
 
-I want to commit the second file (this blog post), so I will commit it and push it to the [repository](https://github.com/harshvardhaniimi/personal-website). Then, I will go the <i class="fas fa-cog"></i> (machine-like icon) and click on "Shell...".
-
-![](images/recording.gif)
-=======
-
-
+I want to commit the last two changes (something about this blog post), so I will commit it and push changes to the [repository](https://github.com/harshvardhaniimi/personal-website). Then, I will go the <i class="fas fa-cog"></i> (machine-like icon) and click on "Shell...".
