@@ -16,20 +16,20 @@ tags: []
 
 Interactive Slides: [Keynote](https://drive.google.com/file/d/1grOse1OGVCaTnT_DX_rGTrxSTCUTUjz1/view?usp=sharing)
 
-PDF: [PDF](/docs/talks/iweb-talk.pdf)
+PDF: [Slides](/docs/talks/iweb-talk.pdf)
 
-![](images/iweb_poster.png "I Web, Therefore I Exist Poster")
-
-I'm thrilled to be giving a talk at Trenton R Users group! We're calling the talk **I Web, Therefore I Exist**. Generally speaking, I will discuss ideas on why having a personal website is important and how you can create it easily. Social media platforms are limited and occupational in treating your content. Your message might be curtailed by what LinkedIn allows or 280 characters on Twitter. Contrary to what many think, maintaining a personal website is not expensive. By the end of the talk, you will have a strong urge to control your digital identity and will know enough resources to do so in less than an hour.
-
-**The talk is scheduled at 2 pm (Eastern time) on January 22, 2022, on the Trenton R users group. [Click here](https://calendar.google.com/event?action=TEMPLATE&tmeid=XzZvc2pnaGhuOGgyajJiYTU4a3AzNmI5azg1MzNjYjlwOGtvajBiYTY2ZDFrOGc5bDhjcGs4aDFuOG8gaHZzYzE3MDhAbQ&tmsrc=hvsc1708%40gmail.com) to add it to your calendar (or the button below).**
-
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzZvc2pnaGhuOGgyajJiYTU4a3AzNmI5azg1MzNjYjlwOGtvajBiYTY2ZDFrOGc5bDhjcGs4aDFuOG8gaHZzYzE3MDhAbQ&amp;tmsrc=hvsc1708%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
-
-**Meeting Link: <https://us04web.zoom.us/j/7833440978?pwd=OGlHNmkzaDhodG0wZ0tPTGJHa0Z3QT09#success>**
-
-**TRU Meetup Link: <https://www.meetup.com/TRUgroup/events/282732043/>**
+YouTube: [To be linked]()
 
 ------------------------------------------------------------------------
 
-The video will be posted on YouTube as well. The slides will be updated soon on this webpage.
+#### Abstract
+
+Websites used to be developed by groups of people to meet the needs of other groups of people. Today, as the internet grows more personalised to be an encyclopedia of information, I argue we need more personal websites. Social media platforms are limited and occupational in treating your content. Your message might be curtailed by what LinkedIn allows or 280 characters on Twitter. Contrary to what many think, maintaining a personal website is neither difficult nor expensive. Unfortunately, creating a website is approached as a "technology problem" to be solved. Projects are coloured from the beginning by enthusiasms for or fear for HTML, CSS and other fancy jargon --- when it doesn't have to so.
+
+I was thrilled to present this talk at the Trenton R Users group. Generally speaking, I discussed ideas on why having a personal website is critical and how one can create it easily.
+
+#### Poster
+
+![](images/iweb_poster.png "I Web, Therefore I Exist Poster")
+
+**TRU Meetup Link: <https://www.meetup.com/TRUgroup/events/282732043/>**
