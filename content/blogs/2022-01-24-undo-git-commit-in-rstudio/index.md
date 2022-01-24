@@ -1,9 +1,7 @@
 ---
 title: Undo git commit in RStudio
-<<<<<<< HEAD
-subtitle: How to "delete" commits from RStudio without sending them to Github
-=======
->>>>>>> e13183b6c00c9e1571f650c602331ea9bf26f51e
+subtitle: How to "delete" large file commits from RStudio without sending them to Github
+summary: How to "delete" large file commits from RStudio without sending them to Github
 author: Harshvardhan
 date: '2022-01-24'
 slug: undo-git-commit-in-rstudio
@@ -12,11 +10,10 @@ categories:
 tags:
   - R
 ---
-<<<<<<< HEAD
 
-Every once in a while, you will end up changing something in your local files that you do not want to commit to Github repository. How do you release that commit from R Studio?
+Every once in a while, you will end up trying to upload something in your local files that you do not want to commit to Github repository. How do you release that commit from R Studio?
 
-This is particularly helpful if you tried uploading a file larger than 100 mb and Github rejected it. Analysis paralysis.
+Github has a hard limit of 100 mb per file and I occasionally fail trying to upload it. Analysis paralysis.
 
 ### TL;DR
 
@@ -36,4 +33,5 @@ I want to commit the second file (this blog post), so I will commit it and push 
 
 ![](images/recording.gif)
 =======
->>>>>>> e13183b6c00c9e1571f650c602331ea9bf26f51e
+
+
