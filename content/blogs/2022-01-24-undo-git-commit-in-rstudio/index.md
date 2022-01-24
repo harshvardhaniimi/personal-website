@@ -32,3 +32,7 @@ First, ensure you have only the changes you do not want to commit. If I try comm
 I want to commit the last two changes (something about this blog post), so I will commit it and push changes to the [repository](https://github.com/harshvardhaniimi/personal-website). Then, I will go the <i class="fas fa-cog"></i> (machine-like icon) and click on "Shell...".
 
 Now, I will paste in the Terminal window the magic spell: `git reset HEAD~`.
+
+![](images/Screen%20Shot%202022-01-24%20at%205.45.58%20PM.png "Git Pane in RStudio")
+
+I want to commit the last two changes (something about this blog post), so I will commit it and push changes to the [repository](https://github.com/harshvardhaniimi/personal-website). Then, I will go the <i class="fas fa-cog"></i> (machine-like icon) and click on "Shell...".
