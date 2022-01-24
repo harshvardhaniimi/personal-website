@@ -24,7 +24,7 @@ YouTube: [To be linked]()
 
 #### Abstract
 
-Websites used to be developed by groups of people to meet the needs of other groups of people. Today, as the internet grows more personalised to be an encyclopedia of information, I argue we need more personal websites. Social media platforms are limited and occupational in treating your content. Your message might be curtailed by what LinkedIn allows or 280 characters on Twitter. Contrary to what many think, maintaining a personal website is neither difficult nor expensive. Unfortunately, creating a website is approached as a "technology problem" to be solved. Projects are coloured from the beginning by enthusiasms for or fear for HTML, CSS and other fancy jargon --- when it doesn't have to be so.
+Websites used to be developed by groups of people to meet the needs of other groups of people. Today, as the internet grows more personalised than an encyclopedia of information, I argue we need more personal websites. Social media platforms are limited and occupational in treating your content. Your message might be curtailed by what LinkedIn allows or 280 characters on Twitter. Contrary to what many think, maintaining a personal website is neither difficult nor expensive. Unfortunately, creating a website is approached as a "technology problem" to be solved. Projects are coloured from the beginning by enthusiasms for or fear for HTML, CSS and other fancy jargon --- when it doesn't have to be so.
 
 I was thrilled to present this talk at the Trenton R Users group. Generally speaking, I discussed ideas on why having a personal website is critical and how one can create it easily.
 
