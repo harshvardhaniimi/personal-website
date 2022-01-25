@@ -72,5 +72,32 @@ IndiaPIN %>%
   print(n = 40)
 ````
 
-More examples will be added in time. See [Github](https://github.com/harshvardhaniimi/IndiaPIN) for source code.
+### PIN Code Locations on Map
+
+I will use `leaflet` package to plot randomly selected 50 PIN codes. I am adding the Region and Circle name in the popup.
+
+```{r}
+library(leaflet)
+library(tidyverse)
+library(IndiaPIN)
+
+data("IndiaPIN")
+
+index = sample(nrow(IndiaPIN), 50)
+data = IndiaPIN::IndiaPIN[index,]
+
+l1 = data$Longitude
+l2 = data$Latitude
+pop = paste(data$Region, data$Circle, sep = ", ")
+
+m = leaflet() %>% 
+   addTiles() %>% 
+   addMarkers(lng=l1, lat=l2, popup = pop)
+
+m
+```
+
+Also see this [Stackoverflow thread](https://stackoverflow.com/questions/31336898/how-to-save-leaflet-in-r-map-as-png-or-jpg-file) to understand how to save the plots.
+
+See [Github](https://github.com/harshvardhaniimi/IndiaPIN) for source code.
 
