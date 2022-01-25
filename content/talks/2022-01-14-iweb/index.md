@@ -14,11 +14,11 @@ categories:
 tags: []
 ---
 
-Interactive Slides: [Keynote](https://drive.google.com/file/d/1grOse1OGVCaTnT_DX_rGTrxSTCUTUjz1/view?usp=sharing)
+Animated Slides: [Keynote](https://drive.google.com/file/d/1grOse1OGVCaTnT_DX_rGTrxSTCUTUjz1/view?usp=sharing)
 
-PDF: [Slides](/docs/talks/iweb-talk.pdf)
+Static Slides: [PDF](/docs/talks/iweb-talk.pdf)
 
-YouTube: [To be linked]()
+Session Recording: [YouTube](https://www.youtube.com/watch?v=qZJ9lusozvo)
 
 ------------------------------------------------------------------------
 
