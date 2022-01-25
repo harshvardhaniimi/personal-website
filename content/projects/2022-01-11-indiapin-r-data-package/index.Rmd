@@ -83,6 +83,7 @@ library(IndiaPIN)
 
 data("IndiaPIN")
 
+set.seed(4)
 index = sample(nrow(IndiaPIN), 50)
 data = IndiaPIN::IndiaPIN[index,]
 
