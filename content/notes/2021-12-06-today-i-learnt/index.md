@@ -20,6 +20,8 @@ tags: []
 
 I occasionally update my [Goodreads](https://www.goodreads.com/user/show/66858367-harshvardhan) with the books I've read. This page contains the articles, apps and videos that I've found engaging.
 
+Original list is located here: [Notion](https://awake-bottom-0e3.notion.site/415585b6ae8144f683ef98e961e3b166?v=9abfa8b49ef54100a30deb82bcdf3748).
+
 ### R / Stats
 
 -   [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
