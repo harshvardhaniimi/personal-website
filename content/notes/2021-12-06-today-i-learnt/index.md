@@ -20,7 +20,11 @@ tags: []
 
 This page contains the articles, apps and videos that I've found engaging.
 
-### Data Science (Advices)
+------------------------------------------------------------------------
+
+## Data Science
+
+### Advise Blogs
 
 -   [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
 
@@ -29,6 +33,8 @@ This page contains the articles, apps and videos that I've found engaging.
 -   Concept of Digital Garden \[[Vicki Boykis \| Your public garden \| RStudio::rconf, Youtube](https://www.youtube.com/watch?v=E5ERSfydB30)\]
 
 -   [How Do You Create A Phenomenal Job Talk?](https://bettylai.com/blog/post/phenomenal-job-talks)
+
+-   [Amelia McNamara on Twitter: ""Things that are still on your computer are approximately useless." -\@drob #eUSR #eUSR2017 ](https://twitter.com/AmeliaMN/status/926509282874585089)[https://t.co/nS3IBiRHBn"](https://t.co/nS3IBiRHBn")[ / Twitter](https://twitter.com/AmeliaMN/status/926509282874585089)
 
 ### Industry Blogs
 
@@ -44,7 +50,7 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   \[Netflix\] [My (Seemingly) Random Walk to Netflix \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/my-seemingly-random-walk-to-netflix-293d952953fa)
 
-### **Data Science (Technical Ideas)**
+### Technical Ideas
 
 -   [Transfer Learning - Machine Learning's Next Frontier](https://ruder.io/transfer-learning/)
 
@@ -78,7 +84,11 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [R as a First Programming Language](https://seankross.com/2019/10/27/R-as-a-First-Programming-Language.html)
 
-### Ideas (Non-maths)
+------------------------------------------------------------------------
+
+## Ideas
+
+### Articles
 
 -   [Tech is improving at an exponential rate. Here's what that means for society](https://www.morningbrew.com/emerging-tech/stories/2021/11/24/tech-is-improving-at-an-exponential-rate-here-s-what-that-means-for-society?utm_campaign=mb&utm_medium=newsletter&utm_source=morning_brew&mid=db18db43828180889e38a0bc0e4ac362&uid=MifcoVe3xqQeEeaWE3US3gLv)
 
@@ -86,19 +96,21 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [Maps, Simpson's Paradox, Sienfield, and what not.](https://michaelnielsen.org/reinventing_explanation/index.html)
 
--   [Playboy Interview: Steven Jobs, The best interview I've ever read by a margin](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
-
 -   [Here's Why Movie Dialogue Has Gotten More Difficult To Understand (And Three Ways To Fix It)](https://www.slashfilm.com/673162/heres-why-movie-dialogue-has-gotten-more-difficult-to-understand-and-three-ways-to-fix-it/?s=09)
 
 -   [Encyclopedic Knowledge, Then vs. Now - The New York Times](https://www.nytimes.com/2009/05/03/business/03digi.html)
 
 -   [12ft \| Microsoft Encarta Dies After Long Battle With Wikipedia - The New York Times](https://12ft.io/proxy?q=http://bits.blogs.nytimes.com/2009/03/30/microsoft-encarta-dies-after-long-battle-with-wikipedia)
 
--   [Jessica Price on Twitter: "Since I've gotten a lot of "why won't you debate me?" in response to talking about tabletop/geekdom's problems, I'll tell you." / Twitter](https://twitter.com/Delafina777/status/839754651230601216)
-
 -   [Early Civilizations Had It All Figured Out \| The New Yorker](https://www.newyorker.com/magazine/2021/11/08/early-civilizations-had-it-all-figured-out-the-dawn-of-everything)
 
 -   [The Surprisingly Big Business of Library E-books \| The New Yorker](https://www.newyorker.com/news/annals-of-communications/an-app-called-libby-and-the-surprisingly-big-business-of-library-e-books)
+
+### Twitter Threads
+
+-   [Jessica Price on Twitter: "Since I've gotten a lot of "why won't you debate me?" in response to talking about tabletop/geekdom's problems, I'll tell you." / Twitter](https://twitter.com/Delafina777/status/839754651230601216)
+
+-   [Naval on Twitter: "How to Get Rich (without getting lucky):" / Twitter](https://twitter.com/naval/status/1002103360646823936)
 
 ### Blogs (Maths)
 
@@ -108,36 +120,41 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   How to imagine four or more dimensional objects \[[Intuitive crutches for higher dimensional thinking](https://mathoverflow.net/questions/25983/intuitive-crutches-for-higher-dimensional-thinking)\]
 
----------------
+### Print
 
-### YouTube
+[***Email me***](mailto:harsh@harsh17.in) ***if you need a scanned copy of these items (for personal use only)***
+
+-   Chapter on Mental Health in [Bitwise: A Life in Code](https://www.goodreads.com/book/show/35794819-bitwise)
+
+-   [Playboy Interview: Steven Jobs, The best interview I've ever read by a margin](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
+
+------------------------------------------------------------------------
+
+## YouTube
 
 -   [How To Speak by Patrick Winston, MIT OCW](https://www.youtube.com/watch?v=Unzc731iCUY)
 -   [NASA \| Thermonuclear Art -- The Sun In Ultra-HD (4K)](https://www.youtube.com/watch?v=6tmbeLTHC_0)
 -   [A Buddhist asks Sadhguru a Puzzling Question #Vipassana](https://www.youtube.com/watch?v=6OdKZRnmRQ0)
 -   [Most People Don't Know How Bikes Work](https://www.youtube.com/watch?v=9cNmUNHSBac)
+-   [Joe Rogan Experience #1309 - Naval Ravikant - YouTube](https://www.youtube.com/watch?v=3qHkcs3kG44)
 
----
+------------------------------------------------------------------------
 
-### Cool Apps
+## Cool Apps
 
--   [Tab Link Copier - Chrome Web Store](https://chrome.google.com/webstore/detail/tab-link-copier/ijkpnaifgolhlcfhcfamddnlnfjpjaji/related?hl=en)
+-   \[Chrome\] [Tab Link Copier - Chrome Web Store](https://chrome.google.com/webstore/detail/tab-link-copier/ijkpnaifgolhlcfhcfamddnlnfjpjaji/related?hl=en)
+-   \[Mac\] [jaywcjlove/awesome-mac:  Now we have become very big, Different from the original idea. Collect premium software in various categories.](https://github.com/jaywcjlove/awesome-mac)
+-   \[Mac\] [serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS. ](https://github.com/serhii-londar/open-source-mac-os-apps)<https://t.me/s/opensourcemacosapps>
 
----
+------------------------------------------------------------------------
 
-### Productivity
+## Productivity
 
--   [Markdown Style Shortcuts](https://support.craft.do/hc/en-us/articles/360019555597-Markdown-Style-Shortcuts) (Craft Mac App)
--   [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
--   [How to Humanize Async Work](https://blog.doist.com/humanizing-async-work/)
--   [A Student's Guide to Todoist](https://blog.doist.com/todoist-guide-for-students/)
+-   \[Benefits of Walking Meetings\] [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
 -   [60+ Resources for Students Who Want to Stay Productive](https://blog.doist.com/60-resources-students-stay-productive/)
--   [How to Learn Anything with the Feynman Technique](https://blog.doist.com/feynman-technique/)
 -   [Hedonic Adaptation: Why we're never satisfied with what we've already accomplished](https://blog.doist.com/hedonic-adaptation-comic/)
 -   [The Mere Urgency Effect](https://blog.doist.com/mere-urgency-effect-comic/)
 -   [The Planning Fallacy: Why We're Terrible at Setting Realistic Deadlines](https://blog.doist.com/planning-fallacy-comic/)
--   [Present Bias: Why It's So Hard to Give a Damn About Our Future Selves](https://blog.doist.com/present-bias-comic/)
--   [7 Real-Life Todoist Setups to Steal](https://blog.doist.com/todoist-setup/)
 -   [The Zeigarnik Effect: Why Unfinished Work Follows Us Home](https://blog.doist.com/zeigarnik-effect-comic/)
 -   [Complexity Bias: Why We Overcomplicate Our Lives](https://blog.doist.com/complexity-bias-comic/)
 -   [The Two-Minute Rule: Stop Procrastinating With This Simple Trick](https://blog.doist.com/two-minute-rule/)
@@ -146,6 +163,6 @@ This page contains the articles, apps and videos that I've found engaging.
 
 ------------------------------------------------------------------------
 
-### Technical
+## Technical
 
 -   [How to set up a custom domain on Revue](https://blog.getrevue.co/how-to-set-up-a-custom-domain-on-revue-ab15ea351929), [How to set up a custom domain on Revue -- in three easy steps](http://help.getrevue.co/en/articles/395396-how-to-set-up-a-custom-domain-on-revue-in-three-easy-steps)
