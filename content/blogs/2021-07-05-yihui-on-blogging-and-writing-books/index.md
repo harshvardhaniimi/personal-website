@@ -45,5 +45,9 @@ I am definitely going to be more casual about my blogs from now on.
 
 [Slides](https://slides.yihui.org/2021-useR-journey.html)
 
+### Update: January 27, 2022
 
+Of course I watched David Robinson's talk and studied career paths of Alison Hill and Yihui Xie (whose ideas I also borrowed for my talk). Another tweet noteworthy on this topic is the following.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Things that are still on your computer are approximately useless.&quot; -<a href="https://twitter.com/drob?ref_src=twsrc%5Etfw">@drob</a> <a href="https://twitter.com/hashtag/eUSR?src=hash&amp;ref_src=twsrc%5Etfw">#eUSR</a> <a href="https://twitter.com/hashtag/eUSR2017?src=hash&amp;ref_src=twsrc%5Etfw">#eUSR2017</a> <a href="https://t.co/nS3IBiRHBn">pic.twitter.com/nS3IBiRHBn</a></p>&mdash; Amelia McNamara (@AmeliaMN) <a href="https://twitter.com/AmeliaMN/status/926509282874585089?ref_src=twsrc%5Etfw">November 3, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
