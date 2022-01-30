@@ -36,7 +36,9 @@ The app works for 2020 data but extending to other years is trivial. I haven't a
 
 -   Choose the level of the urban-rural catchment.
 
--   $$Not implemented$$ Partitioning raster could also be Urban-rural classification, Time-to-healthcare unit, etc.
+-   (Features below are not implemented yet)
+
+-   Partitioning raster could also be Urban-rural classification, Time-to-healthcare unit, etc.
 
 -   The level of partitioning will be decided by the user in runtime.
 
