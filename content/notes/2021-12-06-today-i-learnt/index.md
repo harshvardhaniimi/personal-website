@@ -30,25 +30,25 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [Non-Academic Careers for Astronomers and Physicists](https://speakerdeck.com/juliasilge/non-academic-careers-for-astronomers-and-physicists)
 
--   Concept of Digital Garden \[[Vicki Boykis \| Your public garden \| RStudio::rconf, Youtube](https://www.youtube.com/watch?v=E5ERSfydB30)\]
+-   Concept of Digital Garden [Vicki Boykis \| Your public garden \| RStudio::rconf, Youtube](https://www.youtube.com/watch?v=E5ERSfydB30)
 
 -   [How Do You Create A Phenomenal Job Talk?](https://bettylai.com/blog/post/phenomenal-job-talks)
 
--   [Amelia McNamara on Twitter: ""Things that are still on your computer are approximately useless." -\@drob #eUSR #eUSR2017 ](https://twitter.com/AmeliaMN/status/926509282874585089)[https://t.co/nS3IBiRHBn"](https://t.co/nS3IBiRHBn")[ / Twitter](https://twitter.com/AmeliaMN/status/926509282874585089)
+-   [Amelia McNamara on Twitter: ""Things that are still on your computer are approximately useless." -\@drob #eUSR #eUSR2017](https://twitter.com/AmeliaMN/status/926509282874585089)<https://t.co/nS3IBiRHBn%22>[/ Twitter](https://twitter.com/AmeliaMN/status/926509282874585089)
 
 ### Industry Blogs
 
--   \[Facebook\] [Core Data Science researchers discuss opportunities for academics at Meta](https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/)
+-   Facebook [Core Data Science researchers discuss opportunities for academics at Meta](https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/)
 
--   \[Netflix\] [Supporting content decision makers with machine learning, Netflix Research](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
+-   Netflix [Supporting content decision makers with machine learning, Netflix Research](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
 
--   \[Netflix\] [Building confidence in a decision \| by Netflix Technology Blog \| Nov, 2021 \| Netflix TechBlog](https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8)
+-   Netflix [Building confidence in a decision \| by Netflix Technology Blog \| Nov, 2021 \| Netflix TechBlog](https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8)
 
--   \[Netflix\] [Data Engineers of Netflix --- Interview with Pallavi Phadnis \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906)
+-   Netflix [Data Engineers of Netflix --- Interview with Pallavi Phadnis \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906)
 
--   \[Netflix\] [Supporting content decision makers with machine learning \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
+-   Netflix [Supporting content decision makers with machine learning \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
 
--   \[Netflix\] [My (Seemingly) Random Walk to Netflix \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/my-seemingly-random-walk-to-netflix-293d952953fa)
+-   Netflix [My (Seemingly) Random Walk to Netflix \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/my-seemingly-random-walk-to-netflix-293d952953fa)
 
 ### Technical Ideas
 
@@ -62,15 +62,15 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [Project Euler](https://projecteuler.net/) is similar.
 
--   \[Dataset\] [Ranking of Emojis by their usage, Unicode, Dataset](https://docs.google.com/spreadsheets/d/1Zs13WJYdZL1pNZP0dCIXkWau_tZOjK3mmJz0KNq4I30/edit#gid=196891844)
+-   Dataset [Ranking of Emojis by their usage, Unicode, Dataset](https://docs.google.com/spreadsheets/d/1Zs13WJYdZL1pNZP0dCIXkWau_tZOjK3mmJz0KNq4I30/edit#gid=196891844)
 
 ### R
 
 -   [My Opinion on R's Upcoming Pipe](https://www.r-bloggers.com/2020/12/my-opinion-on-rs-upcoming-pipe/)
 
--   Why performance is not the issue in R \[[Why R? 2020 Discussion Panel - Performance in R, Youtube Video](https://www.youtube.com/watch?v=uiEhmKN1RJo)\]
+-   Why performance is not the issue in R [Why R? 2020 Discussion Panel - Performance in R, Youtube Video](https://www.youtube.com/watch?v=uiEhmKN1RJo)
 
--   Quanteda \[[Why R? 2020 \| Ken Benoit - Why you should stop using other text mining packages and embrace quanteda](https://www.youtube.com/watch?v=9hEvGBu3cnI)\]
+-   Quanteda [Why R? 2020 \| Ken Benoit - Why you should stop using other text mining packages and embrace quanteda](https://www.youtube.com/watch?v=9hEvGBu3cnI)
 
 -   [Visualising distributions with raincloud plots and how to create them with ggplot2](https://www.cedricscherer.com/2021/06/06/visualizing-distributions-with-raincloud-plots-and-how-to-create-them-with-ggplot2/)
 
@@ -116,9 +116,9 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [The Mathematics of Mind-Time](https://getpocket.com/explore/item/the-mathematics-of-mind-time)
 
--   A Brilliant Biography about about Gödel \[[Kurt Gödel's Brilliant Madness](https://www.privatdozent.co/p/kurt-godels-brilliant-madness)\]
+-   A Brilliant Biography about about Gödel [Kurt Gödel's Brilliant Madness](https://www.privatdozent.co/p/kurt-godels-brilliant-madness)
 
--   How to imagine four or more dimensional objects \[[Intuitive crutches for higher dimensional thinking](https://mathoverflow.net/questions/25983/intuitive-crutches-for-higher-dimensional-thinking)\]
+-   How to imagine four or more dimensional objects [Intuitive crutches for higher dimensional thinking](https://mathoverflow.net/questions/25983/intuitive-crutches-for-higher-dimensional-thinking)
 
 ### Print
 
@@ -128,41 +128,62 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [Playboy Interview: Steven Jobs, The best interview I've ever read by a margin](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
 
+-   It's Happened Again by Oscar Schwartz. Wired. Print: February 2022
+
+-   The Big Inhale by Vince Beiser. Wired. Print: February 2022
+
 ------------------------------------------------------------------------
 
 ## YouTube
 
 -   [How To Speak by Patrick Winston, MIT OCW](https://www.youtube.com/watch?v=Unzc731iCUY)
+
 -   [NASA \| Thermonuclear Art -- The Sun In Ultra-HD (4K)](https://www.youtube.com/watch?v=6tmbeLTHC_0)
+
 -   [A Buddhist asks Sadhguru a Puzzling Question #Vipassana](https://www.youtube.com/watch?v=6OdKZRnmRQ0)
+
 -   [Most People Don't Know How Bikes Work](https://www.youtube.com/watch?v=9cNmUNHSBac)
+
 -   [Joe Rogan Experience #1309 - Naval Ravikant - YouTube](https://www.youtube.com/watch?v=3qHkcs3kG44)
 
 ------------------------------------------------------------------------
 
 ## Cool Apps
 
--   \[Chrome\] [Tab Link Copier - Chrome Web Store](https://chrome.google.com/webstore/detail/tab-link-copier/ijkpnaifgolhlcfhcfamddnlnfjpjaji/related?hl=en)
--   \[Mac\] [jaywcjlove/awesome-mac:  Now we have become very big, Different from the original idea. Collect premium software in various categories.](https://github.com/jaywcjlove/awesome-mac)
--   \[Mac\] [serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS. ](https://github.com/serhii-londar/open-source-mac-os-apps)<https://t.me/s/opensourcemacosapps>
+-   Chrome [Tab Link Copier - Chrome Web Store](https://chrome.google.com/webstore/detail/tab-link-copier/ijkpnaifgolhlcfhcfamddnlnfjpjaji/related?hl=en)
+
+-   Mac [jaywcjlove/awesome-mac:  Now we have become very big, Different from the original idea. Collect premium software in various categories.](https://github.com/jaywcjlove/awesome-mac)
+
+-   Mac [serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS.](https://github.com/serhii-londar/open-source-mac-os-apps)<https://t.me/s/opensourcemacosapps>
 
 ------------------------------------------------------------------------
 
-## Productivity
+## Todoist Blogs
 
--   \[Benefits of Walking Meetings\] [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
+-   Benefits of Walking Meetings [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
+
 -   [60+ Resources for Students Who Want to Stay Productive](https://blog.doist.com/60-resources-students-stay-productive/)
+
 -   [Hedonic Adaptation: Why we're never satisfied with what we've already accomplished](https://blog.doist.com/hedonic-adaptation-comic/)
+
 -   [The Mere Urgency Effect](https://blog.doist.com/mere-urgency-effect-comic/)
+
 -   [The Planning Fallacy: Why We're Terrible at Setting Realistic Deadlines](https://blog.doist.com/planning-fallacy-comic/)
+
 -   [The Zeigarnik Effect: Why Unfinished Work Follows Us Home](https://blog.doist.com/zeigarnik-effect-comic/)
+
 -   [Complexity Bias: Why We Overcomplicate Our Lives](https://blog.doist.com/complexity-bias-comic/)
+
 -   [The Two-Minute Rule: Stop Procrastinating With This Simple Trick](https://blog.doist.com/two-minute-rule/)
+
 -   [The Life-Changing Magic of Tidying Up Your To-Do List](https://blog.doist.com/life-changing-magic-tidying-todoist/)
+
 -   [The Sunk Cost Fallacy & Your Productivity - Doist Blog](https://blog.doist.com/sunk-cost-fallacy-comic/)
 
 ------------------------------------------------------------------------
 
-## Technical
+## Revue
 
--   [How to set up a custom domain on Revue](https://blog.getrevue.co/how-to-set-up-a-custom-domain-on-revue-ab15ea351929), [How to set up a custom domain on Revue -- in three easy steps](http://help.getrevue.co/en/articles/395396-how-to-set-up-a-custom-domain-on-revue-in-three-easy-steps)
+-   [How to set up a custom domain on Revue](https://blog.getrevue.co/how-to-set-up-a-custom-domain-on-revue-ab15ea351929)
+
+-   [How to set up a custom domain on Revue -- in three easy steps](http://help.getrevue.co/en/articles/395396-how-to-set-up-a-custom-domain-on-revue-in-three-easy-steps)
