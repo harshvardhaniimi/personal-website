@@ -15,7 +15,7 @@ tags:
 
 Text in R can be represented in several ways but generally it is a character vector (strings). Reading a text file would mean most of the content would either be in a single long character file, or broken into several variables and observations as a data frame like comma separated files (CSV). In this blog tutorial, I will download a Jane Austen's book and perform some basic analysis to understand how these text functions work.
 
-### Packages
+# Packages
 
 The common packages for text mining in R are `stringr`, `tidytext`, `tidyverse` and `quanteda`. I will also use `gutenbergr` to download the book for analysis.
 
@@ -30,7 +30,7 @@ library(gutenbergr)
 theme_set(theme_minimal())
 ```
 
-### Downloading the Book
+# Downloading the Book
 
 Once I have the required functions in my namespace, I can download the book using `gutenberg_download()`. `gutenberg_works()` gives a list of works that can be downloaded. (`gutenberg_metadata` will give a list of all books in Project Gutenberg, but we only need the ones that can be downloaded.)
 
@@ -46,7 +46,7 @@ book = gutenberg_download(105)
 
 I can download more than one books at a time and many other fancy things. Check `gutenbergr`'s [vignette](https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html) for more information.
 
-### Exploring the Book
+# Exploring the Book
 
 Let's see what we have in `book`.
 
@@ -69,7 +69,7 @@ book %>%
 
 The function also did some other operations in the background. It removed all the punctuation marks from the text. It also converted everything to lower case (which can be toggled OFF by using `to_lower = FALSE` in `unnest_tokens`. The function also has an argument `token` to specify what kind of text is it. `words` is the default option that worked for our case. Other options are `characters`, `character_shingles`, `ngrams`, `skip_ngrams`, `sentences`, `lines`, `paragraphs`, `regex`, `tweets` and `ptb`.
 
-### Exploring Words
+# Exploring Words
 
 We can look for several manipulations for insights about the words. Such as, how many four letter words did she use? Less than four letter words? Longer than ten letter words?
 
@@ -92,7 +92,7 @@ book %>%
 
 We see that there are 15,505 words that have exactly four letters. 37,908 have less than four letters (that includes numbers such as 1). There are 1,636 words that have more than ten letters in them.
 
-### Words that Start or End with ...
+# Words that Start or End with ...
 
 We can also find words that start or end with a particular string. For example, I wonder how often does Jane Austen use V4 form of the verb --- ending in "ing"? We can use `str_ends()` from `stringr` package.
 
@@ -137,11 +137,11 @@ book %>%
 
 The most common such word is "that", followed by "thought".
 
-### Frequency Distribution Plots
+# Frequency Distribution Plots
 
 We saw how adding `count(word, sort = T)` created the frequency distribution. We can also visualise the counts.
 
-#### Frequency Table
+## Frequency Table
 
 ```{r}
 book %>% 
@@ -150,7 +150,7 @@ book %>%
   mutate(word = reorder(word, n))
 ```
 
-#### Frequency Plot
+## Frequency Plot
 
 I will have to reorder the counts for creating the plot as `count()` only counts and doesn't change the order of the tibble.
 
@@ -165,7 +165,7 @@ book %>%
   ylab("Word")
 ```
 
-### Finding Hapaxes
+# Finding Hapaxes
 
 Hapaxes are words that occur only once in the text. Nothing complicated; I will first count the occurrences and then filter when the `count` is 1.
 
@@ -186,7 +186,7 @@ book %>%
 
 I have used regular expression here to identify all the words that didn't have any numerals.
 
-### Distribution of Word Lengths
+# Distribution of Word Lengths
 
 Some writers have a habit of writing long words. What were the longest words used by Jane and how often did she use them?
 
