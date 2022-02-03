@@ -127,19 +127,19 @@ enableRobotsTXT = true
     url = "/publications/"
     weight = 2
   [[menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/projects/"
+    weight = 3
+  [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talks/"
-    weight = 3
+    weight = 4
   [[menu.header]]
     name = "Writings"
     title = "My Blogs"
     url = "/blogs/"
-    weight = 4
-  [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/projects/"
     weight = 5
   [[menu.header]]
     name = "Notes"
