@@ -10,6 +10,8 @@ categories:
 tags: []
 ---
 
+On one fine day when I have enough time, they'll all be wrapped into a package hosted on my Github. Until then, this page in their home.
+
 ## Show in Excel
 
 This function opens the data frame in Excel. Original credits to [Bruno Rodrigues](https://twitter.com/brodriguesco/status/1447468259725434886?s=20&t=CfH_SqI_DExZBaLKuSvZxA).
