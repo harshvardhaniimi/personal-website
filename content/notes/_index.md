@@ -1,7 +1,7 @@
 ---
-title: My Notes
+title: Notes & Comments
 description: |
-  Notes and comments are modelled after New York Times' column by the same name. These are short thoughts and notes that I found useful but weren't long enough to deserve a blog post. Earlier, this used to be a list of things that I found interesting.
+  Notes & Comments are modeled after New York Times' column by the same name. These are short thoughts and notes that weren't complete enough to deserve a blog post. When they mature, they'll find Writings as their new home.
 author: "Harshvardhan"
 show_post_thumbnail: false
 show_author_byline: false
