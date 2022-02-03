@@ -90,4 +90,33 @@ which.this(iris, "Sepal.Length > 5")
 x = gsub(",", "", x)
 ```
 
+## GGPlot2 Theme
+
+See [official guide](https://ggplot2.tidyverse.org/reference/theme.html) for more details. Also see [Benjamin's blog](https://benjaminlouis-stat.fr/en/blog/2020-05-21-astuces-ggplot-rmarkdown/).
+
+```{r}
+theme_h = function(base_size = 14) {
+  theme_bw(base_size = base_size) %+replace%
+    theme(
+      # Specify plot title
+      plot.title = element_text(size = rel(1), face = "bold", margin = margin(0,0,5,0), hjust = 0),
+      # Specifying grid and border
+      panel.grid.minor = element_blank(),
+      panel.border = element_blank(),
+      # Specidy axis details
+      axis.title = element_text(size = rel(0.85), face = "bold"),
+      axis.text = element_text(size = rel(0.70), face = "bold"),
+      axis.line = element_line(color = "black", arrow = arrow(length = unit(0.3, "lines"), type = "closed")),
+      # Specify legend details
+      legend.title = element_text(size = rel(0.85), face = "bold"),
+      legend.text = element_text(size = rel(0.70), face = "bold"),
+      legend.key = element_rect(fill = "transparent", colour = NA),
+      legend.key.size = unit(1.5, "lines"),
+      legend.background = element_rect(fill = "transparent", colour = NA),
+      # Remove default background
+      strip.background = element_rect(fill = "#17252D", color = "#17252D"),
+      strip.text = element_text(size = rel(0.85), face = "bold", color = "white", margin = margin(5,0,5,0))
+    )
+}
+```
 
