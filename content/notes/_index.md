@@ -1,7 +1,7 @@
 ---
 title: My Notes
 description: |
-  This is a list of things that I find interesting. Most are my notes and might not be relevant for you.
+  Notes and comments are modelled after New York Times' column. These are short thoughts and notes that I found useful but weren't long enough to deserve a blog post. Earlier, this used to be a list of things that I found interesting.
 author: "Harshvardhan"
 show_post_thumbnail: true
 show_author_byline: true
