@@ -1,12 +1,12 @@
 ---
 title: My Notes
 description: |
-  Notes and comments are modelled after New York Times' column. These are short thoughts and notes that I found useful but weren't long enough to deserve a blog post. Earlier, this used to be a list of things that I found interesting.
+  Notes and comments are modelled after New York Times' column by the same name. These are short thoughts and notes that I found useful but weren't long enough to deserve a blog post. Earlier, this used to be a list of things that I found interesting.
 author: "Harshvardhan"
-show_post_thumbnail: true
-show_author_byline: true
+show_post_thumbnail: false
+show_author_byline: false
 show_post_date: true
-show_post_time: true
+show_post_time: false
 # for listing page layout
 layout: list # list, list-sidebar
 
