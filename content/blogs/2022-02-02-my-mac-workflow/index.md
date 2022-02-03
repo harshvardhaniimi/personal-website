@@ -56,7 +56,7 @@ Since I started using GIFs in my [newsletter](http://harsh17.in/next), I needed
 
 [App Store](https://apps.apple.com/us/app/gifski/id1351639930?mt=12)
 
-# IONA
+# IINA
 
 ### Media player
 
