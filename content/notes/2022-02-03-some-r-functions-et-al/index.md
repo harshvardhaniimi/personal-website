@@ -60,15 +60,34 @@ Sometimes, I do not want to `na.omit()` because it will treat all features equal
 ```
 na.rm.feature = function(x, colname)
 {
-   # this function removes rows which have missing value in a column
    nas = which(is.na(x[,colname]))
    x = x[-nas, ]
    return(x)
 }
 ```
 
-## Find Row where x==5
+## Find row where a condition is satisfied
+
+This function can find observations that satisfy a condition. Typically, they are useful in finding specific elements. It is kind of a wrapper around dplyr's `filter()`.
 
 ```{r}
-
+which.this = function(df, x)
+{
+  df %>% 
+    filter(eval(parse(text = x)))
+}
 ```
+
+#### Example
+
+```{r}
+which.this(iris, "Sepal.Length > 5")
+```
+
+## Remove commas, dollars, or any other such characters
+
+```{r}
+x = gsub(",", "", x)
+```
+
+
