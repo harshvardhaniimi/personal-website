@@ -56,7 +56,7 @@ cat("\nMean error: ", mean(e))
 
 The code is pretty straightforward. I construct 500 matrices of size 500x30. Each of them is randomly designed using Latin Hypercube Samples. Then, I decompose them using the singular value decomposition method and then reconstruct it likewise. Finally, I create a plot of error and time taken. The plot of errors look the same on all machines due to the use of same seed.
 
-![Errors in matrix decomposition and reconstruction via singular value decomposition.](images/Rplot01.png "Errors in Matrix Reconstruction")
+![Errors in matrix decomposition and reconstruction via singular value decomposition.](https://www.harsh17.in/how-fast-is-m1/images/Rplot01.png "Errors in Matrix Reconstruction")
 
 ### Testing on MacBook Air (2020)
 
@@ -82,4 +82,4 @@ Note that RStudio on M1 is still running with Rosetta and giving almost twice as
 
 ### Holy moly 😂
 
-[![Parody of Intel CEO Hitler reacts to Apple Silicon M1 launch by Zeeshan Ali Zeeshan Ali. Youtube.](images/hitler.png "Intel CEO Hitler Reacts to Apple Silicon M1")](https://www.youtube.com/watch?v=7syCGv-0VwQ)
+[![Parody of Intel CEO Hitler reacts to Apple Silicon M1 launch by Zeeshan Ali Zeeshan Ali. Youtube.](https://www.harsh17.in/how-fast-is-m1/images/hitler.png "Intel CEO Hitler Reacts to Apple Silicon M1")](https://www.youtube.com/watch?v=7syCGv-0VwQ)

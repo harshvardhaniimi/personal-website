@@ -16,7 +16,7 @@ tags: []
 
 Animated Slides: [Keynote](https://drive.google.com/file/d/1grOse1OGVCaTnT_DX_rGTrxSTCUTUjz1/view?usp=sharing)
 
-Static Slides: [PDF](/docs/talks/iweb-talk.pdf)
+Static Slides: [PDF](https://www.harsh17.in/docs/talks/iweb-talk.pdf)
 
 Session Recording: [YouTube](https://www.youtube.com/watch?v=qZJ9lusozvo)
 
@@ -30,6 +30,6 @@ I was thrilled to present this talk at the Trenton R Users group. Generally spea
 
 #### Poster
 
-![](images/iweb_poster.png "I Web, Therefore I Exist Poster")
+![](https://www.harsh17.in/iweb/images/iweb_poster.png "I Web, Therefore I Exist Poster")
 
 **TRU Meetup Link: <https://www.meetup.com/TRUgroup/events/282732043/>**

@@ -22,7 +22,7 @@ Therefore, I looked up for my listening data on Spotify (thank you, GDPR!) and t
 
 Spotify allows you to download all your data through its [accounts webpage](https://www.spotify.com/us/account/privacy/). First, you need to request for all your data. This step will take something between a day or a fortnight depending how much you listen. For me, it took two working days and I got two files on streaming. Again, for heavy listeners, there will be more files.
 
-![Spotify Data Download](images/Screenshot%202021-06-18%20at%2012.10.41%20AM.png)
+![Spotify Data Download](https://www.harsh17.in/exploring-my-spotify-listening/images/Screenshot%202021-06-18%20at%2012.10.41%20AM.png)
 
 # Let's Play Some Music!
 
@@ -52,7 +52,7 @@ head(st)
 
 To find out which artists I listen to most, let me make a visualisation for the same.
 
-![My Top Artists](images/artists.png)
+![My Top Artists](https://www.harsh17.in/exploring-my-spotify-listening/images/artists.png)
 
   ```r
   st %>%
@@ -81,7 +81,7 @@ As you can observe, I listened most to Arijit Singh, Pritam and AR Rahman. The t
 
 Again, I will make a visualisation and use it for inference. The functions and explanations are the same as in artists.
 
-  ![My Top Tracks](images/tracks.png)
+  ![My Top Tracks](https://www.harsh17.in/exploring-my-spotify-listening/images/tracks.png)
 
   
   ```r
@@ -111,7 +111,7 @@ Considering my listening history of artists and tracks give two different pictur
 
 One line needs to be added for selecting the artists: `filter(artistName == "KK")` before `count()` and after `st`.
 
-  ![KK's Songs](images/kk.png)
+  ![KK's Songs](https://www.harsh17.in/exploring-my-spotify-listening/images/kk.png)
   
   ```r
   # by KK
@@ -176,7 +176,7 @@ ggplot(df_at, aes(x = as.factor(hour), y = n, fill = period)) +
   labs(title = "When do I listen to music?")
 ```
 
-![When do I listen to Music?](images/listen_clock.png)
+![When do I listen to Music?](https://www.harsh17.in/exploring-my-spotify-listening/images/listen_clock.png)
 
 I listen most in the morning between 8 AM and 12 PM. As the day proceeds, my listening also falls, virtually stopping in the afternoon. It picks up again in the evening and stays at a relatively constant level till around 10 PM.
 

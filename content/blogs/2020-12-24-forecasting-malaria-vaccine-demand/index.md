@@ -26,7 +26,7 @@ A vaccine's coverage in a country or geography depends on several factors: how e
 
 Each country will have specific characteristics which are difficult to quantify. Therefore, the best approach is to select countries with "similar" features instead of only one model. We decided to work with the Human Development Index for grouping countries in this work.
 
-![HDI heatmap of world](images/Screenshot%202021-06-17%20at%2010.44.52%20PM.png)
+![HDI heatmap of world](https://www.harsh17.in/forecasting-malaria-vaccine-demand/images/Screenshot%202021-06-17%20at%2010.44.52%20PM.png)
 
 ### Variables in Modelling
 
@@ -56,11 +56,11 @@ We forcasted the coverage for the next 38 years using these assumptions and inpu
 
 Here is the vaccine coverage at two crucial time points: soon after the launch and at the end of the simulation (38 years after launch).
 
-![Vaccine coverage at t=0 and t=38](images/Screenshot%202021-06-17%20at%2011.04.25%20PM.png)
+![Vaccine coverage at t=0 and t=38](https://www.harsh17.in/forecasting-malaria-vaccine-demand/images/Screenshot%202021-06-17%20at%2011.04.25%20PM.png)
 
 Vaccine coverage through the years is as follows:
 
-![vaccine coverage ratio over the years](images/Screenshot%202021-06-17%20at%2011.22.23%20PM.png)
+![vaccine coverage ratio over the years](https://www.harsh17.in/forecasting-malaria-vaccine-demand/images/Screenshot%202021-06-17%20at%2011.22.23%20PM.png)
 
 ## What's Even More Interesting
 

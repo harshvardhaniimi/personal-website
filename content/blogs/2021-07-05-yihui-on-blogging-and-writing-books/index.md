@@ -39,7 +39,7 @@ He had some tips to share on blogging:
 - Enable comments so that there is a dialouge between the author and the readers. My experience with comments hasn't bee great. Around three years ago, I used to host my site on Wordpress and had comments enabled. The comment fields were filled with spam, even inappropriate spam. Further, I have found putting my email directly has provided me better engagement. (Once I received comments via email from halfway across the world and it made my day!)
 - Probably pagination in the list of blogs is not a good option. Yihui says he likes to see what all have you written at a glance and clicking next after every five articles breaks flow. I have increased my articles on a page to 20, which I believe is a good balance between currency and flow.
 
-![Key Message for Yihui's Talk](images/yihui.png)
+![Key Message for Yihui's Talk](https://www.harsh17.in/yihui-on-blogging-and-writing-books/images/yihui.png)
 
 I am definitely going to be more casual about my blogs from now on.
 

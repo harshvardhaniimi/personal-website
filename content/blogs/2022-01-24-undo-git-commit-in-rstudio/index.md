@@ -21,7 +21,7 @@ If you are starting a project, jump to this. If you had a project that used pass
 
 Every once in a while, you will end up trying to upload something in your local files that you do not want to commit to Github repository. How do you release that commit from R Studio? Github has a hard limit of 100 mb per file and I occasionally fail trying to upload it. Analysis paralysis.
 
-![](images/Screen%20Shot%202022-01-24%20at%205.55.28%20PM.png "Error message on uploading file with size larger than 100 mb.")
+![](https://www.harsh17.in/github-rstudio/images/Screen%20Shot%202022-01-24%20at%205.55.28%20PM.png "Error message on uploading file with size larger than 100 mb.")
 
 ### TL;DR
 
@@ -35,7 +35,7 @@ Every once in a while, you will end up trying to upload something in your local 
 
 First, ensure you have only the changes you do not want to commit. If I try commiting with `.key` file, it will fail as it's larger than 100 mb.
 
-![](images/Screen%20Shot%202022-01-24%20at%205.45.58%20PM.png "Git Pane in RStudio")
+![](https://www.harsh17.in/github-rstudio/images/Screen%20Shot%202022-01-24%20at%205.45.58%20PM.png "Git Pane in RStudio")
 
 I want to commit the last two changes (something about this blog post), so I will commit it and push changes to the [repository](https://github.com/harshvardhaniimi/personal-website). Then, I will go the <i class="fas fa-cog"></i> (machine-like icon) and click on "Shell...".
 

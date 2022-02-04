@@ -26,7 +26,7 @@ $$
 
 The probability of each digit comes out exactly as the following.
 
-<img src="images/Screenshot 2021-06-17 at 6.13.56 PM.png" alt="benford probability distribution" width="70%"/>
+<img src="https://www.harsh17.in/is-covid-19-data-tampered/images/Screenshot%202021-06-17%20at%206.13.56%20PM.png" alt="benford probability distribution" width="70%"/>
 
 The law is so universal that the Income Tax Department uses it to detect fraud, legal cases have admitted it as evidence, regulators analyse prices to see cartel-like behaviour, forensics use it to identify deep-fakes and doctored videos, among others, and in our case, COVID-19 data reported by countries. The Netflix TV-series "[Connected](https://www.imdb.com/title/tt12753692/)" did an episode "Digits" on Benford's Law. It is absolutely brilliant and you should watch it.
 
@@ -38,7 +38,7 @@ My approach is simple and direct. Using the COVID-19 data available at [Our Worl
 
 Explore the world map below to see evidence of manipulation for each country.
 
-  ![mapplot of all countries](images/country.png)
+  ![mapplot of all countries](https://www.harsh17.in/is-covid-19-data-tampered/images/country.png)
 
 > R Codes
 

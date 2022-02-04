@@ -63,7 +63,7 @@ rt3 = rt2 %>%
 
 {{< panelset class="greetings" >}}
 {{< panel name="Viz! :wave:" >}}
-  ![positive and negative tweets about kerala elephant](images/Rplot.png)
+  ![positive and negative tweets about kerala elephant](https://www.harsh17.in/twitter-sentiments/images/Rplot.png)
 {{< /panel >}}
 {{< panel name="Code :computer:" >}}
   
@@ -102,10 +102,10 @@ rt2 = get_timeline("narendramodi", n = 10000, include_rts = F)
 
 {{< panelset class="greetings" >}}
 {{< panel name="Narendra Modi :shell:" >}}
-  ![Narendra Modi Tweets Positive](images/Rplot02.png)
+  ![Narendra Modi Tweets Positive](https://www.harsh17.in/twitter-sentiments/images/Rplot02.png)
 {{< /panel >}}
 {{< panel name="Donald Trump :statue_of_liberty:" >}}
-  ![Donald Trump tweets negative](images/Rplot05.png)
+  ![Donald Trump tweets negative](https://www.harsh17.in/twitter-sentiments/images/Rplot05.png)
 {{< /panel >}}
 {{< /panelset >}}
 
@@ -116,10 +116,10 @@ Here's a proportion comparison of the overall sentiment.
 
 {{< panelset class="greetings" >}}
 {{< panel name="Narendra Modi :shell:" >}}
-  ![Narendra Modi Tweets Positive](images/Rplot03.png)
+  ![Narendra Modi Tweets Positive](https://www.harsh17.in/twitter-sentiments/images/Rplot03.png)
 {{< /panel >}}
 {{< panel name="Donald Trump :statue_of_liberty:" >}}
-  ![Donald Trump tweets negative](images/Rplot04.png)
+  ![Donald Trump tweets negative](https://www.harsh17.in/twitter-sentiments/images/Rplot04.png)
 {{< /panel >}}
 {{< /panelset >}}
 
