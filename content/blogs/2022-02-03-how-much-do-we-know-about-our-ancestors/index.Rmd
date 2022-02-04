@@ -15,11 +15,11 @@ tags:
 ---
 
 
-When I first saw Sirius Black's family tree in Harry Potter: Prisoner of Azkaban many years ago, I thought of creating my own. I started mapping and went two generations back — that was all that people remembered. Mummy said, "People remember two generations up and two generations down. That's it." I was determined, but there was no obvious way.
+When I first saw Sirius Black's family tree in Harry Potter: Prisoner of Azkaban many years ago, I thought of creating my own. I started mapping and went two generations back — that was all that my family remembered. Mummy said, "People remember two generations up and two generations down. That's it." I was determined, but there was no obvious way.
 
 Some pundits in our ancestral village had a record of our family tree that we could access after paying a nominal fee. I was excited, but my father was not. "Too much travel for too little information", he said. I never expected he might be correct.
 
-Around 20 million people have purchased DNA test kits to trace their ancestry. However, there are so many "fine print" details that it is almost impossible to know how accurate they are.
+Around 30 million people have purchased DNA test kits to trace their ancestry. However, there are so many "fine print" details that it is almost impossible to know how accurate they are.
 
 There are two ways to trace ancestry. First is genealogy, where you trace your family tree — like I tried. You build a chart of your parents, grandparents and so on. The graph would grow at an exponential rate in a normal situation: $2^n$. Currently, I am at $n = 0$. It's only me. A generation before me would be two people, $2^1$; a generation before them would be four people, $2^2$, and so on.
 
