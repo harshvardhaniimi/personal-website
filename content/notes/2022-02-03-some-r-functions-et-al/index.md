@@ -16,57 +16,47 @@ On one fine day when I have enough time, they'll all be wrapped into a package h
 
 This function opens the data frame in Excel. Original credits to [Bruno Rodrigues](https://twitter.com/brodriguesco/status/1447468259725434886?s=20&t=CfH_SqI_DExZBaLKuSvZxA).
 
-```
-show_in_excel = function(.data)
-{
-   temp = paste0(tempfile(), ".csv")
-   write.csv(.data, temp)
-   fs::file_show(path = temp)
-}
-```
+    show_in_excel = function(.data)
+    {
+       temp = paste0(tempfile(), ".csv")
+       write.csv(.data, temp)
+       fs::file_show(path = temp)
+    }
 
 This can be used with pipes.
 
-```
-iris %>% 
-  show_in_excel()
-```
+    iris %>% 
+      show_in_excel()
 
 ## Convert Missing Values to Zero
 
 This function converts missing values in a vector to zero.
 
-```
-n2z = function(x)
-{
-   x = ifelse(is.na(x), 0, x)
-   return(x)
-}
-```
+    n2z = function(x)
+    {
+       x = ifelse(is.na(x), 0, x)
+       return(x)
+    }
 
 ## Finding Index of Missing Elements
 
 This function returns index of elements which are missing. Very useful in finding what observations are missing.
 
-```
-which.na = function(x)
-{
-   return(which(is.na(x)))
-}
-```
+    which.na = function(x)
+    {
+       return(which(is.na(x)))
+    }
 
 ## Removing Rows Based on Missing Values in a Column
 
 Sometimes, I do not want to `na.omit()` because it will treat all features equally. I want to check values only for one column.
 
-```
-na.rm.feature = function(x, colname)
-{
-   nas = which(is.na(x[,colname]))
-   x = x[-nas, ]
-   return(x)
-}
-```
+    na.rm.feature = function(x, colname)
+    {
+       nas = which(is.na(x[,colname]))
+       x = x[-nas, ]
+       return(x)
+    }
 
 ## Find row where a condition is satisfied
 
@@ -122,3 +112,10 @@ theme_h = function(base_size = 14) {
 }
 ```
 
+## Better Quality Images in R Markdown
+
+Using `.svg` as the image output format gives much better graphics quality than the default option. To use that, include the following code in R Markdown. [Source](https://stackoverflow.com/questions/64602680/how-to-set-svg-as-default-rendering-in-rmarkdown).
+
+    ```{r setup, include=FALSE}
+    knitr::opts_chunk$set(dev = 'svg') # set output device to svg
+    ```
