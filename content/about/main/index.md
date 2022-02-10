@@ -11,7 +11,7 @@ intro: |
 
   Solving real-world problems is my goal, and programming is my passion. Primarily, I code in R these days. I started coding in C++ and have light exposures to Java, C, SQL, HTML and Python. Apart from mathematics and statistics, I am also fond of philosophy, political economics and sociology.
   
-  I [read books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23), participate in adventure sports, and lift my spirits with Calvin and Hobbes in my free time. I like Bollywood music, and my playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is popular on Spotify.
+  In my free time, I [read books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23), participate in adventure sports, and lift my spirits with Calvin and Hobbes. [Spotify](https://open.spotify.com/user/6z25jqql0glx8o5aqhp8xkumr) has boosted how much I listen to music; my playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is popular on Spotify. But mostly, I just sit and think 🦦.
 
   [Curriculum vitae](/docs/cv.pdf)
   
