@@ -21,7 +21,7 @@ Then there are issues of reproducibility as well. Everyone is different from one
 
 What about individual behaviour? That's too wild to predict. Or is it? Internet companies are doing it so well. Facebook and Google have personalised services just for me. But that's still based on group patterns. The system looks for users like me and tries to make me like them.
 
-The real trouble is when we forget how inaccurate they are; when we fail to acknowledge their intelligence of a carrot and over rely on them. Situations like these result in false positives and fatal causalities. We need to provoke future statisticians and engineers on these humanely biased instincts. What do they think about it and why? The biggest lesson of education is not how to think but what to think.
+The real trouble is when we forget how inaccurate they are; when we fail to acknowledge their intelligence of a carrot and over rely on them. Situations like these result in false positives and fatal causalities. We need to provoke future statisticians and engineers on these humanely biased instincts. What do they think about it and why? The biggest lesson of education is not how to think but what to think about.
 
 The good thing is there is a solution. Just be a little more aware. How? Paul Graham has an idea.
 
