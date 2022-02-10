@@ -106,6 +106,10 @@ This page contains the articles, apps and videos that I've found engaging.
 
 -   [The Surprisingly Big Business of Library E-books \| The New Yorker](https://www.newyorker.com/news/annals-of-communications/an-app-called-libby-and-the-surprisingly-big-business-of-library-e-books)
 
+-   [Martha's Rules for Group Decision Making](https://third-bit.com/2019/06/13/marthas-rules/)
+
+-   [Greg Wilson's Ideas](https://third-bit.com/ideas/)
+
 ### Twitter Threads
 
 -   [Jessica Price on Twitter: "Since I've gotten a lot of "why won't you debate me?" in response to talking about tabletop/geekdom's problems, I'll tell you." / Twitter](https://twitter.com/Delafina777/status/839754651230601216)
@@ -182,8 +186,4 @@ This page contains the articles, apps and videos that I've found engaging.
 
 ------------------------------------------------------------------------
 
-## Revue
-
--   [How to set up a custom domain on Revue](https://blog.getrevue.co/how-to-set-up-a-custom-domain-on-revue-ab15ea351929)
-
--   [How to set up a custom domain on Revue -- in three easy steps](http://help.getrevue.co/en/articles/395396-how-to-set-up-a-custom-domain-on-revue-in-three-easy-steps)
+## 
