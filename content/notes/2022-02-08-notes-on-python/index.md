@@ -12,9 +12,22 @@ tags: []
 
 ## Installing Packages
 
-There are two ways: `pip` and `conda`. If you are using Anaconda (Navigator), use `conda`.
+There are ~~two~~ three ways: `pip`, `conda` and within Jupyter Hub. If you are using Anaconda (Navigator), use `conda`. `pip` will install for all environments; `conda` will install for conda environment only. Put either of these codes in Terminal.
+
+```{python}
+# using pip
+python -m pip install <package>
+
+# using conda
+conda install <package>
+```
+
+If it is a one off use case (which it usually never is), use the following command.
+
+```{python}
+!pip install <package>
+```
 
 ## Methods to Print
 
 There are two methods: `print()` and `pprint()`. They both serve the save cause but `pprint()` is better at displaying complex data structures such as list of lists or JSON files.
-
