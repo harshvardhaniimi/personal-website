@@ -43,9 +43,11 @@ Let's check it.
 
 ### Data
 
-Data on golf courses by US state is available at this [website](https://www.bls.gov/opub/ted/2018/golf-anyone-a-look-at-golf-courses-and-country-clubs-by-state.htm). I scrapped it into a `.CSV` file available here.
+Data on golf courses by US state is available at this [website](https://www.bls.gov/opub/ted/2018/golf-anyone-a-look-at-golf-courses-and-country-clubs-by-state.htm). I scrapped it into a `.CSV` file available [here](data/golf.csv).
 
 
 ```r
 #df = read.csv("")
 ```
+
+![](index.md)
