@@ -7,7 +7,6 @@ date: '2022-02-11'
 slug: classification-logistic-regression-and-random-forest
 categories:
   - R
-  - package
 tags: []
 ---
 
@@ -225,7 +224,7 @@ library(tidymodels)
 ## x dplyr::lag()      masks stats::lag()
 ## x yardstick::spec() masks readr::spec()
 ## x recipes::step()   masks stats::step()
-## • Search for functions across packages at https://www.tidymodels.org/find/
+## • Dig deeper into tidy modeling with R at https://www.tmwr.org
 ```
 
 ```r

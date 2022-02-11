@@ -7,7 +7,6 @@ date: '2022-02-11'
 slug: classification-logistic-regression-and-random-forest
 categories:
   - R
-  - package
 tags: []
 ---
 
