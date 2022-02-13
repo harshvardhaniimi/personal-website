@@ -17,7 +17,7 @@ Driving is probably the riskiest adventure you do all through the day. In fact, 
 
 [^2]: Statistics show that there is one tandem student fatality for every 500,000 tandem jumps. See [Oklahoma Skydiving](https://oklahomaskydiving.com/blog/how-safe-is-tandem-skydiving/) for more details.
 
-[^3]: Rauch et al. (2020) found an incidence of 2.5 accidents per 1000 mountaineers or 5.6 injuries per 10,000 hours of mountaineering. I have rounded the number for the purpose of my argument.
+[^3]: [Rauch et al. (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981967/) found an incidence of 2.5 accidents per 1000 mountaineers or 5.6 injuries per 10,000 hours of mountaineering. I have rounded the number for the purpose of my argument.
 
 [^4]: According to [Esurance](https://www.news9.com/story/5e6fca6cf86011d4820c3f2d/what-are-your-chances-of-getting-into-a-car-accident), the chances of an average American into a car accident during a 1,000 mile long trip are 1 in 366. I have rounded the number in my argument.
 
