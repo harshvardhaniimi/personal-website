@@ -46,6 +46,9 @@ Let's check it.
 Data on golf courses by US state is available at this [website](https://www.bls.gov/opub/ted/2018/golf-anyone-a-look-at-golf-courses-and-country-clubs-by-state.htm). I scrapped it into a `.CSV` file available [here](https://www.harsh17.in/using-linear-regression-to-find-optimal-value/data/golf.csv).
 
 
+
+
+
 ```r
 library(tidyverse)
 ```
@@ -68,6 +71,8 @@ library(tidyverse)
 ```
 
 ```r
+theme_set(theme_h())
+
 golf = read.csv("https://www.harsh17.in/using-linear-regression-to-find-optimal-value/data/golf.csv") %>% as_tibble()
 golf
 ```
@@ -150,7 +155,7 @@ df %>%
   geom_point(alpha = 0.5, show.legend = FALSE)
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 
 So there is a straightforward pattern that as the population increases, the number of golf courses increases. However, the variance also increases with population. When the population is around 20 million, golf courses can be about 600 or 800. There will likely be heteroskedasticity problems because of dependent variance if we directly apply a linear model.
 
@@ -248,4 +253,4 @@ df %>%
   geom_point(aes(X, Y), colour = "red", size = 2)
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
