@@ -11,11 +11,23 @@ categories:
 tags: []
 ---
 
-Driving is probably the riskiest adventure you do all through the day. In fact, 71 billion hours on the open roads in a year. The risk of accident while driving is much higher than most other adventures we undertake. Skydiving? One in 500,000. Mountaineering? One in a thousand. Driving? One in 400. Still, cars are the preference in the US. I guess habits are more potent than reason.
+Driving is probably the riskiest adventure you do all through the day. In fact, Americans spend over 71 billion hours on the open roads in a year.[^1] The risk of accident while driving is much higher than most other adventures we undertake. Skydiving? One in 500,000.[^2] Mountaineering? One in a thousand.[^3] Driving? One in 400.[^4] Still, cars are the preference in the US. I guess habits are more potent than reason.
+
+[^1]: According to American Driving Survey conducted by AAA Foundation for Traffic Safety. See [Zeke Hartner, WTOP](https://wtop.com/dc-transit/2019/02/highway-stars-survey-shows-americans-spent-71-billion-hours-on-the-open-roads-in-a-year/) for more details.
+
+[^2]: Statistics show that there is one tandem student fatality for every 500,000 tandem jumps. See [Oklahoma Skydiving](https://oklahomaskydiving.com/blog/how-safe-is-tandem-skydiving/) for more details.
+
+[^3]: Rauch et al. (2020) found an incidence of 2.5 accidents per 1000 mountaineers or 5.6 injuries per 10,000 hours of mountaineering. I have rounded the number for the purpose of my argument.
+
+[^4]: According to [Esurance](https://www.news9.com/story/5e6fca6cf86011d4820c3f2d/what-are-your-chances-of-getting-into-a-car-accident), the chances of an average American into a car accident during a 1,000 mile long trip are 1 in 366. I have rounded the number in my argument.
 
 Public transport in Europe is built differently. You'd see colossal parking lots for people flying out of the cities at the airports. The general trend is to get to the airport and then fly out. Contrast this with the US: people just drive through states with their luggage.
 
-There are good reasons for their choices, of course. Gasoline is cheaper in the US than in most of the world, thanks to billions of dollars spent researching how to make shale oil useful. In contrast, Europe provides the best locality for air travel. The area is full of mountains and difficult to drive terrain. Small-sized countries have at least one airport in their capital cities, and flights between countries are economical for apparent reasons.
+There are good reasons for their choices, of course. Gasoline is cheaper in the US than in most of the world, thanks to billions of dollars spent researching how to make shale oil useful.[^5] Road connectivity in US is probably the best I've seen so far. (My Chinese friends disagree but I can only confirm once I visit China.) The interstate system connects almost all cities and almost every region is accessible.
+
+[^5]: [Bloomberg](https://www.bloomberg.com/news/articles/2021-06-17/after-blowing-300-billion-u-s-shale-is-finally-making-money) has an excellent article on the topic: "After Blowing \$300 Billion, U.S. Shale Finally Makes Money".
+
+In contrast, Europe provides the best locality for air travel. The area is full of mountains and difficult to drive terrain. Small-sized countries have at least one airport in their capital cities, and flights between countries are economical for obvious reasons.
 
 Indian railway systems are economical for very different reasons. The peninsula allowed for dense railway tracks around the country. Coincidentally, high population density and high overall population ensure ridership volumes. The system is not profitable, but it doesn't have to be.
 
