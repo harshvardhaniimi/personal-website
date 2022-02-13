@@ -21,7 +21,7 @@ Indian railway systems are economical for very different reasons. The peninsula 
 
 The profitability of public utilities is a capitalist (and possibly American) concept. They wouldn't be "public utilities" if they were profitable --- they'd be business ventures. Some activities are not worthwhile for business, but we do them because they are necessary. Wars are largely non-profitable, but we still have them. Then why not public transport?
 
-The biggest reason is that not everyone can afford private transport. Cars are expensive, even if you ignore gas prices. You would spend \$200 per month on insurance, another \$200 on a parking permit --- and that's aside from the \$500 you pay for your car loan. In contrast, I can travel from any place to any place in India for a little over \$20. In many European countries and cities, they are free!
+However, the biggest reason is that not everyone can afford private transport. Cars are expensive, even if you ignore gas prices. Every month, you would spend \$200 on insurance, another \$200 on a parking permit --- and that's aside from the \$500 you pay for your car loan. In contrast, I can travel from any place to any place in India for a little over \$20. In many European countries and cities, they are free!
 
 Disadvantaged communities do not have equal access to necessities. I understand Right to Travel isn't a fundamental right, but the existence of government goes beyond ensuring fundamental rights. Milton Friedman identified four essential government roles in his book Free to Choose. The fourth one was helping disadvantaged communities in the best possible way --- the government's indirect support or direct activities.
 
