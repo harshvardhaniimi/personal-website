@@ -1,5 +1,5 @@
 ---
-title: Public Transport and Lack Thereof
+title: Public Transport & Lack Thereof
 subtitle: Why aren't we designing anything new?
 summary: Why aren't we designing anything new?
 author: Harshvardhan
