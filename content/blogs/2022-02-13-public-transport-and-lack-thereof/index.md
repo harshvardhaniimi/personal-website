@@ -23,9 +23,11 @@ Driving is probably the riskiest adventure you do all through the day. In fact, 
 
 Public transport in Europe is built differently. You'd see colossal parking lots for people flying out of the cities at the airports. The general trend is to get to the airport and then fly out. Contrast this with the US: people just drive through states with their luggage.
 
-There are good reasons for their choices, of course. Gasoline is cheaper in the US than in most of the world, thanks to billions of dollars spent researching how to make shale oil useful.[^5] Road connectivity in US is probably the best I've seen so far. (My Chinese friends disagree but I can only confirm once I visit China.) The interstate system connects almost all cities and almost every region is accessible.
+There are good reasons for their choices, of course. Gasoline is cheaper in the US than in most of the world, thanks to billions of dollars spent researching how to make shale oil useful.[^5] Road connectivity in US is probably the best I've seen so far.[^6] The interstate system connects almost all cities and almost every region is accessible.
 
 [^5]: [Bloomberg](https://www.bloomberg.com/news/articles/2021-06-17/after-blowing-300-billion-u-s-shale-is-finally-making-money) has an excellent article on the topic: "After Blowing \$300 Billion, U.S. Shale Finally Makes Money".
+
+[^6]: My Chinese friends disagree but I can only confirm once I visit China myself.
 
 In contrast, Europe provides the best locality for air travel. The area is full of mountains and difficult to drive terrain. Small-sized countries have at least one airport in their capital cities, and flights between countries are economical for obvious reasons.
 
