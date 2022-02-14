@@ -1,6 +1,6 @@
 ---
 title: Statistical Modelling and Analysis of the Computer-Simulated Datasets
-summary: Over the last two decades, the science has come a long way from relying on only physical experiments and observations to experimentation using computer simulators. This chapter focuses on the modelling and analysis of data arising from computer simulators. It turns out that traditional statistical metamodels are often not very useful for analyzing such datasets. For deterministic computer simulators, the realizations of Gaussian Process (GP) models are commonly used for fitting a surrogate statistical metamodel of the simulator output. This peer-reviewed book chapter reviews GP models, their numerical stability due to near-singularity of spatial correlation structures. We also presented generalisations of GP model and reviewed algorithms for big data.
+summary: "My first academic publication: a peer-reviewed book chapter on statistical modelling using Gaussian processes. We reviewed several GP models and correlation structures, and methods to handle numerical instabilities due to near-singular matrices. Finally, we reviewed several algorithms developed specifically for analysing big data obtained from computer simulators." 
 author: Harshvardhan
 date: '2019-01-31'
 slug: statistical-modelling-and-analysis-of-the-computer-simulated-datasets
