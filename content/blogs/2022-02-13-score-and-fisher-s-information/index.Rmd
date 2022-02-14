@@ -83,7 +83,7 @@ $$
 E \left[ \frac{\frac{\partial^2}{\partial \theta^2} f(X; \theta)}{f(X; \theta)} \bigg\rvert \theta \right] = \frac{\partial^2}{\partial \theta^2} \int_\mathbb{R} f(x; \theta) dx = 0,
 $$
 
-as proved earlier in Score.
+as proved earlier in Score. Putting this result in the last equation, we obtain the expected result.
 
 ## Cramer-Rao Bound
 
