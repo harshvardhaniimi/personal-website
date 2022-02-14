@@ -1,6 +1,6 @@
 ---
 title: Academic Publications
-description: Each article's abstract is provided on this page. PDF copies of the publications can be downloaded from an article's page. If you have any questions, [shoot an email](mailto:hello@harsh17.in).
+description: PDF copies of the publications can be downloaded from an article's page. If you have any questions, [shoot an email](mailto:hello@harsh17.in).
 author: "Harshvardhan"
 show_post_thumbnail: false
 thumbnail_left: false
