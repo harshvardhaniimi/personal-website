@@ -1,0 +1,99 @@
+---
+title: Notes on STATA
+subtitle: Some nitty-gritties that economists remember but I don't
+summary: Some nitty-gritties that economists remember but I don't
+author: Harshvardhan
+date: '2022-02-16'
+slug: notes-on-stata
+categories:
+  - STATA
+  - economics
+tags: []
+---
+
+#### Conventions through this page
+
+`x` is the name of the variable.
+
+------------------------------------------------------------------------
+
+### Clear all items from memory
+
+``` stata
+clear all
+```
+
+See [documentation](https://www.stata.com/manuals13/dclear.pdf) for details.
+
+### Display all items
+
+``` stata
+list
+```
+
+### Display first element only (useful for a scalar)
+
+``` stata
+di x
+```
+
+### Setting number of observations
+
+``` stata
+qui set obs 30
+```
+
+`qui` says this command is executed quietly, i.e. with no output.
+
+### Summary of a variable
+
+``` stata
+summarize x
+```
+
+This will number of observations, mean, standard deviation, minimum and maximum.
+
+### Describe
+
+``` stata
+describe x
+```
+
+This will tell us the type of variable it is.
+
+# Functions
+
+Functions in Stata are called Programs. See [documentation](https://www.stata.com/manuals13/rsimulate.pdf).
+
+Below is a sample program named `onesample` that generates 30 uniform random numbers and calculates their mean. We do need to specify `rclass` to specify the kind of return for the function. Other options is `eclass`.
+
+`drop _all` is different from `drop all` ; the former drops all observations and the latter looks for a variable named `all` and deletes that.
+
+``` stata
+program onesample, rclass
+	drop _all
+    qui set obs 30
+    gen x = runiform()
+	summ x
+	return scalar mean = r(mean)
+end
+```
+
+# Monte Carlo Simulation
+
+If the function is defined as above, we can use the following codes to perform Monte Carlo simulation.
+
+``` stata
+* Simulate it 10000 times
+simulate xbar = r(mean), seed(0) reps(10000): onesample
+```
+
+# Visualisation
+
+### Histogram
+
+``` stata
+hist x, width(0.1) title("Histogram of x")
+```
+
+See [documentation](https://www.stata.com/manuals/rhistogram.pdf) for details.
