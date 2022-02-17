@@ -1,7 +1,7 @@
 ---
-title: Some R Functions et al
-subtitle: Notes on R that are statistically significant 
-summary: Notes on R that are statistically significant 
+title: Notes on R
+subtitle: Functions et al
+summary: Functions et al
 author: Harshvardhan
 date: '2022-02-03'
 slug: some-r-functions

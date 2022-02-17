@@ -23,6 +23,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*There is always a well-known solution to every human problem---neat, plausible, and wrong.* --- H.L. Mencken
+
 *You are only as young as the last time you changed your mind.* --- Kevin Kelly
 
 *Be governed not by the tyranny of the urgent but by the elevation of the important.* --- Kevin Kelly
