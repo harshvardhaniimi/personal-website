@@ -18,7 +18,7 @@ categories:
 tags: []
 ---
 
-This page contains the articles, apps and videos that I've found engaging.
+This page contains the articles, apps and videos that I've found engaging. \[Not frequently updated since I started using Notion web scrapper.\]
 
 ------------------------------------------------------------------------
 
@@ -86,7 +86,7 @@ This page contains the articles, apps and videos that I've found engaging.
 
 ------------------------------------------------------------------------
 
-## Ideas
+## Other Good Reads
 
 ### Articles
 
@@ -109,6 +109,8 @@ This page contains the articles, apps and videos that I've found engaging.
 -   [Martha's Rules for Group Decision Making](https://third-bit.com/2019/06/13/marthas-rules/)
 
 -   [Greg Wilson's Ideas](https://third-bit.com/ideas/)
+
+-   [Searching for Susy Thunder](https://www.theverge.com/c/22889425/susy-thunder-headley-hackers-phone-phreakers-claire-evans)
 
 ### Twitter Threads
 
