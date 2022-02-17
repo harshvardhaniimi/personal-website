@@ -1,7 +1,7 @@
 ---
 title: What I Find Interesting
-subtitle: Podcasts and Comics
-excerpt: Podcasts and Comics that I Like
+subtitle: Podcasts, Comics, Blogs and Essays
+excerpt: Podcasts, Comics, Blogs and Essays
 author: Harshvardhan
 date: '2021-06-19'
 slug: []
@@ -37,32 +37,65 @@ editor_options:
 ### Industry Research Blogs
 
 -   [Reserach at Spotify](https://research.atspotify.com/blog/)
+
 -   [Facebook's General Blog](https://www.facebook.com/formedia/blog)
+
 -   [Research at Facebook](https://research.fb.com/blog/)
+
 -   [The Unofficial Google Data Science Blog](https://www.unofficialgoogledatascience.com/)
+
 -   [Google AI Blog](https://ai.googleblog.com/)
+
 -   [Netflix Tech Blog](https://netflixtechblog.com/)
+
 -   [Netflix Research](https://research.netflix.com/articles)
+
 -   [Netflix Blog](https://about.netflix.com/en/newsroom)
 
-### People
+### Personal Blogs
 
--   [Vicki Boykis](http://vickiboykis.com/) (builds recommender systems for Tumblr at Automattic)
+-   [Vicki Boykis](http://vickiboykis.com/)
+
 -   [emmabostian/developer-portfolios: A list of developer portfolios for your inspiration](https://github.com/emmabostian/developer-portfolios)
+
 -   [Ximena Vengoechea](https://www.ximenavengoechea.com/)
+
 -   [Who is 'Red'? - Red Russak](http://redrussak.com/)
+
 -   [Debarghya Das](http://debarghyadas.com/)
+
 -   [Yihui Xie \| 谢益辉](https://yihui.org/)
+
 -   [Alison Hill](https://www.apreshill.com/)
+
 -   [Jacqueline Nolis](https://jnolis.com/)
+
 -   [Home \| The Tidy Trekker](https://www.thetidytrekker.com/)
+
 -   [ijeamaka anyene](https://ijeamaka-anyene.netlify.app/index.html)
+
 -   [Brendan Cullen](https://bcullen.rbind.io/)
+
 -   [Allison Horst](https://www.allisonhorst.com/)
+
 -   [Stephanie Kirmer](https://skirmer.github.io/)
+
 -   [Cédric Scherer - Cédric Scherer](https://www.cedricscherer.com/)
+
 -   [Amber Thomas Data Portfolio & Blog \| Amber Thomas Data Portfolio & Blog](https://amber.rbind.io/)
+
 -   [Jesse Mostipak](https://www.jessemaegan.com/)
+
 -   [Sara A. Stoudt, PhD](https://sastoudt.github.io/)
+
 -   [Hooked on Data, Emily Robinson](https://hookedondata.org/)
+
 -   [Kara Woo](https://karawoo.com/)
+
+### Essayists
+
+-   [Paul Graham](http://www.paulgraham.com/articles.html)
+
+-   [Kevin Kelly](https://kk.org/thetechnium/)
+
+-   [Vicki Boykis](https://vickiboykis.com/essays/)
