@@ -92,6 +92,8 @@ editor_options:
 
 -   [Kara Woo](https://karawoo.com/)
 
+-   [Greg Wilson](https://third-bit.com)
+
 ### Essayists
 
 -   [Paul Graham](http://www.paulgraham.com/articles.html)
@@ -99,3 +101,5 @@ editor_options:
 -   [Kevin Kelly](https://kk.org/thetechnium/)
 
 -   [Vicki Boykis](https://vickiboykis.com/essays/)
+
+-   [Greg Wilson](https://third-bit.com/blog/)
