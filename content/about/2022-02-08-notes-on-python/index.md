@@ -14,7 +14,8 @@ tags: []
 
 There are ~~two~~ three ways: `pip`, `conda` and within Jupyter Hub. If you are using Anaconda (Navigator), use `conda`. `pip` will install for all environments; `conda` will install for conda environment only. Put either of these codes in Terminal.
 
-```{python}
+
+```r
 # using pip
 python -m pip install <package>
 
@@ -24,7 +25,8 @@ conda install <package>
 
 If it is a one off use case (which it usually never is), use the following command.
 
-```{python}
+
+```r
 !pip install <package>
 ```
 
