@@ -20,6 +20,8 @@ Static Slides: [PDF](https://www.harsh17.in/docs/talks/iweb-talk.pdf)
 
 Session Recording: [YouTube](https://www.youtube.com/watch?v=qZJ9lusozvo)
 
+I also demonstrate [Owlstown's](https://www.owlstown.com) tool --- which I found to be most beginner friendly. It starts at [27:00 in the above YouTube video](https://youtu.be/qZJ9lusozvo?t=1676).
+
 ------------------------------------------------------------------------
 
 #### Abstract
@@ -32,4 +34,10 @@ I was thrilled to present this talk at the Trenton R Users group. Generally spea
 
 ![](https://www.harsh17.in/iweb/images/iweb_poster.png "I Web, Therefore I Exist Poster")
 
-**TRU Meetup Link: <https://www.meetup.com/TRUgroup/events/282732043/>**
+------------------------------------------------------------------------
+
+# Owlstown tweeted about my talk!!!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/harshbutjust?ref_src=twsrc%5Etfw">@harshbutjust</a> gave a talk for academics on creating and controlling your digital identity.<br><br>Video: <a href="https://t.co/5hxCGhiRtZ">https://t.co/5hxCGhiRtZ</a><br>Details with links to slides and PDF: <a href="https://t.co/EasqyZfIfA">https://t.co/EasqyZfIfA</a><a href="https://twitter.com/hashtag/AcademicChatter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicChatter</a> <a href="https://twitter.com/hashtag/AcademicTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicTwitter</a> <a href="https://twitter.com/PhDVoice?ref_src=twsrc%5Etfw">@PhDVoice</a></p>&mdash; Owlstown - Academic Website Builder (@owlstown) <a href="https://twitter.com/owlstown/status/1489615622287896582?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> charset="utf-8">\</script>
+
+I was on seventh cloud when I first saw it.
