@@ -1,5 +1,7 @@
 ---
 title: Three Rules for Life
+subtitle: Constants, not variables
+summary: Constants, not variables
 author: Harshvardhan
 date: '2022-02-18'
 slug: three-rules-for-life
