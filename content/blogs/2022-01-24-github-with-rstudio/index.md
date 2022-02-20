@@ -11,7 +11,41 @@ tags:
   - R
 ---
 
-## Starting a Project or Password Conflicts
+# Starting a New Project
+
+### Step 1: Create a Github Repository
+
+Go to github.com and create a new repository. Copy it's link.
+
+![Creating a new repository in Github](images/Screen%20Shot%202022-02-19%20at%2011.19.01%20PM.png)
+
+It could be private or public depending on your whims. Public repositories are public --- other users can see and fork it. Forking is a fancy term for copying to their Github. Private repositories are seen only to you. I'd also recommend to add a README file. Project description goes here. Once you create your repository, copy the link to it. Not SSH link but link visible in your browser.
+
+### Step 2: Create a New R Project
+
+In RStudio, head over to File -> New Project. In that, select the option for version control (git). Paste the link to your newly created repository.
+
+![Choosing version control, Git and pasting link to your repository.](images/Screen%20Shot%202022-02-19%20at%2011.23.05%20PM.png)
+
+Once you do that, the newly created project will be synced with Github repository. You can make changes and then "commit" to your online repository.
+
+### Step 3: Commit Changes!
+
+The last step is to create files that you want.
+
+![Creating a dummy R Markdown file for demonstration](images/Screen%20Shot%202022-02-19%20at%2011.40.18%20PM.png)
+
+Finally, commit the changes.
+
+![Top right "Git" pane in RStudio](images/Screen%20Shot%202022-02-19%20at%2011.29.32%20PM.png)
+
+In the top right corner of RStudio, tick all the changes you want to commit. Then add a message to the "commit message" box in the top right corner. This message is a record of what changes you did. (My advice is to use this to explain your intent rather than explain the changes. Changes are trivial to trace thanks to Git, but "why" is easy to forget.)
+
+You'll have the results available (almost) immediately.
+
+![I haven't used very informative commit messages for this. Beg your pardon for that.](images/Screen%20Shot%202022-02-19%20at%2011.45.29%20PM.png)
+
+# Handling Passwords
 
 If you are starting a project, jump to this. If you had a project that used password for commits (discontinued today, Aug 13 2021), jump to the first article. If it still does not resolve your issues, try the next three in that order.
 
