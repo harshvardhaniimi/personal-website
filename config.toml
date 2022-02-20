@@ -147,7 +147,7 @@ enableRobotsTXT = true
     url = "/notes/"
     weight = 6
   [[menu.header]]
-    name = "Next"
+    name = "Newsletter"
     title = "Next — Today I Learned About R"
     url = "https://www.getrevue.co/profile/harshbutjust"
     weight = 7
