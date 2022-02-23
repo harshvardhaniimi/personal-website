@@ -11,6 +11,8 @@ categories:
 tags: []
 ---
 
+![](driving.jpg)
+
 Driving is probably the riskiest adventure you do all through the day. In fact, Americans spend over 71 billion hours on the open roads in a year.[^1] The risk of accident while driving is much higher than most other adventures we undertake. Skydiving? One in 500,000.[^2] Mountaineering? One in a thousand.[^3] Driving? One in 400.[^4] Still, cars are the preference in the US. I guess habits are more potent than reason.
 
 [^1]: According to American Driving Survey conducted by AAA Foundation for Traffic Safety. See [Zeke Hartner, WTOP](https://wtop.com/dc-transit/2019/02/highway-stars-survey-shows-americans-spent-71-billion-hours-on-the-open-roads-in-a-year/) for more details.
@@ -30,6 +32,8 @@ There are good reasons for their choices, of course. Gasoline is cheaper in the 
 [^6]: My Chinese friends disagree but I can only confirm once I visit China myself.
 
 In contrast, Europe provides the best locality for air travel. The area is full of mountains and difficult to drive terrain. Small-sized countries have at least one airport in their capital cities, and flights between countries are economical for obvious reasons.
+
+![](indian-railway.jpg)
 
 Indian railway systems are economical for very different reasons. The peninsula allowed for dense railway tracks around the country. Coincidentally, high population density and high overall population ensure ridership volumes. The system is not profitable, but it doesn't have to be.
 

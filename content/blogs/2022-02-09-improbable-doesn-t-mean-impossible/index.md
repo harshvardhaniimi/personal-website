@@ -11,6 +11,8 @@ categories:
 tags: []
 ---
 
+![Everyone thought there were no black swans until someone caught them sunbathing in Australia.](featured.jpg)
+
 Once I learned enough statistics, I realised that being true for most of the population doesn't mean it's true for all folks. Most algorithms are approximately wrong. Considering both of these statements, all of what we know could be false. Improbable but not impossible.
 
 Scientists considered everything that could've impacted our survival today to calculate our probability of existence. They considered the solar storms that the earth faced, the asteroids that killed dinosaurs, the wars we all survived. The chance of us being alive today is one in four hundred trillion.[^1] That is, 1:400,000,000,000,000. With fourteen zeros. A perfect example of improbable but not impossible.

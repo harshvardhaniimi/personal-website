@@ -14,6 +14,8 @@ tags:
   - life
 ---
 
+![Sirius Black's Family Tree as seen in Harry Potter and the Order of the Phoenix.](Black-Family-Tree.jpg "Sirius Black's Family Tree as seen in Harry Potter and the Order of the Phoenix.")
+
 When I first saw Sirius Black's family tree in Harry Potter: Prisoner of Azkaban many years ago, I thought of creating my own. I started mapping and went two generations back --- that was all that my family remembered. Mummy said, "People remember two generations up and two generations down. That's it." I was determined, but there was no obvious way.
 
 Some pundits in our ancestral village had a record of our family tree that we could access after paying a nominal fee. I was excited, but my father was not. "Too much travel for too little information", he said. I never expected he might be correct.

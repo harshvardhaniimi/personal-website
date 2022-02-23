@@ -94,6 +94,8 @@ editor_options:
 
 -   [Greg Wilson](https://third-bit.com)
 
+-   [Haystacks by Caitlin Hudon](https://www.caitlinhudon.com/)
+
 ### Essayists
 
 -   [Paul Graham](http://www.paulgraham.com/articles.html)
