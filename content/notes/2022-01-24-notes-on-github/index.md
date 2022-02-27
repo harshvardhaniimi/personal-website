@@ -1,17 +1,23 @@
 ---
-title: Github with RStudio
+title: Notes on Github
 subtitle: Tricks of trade I learnt along the way
 summary: Tricks of trade I learnt along the way
 author: Harshvardhan
 date: '2022-01-24'
-slug: github-rstudio
+slug: notes-on-github
 categories:
   - R
 tags:
   - R
 ---
 
-# Starting a New Project
+------------------------------------------------------------------------
+
+# RStudio
+
+Using Github is the popular method of version control in RStudio. I have struggled with managing Github with RStudio. In this section, I will put together pieces from different sources to fix your issues or get started with it.
+
+## Starting a New Project
 
 ### Step 1: Create a Github Repository
 
