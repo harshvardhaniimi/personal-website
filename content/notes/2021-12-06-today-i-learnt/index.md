@@ -18,7 +18,7 @@ categories:
 tags: []
 ---
 
-This page contains the articles, apps and videos that I've found engaging. \[Not frequently updated since I started using [Notion](https://www.notion.so/415585b6ae8144f683ef98e961e3b166?v=9abfa8b49ef54100a30deb82bcdf3748).\]
+This page contains the articles, apps and videos that I've found engaging. Not frequently updated since I started using [Notion](https://www.notion.so/415585b6ae8144f683ef98e961e3b166?v=9abfa8b49ef54100a30deb82bcdf3748).
 
 ------------------------------------------------------------------------
 

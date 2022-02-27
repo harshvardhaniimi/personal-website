@@ -107,3 +107,4 @@ The best part is that it also works for exact text placements.
 ```
 
 -   **Drawing any symbol:** It is difficult to find the appropriate symbol every time, so use [Detexify](http://detexify.kirelabs.org/classify.html) to identify what you need.
+-   Writing algorithms in LaTeX. Use `algorithm` and `algorithmic`.

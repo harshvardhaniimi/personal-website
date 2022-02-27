@@ -96,6 +96,8 @@ editor_options:
 
 -   [Haystacks by Caitlin Hudon](https://www.caitlinhudon.com/)
 
+-   [Little Miss Data](https://www.littlemissdata.com/)
+
 ### Essayists
 
 -   [Paul Graham](http://www.paulgraham.com/articles.html)
