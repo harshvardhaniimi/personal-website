@@ -7,6 +7,6 @@ layout: standard
 show_title_as_headline: true
 ---
 
-My [blogs](/blog/) are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). You are free to share and adapt the content for personal and professional needs. However, give appropriate credit when necessary.
+It would be best to assume all work on my site to have all rights reserved. The exceptions are projects or files that I don't own but hosting; the reader would be appraised when appropriate.
 
-All other works should be assumed to have all rights reserved. In case you need to reproduce or republish something somewhere, please email me at [hello@harsh17.in](mailto:hello@harsh17.in).
+If you need to reproduce or republish something somewhere, please email me at [hello\@harsh17.in](mailto:hello@harsh17.in "Write to Harsh").
