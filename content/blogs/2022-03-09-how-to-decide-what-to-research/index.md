@@ -1,10 +1,10 @@
 ---
-title: How to Decide What to Do?
+title: How to Decide What to Research?
 subtitle: My Learnings from A Casual Interview of Prof Emre Demirkaya
 summary: My Learnings from A Casual Interview of Prof Emre Demirkaya
 author: Harshvardhan
 date: '2022-03-09'
-slug: how-to-decide-what-to-do
+slug: how-to-decide-what-to-research
 categories:
   - life
   - thoughts
@@ -45,7 +45,9 @@ I asked him another more straightforward question, "how do you decide which jour
 
 His advice was to read the papers published recently by that journal and then decide if your article is like theirs. Old articles by that journal might not be suitable; new editors and managers change their research directions often. Some journals require that papers have a rigorous discussion on theoretical aspects while others focus on simulation results.
 
-![The methods to communicate research findings has changed significantly over the century. Earlier, it used to be centered around selected universities, some Royal Societies and occasional private institutions like RAND. Today, the dynamics have significantly changed. Growth of computing is an important catalyst too. Blogs and personal websites have supported individual control. Publications are searched through Google Scholar instead of a librarian. Package documentation websites are more read than foundational paper on the topic. I wondered if journal publications are going to lose their importance to quality online literature available for free.](images/publications.png) \> The methods to communicate research findings has changed significantly over the century. Earlier, it used to be centered around selected universities, some Royal Societies and occasional private institutions like RAND. Today, the dynamics have significantly changed. Growth of computing is an important catalyst too. Blogs and personal websites have supported individual control. Publications are searched through Google Scholar instead of a librarian. Package documentation websites are more read than foundational paper on the topic. I wondered if journal publications are going to lose their importance to quality online literature available for free.
+![The methods to communicate research findings has changed significantly over the century. Earlier, it used to be centered around selected universities, some Royal Societies and occasional private institutions like RAND. Today, the dynamics have significantly changed. Growth of computing is an important catalyst too. Blogs and personal websites have supported individual control. Publications are searched through Google Scholar instead of a librarian. Package documentation websites are more read than foundational paper on the topic. I wondered if journal publications are going to lose their importance to quality online literature available for free.](images/publications.png)
+
+> The methods to communicate research findings has changed significantly over the century. Earlier, it used to be centered around selected universities, some Royal Societies and occasional private institutions like RAND. Today, the dynamics have significantly changed. Growth of computing is an important catalyst too. Blogs and personal websites have supported individual control. Publications are searched through Google Scholar instead of a librarian. Package documentation websites are more read than foundational paper on the topic. I wondered if journal publications are going to lose their importance to quality online literature available for free.
 
 I asked him if he considers the possibility that research published on the open internet on blogs and Github would eat away the fiefdom of academic journals. He doesn't think that is a possibility. The system does have some issues: peer-review isn't a golden standard. But that doesn't mean blogs and Github can rule. arXiv and SSRN may work better in some instances, significantly better than low-tier journals. However, the top journals, which are a handful and have very high impact, aren't going away anytime soon. Blogs would help popularise research, but they cannot replace top journals anytime more quickly.
 
