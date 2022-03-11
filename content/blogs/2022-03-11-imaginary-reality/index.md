@@ -3,7 +3,7 @@ title: Imaginary Reality
 subtitle: Metaphysics of Imaginary Numbers
 summary: Metaphysics of Imaginary Numbers
 author: Harshvardhan
-date: '2022-03-10'
+date: '2022-03-11'
 slug: imaginary-reality
 categories:
   - thoughts
