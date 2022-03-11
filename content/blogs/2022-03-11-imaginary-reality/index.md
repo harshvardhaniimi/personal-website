@@ -22,14 +22,20 @@ Imaginary numbers are very real. Consider trigonometry. The angles and ratios ar
 `\(\exp(ix)\)` can be decomposed with `\(\sin (x)\)` and `\(\cos(x)\)` using the following formulas.
 
 $$
-\exp(ix) = \cos (x) + i \sin(x) \\
+\exp(ix) = \cos (x) + i \sin(x),
+$$
+
+$$
 \exp(-ix) = \cos(x) - i \sin(x).
 $$
 
 Now, add up the two equations to get the value of `\(\cos(x)\)` and `\(\sin(x)\)`.
 
 $$
-\cos(x) = \frac{\exp(ix) + \exp(-ix)}{2} \\
+\cos(x) = \frac{\exp(ix) + \exp(-ix)}{2},
+$$
+
+$$
 \sin(x) = \frac{\exp(ix) - \exp(-ix)}{2}.
 $$
 
