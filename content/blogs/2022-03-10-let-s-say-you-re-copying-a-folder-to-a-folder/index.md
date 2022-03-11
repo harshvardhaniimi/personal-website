@@ -13,23 +13,21 @@ categories:
 tags: []
 ---
 
-The folder A --- from which we stuff has to be copied --- has five subfolders, each with 1, 2, 3, 4 and five files, respectively. For simplicity, consider the case that each file is of equal size. When copying the files from A to B, how would you count the progress?
+Imagine a folder A from whose content is to be copied to a folder B. A has five subfolders, each with 1, 2, 3, 4 and five files, respectively. For simplicity, consider the case that each file is of equal size. When copying the files from A to B, how would you count the progress?
 
-Total number of files is `\(1 + 2 + 3 + 4 + 5 = 15\)`. So, should the progress be measured in the intervals of 1/15? On the other hand, folders can be divided as `\(1, 1/2 \times 2, 1/3 \times 3, 1/4 \times 4, 1/5 \times 5.\)`
+Total number of files is 1 + 2 + 3 + 4 + 5 = 15. One way the progress can be measured in the intervals of 1/15? On the other hand, folders can be divided as 1, 1/2 x 2, 1/3 x 3, 1/4 x 4, 1/5 x 5.
 
-When the first folder is done, the progress would be 20%, then 30%, 40%, 45%, 50%, 55%, 60%, and so on. The latter would be incredibly frustrating. But it is possible.
+When the first folder is done, the progress would be 20%, then 30%, 40%, 45%, 50%, 55%, 60%, and so on. The latter would be incredibly frustrating to watch. But it is possible.
 
-The example might sound trivial and unreal, but it is incredible how often it turns up in real practical problems --- including cooking and supply chain statistics.
+This example might sound trivial and unreal, but it is incredible how often it turns up in real practical problems --- including cooking and supply chain statistics.
 
 My roommate Tagg has a unique way of making ramen noodles. He would bring the water to boil, pour the ramen in, leave it for less than a minute and put many seasonings on top. My other roommate Jack pours most of the water out and then lets it sit with the seasoning to soak in the spices. Tommy and Jake boil it with the herb and dry every drop of water. They like raw ramen noodles.
 
-Which one's better? I can't say definitely. (Although I like Tagg's method.)
+Which one's better? I can't say definitely. (Although I like Tagg's method, [this NY Times recipe](https://cooking.nytimes.com/recipes/1016583-perfect-instant-ramen) is the best.)
 
-I am working on a consulting research project with a hygiene products company based in North Carolina. It was facing many returns, sometimes up to 15% of its sales. Prof Sean[^1] and I were trying to find why. We found opportunities to streamline distribution using the data they provided for sales, transportation, and claims.
+I am working on a research project with a hygiene products company based in North Carolina. It's facing returns, sometimes up to 15% of its sales. Prof Sean1 and I were trying to find why. We found opportunities to streamline distribution using their data for sales, transportation, and claims.
 
-[^1]: [Prof Sean Willems](https://seanwillems.com/) is my PhD advisor at the University of Tennessee.
-
-But this problem of choosing the "how" to calculate the metric turned up in something I thought was super simple. The company gave sales, transportation and products datasets. See the following examples. They're not real of course, but give you a good idea.
+But this problem of choosing the "how" to calculate the metric turned up in something I thought was super simple. The company gave sales, transportation and products datasets. See the following examples. Of course, they're not real, but they give you a good idea.
 
 ![](images/Screen%20Shot%202022-03-10%20at%203.39.36%20PM.png)
 
@@ -37,15 +35,15 @@ But this problem of choosing the "how" to calculate the metric turned up in some
 
 ![](images/Screen%20Shot%202022-03-10%20at%203.41.01%20PM.png)
 
-> These datasets have random values and aren't real. But they give you a taste of what we were provided by the company.
+> These datasets have random values and aren't real. But they give you a taste of what the company provided us.
 
-Deciding on the metrics is way more complicated than I initially thought. Consider you want to estimate how many orders shipped from a location were shipped in a complete pallet. Where do you start? Well, each item was in a carton which was in a pallet.
+### Deciding on the metrics is way more complicated than I initially thought. Consider you want to estimate how many orders shipped from a location were shipped in a complete pallet. Where do you start? Well, each item was in a carton which was in a pallet.
 
-We want to estimate the *proportion of orders* from a *location* in *full pallets*. There are at least two methods to find it.
+We want to estimate the *proportion of orders* from a *location* in *full pallets*. There are at least two methods to find it.
 
-First, I find the number of *full* pallets for every row since each row (in Sales sheet) is an order-item combination. Group all the entries by an order number; then, you can find what proportion of cases were sent in full pallets. But that is for every order and we wanted to get metrics by location. So, you can aggregate the results again by (City, State) and calculate the average proportion of total pallet cases.
+First, I find the number of *full* pallets for every row since each row (in the Sales sheet) is an order-item combination. Group all the entries by an order number; then, you can find what proportion of cases were sent in full pallets. But that is for every order, and we wanted to get metrics by location. So, you can aggregate the results again by (City, State) and calculate the average proportion of total pallet cases.
 
-Or, the other method is to group by (City, State) without first grouping by order number. This would disregard which items were part of which order, or that some orders were larger than others. There's no reason they should be the same unless all items were the same.
+Or, the other method is to group by (City, State) without first grouping by order number. This would disregard which items were part of which order --- breaking 1-to-1 matches. Some orders would be higher volume than others. There's no reason they should be the same unless all items were the same.
 
 This situation of defining the right metric turns up in so many different ways. How we aggregate things together matters because the end product depends not only on raw materials but the method as well. Simple things aren't as intuitive as one might think. Ultimately, we have to use the metric that the company likes to use.
 
@@ -55,8 +53,8 @@ This situation of defining the right metric turns up in so many different ways. 
 
 -   Specify what your metric represents and what it doesn't represent. You'll avoid situations where your metric is misused.
 
--   Always consider what the company or client thinks about your metrics and their businesses. If they don't agree to your formulation, your metric will be just another number.
+-   Always consider what the company or client thinks about your metrics and their businesses. If they disagree with your formulation, your metric will be just another number.
 
--   There is more variability that what a statistical model can capture. Listen to managers; they've more knowledge about their businesses than you'd ever have.
+-   There is more variability than what a statistical model can capture. Listen to managers; they've more knowledge about their businesses than you'd ever have.
 
 [![](https://imgs.xkcd.com/comics/standards.png)](https://xkcd.com/927/)
