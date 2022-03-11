@@ -15,11 +15,13 @@ tags: []
 
 The folder A --- from which we stuff has to be copied --- has five subfolders, each with 1, 2, 3, 4 and five files, respectively. For simplicity, consider the case that each file is of equal size. When copying the files from A to B, how would you count the progress?
 
-Total number of files is $1 + 2 + 3 + 4 + 5 = 15$. So, should the progress be measured in the intervals of 1/15? On the other hand, folders can be divided as $1, 1/2 \times 2, 1/3 \times 3, 1/4 \times 4, 1/5 \times 5$. So, when the first folder is done, the progress would be 20%, then 30%, 40%, 45%, 50%, 55%, 60%, and so on. The latter would be incredibly frustrating. But it is possible.
+Total number of files is $1 + 2 + 3 + 4 + 5 = 15$. So, should the progress be measured in the intervals of 1/15? On the other hand, folders can be divided as $1, 1/2 \times 2, 1/3 \times 3, 1/4 \times 4, 1/5 \times 5.$
+
+When the first folder is done, the progress would be 20%, then 30%, 40%, 45%, 50%, 55%, 60%, and so on. The latter would be incredibly frustrating. But it is possible.
 
 The example might sound trivial and unreal, but it is incredible how often it turns up in real practical problems --- including cooking and supply chain statistics.
 
-My roommate Tagg has a unique way of making ramen noodles. He would bring the water to boil, pour the ramen in, leave it for less than a minute and put many seasonings on top. My other roommate Jack pours all the water out and then lets it sit with the seasoning to soak in the spices. Tommy and Jake boil it with the herb and dry every drop of water. They like raw ramen noodles.
+My roommate Tagg has a unique way of making ramen noodles. He would bring the water to boil, pour the ramen in, leave it for less than a minute and put many seasonings on top. My other roommate Jack pours most of the water out and then lets it sit with the seasoning to soak in the spices. Tommy and Jake boil it with the herb and dry every drop of water. They like raw ramen noodles.
 
 Which one's better? I can't say definitely. (Although I like Tagg's method.)
 
@@ -47,7 +49,7 @@ Or, the other method is to group by (City, State) without first grouping by orde
 
 This situation of defining the right metric turns up in so many different ways. How we aggregate things together matters because the end product depends not only on raw materials but the method as well. Simple things aren't as intuitive as one might think. Ultimately, we have to use the metric that the company likes to use.
 
-A general note on metrics.
+### **A general note on metrics.**
 
 -   If people have to perform calculations on your metrics to generate insights, they're not good metrics.
 
