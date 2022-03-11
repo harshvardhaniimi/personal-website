@@ -10,6 +10,12 @@ categories:
 tags: []
 ---
 
+**Update (March 5, 2022):** I finally wrote a package with all these functions. You can learn more about it [here](https://harshvardhaniimi.github.io/garlic/).[^1]
+
+[^1]: I do not imagine this package to be useful to many people but I use these functions very frequently. Particularly my `ggplot2` theme.
+
+------------------------------------------------------------------------
+
 On one fine day when I have enough time, they'll all be wrapped into a package hosted on my Github. Until then, this page in their home.
 
 ```{r}

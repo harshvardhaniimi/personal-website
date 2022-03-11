@@ -10,6 +10,12 @@ categories:
 tags: []
 ---
 
+**Update (March 5, 2022):** I finally wrote a package with all these functions. You can learn more about it [here](https://harshvardhaniimi.github.io/garlic/).[^1]
+
+[^1]: I do not imagine this package to be useful to many people but I use these functions very frequently. Particularly my `ggplot2` theme.
+
+------------------------------------------------------------------------
+
 On one fine day when I have enough time, they'll all be wrapped into a package hosted on my Github. Until then, this page in their home.
 
 
@@ -23,8 +29,8 @@ library(tidyverse)
 
 ```
 ## ✓ ggplot2 3.3.5          ✓ purrr   0.3.4     
-## ✓ tibble  3.1.6          ✓ dplyr   1.0.7.9000
-## ✓ tidyr   1.1.4          ✓ stringr 1.4.0     
+## ✓ tibble  3.1.6          ✓ dplyr   1.0.8.9000
+## ✓ tidyr   1.2.0          ✓ stringr 1.4.0     
 ## ✓ readr   2.0.2          ✓ forcats 0.5.1
 ```
 
