@@ -19,7 +19,7 @@ links:
 
 ### Near-singularity of Gaussian Correlation Matrices
 
-* Understanding and establishing a quantified measure of near-singularity for correlation matrices
-* Influence of hyperparameters - design size, dimension and parameter - on near-singularity of correlation matrices
-* Possibilities of getting rid of near-singularity without compromising on original prediction accuracy
-* Learnt LaTeX from scratch for crafting reports and presentation related to this internship
+-   Understanding and establishing a quantified measure of near-singularity for correlation matrices
+-   Influence of hyperparameters - design size, dimension and parameter - on near-singularity of correlation matrices
+-   Possibilities of getting rid of near-singularity without compromising on original prediction accuracy
+-   Learnt LaTeX from scratch for crafting reports and presentation related to this internship

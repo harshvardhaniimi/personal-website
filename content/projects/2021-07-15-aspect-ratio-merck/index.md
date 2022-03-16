@@ -18,6 +18,8 @@ links:
   url: https://www.aspectratioai.com/
 ---
 
+[![](images/Screen%20Recording%202022-03-16%20at%2010.28.44%20AM.gif)](https://www.aspectratioai.com/)
+
 At Aspect Ratio, I developed a pipeline for predictive modelling of Merck's HPV vaccine. I had to find the crucial variables in the analysis. There are many methods to find them: identify significant variables in simple [linear regression](https://en.wikipedia.org/wiki/Linear_regression) or use feature selection methods such as [Principal Components Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) and Fisher's [Linear Discriminant](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). The goal was to determine what factors drove vaccine coverage in US counties and states and where to promote it.
 
 We didn't implement the project during my short tenure. The vaccine [GARDASIL 9](https://www.merckvaccines.com/gardasil9/) is now available for sale across the US.

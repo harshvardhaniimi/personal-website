@@ -10,6 +10,11 @@ categories:
   - social
 tags:
   - R
+links:
+- icon: shapes
+  icon_pack: fas
+  name: Website
+  url: https://www.getrevue.co/profile/harshbutjust
 ---
 
 Next is my short and sweet newsletter about a curated collection of R-related works. It is posted at 9:30 AM (Eastern Time) every Wednesday. The content is pretty straightforward.

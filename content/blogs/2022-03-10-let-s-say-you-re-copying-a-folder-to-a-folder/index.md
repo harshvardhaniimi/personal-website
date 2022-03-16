@@ -23,7 +23,7 @@ This example might sound trivial and unreal, but it is incredible how often it t
 
 My roommate Tagg has a unique way of making ramen noodles. He would bring the water to boil, pour the ramen in, leave it for less than a minute and put many seasonings on top. My other roommate Jack pours most of the water out and then lets it sit with the seasoning to soak in the spices. Tommy and Jake boil it with the herb and dry every drop of water. They like raw ramen noodles.
 
-Which one's better? I can't say definitely. (Although I like Tagg's method, [this NY Times recipe](https://cooking.nytimes.com/recipes/1016583-perfect-instant-ramen) is the best.)
+Which one's better? I can't say definitely. (Although I like Tagg's method, [this NY Times recipe](https://cooking.nytimes.com/recipes/1016583-perfect-instant-ramen) is the best.)
 
 I am working on a research project with a hygiene products company based in North Carolina. It's facing returns, sometimes up to 15% of its sales. Prof Sean1 and I were trying to find why. We found opportunities to streamline distribution using their data for sales, transportation, and claims.
 
@@ -37,11 +37,11 @@ But this problem of choosing the "how" to calculate the metric turned up in some
 
 > These datasets have random values and aren't real. But they give you a taste of what the company provided us.
 
-### Deciding on the metrics is way more complicated than I initially thought. Consider you want to estimate how many orders shipped from a location were shipped in a complete pallet. Where do you start? Well, each item was in a carton which was in a pallet.
+### Deciding on the metrics is way more complicated than I initially thought. Consider you want to estimate how many complete pallet orders were shipped from a location. Where do you start? Well, each item was in a carton which was in a pallet.
 
-We want to estimate the *proportion of orders* from a *location* in *full pallets*. There are at least two methods to find it.
+We want to estimate the *proportion of orders* from a *location* in *full pallets*. There are at least two methods to find it.
 
-First, I find the number of *full* pallets for every row since each row (in the Sales sheet) is an order-item combination. Group all the entries by an order number; then, you can find what proportion of cases were sent in full pallets. But that is for every order, and we wanted to get metrics by location. So, you can aggregate the results again by (City, State) and calculate the average proportion of total pallet cases.
+First, I find the number of *full* pallets for every row since each row (in the Sales sheet) is an order-item combination. Group all the entries by an order number; then, you can find what proportion of cases were sent in full pallets. But that is for every order, and we wanted to get metrics by location. So, you can aggregate the results again by (City, State) and calculate the average proportion of total pallet cases.
 
 Or, the other method is to group by (City, State) without first grouping by order number. This would disregard which items were part of which order --- breaking 1-to-1 matches. Some orders would be higher volume than others. There's no reason they should be the same unless all items were the same.
 

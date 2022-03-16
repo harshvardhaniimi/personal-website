@@ -21,6 +21,8 @@ links:
   url: https://harshvardhaniimi.github.io/garlic/
 ---
 
+[![](images/Screen%20Shot%202022-03-16%20at%2010.24.59%20AM.png)](https://harshvardhaniimi.github.io/garlic/)
+
 These are some functions that I use very frequently in my projects. There are three categories of functions: exploratory functions to check missing values and describe data, visualisation functions for my ggplot2 themes and manipulative functions to modify selected variables. See vignettes for more details.
 
 ## Installing Package

@@ -20,10 +20,10 @@ links:
   url: https://github.com/harshvardhaniimi/quote-generator
 ---
 
-The aim was to make a quotes generator website which we take with our breakfast. I used SelectorGadget and rvest to scrap quotes from Wikipedia page. Then I used Unsplash API to get a random nature background image. Finally, I use Shiny to combine all of these and make a webapp out of it. Go, check it out! 
+[![](featured-hex.png)](https://github.com/harshvardhaniimi/quote-generator)
 
-https://harshvardhan.shinyapps.io/quotes_generator/
+The aim was to make a quotes generator website which we take with our breakfast. I used SelectorGadget and rvest to scrap quotes from Wikipedia page. Then I used Unsplash API to get a random nature background image. Finally, I use Shiny to combine all of these and make a webapp out of it. Go, check it out!
 
-Codes at https://github.com/harshvardhaniimi/quote-generator.
+<https://harshvardhan.shinyapps.io/quotes_generator/>
 
-
+Codes at <https://github.com/harshvardhaniimi/quote-generator>.
