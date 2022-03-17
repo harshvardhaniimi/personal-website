@@ -23,6 +23,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*It is not the knowing that is difficult, but the doing.* - Chinese proverb
+
 *There is always a well-known solution to every human problem---neat, plausible, and wrong.* --- H.L. Mencken
 
 *You are only as young as the last time you changed your mind.* --- Kevin Kelly
