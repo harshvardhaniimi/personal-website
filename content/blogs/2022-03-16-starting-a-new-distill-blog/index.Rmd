@@ -28,3 +28,4 @@ The next step is to create a new Distill blog project.
 
 ![](images/Screen%20Shot%202022-03-16%20at%202.29.54%20PM.png)
 
+Publishing on Github pages: <https://rstudio.github.io/distill/publish_article.html#github-pages>
