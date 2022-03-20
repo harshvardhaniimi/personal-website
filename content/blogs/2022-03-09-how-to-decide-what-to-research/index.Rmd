@@ -1,7 +1,7 @@
 ---
 title: How to Decide What to Research?
-subtitle: My Learnings from A Casual Interview of Prof Emre Demirkaya
-summary: My Learnings from A Casual Interview of Prof Emre Demirkaya
+subtitle: A Casual Interview of Prof Emre Demirkaya
+summary: A Casual Interview of Prof Emre Demirkaya
 author: Harshvardhan
 date: '2022-03-09'
 slug: how-to-decide-what-to-research
