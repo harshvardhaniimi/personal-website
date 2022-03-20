@@ -23,7 +23,9 @@ Prof Emre did his undergraduate in mathematics. As he learnt more mathematics, h
 
 I also asked him why he chose to join a business school for research and not an engineering school as his research area is more theoretical than most researchers. He believed statisticians work on applied real-world problems; they're not always in engineering schools. They are either biostatisticians working in art and sciences schools or analysts working at business schools.
 
-![Machine learning is statistics. I don't get it when people disguise the beautiful mathematical equations and proofs with a coded blackbox.](images/683tnx.jpeg) \> Machine learning is statistics. I don't get it when people disguise the beautiful mathematical equations and proofs with a coded blackbox.
+![Machine learning is statistics. I don't get it when people disguise the beautiful mathematical equations and proofs with a coded blackbox.](images/683tnx.jpeg)
+
+> Machine learning is statistics. I don't get it when people disguise the beautiful mathematical equations and proofs with a coded blackbox.
 
 For a large part, he believes, and I resonate with him, computer science research on machine learning and statistics-based research on machine learning are related. Though their favourite journals are different, they solve the same problem. They are different sides of the same die.
 
