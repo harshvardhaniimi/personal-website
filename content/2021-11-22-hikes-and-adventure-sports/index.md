@@ -16,7 +16,7 @@ Those I've done (i.e. tried at least once) are checked out. Rest are in my immed
 These are only the hikes in US. My hikes in India and Europe aren't included.
 
 | Name                                                                                                                                        | Location           | Notes                                                      |
-|---------------------------------------|-----------------|-----------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------------|
 | [Alum Cave](https://hikinginthesmokys.com/alum-cave-trail/), [Mount Leconte](https://hikinginthesmokys.com/mt-leconte-via-alum-cave-trail/) | Tennessee, US      | Amazing views; easy hike; didn't go to the top             |
 | [Virginia Creeper Trail](https://visitabingdonvirginia.com/landmarks/virginia-creeper-trail)                                                | Virginia, US       | Bike trail; you'll get dirty, so prepare accordingly       |
 | [Midnight Hole](https://blueridgemountainlife.com/midnight-hole/)                                                                           | North Carolina, US | Easy trail; small cliffs to dive as well                   |
@@ -39,7 +39,7 @@ These are only the hikes in US. My hikes in India and Europe aren't included.
 # Adventure Sports
 
 | Sports       | Location                                     | Review                                         |
-|------------------|---------------------------|----------------------------|
+|--------------|----------------------------------------------|------------------------------------------------|
 | Skydiving    | The Netherlands                              | best adrenaline rush ever                      |
 | Rafting      | Jawahar Ghat, Jharkhand Manali, HP           | too hyped                                      |
 | Kayaking     | Jawahar Ghat, Jharkhand Ijams, Knoxville, TN | relaxing if water is calm; else tiring but fun |
