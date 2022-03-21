@@ -179,7 +179,7 @@ p4 = iris %>%
   ggserif()
 ```
 
-```{r}
+```{r fig.width=10,fig.height=16}
 # Using patchwork, I can easily stitch these plots together.
 p1 / p2 / p3 / p4
 ```

@@ -322,7 +322,7 @@ p4 = iris %>%
 p1 / p2 / p3 / p4
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-13-1.png" width="960" />
 
 ## Setting theme globally
 
