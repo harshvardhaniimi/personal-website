@@ -36,7 +36,7 @@ Here are some example sites.
 ## Professors
 
 | Name                | Affiliation                        | Website                               |
-|-----------------|----------------------|---------------------------------|
+|---------------------|------------------------------------|---------------------------------------|
 | Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>   |
 | Xingbo Yang         | Harvard University                 | <https://www.xingboyang.net/>         |
 | Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/> |
@@ -48,7 +48,7 @@ Here are some example sites.
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|-----------------|----------------------|---------------------------------|
+|----------------|--------------------------|---------------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
@@ -60,7 +60,7 @@ Here are some example sites.
 ## Grad Students and Post-doc Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|-------------------|--------------------------|--------------------------|
+|--------------------------|------------------------------------|------------------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
