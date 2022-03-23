@@ -35,36 +35,36 @@ Here are some example sites.
 
 ## Professors
 
-| Name                | Affiliation                        | Website                                             |
-|---------------------|------------------------------------|-----------------------------------------------------|
-| Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>                 |
-| Xingbo Yang         | Harvard University                 | <https://www.xingboyang.net/>                       |
-| Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/>               |
-| Rebekah Herrman     | University of Tennessee, Knoxville | <https://sites.google.com/view/rebekahherrman/home> |
-| Sean Willems        | University of Tennessee, Knoxville | <https://seanwillems.com/>                          |
+| Name                | Affiliation                        | Website                               |
+|-----------------|----------------------|---------------------------------|
+| Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>   |
+| Xingbo Yang         | Harvard University                 | <https://www.xingboyang.net/>         |
+| Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/> |
+| Laura Albert        | University of Wisconsin, Madison   | <https://punkrockor.com/>             |
+| Sean Willems        | University of Tennessee, Knoxville | <https://seanwillems.com/>            |
 
-: Example of personal websites (professors)
+: Examples of personal websites (professors)
 
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|----------------|--------------------------|---------------------------------------|
+|-----------------|----------------------|---------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
 | Alison Hill    | IBM                      | <https://www.apreshill.com/>          |
 | Brett Wendling | Federal Trade Commission | <https://brettwendling.owlstown.net/> |
 
-: Example of personal websites (industry)
+: Examples of personal websites (industry)
 
 ## Grad Students and Post-doc Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|--------------------------|------------------------------------|------------------------------------|
+|-------------------|--------------------------|--------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
 | Sajjad Amrollahi Biyouki | University of Tennessee, Knoxville | <https://sajjadbiyouki.github.io/> |
 | Harshvardhan             | University of Tennessee, Knoxville | <https://www.harsh17.in/>          |
 
-: Example of personal websites (students and researchers)
+: Examples of personal websites (students and researchers)
