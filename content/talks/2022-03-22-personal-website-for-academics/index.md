@@ -17,7 +17,7 @@ tags: []
 
 **Time:** 1 pm to 2 pm.
 
-**Zoom Link:** To be updated.
+**Zoom Link:** <https://harsh17.in/zoom>
 
 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGg5MjdiaWZsb3JsNHBoZzFraWVhdjFjZ2UgaHZzYzE3MDhAbQ&amp;tmsrc=hvsc1708%40gmail.com"><img src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" border="0"/></a>
 
@@ -31,12 +31,12 @@ In this talk, **I will discuss how and why academics should have a personal webs
 
 # Example Sites
 
-Here are some example sites.
+Here are some example sites. See this [Twitter thread](https://twitter.com/juliasonnevend/status/1506957696481824769?s=20&t=lFwqk_cxaejKCzaGUHqNVg) 🧵for more examples.
 
 ## Professors
 
 | Name                | Affiliation                        | Website                               |
-|---------------------|------------------------------------|---------------------------------------|
+|------------------|--------------------------|----------------------------|
 | Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>   |
 | Xingbo Yang         | Harvard University                 | <https://www.xingboyang.net/>         |
 | Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/> |
@@ -48,7 +48,7 @@ Here are some example sites.
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|----------------|--------------------------|---------------------------------------|
+|-----------------|----------------------|---------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
@@ -60,7 +60,7 @@ Here are some example sites.
 ## Grad Students and Post-doc Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|--------------------------|------------------------------------|------------------------------------|
+|-------------------|--------------------------|--------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
