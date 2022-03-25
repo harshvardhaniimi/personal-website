@@ -38,7 +38,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 | Name                | Affiliation                        | Website                               |
 |------------------|--------------------------|----------------------------|
 | Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>   |
-| Xingbo Yang         | Harvard University                 | <https://www.xingboyang.net/>         |
+| Jonathan Ochshorn   | Cornell University                 | <https://jonochshorn.com/index.html>  |
 | Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/> |
 | Laura Albert        | University of Wisconsin, Madison   | <https://punkrockor.com/>             |
 | Sean Willems        | University of Tennessee, Knoxville | <https://seanwillems.com/>            |
@@ -48,7 +48,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|-----------------|----------------------|---------------------------------|
+|------------------|----------------------|--------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
@@ -57,14 +57,14 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 
 : Examples of personal websites (industry)
 
-## Grad Students and Post-doc Researchers
+## Grad Students and Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|-------------------|--------------------------|--------------------------|
+|--------------------|--------------------------|--------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
 | Sajjad Amrollahi Biyouki | University of Tennessee, Knoxville | <https://sajjadbiyouki.github.io/> |
-| Harshvardhan             | University of Tennessee, Knoxville | <https://www.harsh17.in/>          |
+| Slim Lim                 | University of California, Berkeley | <https://slim.computer/>           |
 
 : Examples of personal websites (students and researchers)
