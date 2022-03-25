@@ -4,7 +4,7 @@ subtitle: Kick-off Workshop for University of Tennessee's INFORMS Chapter
 summary: Kick-off Workshop for University of Tennessee's INFORMS Chapter
 author: Harshvardhan
 date: '2022-03-22'
-slug: personal-website-for-academics
+slug: personal-websites-for-academics
 categories:
   - blog
   - workshop
