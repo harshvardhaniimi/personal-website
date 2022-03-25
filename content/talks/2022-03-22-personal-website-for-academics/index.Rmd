@@ -36,7 +36,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Professors
 
 | Name                | Affiliation                        | Website                               |
-|------------------|--------------------------|----------------------------|
+|---------------------|------------------------------------|---------------------------------------|
 | Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>   |
 | Jonathan Ochshorn   | Cornell University                 | <https://jonochshorn.com/index.html>  |
 | Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/> |
@@ -48,7 +48,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|------------------|----------------------|--------------------------------|
+|----------------|--------------------------|---------------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
@@ -60,7 +60,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Grad Students and Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|--------------------|--------------------------|--------------------------|
+|--------------------------|------------------------------------|------------------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
