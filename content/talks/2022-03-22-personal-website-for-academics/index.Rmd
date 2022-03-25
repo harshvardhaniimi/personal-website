@@ -27,7 +27,7 @@ Websites used to be developed by groups of people to meet the needs of other gro
 
 **Contrary to many think, maintaining a personal website is neither difficult nor expensive.** Unfortunately, creating a website is approached as a "technology problem" to be solved. Projects are coloured from the beginning by enthusiasms for or fear for HTML, CSS and other fancy jargon --- when it doesn't have to be so.
 
-In this talk, **I will discuss how and why academics should have a personal website. I will also guide you through designing a website and hosting it with a live hands-on example.** I will use [Owlstown](https://www.owlstown.com/) for the demonstration.
+In this talk, **I will discuss why academics should have a personal website. I will also guide you through designing a website and hosting it with a live hands-on example.** I will use [Owlstown](https://www.owlstown.com/) for the demonstration.
 
 # Example Sites
 
