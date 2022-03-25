@@ -90,14 +90,6 @@ enableRobotsTXT = true
       icon_pack = "fab"
       url       = "https://orcid.org/0000-0001-8086-544X"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/harsh1708/"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/calvinist_in_hobbesian_sense/"
-  [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/harshbutjust"
