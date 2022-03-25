@@ -1,5 +1,5 @@
 ---
-title: Personal Website for Academics
+title: Personal Websites for Academics
 subtitle: Kick-off Workshop for University of Tennessee's INFORMS Chapter
 summary: Kick-off Workshop for University of Tennessee's INFORMS Chapter
 author: Harshvardhan
