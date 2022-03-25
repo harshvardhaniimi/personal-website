@@ -29,6 +29,10 @@ Websites used to be developed by groups of people to meet the needs of other gro
 
 In this talk, **I will discuss why academics should have a personal website. I will also guide you through designing a website and hosting it with a live hands-on example.** I will use [Owlstown](https://www.owlstown.com/) for the demonstration.
 
+# Poster
+
+![](images/Workshop%20Poster%20-%20Final%20Version-1.png)
+
 # Example Sites
 
 Here are some example sites. See this [Twitter thread](https://twitter.com/juliasonnevend/status/1506957696481824769?s=20&t=lFwqk_cxaejKCzaGUHqNVg) 🧵for more examples.
@@ -36,7 +40,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Professors
 
 | Name                | Affiliation                        | Website                               |
-|---------------------|------------------------------------|---------------------------------------|
+|------------------|--------------------------|----------------------------|
 | Dennis C. Rasmussen | Syracuse University                | <https://www.dennis-rasmussen.com/>   |
 | Jonathan Ochshorn   | Cornell University                 | <https://jonochshorn.com/index.html>  |
 | Cynthia Rudin       | Duke University                    | <https://users.cs.duke.edu/~cynthia/> |
@@ -48,7 +52,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|----------------|--------------------------|---------------------------------------|
+|-----------------|----------------------|---------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
@@ -60,7 +64,7 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 ## Grad Students and Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|--------------------------|------------------------------------|------------------------------------|
+|-------------------|--------------------------|--------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
