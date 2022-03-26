@@ -35,7 +35,7 @@ In this talk, **I will discuss why academics should have a personal website. I 
 
 # Example Sites
 
-Here are some example sites. See this [Twitter thread](https://twitter.com/juliasonnevend/status/1506957696481824769?s=20&t=lFwqk_cxaejKCzaGUHqNVg) 🧵for more examples.
+Here are some example sites.
 
 ## Professors
 
@@ -72,3 +72,5 @@ Here are some example sites. See this [Twitter thread](https://twitter.com/julia
 | Slim Lim                 | University of California, Berkeley | <https://slim.computer/>           |
 
 : Examples of personal websites (students and researchers)
+
+See [Owlstown's directory](https://www.owlstown.com/directory) for more examples. See this [Twitter thread](https://twitter.com/juliasonnevend/status/1506957696481824769?s=20&t=lFwqk_cxaejKCzaGUHqNVg) 🧵for even more examples.
