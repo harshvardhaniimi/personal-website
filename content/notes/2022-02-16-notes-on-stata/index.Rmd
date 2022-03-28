@@ -17,9 +17,21 @@ tags: []
 
 ------------------------------------------------------------------------
 
+### Set Working Directory
+
+``` r
+cd "/directory/"
+```
+
+### Use a Dataset
+
+``` r
+use data.dta, clear
+```
+
 ### Clear all items from memory
 
-``` stata
+``` r
 clear all
 ```
 
@@ -27,19 +39,19 @@ See [documentation](https://www.stata.com/manuals13/dclear.pdf) for details.
 
 ### Display all items
 
-``` stata
+``` r
 list
 ```
 
 ### Display first element only (useful for a scalar)
 
-``` stata
+``` r
 di x
 ```
 
 ### Setting number of observations
 
-``` stata
+``` r
 qui set obs 30
 ```
 
@@ -47,7 +59,7 @@ qui set obs 30
 
 ### Summary of a variable
 
-``` stata
+``` r
 summarize x
 ```
 
@@ -55,7 +67,7 @@ This will number of observations, mean, standard deviation, minimum and maximum.
 
 ### Describe
 
-``` stata
+``` r
 describe x
 ```
 
@@ -69,13 +81,13 @@ Below is a sample program named `onesample` that generates 30 uniform random num
 
 `drop _all` is different from `drop all` ; the former drops all observations and the latter looks for a variable named `all` and deletes that.
 
-``` stata
+``` r
 program onesample, rclass
-	drop _all
+    drop _all
     qui set obs 30
     gen x = runiform()
-	summ x
-	return scalar mean = r(mean)
+    summ x
+    return scalar mean = r(mean)
 end
 ```
 
@@ -83,7 +95,7 @@ end
 
 If the function is defined as above, we can use the following codes to perform Monte Carlo simulation.
 
-``` stata
+``` r
 * Simulate it 10000 times
 simulate xbar = r(mean), seed(0) reps(10000): onesample
 ```
@@ -92,7 +104,7 @@ simulate xbar = r(mean), seed(0) reps(10000): onesample
 
 ### Histogram
 
-``` stata
+``` r
 hist x, width(0.1) title("Histogram of x")
 ```
 

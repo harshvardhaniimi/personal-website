@@ -1,7 +1,7 @@
 ---
 title: Notes & Comments
 description: |
-  Notes & Comments are modeled after New York Times' column by the same name. These are short thoughts and notes that weren't complete enough to deserve a blog post. When they mature, they'll find Writings as their new home.
+  If this website is my digital garden, this column is the digital kitchen sink.
 author: "Harshvardhan"
 show_post_thumbnail: false
 show_author_byline: false
@@ -39,4 +39,4 @@ cascade:
     show_sidebar_adunit: false # show ad container
 ---
 
-** No content below YAML for the talk _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside talk/. You may still override any of these by changing them in a page's front matter.**
+\*\* No content below YAML for the talk \_index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside talk/. You may still override any of these by changing them in a page's front matter.\*\*
