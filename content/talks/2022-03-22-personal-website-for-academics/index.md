@@ -19,6 +19,8 @@ tags: []
 
 **Zoom Link:** <https://harsh17.in/zoom>
 
+**Feedback Link:** <https://forms.gle/sQngRq8X55fZs3CC8> [only for UTK participants]
+
 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGg5MjdiaWZsb3JsNHBoZzFraWVhdjFjZ2UgaHZzYzE3MDhAbQ&amp;tmsrc=hvsc1708%40gmail.com"><img src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" border="0"/></a>
 
 # Abstract
@@ -52,7 +54,7 @@ Here are some example sites.
 ## Industry
 
 | Name           | Affiliation              | Website                               |
-|-----------------|----------------------|---------------------------------|
+|------------------|----------------------|--------------------------------|
 | Hadley Wickham | RStudio                  | <https://hadley.nz/>                  |
 | Rami Krispin   | Apple                    | <https://ramikrispin.github.io/>      |
 | Debarghya Das  | Glean                    | <http://debarghyadas.com/>            |
@@ -64,7 +66,7 @@ Here are some example sites.
 ## Grad Students and Researchers
 
 | Name                     | Affiliation                        | Website                            |
-|-------------------|--------------------------|--------------------------|
+|--------------------|--------------------------|--------------------------|
 | Sander van Bree          | University of Glasgow              | <https://www.sandervanbree.com/>   |
 | Neha Gupta               | Duke University                    | <https://nehargupta.github.io/>    |
 | Jared Colston            | University of Wisconsin-Madison    | <https://www.jaredcolston.com/>    |
