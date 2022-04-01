@@ -17,11 +17,7 @@ tags: []
 
 **Time:** 1 pm to 2 pm.
 
-**Zoom Link:** <https://harsh17.in/zoom>
-
-**Feedback Link:** <https://forms.gle/sQngRq8X55fZs3CC8> [only for UTK participants]
-
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGg5MjdiaWZsb3JsNHBoZzFraWVhdjFjZ2UgaHZzYzE3MDhAbQ&amp;tmsrc=hvsc1708%40gmail.com"><img src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" border="0"/></a>
+**Slides:** [PDF](https://www.harsh17.in/docs/talks/2022-03-31-personal-websites-for-academics.pdf)
 
 # Abstract
 
