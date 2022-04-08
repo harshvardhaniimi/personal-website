@@ -18,13 +18,13 @@ categories:
 tags: []
 ---
 
-This page contains the articles, apps and videos that I've found engaging. Not frequently updated since I started using [Notion](https://www.notion.so/415585b6ae8144f683ef98e961e3b166?v=9abfa8b49ef54100a30deb82bcdf3748).
+This page contains the articles, apps and videos that I've found engaging. Not updated since I started using [Notion](https://www.notion.so/415585b6ae8144f683ef98e961e3b166?v=9abfa8b49ef54100a30deb82bcdf3748) and (more recently) Pocket.
 
 ------------------------------------------------------------------------
 
 ## Data Science
 
-### Advise Blogs
+### Advice Blogs
 
 -   [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
 
@@ -38,17 +38,13 @@ This page contains the articles, apps and videos that I've found engaging. Not f
 
 ### Industry Blogs
 
--   Facebook [Core Data Science researchers discuss opportunities for academics at Meta](https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/)
+-   Facebook: <https://research.facebook.com/blog/>
 
--   Netflix [Supporting content decision makers with machine learning, Netflix Research](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
+-   Netflix: [https://netflixtechblog.com/](https://netflixtechblog.com/?gi=343beb007429)
 
--   Netflix [Building confidence in a decision \| by Netflix Technology Blog \| Nov, 2021 \| Netflix TechBlog](https://netflixtechblog.com/building-confidence-in-a-decision-8705834e6fd8)
+-   Google: <https://ai.googleblog.com/>, <https://blog.google/technology/research/>
 
--   Netflix [Data Engineers of Netflix --- Interview with Pallavi Phadnis \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/data-engineers-of-netflix-interview-with-pallavi-phadnis-a1fcc5f64906)
-
--   Netflix [Supporting content decision makers with machine learning \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f)
-
--   Netflix [My (Seemingly) Random Walk to Netflix \| by Netflix Technology Blog \| Netflix TechBlog](https://netflixtechblog.com/my-seemingly-random-walk-to-netflix-293d952953fa)
+-   Spotify: <https://engineering.atspotify.com/>, <https://research.atspotify.com/blog/>
 
 ### Technical Ideas
 
@@ -61,8 +57,6 @@ This page contains the articles, apps and videos that I've found engaging. Not f
 -   [Advent of Code](https://adventofcode.com/) is a programming challenge.
 
 -   [Project Euler](https://projecteuler.net/) is similar.
-
--   Dataset [Ranking of Emojis by their usage, Unicode, Dataset](https://docs.google.com/spreadsheets/d/1Zs13WJYdZL1pNZP0dCIXkWau_tZOjK3mmJz0KNq4I30/edit#gid=196891844)
 
 ### R
 
@@ -83,6 +77,8 @@ This page contains the articles, apps and videos that I've found engaging. Not f
 -   [Martin Wattenberg On Visualizing Large Textual Data \| FlowingData](https://flowingdata.com/2008/07/21/martin-wattenberg-on-visualizing-large-textual-data/)
 
 -   [R as a First Programming Language](https://seankross.com/2019/10/27/R-as-a-First-Programming-Language.html)
+
+-   [Do We Need Object Oriented Programming in Data Science? \| by Rose Day \| Oct, 2020 \| Towards Data Science](https://towardsdatascience.com/do-we-need-object-orientated-programming-in-data-science-b4a7c431644f)
 
 ------------------------------------------------------------------------
 
