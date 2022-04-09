@@ -11,7 +11,7 @@ categories:
   - economics
   - thoughts
 tags: []
-draft: true
+draft: false
 ---
 
 Yesterday I was talking to one of my friends about his plans post PhD. "I want to go for pure sciences and abstract mathematics, but there are hardly any positions in academia on these topics.", he said. It got me into thinking how many PhD students graduate every year and if the demand (in academia or in industry) is less than that. But I didn't even know how many PhDs are awarded each year, let alone employed.
