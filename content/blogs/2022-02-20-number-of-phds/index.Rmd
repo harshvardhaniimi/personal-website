@@ -1,5 +1,7 @@
 ---
-title: Number of PhDs
+title: Number of PhDs by Field
+summary: An Incomplete Data Exploration
+subtitle: An Incomplete Data Exploration
 author: Harshvardhan
 date: '2022-02-20'
 slug: number-of-phds
@@ -16,37 +18,11 @@ Yesterday I was talking to one of my friends about his plans post PhD. "I want t
 
 While searching for a dataset for my Text Mining class project, I discovered this dataset on number of PhDs by field. So, let's explore!
 
-## Exploration
-
 ```{r}
 library(tidyverse)
-
-# Using my personal theme
-theme_h = function(base_size = 14) {
-  theme_bw(base_size = base_size) %+replace%
-    theme(
-      # Specify plot title
-      plot.title = element_text(size = rel(1), face = "bold", margin = margin(0,0,5,0), hjust = 0),
-      # Specifying grid and border
-      panel.grid.minor = element_blank(),
-      panel.border = element_blank(),
-      # Specidy axis details
-      axis.title = element_text(size = rel(0.85), face = "bold", family="serif"),
-      axis.text = element_text(size = rel(0.70), family="serif"),
-      axis.line = element_line(color = "black", arrow = arrow(length = unit(0.3, "lines"), type = "closed")),
-      # Specify legend details
-      legend.title = element_text(size = rel(0.85), face = "bold"),
-      legend.text = element_text(size = rel(0.70), face = "bold", family="serif"),
-      legend.key = element_rect(fill = "transparent", colour = NA),
-      legend.key.size = unit(1.5, "lines"),
-      legend.background = element_rect(fill = "transparent", colour = NA),
-      # Remove default background
-      strip.background = element_rect(fill = "#17252D", color = "#17252D"),
-      strip.text = element_text(size = rel(0.85), face = "bold", color = "white", margin = margin(5,0,5,0))
-    )
-}
-
-theme_set(theme_h())
+library(garlic)
+library(DT)
+theme_set(theme_linedraw())
 ```
 
 ```{r}
@@ -55,37 +31,38 @@ phds = readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytu
 phds
 ```
 
-There are many records by fields --- in three levels of granularity. The column `year` tells about the year and `n_phds` is the number of graduates that year. Let's check the number of records we have for each year; it will also tell me range of data.
+There are many records by fields --- in three levels of granularity.There are 337 fields and we have records for each of them between 2008 to 2017. Let's see how many people are from which field.
 
 ```{r}
-phds %>% 
-  count(year)
+phds %>%
+   group_by(broad_field) %>%
+   summarise(n_phds = sum(n_phds, na.rm = T)) %>%
+   arrange(desc(n_phds)) %>%
+   datatable(colnames = c("Broad Field", "Number of PhDs"),
+             rownames = FALSE,
+             caption = "Number of PhDs by their broad fields. Life sciences lead the way.") %>%
+   formatRound("n_phds", digits = 0)
 ```
 
-There are 337 fields and we have records for each of them between 2008 to 2017. Let's see how many people are from which field.
+**Life sciences** has most number of graduates. **Engineering** has least number of graduates --- even less than mysterious **Other**. Surprisingly social sciences, humanities and eucation are higher than mathematics and computer science. And they lead by a margin. The number of graduates in "humanities and social science" subjects is four times the number of PhDs in in "hard sciences" like engineering and maths. No wonder there is such a shortage of people in the tech world.
 
-### Number of PhDs by their Broad Field
+Life sciences as such a broad encompassing field. Let's explore what is covered in life sciences.
 
 ```{r}
-phds %>% 
-  group_by(broad_field) %>% 
-  summarise(n_phds = sum(n_phds, na.rm = T)) %>% 
-  arrange(desc(n_phds))
+phds %>%
+   filter(broad_field == "Life sciences") %>%
+   group_by(major_field) %>%
+   summarise(n_phds = sum(n_phds, na.rm = T)) %>%
+   arrange(desc(n_phds)) %>%
+   datatable(colnames = c("Major Field", "Number of PhDs"),
+             rownames = FALSE,
+             caption = "Number of PhDs by their major fields. Biology, excluding health sciences, leads the way.") %>%
+   formatRound("n_phds", digits = 0)
 ```
 
-Here's what we observe.
+Biological and biomedical sciences has the most number of graduates. Let me explore engineering too. There are so few PhDs in geosciences. With climate change becoming another major issue, I wonder why the field isn't picking up fast.
 
-**Life sciences** has most number of graduates. **Engineering** has least number of graduates --- even less than mysterious **Other**. I am interested in learning more about life sciences.
-
-```{r}
-phds %>% 
-  filter(broad_field == "Life sciences") %>% 
-  group_by(major_field) %>% 
-  summarise(n_phds = sum(n_phds, na.rm = T)) %>% 
-  arrange(desc(n_phds))
-```
-
-**Biological and biomedical sciences** has the most number of graduates. I thought chemistry would be part of engineering but I guess chemical engineering is different from engineering. Let me explore engineering too.
+Let's see the fields in engineering.
 
 ```{r}
 phds %>% 
@@ -95,17 +72,19 @@ phds %>%
   arrange(desc(n_phds))
 ```
 
-Oh, so no information. I guess I'll have to group by field.
+Oh, so no information. The information is nested in another column, I guess. I'll have to group by field.
 
 ```{r}
 phds %>% 
   filter(broad_field == "Engineering") %>% 
   group_by(field) %>% 
   summarise(n_phds = sum(n_phds, na.rm = T)) %>% 
-  arrange(desc(n_phds))
+  arrange(desc(n_phds)) %>% 
+   datatable(colnames = c("Field", "Number of PhDs")) %>% 
+   formatRound("n_phds", digits = 0)
 ```
 
-Now it's getting familiar again. Computer science leads it all. Let's visualise the counts.
+Computer engineering PhDs are most popular; twice as much as next in the list. Environmental engineering is the second most popular. That's impressive. Let's visualise the counts.
 
 ```{r}
 phds %>% 
@@ -118,12 +97,75 @@ phds %>%
   labs(y = "Number of PhDs", x = "Field (Engineering only)")
 ```
 
-The data gives me opportunity to see how it grew up with the rise in popoularity of computer science. I've heard numerous time that its popularity has increased over the years. Let's check it via spiral plot.
+The data gives me opportunity to see how it grew up with the rise in popoularity of computer engineering. I've heard numerous time that its popularity has increased over the years.
 
 ```{r}
-# Install the package first
-# install.packages("spiralize")
+# ggrepel for text labels
+library(ggrepel)
 
-# Load the library
-library(spiralize)
+phds %>%
+   filter(broad_field == "Engineering") %>%
+   mutate(label = if_else(year == max(year), field, NA_character_)) %>%
+   ggplot(aes(x = year, y = n_phds, colour = field)) +
+   geom_line() +
+   scale_x_continuous(breaks = seq(from = 2008, to = 2017, by = 1)) +
+   geom_label_repel(aes(label = label),
+                    nudge_x = 1,
+                    na.rm = TRUE) +
+   labs(x = "Year", y = "Number of PhDs") +
+   theme(legend.position = "none")
 ```
+
+This graph is very difficult to follow. Let me remove fields with less than 100 graduates.
+
+```{r}
+phds %>%
+   filter(broad_field == "Engineering") %>%
+   filter(n_phds >= 100) %>% 
+   mutate(label = if_else(year == max(year), field, NA_character_)) %>%
+   ggplot(aes(x = year, y = n_phds, colour = field)) +
+   geom_line() +
+   scale_x_continuous(breaks = seq(from = 2008, to = 2017, by = 1)) +
+   geom_label_repel(aes(label = label),
+                    nudge_x = 1,
+                    na.rm = TRUE) +
+   labs(x = "Year", y = "Number of PhDs") +
+   theme(legend.position = "none")
+```
+
+Computer engineering has been ever popular. I didn't expect that.
+
+But wait, wasn't there a computer science in `major_field`? What was that? It was called `Mathematics and computer sciences`.
+
+```{r}
+phds %>%
+   filter(broad_field == "Mathematics and computer sciences") %>%
+   group_by(major_field) %>%
+   summarise(n_phds = sum(n_phds, na.rm = T)) %>%
+   arrange(desc(n_phds)) %>%
+   datatable(colnames = c("Major Field", "Number of PhDs"),
+             rownames = FALSE,
+             caption = "Mathematics and computer sciences has two fields.") %>%
+   formatRound("n_phds", digits = 0)
+```
+
+```{r}
+phds %>%
+   filter(broad_field == "Mathematics and computer sciences") %>%
+   filter(n_phds >= 300) %>% 
+   mutate(label = if_else(year == max(year), field, NA_character_)) %>%
+   ggplot(aes(x = year, y = n_phds, colour = field)) +
+   geom_line() +
+   scale_x_continuous(breaks = seq(from = 2008, to = 2017, by = 1)) +
+   geom_label_repel(aes(label = label),
+                    nudge_x = 1,
+                    na.rm = TRUE) +
+   labs(x = "Year", y = "Number of PhDs") +
+   theme(legend.position = "none")
+```
+
+Computer engineering averaged around 400; computer science averaged around 1500. I think this the "computer science" in general parlance.
+
+------------------------------------------------------------------------
+
+This exploration is incomplete. I couldn't finish it in time but I'd get back to it someday.
