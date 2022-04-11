@@ -164,8 +164,33 @@ phds %>%
    theme(legend.position = "none")
 ```
 
+```{r}
+phds %>% 
+  
+```
+
 Computer engineering averaged around 400; computer science averaged around 1500. I think this the "computer science" in general parlance.
 
 ------------------------------------------------------------------------
 
-This exploration is incomplete. I couldn't finish it in time but I'd get back to it someday.
+**This exploration is incomplete. I couldn't finish it in time but I'd get back to it someday.**
+
+Today I found this wonderful visualisation on Twitter that I thought to replicate for the number of PhDs by field.
+
+```{r}
+library(tweetrmd)
+tweet_screenshot("https://twitter.com/jenjentro/status/1512997114896269312?t=nWQqyQa3tHQVNSHPakh2TA")
+```
+
+Her codes were available on [Github](https://github.com/jenjentro/TidyTuesday/blob/master/2022/2022-04-05/tidytues_newsorg.R).
+
+```{r}
+# Loading packages
+library(tidytuesdayR)
+library(tidylog)
+library(showtext)
+```
+
+```{r}
+
+```

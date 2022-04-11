@@ -11,7 +11,7 @@ categories:
   - economics
   - thoughts
 tags: []
-draft: true
+draft: false
 ---
 
 <script src="{{< blogdown/postref >}}index_files/htmlwidgets/htmlwidgets.js"></script>
@@ -217,21 +217,36 @@ phds %>%
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 
-This graph is very difficult to follow. Let me remove fields with less than 100 graduates.
+``` r
+phds_top_engineering = phds %>% 
+  filter(broad_field == "Engineering") %>% 
+  group_by(field) %>% 
+  summarise(n_phds = sum(n_phds)) %>% 
+  filter(n_phds > 100) %>% 
+  slice_max(order_by = n_phds, n = 6)
+
+phds_top_engineering
+```
+
+    ## # A tibble: 6 × 2
+    ##   field                                            n_phds
+    ##   <chr>                                             <dbl>
+    ## 1 Computer engineering                               4030
+    ## 2 Environmental, environmental health engineeringl   2001
+    ## 3 Engineering, other                                 1488
+    ## 4 Nuclear engineering                                1166
+    ## 5 Operations research (engineering)                   985
+    ## 6 Systems engineering                                 924
 
 ``` r
-phds %>%
-   filter(broad_field == "Engineering") %>%
-   filter(n_phds >= 100) %>% 
-   mutate(label = if_else(year == max(year), field, NA_character_)) %>%
-   ggplot(aes(x = year, y = n_phds, colour = field)) +
-   geom_line() +
-   scale_x_continuous(breaks = seq(from = 2008, to = 2017, by = 1)) +
-   geom_label_repel(aes(label = label),
-                    nudge_x = 1,
-                    na.rm = TRUE) +
-   labs(x = "Year", y = "Number of PhDs") +
-   theme(legend.position = "none")
+phds %>% 
+  filter(field %in% phds_top_engineering$field) %>% 
+ggplot(aes(x = year, y = n_phds, fill = field)) +
+  geom_bar(stat = "identity") + 
+  scale_x_continuous(labels = scales::label_number(accuracy = 1)) +
+  scale_fill_manual(values = MetBrewer::met.brewer("Hokusai1", 6)) +
+  facet_wrap( ~ field) +
+  labs(x = "Year", y = "Number of PhDs", fill = "Field")
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
@@ -276,4 +291,55 @@ Computer engineering averaged around 400; computer science averaged around 1500.
 
 ------------------------------------------------------------------------
 
-This exploration is incomplete. I couldn’t finish it in time but I’d get back to it someday.
+**This exploration is incomplete. I couldn’t finish it in time but I’d get back to it someday.**
+
+Today I found this wonderful visualisation on Twitter that I thought to replicate for the number of PhDs by field.
+
+``` r
+library(tweetrmd)
+tweet_screenshot("https://twitter.com/jenjentro/status/1512997114896269312?t=nWQqyQa3tHQVNSHPakh2TA")
+```
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+
+Her codes were available on [Github](https://github.com/jenjentro/TidyTuesday/blob/master/2022/2022-04-05/tidytues_newsorg.R).
+
+``` r
+# Loading packages
+library(tidytuesdayR)
+library(tidylog)
+```
+
+    ## 
+    ## Attaching package: 'tidylog'
+
+    ## The following objects are masked from 'package:dplyr':
+    ## 
+    ##     add_count, add_tally, anti_join, count, distinct, distinct_all,
+    ##     distinct_at, distinct_if, filter, filter_all, filter_at, filter_if,
+    ##     full_join, group_by, group_by_all, group_by_at, group_by_if,
+    ##     inner_join, left_join, mutate, mutate_all, mutate_at, mutate_if,
+    ##     relocate, rename, rename_all, rename_at, rename_if, rename_with,
+    ##     right_join, sample_frac, sample_n, select, select_all, select_at,
+    ##     select_if, semi_join, slice, slice_head, slice_max, slice_min,
+    ##     slice_sample, slice_tail, summarise, summarise_all, summarise_at,
+    ##     summarise_if, summarize, summarize_all, summarize_at, summarize_if,
+    ##     tally, top_frac, top_n, transmute, transmute_all, transmute_at,
+    ##     transmute_if, ungroup
+
+    ## The following objects are masked from 'package:tidyr':
+    ## 
+    ##     drop_na, fill, gather, pivot_longer, pivot_wider, replace_na,
+    ##     spread, uncount
+
+    ## The following object is masked from 'package:stats':
+    ## 
+    ##     filter
+
+``` r
+library(showtext)
+```
+
+    ## Loading required package: sysfonts
+
+    ## Loading required package: showtextdb
