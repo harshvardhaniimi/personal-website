@@ -22,7 +22,7 @@ links:
 - icon: shapes
   icon_pack: fas
   name: Blog
-  url: 2020-12-24-forecasting-malaria-vaccine-demand/
+  url: forecasting-malaria-vaccine-demand/
 ---
 
 [![](images/Screen%20Shot%202022-03-16%20at%2010.34.03%20AM.png)](https://www.harsh17.in/forecasting-malaria-vaccine-demand/)
