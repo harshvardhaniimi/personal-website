@@ -3,7 +3,7 @@ title: Contact Me!
 name: Contact Us Form
 description: "Please put in your ideas, suggestions and everything else here. You can also email me at  [hello@harsh17.in](mailto:hello@harsh17.in)."
 date: 2019-02-25T13:38:41-06:00
-draft: false
+draft: true
 url: contact
 type: form
 layout: split-right # split-right or split-left
