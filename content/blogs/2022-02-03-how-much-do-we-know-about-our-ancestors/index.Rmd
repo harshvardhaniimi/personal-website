@@ -71,7 +71,7 @@ p = df %>%
   scale_colour_discrete(breaks = c("dna", "geneology"),
                       labels = c("Mitochondrial DNA", "Y Chromosome"))
 
-p
+plotly::ggplotly(p)
 ```
 
 We have more information from our genealogy around the tenth generation than our DNA. By the fourteenth generation, the ratio is 16 to 1, meaning many of my ancestors didn't pass me any DNA at all! So tell me, what do we know from DNA?
