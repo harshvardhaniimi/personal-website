@@ -1,7 +1,7 @@
 ---
 title: Billionaires and Taxes
-subtitle: Some Visualisation on Wealth Inequality
-summary: Some Visualisation on Wealth Inequality
+subtitle: Some Visualisation on Taxes by Rich
+summary: Some Visualisation on Taxes by Rich
 author: Harshvardhan
 date: '2022-04-14'
 slug: billionaires-and-taxes
@@ -77,15 +77,13 @@ data = data_modified %>%
 #data
 ```
 
-# Visualisations
-
 > The "income" described in this article is adjusted gross income. To calculate income taxes, we used [the IRS definition](https://www.irs.gov/pub/irs-pdf/p1304.pdf#page=277) of "total income tax," which excludes self-employment tax and a few other non-income taxes that appear on Form 1040. The effective income tax rates we present are weighted averages --- that is, the sum of income tax from 2013 to 2018 divided by the sum of adjusted gross income over that period. We updated our figures to reflect any amended filings or audits in our database.
 
-## Average Tax Rates for Richest 400 Americans
+# Average Tax Rates for Richest 400 Americans
 
 There's high variance in high income earners. The general trend hints at lower income tax rates as the income increases. Note that the x-axis scale is in $\log(x)$. That means, the actual income is $10^x$.
 
-```{r, echo = FALSE, message=FALSE, warning = FALSE, out.width="120%"}
+```{r, echo = FALSE, message=FALSE, warning = FALSE}
 p = data %>% 
    #filter(Income > 10^9) %>% 
    ggplot(aes(x = Income, y = Fed_Tax, colour = Sector, text = Name)) +
@@ -107,9 +105,9 @@ plotly::ggplotly(p)
 
 This is rather difficult to read. Let me separate it into a grid.
 
-## Sector-wise Average Taxes Rates for Richest 400 Americans
+# Sector-wise Average Taxes Rates for Richest 400 Americans
 
-```{r, echo = FALSE, message=FALSE, warning = FALSE, fig.width=10, fig.height=15}
+```{r, echo = FALSE, message=FALSE, warning = FALSE}
 p = data %>% 
    ggplot(aes(x = Income, y = Fed_Tax, colour = Sector, text = Name)) +
    geom_point() +
@@ -127,9 +125,7 @@ p = data %>%
 plotly::ggplotly(p)
 ```
 
-# Tables
-
-## Who Paid The Highest Tax?
+# Who Paid The Highest Tax?
 
 I calculate total taxes paid in five years as fives times average income times average effective tax rate.
 
@@ -147,11 +143,11 @@ data %>%
   formatCurrency(3, digits = 0)
 ```
 
-## Taxes vs Income
+# Taxes vs Income
 
 The "average" hides a lot of information. I want to compare total taxes in last eight years vs total income in last eight years.
 
-```{r, echo = FALSE, message=FALSE, warning = FALSE, fig.height=12, fig.width=10}
+```{r, echo = FALSE, message=FALSE, warning = FALSE, fig.height=10}
 p = data %>% 
   select(Name, Income, Taxes) %>% 
   mutate(Income = 5 * Income) %>% 
@@ -167,7 +163,7 @@ p = data %>%
 plotly::ggplotly(p)
 ```
 
-## Highest Effective Tax Rates
+# Highest Effective Tax Rates
 
 ```{r, echo = FALSE, message=FALSE, warning = FALSE}
 data %>% 
@@ -188,6 +184,23 @@ data %>%
   formatRound(3, digits = 1)
 ```
 
-# Curious Case of Name Withheld
+# Average Tax Rates by Sector
+
+```{r}
+data %>% 
+  group_by(Sector) %>% 
+  summarise(Income = mean(Income), Fed_Tax = mean(Fed_Tax)) %>% 
+  arrange(desc(Income)) %>% 
+  datatable(caption = "Average Income and Tax Rates by Sector",
+            colnames = c("Tax Rate" = "Fed_Tax")) %>% 
+  formatCurrency(2, digits = 0) %>% 
+  formatRound(3, digits = 1)
+```
+
+Heirs with financial business have the highest average income. People from manufacturing pay the highest federal taxes.
+
+------------------------------------------------------------------------
+
+### Curious Case of Name Withheld
 
 I have no clue what that means. The original article gives no explanation on what that means.
