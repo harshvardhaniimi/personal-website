@@ -186,7 +186,7 @@ data %>%
 
 # Average Tax Rates by Sector
 
-```{r}
+```{r, echo = FALSE, message=FALSE, warning = FALSE}
 data %>% 
   group_by(Sector) %>% 
   summarise(Income = mean(Income), Fed_Tax = mean(Fed_Tax)) %>% 
