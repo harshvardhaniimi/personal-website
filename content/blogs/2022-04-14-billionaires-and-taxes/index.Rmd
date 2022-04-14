@@ -121,8 +121,7 @@ p = data %>%
    ylab("Effective Federal Tax Rate") +
 #   labs(title = "Rich People and Taxes",
 #        caption = "There is greater consistency between the sectors") +
-  guides(x = guide_axis(angle = 90)) +
-  theme(legend.position = "none") +
+  guides(x = guide_axis(angle = 90), colour = FALSE) +
    theme_linedraw()
 
 plotly::ggplotly(p)
@@ -152,7 +151,7 @@ data %>%
 
 The "average" hides a lot of information. I want to compare total taxes in last eight years vs total income in last eight years.
 
-```{r, echo = FALSE, message=FALSE, warning = FALSE, out.width="120%"}
+```{r, echo = FALSE, message=FALSE, warning = FALSE, fig.height=12, fig.width=10}
 p = data %>% 
   select(Name, Income, Taxes) %>% 
   mutate(Income = 5 * Income) %>% 
@@ -192,4 +191,3 @@ data %>%
 # Curious Case of Name Withheld
 
 I have no clue what that means. The original article gives no explanation on what that means.
-
