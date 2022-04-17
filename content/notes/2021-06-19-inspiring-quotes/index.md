@@ -23,6 +23,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*For every moment of triumph, for every instance of beauty, many souls must be trampled. ---* Hunter S. Thompson
+
 *Our intuition about the future is linear. But the reality of information technology is exponential, and that makes a profound difference. If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion. ---* Ray Kurzweil
 
 *It is not the knowing that is difficult, but the doing.* --- Chinese proverb
