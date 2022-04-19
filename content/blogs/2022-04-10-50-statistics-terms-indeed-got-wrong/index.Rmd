@@ -1,7 +1,7 @@
 ---
-title: 50 Statistics Terms Indeed Got Wrong
-subtitle: Was this article written by a noob?
-summary: Was this article written by a noob?
+title: "50 Statistics Terms Indeed Got Wrong"
+subtitle: "Was this article written by a noob?"
+summary: "Was this article written by a noob?"
 author: Harshvardhan
 date: '2022-04-10'
 slug: 50-statistics-terms-indeed-got-wrong

@@ -1,7 +1,7 @@
 ---
-title: 50 Statistics Terms Indeed Got Wrong
-subtitle: Was this article written by a noob?
-summary: Was this article written by a noob?
+title: "50 Statistics Terms Indeed Got Wrong"
+subtitle: "Was this article written by a noob?"
+summary: "Was this article written by a noob?"
 author: Harshvardhan
 date: '2022-04-10'
 slug: 50-statistics-terms-indeed-got-wrong
@@ -108,7 +108,7 @@ Let's say you have a algebraic expression like `\(ax + b\)`. `\(a\)` and `\(b\)`
 >
 > A confidence interval measures the level of uncertainty of a collection of data. It is also the level of probability that data will fall into a set of pre-assigned values.
 
-Confidence intervals gives us a probabilistic range (after accounting for uncertainty) of an unknown parameter. It does not measure uncertainty in data collection. If I say my 95% confidence interval is `\((I_1, I_2)\)` and I collect 100 samples of my data, 95 out of 100 times my parameter of interest would be between `\(I_1\)` and `\(I_2\)`.
+Confidence intervals give us a probabilistic range (after accounting for uncertainty) of an unknown parameter. It does not measure uncertainty in data collection. If I say my 95% confidence interval is `\((I_1, I_2)\)` and I collect 100 samples of my data, 95 out of 100 times my parameter of interest would be between `\(I_1\)` and `\(I_2\)`.
 
 > # **12. Correlation coefficient**
 >
