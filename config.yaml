@@ -45,8 +45,8 @@ params:
     renderer: katex
   navallcaps: yes
   orgLocal: Anywhere
-  orgName: RStudio
-  sharing_image: /img/papillons.png
+  orgName: Harshvardhan
+  sharing_image: /img/sharing-image.png
   social:
     - icon: github
       icon_pack: fab
@@ -142,10 +142,10 @@ privacy:
     disable: no
     privacyEnhanced: yes
 permalinks:
-  blogs = /:slug/
-  projects = /:slug/
-  notes = /:slug/
-  talks = /:slug/
-  publications = /:slug/
-  about = /:slug/
+  blog: /:slug/
+  project: /:slug/
+  notes: /:slug/
+  talk: /:slug/
+  publications: /:slug/
+  about: /:slug/
 
