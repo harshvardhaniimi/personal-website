@@ -1,0 +1,30 @@
+---
+title: Notes on Python
+subtitle: Some things that I'll likely forget
+summary: Some things that I'll likely forget
+author: Harshvardhan
+date: '2022-02-08'
+slug: notes-on-python
+categories:
+  - Python
+tags: []
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="installing-packages" class="section level2">
+<h2>Installing Packages</h2>
+<p>There are <del>two</del> three ways: <code>pip</code>, <code>conda</code> and within Jupyter Hub. If you are using Anaconda (Navigator), use <code>conda</code>. <code>pip</code> will install for all environments; <code>conda</code> will install for conda environment only. Put either of these codes in Terminal.</p>
+<pre class="r"><code># using pip
+python -m pip install &lt;package&gt;
+
+# using conda
+conda install &lt;package&gt;</code></pre>
+<p>If it is a one off use case (which it usually never is), use the following command.</p>
+<pre class="r"><code>!pip install &lt;package&gt;</code></pre>
+</div>
+<div id="methods-to-print" class="section level2">
+<h2>Methods to Print</h2>
+<p>There are two methods: <code>print()</code> and <code>pprint()</code>. They both serve the save cause but <code>pprint()</code> is better at displaying complex data structures such as list of lists or JSON files.</p>
+</div>

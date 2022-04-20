@@ -1,0 +1,151 @@
+baseURL: /
+theme: hugo-apero
+languageCode: en
+title: Harshvardhan
+author: Harshvardhan
+copyright: ''
+googleAnalytics: 'UA-138913713-1'
+disqusShortname: ''
+metaDataFormat: yaml
+footnoteReturnLinkContents: '&#8617;'
+paginate: 20
+preserveTaxonomyNames: yes
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+enableEmoji: yes
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      hardwraps: no
+      unsafe: yes
+  highlight:
+    style: github
+  tableOfContents:
+    endLevel: 2
+    ordered: no
+    startLevel: 2
+params:
+  custom_theme: ''
+  customheadingFontFamily: Fraunces
+  customtextFontFamily: Commissioner
+  description: Standing on the Shoulders of Giants
+  favicon: /img/favicon.ico
+  headingFontFamily: sans-serif
+  logo: /img/avatar.png
+  mainSections:
+    - blog
+    - project
+    - talk
+  math:
+    renderer: katex
+  navallcaps: yes
+  orgLocal: Anywhere
+  orgName: RStudio
+  sharing_image: /img/papillons.png
+  social:
+    - icon: github
+      icon_pack: fab
+      url: https://github.com/harshvardhaniimi
+    - icon: twitter
+      icon_pack: fab
+      url: https://twitter.com/harshbutjust
+    - icon: orcid
+      icon_pack: ai
+      url: https://orcid.org/0000-0001-8086-544X
+    - icon: graduation-cap
+      icon_pack: fas
+      url: https://scholar.google.com/citations?user=Q-dbCggAAAAJ&hl=en
+    - icon: spotify
+      icon_pack: fab
+      url: https://open.spotify.com/user/6z25jqql0glx8o5aqhp8xkumr?si=uVIGCHsOQEOsoTvAu3Qhfw&nd=1
+    - icon: rss
+      icon_pack: fas
+      url: /blog/index.xml
+  socialInFooter: yes
+  socialInHeader: no
+  textFontFamily: sans-serif
+  theme: grayscale
+  twitter: harshbutjust
+  utterances:
+    issue_term: pathname
+    label: 'comments :crystal_ball:'
+    repo_name: /harshvardhaniimi/personal-website
+    theme: boxy-light
+    use_utterances: no
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+menu:
+  footer:
+    - name: License
+      title: License
+      url: /license/
+      weight: 1
+    - name: Contact
+      title: Contact form
+      url: /contact/
+      weight: 2
+  header:
+    - name: About
+      title: About Me
+      url: /about/
+      weight: 1
+    - name: Publications
+      title: My Publications
+      url: /publications/
+      weight: 2
+    - name: Projects
+      title: Project Portfolio
+      url: /project/
+      weight: 3
+    - name: Blog
+      title: Blog
+      url: /blog/
+      weight: 4
+    - name: Talks
+      title: Talks
+      url: /talk/
+      weight: 5
+    - name: Notes
+      title: That's interesting...
+      url: /notes/
+      weight: 6
+    - name: Newsletter
+      title: Next — Today I Learned About R
+      url: https://www.getrevue.co/profile/harshbutjust
+      weight: 7
+privacy:
+  disqus:
+    disable: no
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: no
+    respectDoNotTrack: yes
+  instagram:
+    disable: no
+    simple: yes
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
+  vimeo:
+    disable: no
+    enableDNT: yes
+    simple: yes
+  youtube:
+    disable: no
+    privacyEnhanced: yes
+permalinks:
+  blogs = /:slug/
+  projects = /:slug/
+  notes = /:slug/
+  talks = /:slug/
+  publications = /:slug/
+  about = /:slug/
+

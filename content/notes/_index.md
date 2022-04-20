@@ -9,6 +9,9 @@ show_post_date: true
 show_post_time: false
 # for listing page layout
 layout: list # list, list-sidebar
+#type: project
+#cascade:
+#  type: project
 
 # for list-sidebar layout
 sidebar: 

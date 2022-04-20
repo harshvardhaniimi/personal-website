@@ -1,17 +1,16 @@
 ---
-title: "Harshvardhan"
-subtitle: "Impatience with action. Patience with results."
-description: "I am learning analytical techniques to solve real-life problems. The [end goal](/how-to-decide-to-do-or-not-to-do/) is to have a free, humanistic and happy world. In my free time, I read, trek, cook and listen to music."
-date: 2019-02-18T12:27:33-06:00
-images:
-  - img/harsheu.jpg
-image_left: true
-text_align_left: false
-show_social_links: true # specify social accounts in site config
-show_action_link: true
+action_label: Read More &rarr;
 action_link: /about
-action_label: "More &rarr;"
-action_type: text # text, button
+action_type: text
+description: I am learning analytical techniques to solve real-life problems. The [end goal](/how-to-decide-to-do-or-not-to-do/) is to have a free, humanistic and happy world. In my free time, I read, trek, cook and listen to music.
+image_left: true
+images:
+- img/harsheu.jpg
+show_action_link: true
+show_social_links: true
+subtitle: Impatience with action. Patience with results.
+text_align_left: false
+title: Harshvardhan
 type: home
 ---
 
