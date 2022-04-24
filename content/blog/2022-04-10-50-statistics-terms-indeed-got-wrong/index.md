@@ -11,8 +11,6 @@ tags: []
 draft: true
 ---
 
-Recently I read this article and I was actually triggered. This article published by Indeed was literally spreading misinformation.
-
 > **50 Statistics Terms To Know (With Definitions)**
 >
 > Indeed Editorial Team, July 8 2021
@@ -23,7 +21,7 @@ Many people get statistics wrong these days. Sometimes even [senior data scienti
 
 I get it; it's not easy. But at least Google it. Or even ask --- statisticians love to correct wrong assumptions. Make some effort to learn.
 
-Today, I will present all fifty definitions and explain why they are wrong. I'm certain this article will be removed in a few years, so here's the [archive version](https://archive.ph/Tn2BF).
+Today, I will present the first few definitions and explain why they are misleading. Here's the [archive version](https://archive.ph/Tn2BF) in case the original link doesn't work.
 
 > # **1. Alternative hypothesis**
 >

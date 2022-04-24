@@ -1,7 +1,8 @@
 ---
 title: Billionaires and Taxes
 subtitle: Some Visualisation on Taxes by Rich
-summary: Some Visualisation on Taxes by Rich
+summary:
+  How much do the super rich really pay? Until now, the answer was unknown --- thanks to privacy laws. Recently, tax returns of the super rich was leaked to [ProPublica](https://projects.propublica.org/americas-highest-incomes-and-taxes-revealed/). I thought of exploring the billionaires and their tax rates.
 author: Harshvardhan
 date: '2022-04-14'
 slug: billionaires-and-taxes

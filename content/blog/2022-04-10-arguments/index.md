@@ -1,7 +1,8 @@
 ---
 title: Arguments
 subtitle: And When to Avoid Them
-summary: And When to Avoid Them
+summary: >
+  There are three types of arguments. You can argue about what happened (past), you can argue about what's happening (present), or you can argue about what's gonna happen (future).
 author: Harshvardhan
 date: '2022-04-10'
 slug: arguments

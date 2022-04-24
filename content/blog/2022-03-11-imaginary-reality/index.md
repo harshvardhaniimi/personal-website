@@ -1,7 +1,7 @@
 ---
 title: Imaginary Reality
 subtitle: Metaphysics of Imaginary Numbers
-summary: Metaphysics of Imaginary Numbers
+summary: "We know less than we think and we don't even know what we don't know."
 author: Harshvardhan
 date: '2022-03-11'
 slug: imaginary-reality

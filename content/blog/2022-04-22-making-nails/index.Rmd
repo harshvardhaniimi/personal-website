@@ -1,7 +1,8 @@
 ---
 title: Making Nails
 subtitle: A parable
-summary: A parable
+summary: 
+  Once upon a time, there was a nail-making factory during the peak of the industrial revolution in rural England. The workers arrived there every morning at 8 am and worked till 4 pm to make nails. Just plain nails. One day, the factory owner's son visited the plant.
 author: Harshvardhan
 date: '2022-04-22'
 slug: making-nails

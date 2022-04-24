@@ -1,7 +1,7 @@
 ---
 title: Creating your own short URLs with blogdown
 subtitle: bit.ly, but personalised
-summary: bit.ly, but personalised
+summary: Here's how to make your short URLs using Hugo + Blogdown
 author: Harshvardhan
 date: '2022-03-24'
 slug: creating-your-own-short-urls-with-blogdown
