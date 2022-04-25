@@ -5,10 +5,10 @@ action_type: text
 description: I am learning analytical techniques to solve real-life problems. The [end goal](/how-to-decide-to-do-or-not-to-do/) is to have a free, humanistic and happy world. In my free time, I read, trek, cook and listen to music.
 image_left: true
 images:
-- img/harsheu.jpg
+- img/harsheu.png
 show_action_link: true
 show_social_links: true
-subtitle: Impatience with action. Patience with results.
+subtitle: Impatience with actions. Patience with results.
 text_align_left: false
 title: Harshvardhan
 type: home

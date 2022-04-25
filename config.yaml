@@ -51,6 +51,9 @@ params:
     - icon: github
       icon_pack: fab
       url: https://github.com/harshvardhaniimi
+    - icon: linkedin
+      icon_pack: fab
+      url: https://www.linkedin.com/in/harshvardhaniimi/
     - icon: twitter
       icon_pack: fab
       url: https://twitter.com/harshbutjust
@@ -69,7 +72,7 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  theme: grayscale
+  theme: magma
   twitter: harshbutjust
   utterances:
     issue_term: pathname
