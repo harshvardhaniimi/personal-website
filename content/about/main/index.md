@@ -19,6 +19,8 @@ show_outro: true
 
 outro: |
   <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/harsh17)!
+  <script async src="https://cse.google.com/cse.js?cx=7d9698c281e7d2001"></script>
+  <div class="gcse-search"></div>
 ---
 
 \*\* index doesn't contain a body, just front matter above. See about/list.html in the layouts folder \*\*
