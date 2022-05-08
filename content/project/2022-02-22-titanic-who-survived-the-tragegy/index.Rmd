@@ -1,6 +1,7 @@
 ---
 title: 'Titanic: Who Survived The Tragegy?'
 subtitle: 'Yet Another Machine Learning Project with Titanic Dataset'
+summary: 'Yet Another Machine Learning Project with Titanic Dataset'
 author: Harshvardhan
 date: '2022-02-22'
 slug: titanic-who-survived-the-tragegy
