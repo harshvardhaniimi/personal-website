@@ -1,0 +1,618 @@
+---
+title: 'Titanic: Who Survived The Tragegy?'
+subtitle: 'Yet Another Machine Learning Project with Titanic Dataset'
+author: Harshvardhan
+date: '2022-02-22'
+slug: titanic-who-survived-the-tragegy
+categories:
+  - R
+  - statistics
+tags: []
+---
+
+[![](featured.png)](https://en.wikipedia.org/wiki/File:Titanic_Disaster_-_Genuine_Footage_(1911-1912).webm)
+
+Titanic was a major tragedy. In this course project for BZAN 645: Machine Learning at University of Tennessee, I tried to predict if a particular individual would survive the tragedy. Why Titanic Dataset? Because it was course requirement. No offence to hundreds of soul that died, but the dataset is easy to get started with. Every course instructor loves it.
+
+I used Tidymodels to use xgboost and logistic regression with bootstrapped samples to predict the outcome.
+
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.retina=2)
+```
+
+# Loading Libraries and Dataset
+
+```{r}
+# Setting Parallel Processing to use six out of eight cores
+# Unix and macOS only
+library(doMC)
+registerDoMC(cores = 6)
+
+# To reset, use
+# registerDoSEQ()
+```
+
+```{r}
+library(tidyverse)
+library(tidymodels)
+library(plotly)
+
+# Setting custom theme
+theme_h = function(base_size = 14) {
+  theme_bw(base_size = base_size) %+replace%
+    theme(
+      # Specify plot title
+      plot.title = element_text(size = rel(1), face = "bold", family="serif", margin = margin(0,0,5,0), hjust = 0),
+      # Specifying grid and border
+      panel.grid.minor = element_blank(),
+      panel.border = element_blank(),
+      # Specidy axis details
+      axis.title = element_text(size = rel(0.85), face = "bold", family="serif"),
+      axis.text = element_text(size = rel(0.70), family="serif"),
+      axis.line = element_line(color = "black", arrow = arrow(length = unit(0.3, "lines"), type = "closed")),
+      # Specify legend details
+      legend.title = element_text(size = rel(0.85), face = "bold", family="serif"),
+      legend.text = element_text(size = rel(0.70), face = "bold", family="serif"),
+      legend.key = element_rect(fill = "transparent", colour = NA),
+      legend.key.size = unit(1.5, "lines"),
+      legend.background = element_rect(fill = "transparent", colour = NA),
+      # Remove default background
+      strip.background = element_rect(fill = "#17252D", color = "#17252D"),
+      strip.text = element_text(size = rel(0.85), face = "bold", color = "white", margin = margin(5,0,5,0), family="serif")
+    )
+}
+
+theme_set(theme_h())
+```
+
+You can download the datasets here.
+
+```{r}
+xfun::embed_file(path = "/Users/harshvardhan/Documents/UTK/Classes/Spring 2022/BZAN 645 Machine Learning/Homeworks/HW03/titanic-tidymodels/train.csv")
+xfun::embed_file(path = "/Users/harshvardhan/Documents/UTK/Classes/Spring 2022/BZAN 645 Machine Learning/Homeworks/HW03/titanic-tidymodels/test.csv")
+```
+
+```{r}
+training = read_csv("/Users/harshvardhan/Documents/UTK/Classes/Spring 2022/BZAN 645 Machine Learning/Homeworks/HW03/titanic-tidymodels/train.csv")
+testing = read_csv("/Users/harshvardhan/Documents/UTK/Classes/Spring 2022/BZAN 645 Machine Learning/Homeworks/HW03/titanic-tidymodels/test.csv")
+training
+testing
+```
+
+Here's a brief overview of the variables:
+
+1.  `PassengerId` identifies the variable. This is not useful for our model.
+2.  `Survived` is a binary variable indicating if the passenger survived.
+3.  `Pclass` tell us the class of passenger. We will have to perform one hot encoding for this variable.
+4.  `Name` is the name of the passenger. This is not useful for our model.
+5.  `Sex` is the sex of passenger. This will also need to be one-hot-encoded.
+6.  `Age` is the age of passenger. Those in decimals are estimated ages. In our model, we will treat it like a continuous variable.
+7.  `SibSp` is the number of siblings or spouses on the ship. (I wonder if Jack counted as Rose's spouse but probably not as their relationship only began on the ship.)
+8.  `Parch` is the number of parents or children abroad the ship.
+9.  `Ticket` is a character variable with the ticket's serial number.
+10. `Fare` is the amount paid for fare.
+11. `Cabin` numbers are largely missing.
+12. `Embarked` is the location the passengers boarded the ship. This will also need to be one-hot-encoded.
+
+# Exploring Dataset
+
+## Missing Values
+
+```{r}
+missing_df = function(df)
+{
+   nf = ncol(df)
+   miss_rate = numeric(nf)
+   for (i in 1:nf)
+   {
+      miss_rate[i] = sum(is.na(df[,i]))/nrow(df)
+   }
+   ll = tibble("names" = names(df), "miss_rate" = miss_rate)
+   return(ll)
+}
+```
+
+```{r}
+missing_df(training)
+```
+
+Age has lots of missing variables and Cabin has many missing values. Embarked has a few missing values. I should probably drop Cabin from analysis, and impute values for the other two.
+
+So, three alternatives:
+
+1.  Delete the observations with missing values,
+2.  Impute missing values with mean (for numeric) and mode (for categorical),
+3.  Remove variables Age, Cabin and Embarked altogether.
+
+## Number of Survivors
+
+First, we will test for class imbalance. Did more people survive than die, or vice versa?
+
+```{r}
+training %>% 
+   count(Survived)
+```
+
+The classes are almost balanced. 342 people survived; 549 didn't.
+
+## Class of Passengers (and Survivors)
+
+```{r}
+training %>% 
+   count(Pclass)
+```
+
+Most passengers were travelling in the third class.
+
+```{r}
+training %>%
+   count(Pclass, Survived) %>%
+   ggplot(aes(x = Pclass, y = n, fill = factor(Survived))) + 
+   geom_bar(position = "stack", stat="identity") +
+   labs(x = "Class of Passenger", y = "Number of Passengers",
+        fill = "Survived?")
+```
+
+We can safely say that not many customers from class 3 survived.
+
+## Age of Passengers (and Survivors)
+
+```{r}
+training %>% 
+   ggplot(aes(x = Age)) +
+   geom_histogram(binwidth = 5)
+```
+
+Most people were between the age of 20 and 40 years --- so largely young people were travelling. At the same time, we also notice that the age is approximately normally distributed. Thus, we can impute the missing values with the mean.
+
+Let's see age-wise distribution of survival.
+
+```{r}
+p = training %>% 
+   ggplot(aes(x = Age, fill = factor(Survived))) +
+   geom_histogram(binwidth = 5) +
+   labs(x = "Age of Passenger", y = "Number of Passengers",
+        fill = "Survived?")
+
+ggplotly(p)
+```
+
+So, younglings survived --- those under 15 years of age. Probably this was because of the lifeguards' instincts to save women and children first. (You can hover over the plot to know more.)
+
+## Number of Siblings/Spouses and Parents
+
+```{r}
+training %>% 
+   count(SibSp) %>% 
+   ggplot(aes(x = SibSp, y = n)) +
+   geom_col() +
+   labs(x = "Number of Siblings", y = "Number of Passengers with `x` Siblings")
+```
+
+Most had no siblings. Some had one sibling or more siblings. Interestingly, no one had six or seven siblings.
+
+```{r}
+training %>% 
+   count(Parch) 
+
+training %>% 
+   count(Parch) %>% 
+   ggplot(aes(x = Parch, y = n)) +
+   geom_col() +
+   labs(x = "Number of Parents / Children", y = "Number of Passengers with `x` Parents / Children")
+```
+
+Most passengers were travelling alone. Some were travelling with 1 or 2 parents / children. Very few were travelling with their parents and children too.
+
+## Where did they Embark their Journey?
+
+```{r}
+training %>% 
+   count(Embarked)
+```
+
+Most embarked their journey from Southampton. Cherbourg was the second most popular boarding point. Queenstown was the least popular one. There are two missing values that we can fill the mode. Let's see them by grouping through survival.
+
+```{r}
+training %>% 
+   count(Embarked, Survived)
+
+training %>% 
+   count(Embarked, Survived) %>%
+   ggplot(aes(x = Embarked, y = n, fill = factor(Survived))) + 
+   geom_bar(position = "stack", stat="identity") +
+   labs(x = "Boarding Point", y = "Number of Passengers",
+        fill = "Survived?")
+```
+
+There seems to be little relationship between where they started their journey on whether they survived or not. Proportionally, there aren't many changes.
+
+Now, let's start the cool part: machine learning.
+
+# Wrangling Data for Machine Learning
+
+The dataset that we have is only one: training. The test one doesn't have labels and the only way to check is to upload to Kaggle. I will do that at the end. Right now, I need to segregate my data into two sets: training and testing. By default, R does 75/25 split.
+
+But first, I will remove Cabin --- which is mostly missing.
+
+```{r}
+set.seed(0)
+
+training$Survived = factor(training$Survived)
+training$Pclass = factor(training$Pclass)
+
+training = training %>% 
+   select(-PassengerId, -Cabin, -Name, -Ticket)
+split = initial_split(training, strata = Survived)
+
+tit_train = training(split)
+tit_test = testing(split)
+```
+
+## Let's Fill The Missing Values
+
+How many values are missing right now in the training dataset?
+
+```{r}
+sum(is.na(tit_train))
+```
+
+There are a lot of missing values. Let's see which variables are missing.
+
+```{r}
+missing_df(tit_train)
+```
+
+Age and Embarked. As I had discussed earlier, I can fill them in with the mean and mode.
+
+```{r}
+# Function for mode (borrowed from https://stackoverflow.com/questions/2547402/how-to-find-the-statistical-mode)
+Mode = function(x) {
+  ux = unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+mean_age = mean(tit_train$Age, na.rm = T)
+mode_embark = Mode(tit_train$Embarked)
+```
+
+```{r}
+# Fill missing values with mean
+fill_with_mean = function(x)
+{
+   x[is.na(x)] = mean(x, na.rm = T)
+   return (x)
+}
+
+# Fill missing values with mode
+fill_with_mode = function(x)
+{
+   x[is.na(x)] = Mode(x)
+   return (x)
+}
+```
+
+```{r}
+tit_train$Age = fill_with_mean(tit_train$Age)
+tit_train$Embarked = fill_with_mode(tit_train$Embarked)
+```
+
+```{r}
+sum(is.na(tit_train))
+```
+
+So, all missing values are gone!
+
+Now, let's do the same transformations to `tit_test`. Note that we will use training mean and mode for this purpose.
+
+```{r}
+tit_test$Age[is.na(tit_test$Age)] = mean_age
+tit_test$Embarked[is.na(tit_test$Embarked)] = mode_embark
+sum(is.na(tit_test))
+```
+
+# Logistic Regression and xgboost Tree
+
+The first method I want to try is generalised least squares, or logistic regression. Second I want to `xgboost` tree.
+
+Note that our sample size is only 667. For most methods, this is very small. Thus, I will use bootstrapped samples.
+
+```{r}
+tit_boot = bootstraps(tit_train, strata = Survived)
+tit_boot
+```
+
+So, this created 25 bootstrapped samples of different sizes.
+
+## Engine
+
+### Logistic Regression
+
+```{r}
+# Specifying Recipe for converting nominal to binary
+glm_rec = recipe(Survived ~ ., data = tit_train) %>% 
+   step_dummy(all_nominal_predictors())
+
+# Logistic Regression
+glm_spec = logistic_reg() %>% 
+   set_engine("glm")
+```
+
+### xgboost Classification
+
+```{r}
+# Specify Recipe
+xg_rec = recipe(Survived ~ ., data = tit_train) %>%
+  step_dummy(all_nominal_predictors())
+
+# Specify Engine
+xg_model = boost_tree(mode = "classification", # binary response
+                       trees = tune(),
+                       mtry = tune(),
+                       tree_depth = tune(),
+                       learn_rate = tune(),
+                       loss_reduction = tune(),
+                       min_n = tune()) # parameters to be tuned
+```
+
+## Workflow
+
+### Logistic Regression
+
+```{r}
+glm_wf = workflow() %>% 
+   add_model(glm_spec) %>% 
+   add_recipe(glm_rec)
+```
+
+### xgboost Regression
+
+The following cross-validation needs to be performed to choose the appropriate xgboost model.
+
+```{r}
+cv_folds = vfold_cv(tit_train, v = 3, strata = Survived)
+c_metrics = metric_set(accuracy, sens, roc_auc)
+
+# Specify a baseline model control
+control = control_resamples(save_pred = TRUE, verbose = F)
+
+# Specify the workflow
+xg_wf = workflow() %>% 
+  add_model(xg_model) %>% 
+  add_recipe(xg_rec)
+```
+
+## Fitting the Models
+
+### Logistic Regression
+
+Without bootstrapped samples:
+
+```{r}
+glm_rs_unboot = glm_wf %>% 
+   fit(data = tit_train)
+glm_rs_unboot
+```
+
+Let's check its accuracy and confusion matrix.
+
+```{r}
+predict(glm_rs_unboot, tit_train) %>% 
+   bind_cols(tit_train) %>% 
+   conf_mat(truth = Survived, estimate = .pred_class)
+```
+
+```{r}
+predict(glm_rs_unboot, tit_train) %>% 
+   bind_cols(tit_train) %>% 
+   accuracy(truth = Survived, estimate = .pred_class)
+```
+
+So, accuracy is 80.1%. This is a good accuracy. Let's see AUC.
+
+```{r}
+predict(glm_rs_unboot, tit_train, type = "prob") %>% 
+   bind_cols(tit_train) %>% 
+   roc_auc(.pred_0,truth = Survived)
+```
+
+0.843 as AUC score is not bad at all.
+
+With bootstrapped samples:
+
+```{r}
+glm_rs = glm_wf %>% 
+   fit_resamples(resamples = tit_boot, 
+                 control = control_resamples(save_pred = TRUE, verbose = F))
+glm_rs
+```
+
+```{r}
+glm_rs %>% 
+   collect_metrics()
+```
+
+Logistic regression with bootstrapped samples gives me an accuracy of 80.6% with AUC of 0.846. So, bootstrapping has reduced overfitting by a small amount.
+
+Let's see its ROC curve.
+
+```{r}
+glm_rs %>% 
+   collect_predictions() %>% 
+   group_by(id) %>% # -- to get 25 ROC curves, for each bootstrapped sample
+   roc_curve(Survived, .pred_0) %>% 
+   autoplot()
+```
+
+This is difficult to read so I will create a plot manually.
+
+```{r}
+glm_rs %>% 
+   collect_predictions() %>% 
+   group_by(id) %>% # -- to get 25 ROC curves, for each bootstrapped sample
+   roc_curve(Survived, .pred_0) %>% 
+   ggplot(aes(1 - specificity, sensitivity, col = id)) +
+   geom_abline(lty = 2, colour = "grey80", size = 1.5) +
+   geom_path(show.legend = FALSE, alpha = 0.5, size = 1.2) +
+   coord_equal()
+```
+
+The model looks pretty good, if you ask me. Let's create the final fit with all of training data.
+
+```{r}
+# storing final glm model
+glm_fit = glm_wf %>% 
+   fit(data = tit_train)
+```
+
+Check its metrics.
+
+```{r}
+glm_fit %>% 
+   predict(tit_train) %>% 
+   bind_cols(tit_train) %>% 
+   conf_mat(truth = Survived, estimate = .pred_class)
+
+glm_fit %>% 
+   predict(tit_train) %>% 
+   bind_cols(tit_train) %>% 
+   accuracy(truth = Survived, estimate = .pred_class)
+
+glm_fit %>% 
+   predict(tit_train, type = "prob") %>% 
+   bind_cols(tit_train) %>% 
+   roc_auc(truth = Survived, estimate = .pred_0)
+```
+
+### xgboost Model
+
+```{r}
+xg_tune = xg_wf %>%
+  tune_grid(cv_folds,
+            metrics = c_metrics,
+            control = control,
+            grid = crossing(trees = 1000,
+                            mtry = c(3, 5, 8),
+                            tree_depth = c(5, 10, 15),
+                            learn_rate = c(0.01, 0.005),
+                            loss_reduction = c(0.01, 0.1, 1),
+                            min_n = c(2, 10, 25)))
+```
+
+I'm manually specifying grid values to try. Let's visualise the models.
+
+```{r}
+autoplot(xg_tune)
+```
+
+Having minimal node size as two gives a minor benefit in accuracy. Other than that, I am confused to know which model is the best. Thus, I will use `show_best()` to find the best model.
+
+```{r}
+show_best(xg_tune, metric = "roc_auc")
+show_best(xg_tune, metric = "accuracy")
+```
+
+The best model has an accuracy of 0.822 and AUC of 0.861. The good news is that both give me the same model (i.e. have the same hyper-parameters). Thus, I am at a good place.
+
+```{r}
+best_model = select_best(xg_tune, metric = "roc_auc")
+```
+
+Let's finalise the model and train it on all of training set.
+
+```{r}
+xg_fit = xg_wf %>% 
+   finalize_workflow(best_model) %>% 
+   fit(data = tit_train)
+xg_fit
+```
+
+Checking its confusion matrix, accuracy and other metrics.
+
+```{r}
+predict(xg_fit, tit_train) %>% 
+   bind_cols(tit_train) %>% 
+   conf_mat(truth = Survived, estimate = .pred_class)
+
+predict(xg_fit, tit_train) %>% 
+   bind_cols(tit_train) %>% 
+   accuracy(truth = Survived, estimate = .pred_class)
+
+predict(xg_fit, tit_train, type = "prob") %>% 
+   bind_cols(tit_train) %>% 
+   roc_auc(truth = Survived, estimate = .pred_0)
+```
+
+So, this final model has 89.2% accuracy with 0.939 after being trained on all of data.
+
+Let's look at the important predictors according to it.
+
+```{r}
+importances = xgboost::xgb.importance(model = extract_fit_engine(xg_fit))
+importances %>%
+  mutate(Feature = fct_reorder(Feature, Gain)) %>%
+  ggplot(aes(Gain, Feature)) +
+  geom_col()
+```
+
+Being a male had actually a significant effect in surviving. Fare --- which likely represents which class people were from --- also can tell us will they survive. Passengers in class 3 are the most important result. I had expected people from class 1 (upper class) are more likely to survive than those from lower class. However, the opposite is true. Where they embarked from has little effect.
+
+## Comparing Logistic Regression and xgboost (Training Sets)
+
+| Model                                           | Accuracy | ROC Area Under Curve |
+|--------------------------------------|-----------------|-----------------|
+| Logistic Regression                             | 0.792    | 0.856                |
+| Logistic Regression (with Bootstrapped Samples) | 0.792    | 0.856                |
+| xgboost                                         | 0.894    | 0.951                |
+
+: Accuracy and AUC for Logistic Regression and xgboost
+
+Boosted regression trees perform better than logistic regression, around 10 per cent better. Let's test both models on test dataset.
+
+# Testing Model
+
+Let's test the models on `tit_test`.
+
+## Logistic Regression (with Bootstraps)
+
+```{r}
+glm_fit %>% 
+   predict(tit_test) %>% 
+   bind_cols(tit_test) %>% 
+   conf_mat(truth = Survived, estimate = .pred_class)
+
+glm_fit %>% 
+   predict(tit_test) %>% 
+   bind_cols(tit_test) %>% 
+   accuracy(truth = Survived, estimate = .pred_class)
+
+glm_fit %>% 
+   predict(tit_test, type = "prob") %>% 
+   bind_cols(tit_test) %>% 
+   roc_auc(truth = Survived, estimate = .pred_0)
+```
+
+## xgboost
+
+```{r}
+predict(xg_fit, tit_test) %>% 
+   bind_cols(tit_test) %>% 
+   conf_mat(truth = Survived, estimate = .pred_class)
+
+predict(xg_fit, tit_test) %>% 
+   bind_cols(tit_test) %>% 
+   accuracy(truth = Survived, estimate = .pred_class)
+
+predict(xg_fit, tit_test, type = "prob") %>% 
+   bind_cols(tit_test) %>% 
+   roc_auc(truth = Survived, estimate = .pred_0)
+```
+
+| Model                              | Accuracy | ROC Area under Curve |
+|------------------------------------|----------|----------------------|
+| Logistic Regression (Bootstrapped) | 0.790    | 0.850                |
+| xgboost                            | 0.830    | 0.884                |
+
+: Test accuracies for logistic regression and xgboost model.
+
+xgboost model performs a little better. Since Kaggle judges only by accuracy (and I'd argue the task of machine learning is to predict with little focus on inference), I would consider xgboost for the final model.
