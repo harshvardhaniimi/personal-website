@@ -23,7 +23,6 @@ tags: []
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1523465632502906880')
-blogdown::shortcode('tweet', '1523464037048020992')
 blogdown::shortcode('tweet', "1519469891455234048")
 blogdown::shortcode('tweet', "1519415674111672325")
 blogdown::shortcode('tweet', "1517215066550116354")
@@ -35,7 +34,7 @@ blogdown::shortcode('tweet', "1519179787163652099")
 blogdown::shortcode('tweet', "1519020176884305920")
 blogdown::shortcode('tweet', "1470858546153762819")
 blogdown::shortcode('tweet', "1517707521343082496")
-blogdown::shortcode('tweet', "1518767238081171456")
+blogdown::shortcode('tweet', "1518772756069773313")
 blogdown::shortcode('tweet', "1521523506512470018")
 blogdown::shortcode('tweet', "1511322655609303043")
 ```
