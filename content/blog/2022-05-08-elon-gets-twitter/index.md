@@ -1,0 +1,14 @@
+---
+title: Elon Gets Twitter
+author: Harshvardhan
+date: '2022-05-08'
+slug: elon-gets-twitter
+categories:
+  - life
+  - thoughts
+tags: []
+---
+
+[Opinion \| Elon Musk Got Twitter Because He Gets Twitter - The New York Times](https://www.nytimes.com/2022/04/27/opinion/elon-musk-twitter.html)
+
+{{% tweet "1523465632502906880" %}}{{% tweet "1523464037048020992" %}}{{% tweet "1519469891455234048" %}}{{% tweet "1519415674111672325" %}}{{% tweet "1517215066550116354" %}}{{% tweet "1507259709224632344" %}}{{% tweet "1507041396242407424" %}}{{% tweet "1512785529712123906" %}}{{% tweet "1507777261654605828" %}}{{% tweet "1521523506512470018" %}}{{% tweet "1511322655609303043" %}}
