@@ -1,5 +1,7 @@
 ---
 title: Elon Gets Twitter
+subtitle: 'What else can you say in less than 280 characters'
+summary: 'What else can you say in less than 280 characters'
 author: Harshvardhan
 date: '2022-05-08'
 slug: elon-gets-twitter
