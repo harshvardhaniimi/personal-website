@@ -22,7 +22,7 @@ tags: []
 > Twitter began as an idea that Twitter co-founder Jack Dorsey ([\@Jack](https://twitter.com/jack)) had in 2006. Dorsey had originally imagined Twitter as an SMS-based communications platform. Groups of friends could keep tabs on what each other were doing based on their status updates. Like texting, but not.
 
 ```{r echo=FALSE}
-blogdown::shortcode('tweet', '1523465632502906880')
+blogdown::shortcode('tweet', '1517215066550116354')
 blogdown::shortcode('tweet', "1519469891455234048")
 blogdown::shortcode('tweet', "1519415674111672325")
 blogdown::shortcode('tweet', "1517215066550116354")
