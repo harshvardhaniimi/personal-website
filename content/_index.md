@@ -8,7 +8,7 @@ images:
 - img/harsheu.jpg
 show_action_link: true
 show_social_links: true
-subtitle: PhD Student of Analytics, University of Tennessee
+subtitle: standing on the shoulders of giants
 text_align_left: false
 title: Harshvardhan
 type: home
