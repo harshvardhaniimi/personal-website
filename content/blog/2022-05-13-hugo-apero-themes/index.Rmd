@@ -1,0 +1,15 @@
+---
+title: Hugo Apero Themes
+author: Harshvardhan
+date: '2022-05-13'
+slug: hugo-apero-themes
+categories:
+  - R
+tags: []
+draft: true
+---
+
+Hugo Apero is my preferred blogdown theme. It is beautiful and provides all necessary ingredients to make your simple website beautiful. One of the simplest method to customise your website is changing your themes. In this short post, I will show you how different Apero themes look like. Then, I will also show some new themes by posted as a pull request on Github. Finally, I will show how you can create your own theme.
+
+# Default Themes
+
