@@ -1,6 +1,7 @@
 ---
 title: Trying New Things
-subtitle: 
+subtitle: "It is essential to keep experimenting with new things in life. We don't know what would stick and be successful; we can only take guesses. Take notes; that's the only way to keep a log."
+summary: "It is essential to keep experimenting with new things in life. We don't know what would stick and be successful; we can only take guesses. Take notes; that's the only way to keep a log."
 author: Harshvardhan
 date: '2022-05-13'
 slug: trying-new-things
