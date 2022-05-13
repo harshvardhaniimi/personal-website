@@ -1,0 +1,10 @@
+---
+title: Trying New Things
+author: Harshvardhan
+date: '2022-05-13'
+slug: trying-new-things
+categories:
+  - life
+  - thoughts
+tags: []
+---
