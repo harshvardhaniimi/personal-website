@@ -58,7 +58,7 @@ df = iris
 
 ### Show a data frame in MS Excel
 
-I found this function on Twitter but can't find that tweet anymore.
+I found this function on Twitter but can't find that tweet anymore. (Update: Bruno Rodrigues created this function. [Here's the tweet](https://twitter.com/brodriguesco/status/1525558786164932611).)
 
 ```{r eval = F}
 show_in_excel(df)
