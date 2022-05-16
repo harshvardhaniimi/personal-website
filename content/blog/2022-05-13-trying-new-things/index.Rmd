@@ -1,6 +1,6 @@
 ---
 title: Trying New Things
-subtitle: "It is essential to keep experimenting with new things in life. We don't know what would stick and be successful; we can only take guesses. Take notes; that's the only way to keep a log."
+subtitle: "The mind is for having ideas. Not for holding them."
 summary: "It is essential to keep experimenting with new things in life. We don't know what would stick and be successful; we can only take guesses. Take notes; that's the only way to keep a log."
 author: Harshvardhan
 date: '2022-05-13'
