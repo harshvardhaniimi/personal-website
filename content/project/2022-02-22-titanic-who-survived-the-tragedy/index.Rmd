@@ -1,5 +1,5 @@
 ---
-title: 'Titanic: Who Survived The Tragegy?'
+title: 'Titanic: Who Survived The Tragedy?'
 subtitle: 'Yet Another Machine Learning Project with Titanic Dataset'
 summary: 'Yet Another Machine Learning Project with Titanic Dataset'
 author: Harshvardhan
@@ -561,7 +561,7 @@ Being a male had actually a significant effect in surviving. Fare --- which like
 ## Comparing Logistic Regression and xgboost (Training Sets)
 
 | Model                                           | Accuracy | ROC Area Under Curve |
-|--------------------------------------|-----------------|-----------------|
+|-------------------------------------------------|----------|----------------------|
 | Logistic Regression                             | 0.792    | 0.856                |
 | Logistic Regression (with Bootstrapped Samples) | 0.792    | 0.856                |
 | xgboost                                         | 0.894    | 0.951                |
