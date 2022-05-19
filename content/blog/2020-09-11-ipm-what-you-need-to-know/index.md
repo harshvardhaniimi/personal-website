@@ -51,14 +51,14 @@ Essentially, you can do three things to prepare for your IPM interview:
 
 ## WAT
 
-WAT is a relatively new addition to entrance tests — it wasn't there in my time. However, from what I've heard the topics are fairly generic and aim to gauge your language abilities. They are not a test of your general awareness directly.
+WAT is a relatively new addition to entrance tests --- it wasn't there in my time. However, from what I've heard the topics are fairly generic and aim to gauge your language abilities. They are not a test of your general awareness directly.
 
-Here are a few online resources that might help: 
+Here are a few online resources that might help:
 
-* https://www.mbauniverse.com/wat-for-iims/topic.php
-* https://www.mbarendezvous.com/wat-topics/1.html
-* https://gdpi.hitbullseye.com/MBA/GD-and-Essay-Topics.php
-* https://www.xamnation.com/wat-topics-for-iim-and-mba-admissions/
+-   <https://www.mbauniverse.com/wat-for-iims/topic.php>
+-   <https://www.mbarendezvous.com/wat-topics/1.html>
+-   <https://gdpi.hitbullseye.com/MBA/GD-and-Essay-Topics.php>
+-   <https://www.xamnation.com/wat-topics-for-iim-and-mba-admissions/>
 
 For more topics, just Google.
 
@@ -68,6 +68,24 @@ This [document](https://drive.google.com/file/d/1j2MRyRPMj01sawYAvVen9nk9tYa4dsq
 
 ## Finally!
 
-If you do need additional help — anything that's beyond the content of this page -- feel free to contact me or any current IPM student. If you don't know them yet, LinkedIn is your friend.
+If you do need additional help --- anything that's beyond the content of this page -- feel free to contact me or any current IPM student. If you don't know them yet, LinkedIn is your friend.
 
 Good luck!
+
+------------------------------------------------------------------------
+
+# My Thoughts on IPM
+
+## How being an IPMer helped me be a better researcher?
+
+*Added on May 19, 2022.*
+
+The courses taught at IIM-I were a valuable combination of fields. Learning statistics, economics and humanities together enriched my thinking methods beyond what a single class could do. Especially, Stat Methods 1 & 2, Economics Statistics and Econometrics have been handy.
+
+The programming exposure to different languages allowed me to look beyond one specific language now that I code a lot. I use R and Python mostly these days, but little exposure to Java and C++ goes a long way in debugging.
+
+Summer research in the first and second-year summer is not well advertised but you can do it. I used that option, though very few (if any) of my classmates even knew about this opportunity. CIS is one way to do research but has limitations. You usually do it for a term, can only do if your GPA is greater than 3 and can't do it until the third year.
+
+Summer internships go a long way. In my foundational years, exposure to pure statistics interested me in research.
+
+The focus on projects is excellent too. We learn essential skills like collaboration (and how to manage social loafing) in group projects. Independent projects improve research skills and seed the idea of self-motivation.
