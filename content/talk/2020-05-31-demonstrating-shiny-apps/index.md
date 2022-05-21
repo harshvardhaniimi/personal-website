@@ -39,5 +39,3 @@ In this small guest lecture, my purpose was not to demonstrate what to do with S
 ### Update on Feb 13, 2021
 
 I delivered this guest lecture again for the next iteration of the course. This time, it was a full session --- I got 75 minutes to explain Shiny apps. I enjoyed it and the feedback was much better than last year.
-
-You can checkout the new slides [here](https://www.harsh17.in/slides2021.pdf).

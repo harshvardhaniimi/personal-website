@@ -8,6 +8,6 @@ headline: |
 
 <!-- this is a subheadline -->
 
-Here, you can find my academic [publications](/publications/), fun [projects](/projects/) I've tried, stuff I'd like people to [care](/talks/) about, some random [musings](/blogs/) and [notes](/notes/) on my favourite things.
+Here, you can find my academic [publications](/publications/), fun [projects](/project/) I've tried, stuff I'd like people to [care](/talk/) about, some random [musings](/blog/) and [notes](/note/) on my favourite things.
 
 Recently, I started a weekly [curated newsletter](https://www.harsh17.in/next/) on data science and R: "Next --- Today I Learned About R". It's been loved by more than a hundred learners so far.
