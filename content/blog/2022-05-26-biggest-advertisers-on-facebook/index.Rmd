@@ -1,0 +1,76 @@
+---
+title: Biggest Social Advertisers on Facebook
+subtitle: Trump leads the way, followed by Biden and Mike Bloomberg
+summary: "Facebook provides data on all ad funding related to social issues, politics and elections. Here is a simple plot and table to explore the most prominent advertisers."
+author: Harshvardhan
+date: '2022-05-26'
+slug: biggest-political-advertisers-on-facebook
+categories:
+  - business
+  - economics
+  - life
+  - thoughts
+  - R
+tags: []
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(DT)
+library(viridis)
+data = read_csv("/Users/harshvardhan/Downloads/FacebookAdLibraryReport_2022-05-22_US_lifelong/FacebookAdLibraryReport_2022-05-22_US_lifelong_advertisers.csv")
+
+# Amounts lower than 100 USD are written as "<= 100". I will change them to 100 each.
+
+data$`Amount spent (USD)`[data$`Amount spent (USD)` == "≤100"] = 100
+data$`Amount spent (USD)` = as.numeric(data$`Amount spent (USD)`)
+
+data = data %>% 
+  group_by(`Page name`) %>% 
+  summarise(`Amount spent (USD)` = sum(`Amount spent (USD)`),
+            `Number of ads in Library` = sum(`Number of ads in Library`))
+
+library(wikipediapreview)
+wp_init()
+```
+
+[Facebook](https://en.wikipedia.org/wiki/Facebook) provides data on [all ad funding](https://www.facebook.com/ads/library/report) related to social issues, [politics and elections](https://en.wikipedia.org/wiki/Campaign_advertising). The database goes back to 2018 from the present. It tells how much each page has spent on advertisement and how many ads they have. It is part of Meta's effort to increase transparency in advertising.[^1]
+
+[^1]: Twitter has banned all political advertisement on its platform, which isn't the best idea, if you ask me. Whether the platforms like it or not, general public reaches out to social media to learn about politics. Advertisements are one of the purest form of news as groups generally don't lie about themselves.
+
+# Biggest social advertisers on Meta platforms between May 2018 and May 2022
+
+```{r, echo=FALSE, fig.width = 10, fig.height = 10}
+data %>% 
+  arrange(desc(`Amount spent (USD)`)) %>%
+  slice_head(n = 30) %>% 
+  ggplot(aes(x = reorder(`Page name`, `Amount spent (USD)`), y = `Amount spent (USD)`/10^6,
+             fill = factor(`Page name`), label = round(`Amount spent (USD)`/10^6))) +
+  geom_col() +
+  coord_flip() +
+  #scale_fill_viridis(discrete = TRUE, option = "D") +
+  scale_fill_manual(values = MetBrewer::met.brewer("Degas", 50)) +
+  scale_y_continuous(labels = scales::dollar_format(prefix="$", suffix = "M"),
+                     limits = c(0, 125)) +
+  geom_text(size = 3, hjust = 1.5, col = "white") +
+  theme_linedraw() +
+  theme(legend.position = "none") +
+  labs(y = "Amount Spent on Meta Ads (in millions)",
+       x = "")
+       #title = "Trump spent the most, followed by Biden",
+       #title = "Biggest advertisers on Meta platforms between May 2018 and May 2022")#,
+       #caption = "Data source: Meta. Viz: Harshvardhan <harsh17.in>")
+```
+
+# Here are the Top-10,000 biggest political/social advertisers
+
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+data %>% 
+  arrange(desc(`Amount spent (USD)`)) %>%
+  slice_head(n = 10000) %>% 
+  datatable(options = list(pageLength = 100)) %>% 
+  formatCurrency(2, digits = 0) %>% 
+  formatRound(3, digits = 0)
+```
+
+The codes are available on [here](https://gist.github.com/harshvardhaniimi/d1728dfe02c0274b448d1d3820295e7e).
