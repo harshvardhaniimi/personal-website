@@ -59,9 +59,15 @@ In the 1990s, the USDA was tasked to create a food pyramid that would be printed
 
 USDA made a marketing division to work with fast food companies (among others) to support them. The dairy industry wanted a piece too. Soon, there was cheese everywhere. Everywhere.
 
-But how much can you plaster a pizza with cheese? It's already dipping. When they couldn't find more places to put cheese, they invented the cheese-filled crust.[^7] Today, unlike other corners of fast food industry, pizza isn't considered as unhealthy when it actually is. In fact, the US government spends millions to get people to eat more pizza.[^8]
+But how much can you plaster a pizza with cheese? It's already dipping. When they couldn't find more places to put cheese, the US government invented the cheese-filled crust.[^7]
 
 [^7]: Rainey, Clint. "The Mad Cheese Scientists Fighting to Save the Dairy Industry." *Bloomberg.com*, Bloomberg, <https://www.bloomberg.com/news/features/2017-07-19/the-mad-cheese-scientists-fighting-to-save-the-dairy-industry#xj4y7vzkg.>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+blogdown::shortcode('tweet', '1528823098929053696')
+```
+
+Today, unlike other corners of fast food industry, pizza isn't considered as unhealthy when it actually is. In fact, the US government spends millions to get people to eat more pizza.[^8]
 
 [^8]: Plumer, B. (2021, November 25). *How the U.S. government spends millions to get people to eat more pizza*. The Washington Post. Retrieved June 5, 2022, from <https://www.washingtonpost.com/news/wonk/wp/2014/02/10/13-percent-of-americans-are-eating-pizza-on-any-given-day/>
 
