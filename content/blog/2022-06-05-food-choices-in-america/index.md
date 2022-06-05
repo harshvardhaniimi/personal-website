@@ -1,6 +1,6 @@
 ---
 title: Food Choices in America
-subtitle: "I had always wondered about the ubiquity of unhealthy food in the US and the blatant absence of fresh fruits and vegetables. Why are our supermarkets full of unhealthy chips, why does bread have corn syrup, and why do berries cost $9.99 and berries snacks cost $1.99!?"
+subtitle: "I had always wondered about the ubiquity of unhealthy food in the US and the blatant absence of fresh fruits and vegetables. Why are supermarkets full of unhealthy chips, why does bread have corn syrup, and why do berries cost $9.99 and berries snacks cost $1.99!?"
 summary: "I had always wondered about the ubiquity of unhealthy food in the US and the blatant absence of fresh fruits and vegetables. Why are our supermarkets full of unhealthy chips, why does bread have corn syrup, and why do berries cost $9.99 and berries snacks cost $1.99!?"
 author: Harshvardhan
 date: '2022-06-05'
@@ -11,7 +11,7 @@ categories:
 tags: []
 ---
 
-I had always wondered about the ubiquity of unhealthy food in the US and the blatant absence of fresh fruits and vegetables. Why are our supermarkets full of unhealthy chips, why does bread have corn syrup, and why do berries cost \$9.99 and berries snacks cost \$1.99!?
+I had always wondered about the ubiquity of unhealthy food in the US and the blatant absence of fresh fruits and vegetables. Why are supermarkets full of unhealthy chips, why does bread have corn syrup, and why do berries cost \$9.99 and berries snacks cost \$1.99!?
 
 The answer might be misaligned incentives. You see, the farmers in the Great Depression-era were poor and helpless; had a regular tryst with droughts like every other country's farmers. And most Americans were farmers. So, poor and vulnerable. The US government supported them with three initiatives. First, subsidies. The USDA found some easy to grow crops like wheat and corn, and helped farmers economically to develop them.
 
