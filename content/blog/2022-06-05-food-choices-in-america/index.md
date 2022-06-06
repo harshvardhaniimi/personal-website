@@ -31,13 +31,15 @@ However, the farmers clearly say that the chemical is not going anywhere.[^4]
 
 Third, which I don’t have much to talk about, was buying surplus produce from farmers.
 
-Today, the farmers are neither poor nor helpless. Less than 1% of Americans are farmers. However, the subsidies are still in place.[^5] But it doesn’t look like they’re going anywhere. Today almost half of the subsidies go to the top-7 largest farm corporations in the US.
+Today, the farmers are neither poor nor helpless. Less than 1% of Americans are farmers but the subsidies are still in place.[^5] It doesn’t look like they’re going anywhere.
+
+Almost half of the subsidies go to the top-7 largest farm corporations in the US.
 
 [![](images/farm_bill_donut_chart-figure_1.png)](https://www.mercatus.org/publications/corporate-welfare/government-failure-farm-bill)
 
-**But when you subsidise something, you get a lot of it.**
+**When you subsidise something, you get a lot of it.**
 
-In the 1990s, the USDA was tasked to create a food pyramid that would be printed in kids’ textbooks. What better way to tell them to be healthy? But soon, the fantastic initiative was hijacked by lobbyists. The proportion of fruits and vegetables was reduced significantly to give space to grains and meat, according to Lusie Light, former USDA Director of Dietary Guidance and Nutrition Education Research.[^6]
+In the 1990s, the USDA was tasked to create a food pyramid that would be printed in kids’ textbooks. What better way to tell them to be healthy? Unfortunately, the fantastic initiative was hijacked by lobbyists. The proportion of fruits and vegetables was reduced significantly to give space to grains and meat, according to Lusie Light, former USDA Director of Dietary Guidance and Nutrition Education Research.[^6]
 
 > Where we, the USDA nutritionists, called for a base of 5-9 servings of fresh fruits and vegetables a day, it was replaced with a paltry 2-3 servings (changed to 5-7 servings a couple of years later because an anti-cancer campaign by another government agency, the National Cancer Institute, forced the USDA to adopt the higher standard). Our recommendation of 3-4 daily servings of whole-grain breads and cereals was changed to a whopping 6-11 servings forming the base of the Food Pyramid as a concession to the processed wheat and corn industries.
 >
