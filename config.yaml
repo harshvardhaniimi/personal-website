@@ -31,8 +31,8 @@ markup:
     startLevel: 2
 params:
   custom_theme: ''
-  customheadingFontFamily: Fraunces
-  customtextFontFamily: Commissioner
+  customheadingFontFamily: Futura
+  customtextFontFamily: Futura
   description: Standing on the Shoulders of Giants
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
@@ -72,7 +72,7 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  theme: paper
+  theme: poppy
   twitter: harshbutjust
   utterances:
     issue_term: pathname
