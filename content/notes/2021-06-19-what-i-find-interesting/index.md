@@ -10,19 +10,13 @@ categories:
   - social
   - thoughts
 tags: []
-editor_options: 
-  markdown: 
-    wrap: sentence
 ---
 
 ### Podcasts
 
--   **TED:** TED's novelty is not a secret.
-    Watch it; you will indeed find an exciting idea.
+-   **TED:** TED's novelty is not a secret. Watch it; you will indeed find an exciting idea.
 
--   **Talks At Google:** Each time, they invite a great person to share their ideas about unconventional topics.
-    They are pretty brave --- not shying away from calling people who are critical about Google's activities.
-    You may like to start with Yuval Noah Harari's episode.
+-   **Talks At Google:** Each time, they invite a great person to share their ideas about unconventional topics. They are pretty brave --- not shying away from calling people who are critical about Google's activities. You may like to start with Yuval Noah Harari's episode.
 
 -   **Make Me Smart:** Topics I love --- Economics and Technology --- mashed together.
 

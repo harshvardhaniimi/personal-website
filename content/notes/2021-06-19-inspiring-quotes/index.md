@@ -4,7 +4,7 @@ subtitle: A Collection
 summary: A collection of things well said
 author: Harshvardhan
 date: '2021-06-19'
-slug: []
+slug: quotes
 categories:
   - life
 tags: []
@@ -21,9 +21,11 @@ I would like to have a collection but keep procrastinating. Starting today, I'll
 
 I also made a website using R-Shiny that scraps a random Wikiquote and puts it in a nice background. [Check it out!](https://harshvardhan.shinyapps.io/quotes_generator/).
 
+------------------------------------------------------------------------
+
 In no particular order, they are:
 
-*The future is already here. It’s just not evenly distributed yet.* - William Gibson
+*The future is already here. It's just not evenly distributed yet.* - William Gibson
 
 *If I had to put the recipe for genius into one sentence, that might be it: to have a disinterested obsession with something that matters.* - Paul Graham
 
@@ -31,7 +33,7 @@ In no particular order, they are:
 
 *Don't use dissatisfaction as an excuse to be lazy.* - Paul Graham
 
-*Sometimes it’s not what you do what you not do would make you successful.* - Paul Graham
+*Sometimes it's not what you do what you not do would make you successful.* - Paul Graham
 
 *Content is important. Medium is not important.*
 
@@ -39,7 +41,7 @@ In no particular order, they are:
 
 *I am like a snake, I slough my skin and start afresh.* - Goethe
 
-*It’s not the plane, it’s the pilot.* - Topgun
+*It's not the plane, it's the pilot.* - Topgun
 
 *The oracle said to you exactly what you needed to hear.* - The Matrix
 
