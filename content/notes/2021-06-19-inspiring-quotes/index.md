@@ -45,6 +45,8 @@ In no particular order, they are:
 
 *High Quality Work Produced = (Time Spent) x (Intensity of Focus)*
 
+*Friday afternoon. Spend 10% time to stop and think: "what are the important problems to solve? What are the fundamental structures?"* - Hamming
+
 *I have to fail in at least 90% of my attempts to be successful enough.*
 
 *Do the best you can until you know better. Then when you know better, do better.* - Maya Angelou
