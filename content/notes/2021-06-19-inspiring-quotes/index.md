@@ -23,6 +23,32 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*The future is already here. It’s just not evenly distributed yet.* - William Gibson
+
+*If I had to put the recipe for genius into one sentence, that might be it: to have a disinterested obsession with something that matters.* - Paul Graham
+
+*What are the most important problems in your field, and why aren't you working on one of them?* - Hamming
+
+*Don't use dissatisfaction as an excuse to be lazy.* - Paul Graham
+
+*Sometimes it’s not what you do what you not do would make you successful.* - Paul Graham
+
+*Content is important. Medium is not important.*
+
+*I walk with the assurance of a sleep walker towards my destiny* - Adolf Hitler
+
+*I am like a snake, I slough my skin and start afresh.* - Goethe
+
+*It’s not the plane, it’s the pilot.* - Topgun
+
+*The oracle said to you exactly what you needed to hear.* - The Matrix
+
+*High Quality Work Produced = (Time Spent) x (Intensity of Focus)*
+
+*I have to fail in at least 90% of my attempts to be successful enough.*
+
+*Do the best you can until you know better. Then when you know better, do better.* - Maya Angelou
+
 *For every moment of triumph, for every instance of beauty, many souls must be trampled. ---* Hunter S. Thompson
 
 *Our intuition about the future is linear. But the reality of information technology is exponential, and that makes a profound difference. If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion. ---* Ray Kurzweil
