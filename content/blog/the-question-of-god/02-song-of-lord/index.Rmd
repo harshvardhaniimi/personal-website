@@ -3,7 +3,7 @@ title: The Song of Lord
 subtitle: "Shrimad Bhagavad Gita, or the song of the lord, is a 700 verses long conversation between Lord Sri Krishna and Arjun. It discusses key principles of action and embodies more wisdom than I can grasp."
 summary: "Shrimad Bhagavad Gita, or the song of the lord, is a 700 verses long conversation between Lord Sri Krishna and Arjun. It discusses key principles of action and embodies more wisdom than I can grasp."
 date: '2022-06-12'
-tags:
+categories:
   - life
   - thoughts
 ---
