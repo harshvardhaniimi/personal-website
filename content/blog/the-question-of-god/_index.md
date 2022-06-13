@@ -1,7 +1,7 @@
 ---
 title: The Question of God
 description: |
-  My thoughts on one of most interesting questions of our lifetime.
+  My thoughts on one of the most interesting questions of our lifetime.
 author: Harshvardhan
 show_post_thumbnail: false
 show_author_byline: true
@@ -14,7 +14,7 @@ sidebar:
   title: The Question of God
   author: Harshvardhan
   description: |
-    My thoughts on one of most interesting questions of our lifetime.
+    My thoughts on one of the most interesting questions of our lifetime.
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
