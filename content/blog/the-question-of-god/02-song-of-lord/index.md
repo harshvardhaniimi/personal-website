@@ -56,7 +56,9 @@ But Arjun is confused. What should motivate him to do anything if he should not 
 
 Krishna's answer is philosophically self evident. *Think of me.* *Be truly devoted to me.* He is the origin of the universe and the end of it. He is the creator of the world; he is the destroyer of it.
 
-Krishna is the eighth incarnation of Lord Vishnu, and Ramadhari Singh Dinkar best describes him in Rashmirathi.
+Krishna is the eighth incarnation of Lord Vishnu, and Ramadhari Singh Dinkar best describes him in Rashmirathi.[^5]
+
+[^5]: D.N. Pandey sir, my high school maths teacher, used to recite this poem while he gave us math problems to solve. The rigor with which I approached the problem definitely improved after listening to his energetic voice. Manoj Bajpayee's [recitation](https://www.youtube.com/watch?v=HDeHvpeOzyM) is probably the most energetic one I've listened to. You can listen it here with [English subtitles](https://www.youtube.com/watch?v=EqnccQ3aWU0).
 
 हरि ने भीषण हुंकार किया, अपना स्वरूप-विस्तार किया, डगमग-डगमग दिग्गज डोले, भगवान् कुपित होकर बोले- 'जंजीर बढ़ा कर साध मुझे, हाँ, हाँ दुर्योधन! बाँध मुझे।
 
@@ -72,9 +74,9 @@ Krishna is the eighth incarnation of Lord Vishnu, and Ramadhari Singh Dinkar bes
 
 "But then, what is the true devotion?" asks Arjun. Krishna says that to be devoted to one's karma is to be devoted to me. How do you devote yourself to me? *Yoga*.
 
-Krishna explains that there are three types of *yoga*.[^5] First is *Bhakti-yoga*, or the yoga of devotion. You can devote yourself to my worship, praising the Lord, the creator, the destroyer, the nature and the world.
+Krishna explains that there are three types of *yoga*.[^6] First is *Bhakti-yoga*, or the yoga of devotion. You can devote yourself to my worship, praising the Lord, the creator, the destroyer, the nature and the world.
 
-[^5]: Yoga stands for the union of thoughts, body and nature. Unfortunately, goat yoga doesn't fall in either three categories.
+[^6]: Yoga stands for the union of thoughts, body and nature. Unfortunately, goat yoga doesn't fall in either three categories.
 
 Second is *Gyaan-yoga*, when you leave everything else and focus on learning yourself. Knowledge of self is the ultimate knowledge. The third is *Karma-yoga*, when you focus on your actions.
 
@@ -92,15 +94,15 @@ The Krishna tells him to look around and Arjun notices how everything is paused.
 
 The events are foreordained and will happen as they should. From Krishna's vantage point, the clues to shape the future are already present today. A negligent mind won't realise it; a *yogi* won't miss it. The events will occur as they must occur.
 
-I am death, destroyer of the worlds.[^6]
+I am death, destroyer of the worlds.[^7]
 
-[^6]: This is the phrase from Gita that Oppenheimer quoted when he created the world's first nuclear bomb.
+[^7]: This is the phrase from Gita that Oppenheimer quoted when he created the world's first nuclear bomb.
 
 Arjuna, you are going to fight; you might as well accept it and move on.
 
-प्रकृति (Prakriti, or nature) and पुरुष (Purusha, or observer self) are two dials of the world. The doctrine of non-attached action can be explained by how a tortoise pulls himself within his shell, just like a *Karma-yogi* pulls one's पुरुष towards प्रकृति to understand oneself and perform actions by thinking about nature.[^7]
+प्रकृति (Prakriti, or nature) and पुरुष (Purusha, or observer self) are two dials of the world. The doctrine of non-attached action can be explained by how a tortoise pulls himself within his shell, just like a *Karma-yogi* pulls one's पुरुष towards प्रकृति to understand oneself and perform actions by thinking about nature.[^8]
 
-[^7]: In Vedanta philosophy, प्रकृति is the prime material of which the world is made up of. All matter is part of प्रकृति.
+[^8]: In Vedanta philosophy, प्रकृति is the prime material of which the world is made up of. All matter is part of प्रकृति.
 
 By practising *yoga*, Arjun, you can learn about yourself --- your Purusha. At that stage, your understanding of Purusha will overpower the illusion of Prakriti. You will learn to see things as they are, not as your body wants you to believe.
 
