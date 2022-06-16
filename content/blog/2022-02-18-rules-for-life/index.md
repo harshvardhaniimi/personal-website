@@ -7,6 +7,7 @@ date: '2022-02-18'
 slug: rules
 categories:
   - thoughts
+  - life
 tags: []
 ---
 
@@ -19,3 +20,4 @@ tags: []
 6.  Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work.
 7.  [Always demand a deadline.](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/) A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better.
 8.  Promptness is a sign of respect.
+9.  When you're meeting someone, be intentional and have an agenda.
