@@ -4,7 +4,7 @@ subtitle: Constants, not variables
 summary: Constants, not variables
 author: Harshvardhan
 date: '2022-02-18'
-slug: three-rules-for-life
+slug: rules
 categories:
   - thoughts
 tags: []
