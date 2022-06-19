@@ -121,7 +121,7 @@ menu:
       weight: 6
     - name: Newsletter
       title: Next — Today I Learned About R
-      url: https://www.harsh17.in/newsletter/
+      url: https://www.getrevue.co/profile/harshbutjust
       weight: 7
 privacy:
   disqus:
