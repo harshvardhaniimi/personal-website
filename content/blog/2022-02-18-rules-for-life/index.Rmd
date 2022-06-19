@@ -21,3 +21,5 @@ tags: []
 7.  [Always demand a deadline.](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/) A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better.
 8.  Promptness is a sign of respect.
 9.  When you're meeting someone, be intentional and have an agenda.
+10. Never leave an empty water bottle. Fill it up when it's near-empty.
+11. Medium is not as important as the content.
