@@ -15,7 +15,7 @@ A university's website tells a lot about it. Harvard --- like all things in educ
 
 ![](images/Screen%20Recording%202022-05-11%20at%201.56.42%20PM.gif)
 
-Today's topic is Mental Health. On any given day, it would be something else --- racial bias, COVID-19, sports, education, literally anything. They would put together a bunch of research done by their faculty on that that topic, articles published by [The Crimson](https://www.thecrimson.com) (their student magazine) or any other such publication.
+Today's topic is Mental Health. On any given day, it would be something else --- racial bias, COVID-19, sports, education, literally anything. They would put together a bunch of research done by their faculty on that that topic, articles published by The Crimson or any other such publication.
 
 When there can be internal resources that can be linked, they'll do that. Notice how they added a link to their libraries by calling out "Library resources to support mental health".
 

@@ -38,3 +38,34 @@ blogdown::shortcode('tweet', "1518772756069773313")
 blogdown::shortcode('tweet', "1521523506512470018")
 blogdown::shortcode('tweet', "1511322655609303043")
 ```
+
+# This one blows my mind.
+
+It will go into textbooks for corporate communication failure, at least at business schools.
+
+```{r, echo = FALSE}
+library(rtweet)
+
+last_tweet_id <- "1526250477456965634"
+
+lookup_thread <- function(status_id, tweets = NULL) {
+  tweet <- rtweet::lookup_tweets(status_id)
+  tweets <- dplyr::bind_rows(tweet, tweets)
+  if (is.na(tweet$reply_to_status_id)) {
+    return(tweets)
+  } else {
+    lookup_thread(tweet$reply_to_status_id, tweets)
+  }
+}
+
+# gather from last tweet to first tweet in the thread,
+# following the trail of reply_to_status_id
+thread <- lookup_thread(last_tweet_id)
+
+thread <- paste0("https://twitter.com/", thread$screen_name, "/status/", 
+       thread$status_id)
+
+htmltools::tagList(
+  lapply(thread, tweetrmd::tweet_embed, plain = TRUE)
+)
+```
