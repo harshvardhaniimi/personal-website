@@ -23,4 +23,4 @@ tags: []
 9.  When you're meeting someone, be intentional and have an agenda.
 10. Never leave an empty water bottle. Fill it up when it's near-empty.
 11. **Medium is not as important as the content.**
-12. Experiments are usually easier than creating theories. See it for yourself.
+12. Experiments are usually easier than creating theories. Prove it to yourself.
