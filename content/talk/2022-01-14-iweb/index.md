@@ -3,7 +3,10 @@ title: I Web, Therefore I Exist
 subtitle: How to create and control your digital identity
 summary: Slides, recorded lecture and additional resources around my talk on how to create and control your digital identity. 
 author: Harshvardhan
-date: '2022-01-14'
+date: '2022-01-14T12:00:00Z'
+event: 'Trenton R Users'
+event_url: https://www.youtube.com/watch?v=qZJ9lusozvo
+location: Remote
 slug: iweb
 categories:
   - life
