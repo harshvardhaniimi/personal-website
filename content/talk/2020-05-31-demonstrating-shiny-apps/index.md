@@ -2,7 +2,9 @@
 title: Demonstrating Shiny Apps
 summary: Guest lecture for PhD students on R Shiny (2020 and 2021)
 author: Harshvardhan
-date: '2020-05-31'
+date: '2021-02-13T10:00:00Z'
+event: 'Guest Lecture'
+location: IIM Indore
 slug: demonstrating-shiny-apps
 categories:
   - R
