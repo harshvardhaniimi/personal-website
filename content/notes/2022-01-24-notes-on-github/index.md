@@ -81,6 +81,14 @@ I want to commit the last two changes (something about this blog post), so I wil
 
 Now, I will paste in the Terminal window the magic spell: `git reset HEAD~`.
 
+# Python
+
+Use `nbdime` for diffing and merging Jupyter notebooks. Github desktop app is soon going to use it as default diff-tool for Jupyter notebooks.[^1]
+
+[^1]: It annoys me that `.ipynb` is not plain text. Making it a plain text file would make it much easier to handle. Plus, we won't require an additional tool like JupyterLab/JupyterHub for viewing or editing. Why didn't they make it a plaintext file? I might be technically wrong on this one but one benefit might be plugins but they can easily be delivered as notebook extensions like in RStudio visual editor.
+
+If you have a better suggestion on how to handle Python notebooks in Github, I'm [all ears](mailto:hello@harsh17.in).
+
 ## Some additional resources
 
 -   <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/>
