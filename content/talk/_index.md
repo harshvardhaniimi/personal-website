@@ -2,7 +2,7 @@
 author: Harshvardhan
 cascade:
   author: Harshvardhan
-  show_author_byline: true
+  show_author_byline: false
   show_comments: false
   show_post_date: true
   show_post_time: true
@@ -13,7 +13,7 @@ cascade:
 description: |
   Events I have present at, shared along with slides, videos and other related resources.
 layout: list
-show_author_byline: true
+show_author_byline: false
 show_button_links: true
 show_post_date: true
 show_post_thumbnail: true
