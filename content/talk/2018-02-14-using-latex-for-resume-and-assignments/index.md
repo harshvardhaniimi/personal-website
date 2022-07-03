@@ -3,7 +3,10 @@ title: Using LaTeX for Resume and Assignments
 subtitle: Hands-on workshop on using LaTeX for Resumes
 summary: Hands-on workshop on using LaTeX for Resumes
 author: Harshvardhan
-date: '2018-02-14'
+date: '2018-02-14T19:00:00Z'
+event: 'Syntax Tutorial'
+event_url: https://www.iimidr.ac.in/students-corner/clubs-2/ipm-clubs/special-interest-group-sig/respawn-the-gamers-group/
+location: IIM Indore
 slug: using-latex-for-resume-and-assignments
 categories:
   - latex
