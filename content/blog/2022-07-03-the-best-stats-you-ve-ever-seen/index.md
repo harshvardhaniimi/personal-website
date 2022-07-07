@@ -117,9 +117,13 @@ Hopefully, we will make it so that everyone can be rich.[^5]
 
 They responded back to my note and this blog post bringing forward another set of interesting points.
 
-It is important to understand logarithmic transformations are not trivial. As they correctly identified --- which most readers would miss --- logarithmic scales in graphs grossly underestimate actual differences. For example, the difference between \$1 and \$10 in this graph actually means a difference of \$3 and \$22,026.[^6] Why use logarithmic scales at all? Because incomes vary widely and log-transform brings some order. Furthermore, growth is more easily captured with log numbers. But difference of \$22,023 is much more than \$9, right?
+It is important to understand logarithmic transformations are not trivial. As they correctly identified --- which most readers would miss --- logarithmic scales in graphs grossly underestimate actual differences.[^6]
 
 [^6]: They shared [this amazing website](https://mkorostoff.github.io/1-pixel-wealth/) which shows wealth in pixels. No log scales; just note the difference.
+
+~~For example, the difference between \$1 and \$10 in this graph actually means a difference of \$3 and \$22,026. Why use logarithmic scales at all? Because incomes vary widely and log-transform brings some order. Furthermore, growth is more easily captured with log numbers. But difference of \$22,023 is much more than \$9, right?~~[^7]
+
+[^7]: This description is wrong/incomplete. Here's how Gapminder makes income mountains: <https://www.gapminder.org/data/documentation/income-mountains-dataset/>.
 
 > One could also ask whether relative change is actually what is of interest. It is often deemed appropriate with a reference to "diminishing returns": the logarithmic scale incorporates peoples perception about the worth of additional income, giving 1 dollar to a person with 1\$/day income is much more significant than giving to a 10\$/day person. But to quote [Jason Hickel](https://www.jasonhickel.org/blog/2019/5/15/how-not-to-measure-inequality): "Ultimately, there is a difference in perspectives at stake here. Additional dollars going to the rich are, from the perspective of the rich, diminishing in terms of marginal utility. But from the perspective of the poor they represent increasing egregiousness. To rely solely on the theory of diminishing marginal utility in discussing inequality, then, is to adopt the perspective of the rich and dress it up as neutral and objective."
 
