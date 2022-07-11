@@ -1,6 +1,7 @@
 ---
 title: The Ascribed Advantage
 subtitle: "How does gender affects pay? A case study of UK companies. #tidytuesday"
+summary: "How does gender affects pay? In this short exploration, I use #tidytuesday dataset provided by UK Government to visualise gender gaps using R. And why are women working at churches paid 40% less bonus than men?"
 date: '2022-07-09'
 slug: the-ascribed-advantage
 categories:
@@ -15,7 +16,11 @@ How much more do men earn doing the same job as women? In this exploration, I wi
 
 This online tool lets you [visualise](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/findoutthegenderpaygapforyourjob/2016-12-09) the difference by gender and occupation. If you're feeling brave, try this [quiz](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/testyourknowledgeonthegenderpaygap/2016-12-09) too.
 
+# Let's begin
+
 ```{r}
+knitr::opts_chunk$set(collapse = TRUE, out.width = "100%")
+
 library(tidyverse)
 library(DT)
 
@@ -30,8 +35,7 @@ The variables that actually look at the differences here are the variables that 
 
 ```{r}
 paygap_raw |> 
-  select(contains("diff")) |> 
-  datatable()
+  select(contains("diff"))
 ```
 
 There are four variables. First two are differences in hourly pay (mean and median) and last two are differences in bonus (mean and median). The positive numbers have to be interpreted as men earning as much more than women in that company/organisation.
@@ -40,8 +44,7 @@ A useful variable is the [SIC code](https://www.gov.uk/government/publications/s
 
 ```{r}
 paygap_raw |> 
-  select(contains("sic")) |> 
-  datatable()
+  select(contains("sic"))
 ```
 
 As can be noticed, some companies have more than one SIC code. Let's separate them with `seperate_rows()` function from `tidyr`. Then, let's count them to see which ones are the most common.[^1]
@@ -52,16 +55,14 @@ As can be noticed, some companies have more than one SIC code. Let's separate th
 paygap_raw |>  
   select(sic_codes) |>  
   separate_rows(sic_codes, sep = ":") |> 
-  count(sic_codes, sort = TRUE) |> 
-  datatable()
+  count(sic_codes, sort = TRUE)
 ```
 
 But what do these SIC codes mean? Let's check out! The CSV file is available at UK government's [website](https://www.gov.uk/government/publications/standard-industrial-classification-of-economic-activities-sic).
 
 ```{r}
 uk_sic_codes = read_csv("https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/527619/SIC07_CH_condensed_list_en.csv")
-uk_sic_codes |> 
-  datatable()
+uk_sic_codes
 ```
 
 The variable name needs to be cleaned.
@@ -69,8 +70,7 @@ The variable name needs to be cleaned.
 ```{r}
 uk_sic_codes = uk_sic_codes |> 
   janitor::clean_names()
-uk_sic_codes |> 
-  datatable()
+uk_sic_codes
 ```
 
 # Visualise Differences
@@ -81,8 +81,7 @@ uk_sic_codes |>
 paygap_raw |> 
   slice_max(order_by = diff_median_hourly_percent, n = 10) |> 
   select(employer_name) |> 
-  unique() |> 
-  datatable()
+  unique()
 ```
 
 J.C.B. is the only familiar name to me. Is the difference one of the highest because of the business it's involved in? Construction sector doesn't employ many women. (If you're curious why there are 16 names when I asked for top-10, it's because some companies/roles have equal pay difference.)
@@ -93,8 +92,7 @@ J.C.B. is the only familiar name to me. Is the difference one of the highest bec
 paygap_raw |> 
   slice_min(order_by = diff_median_hourly_percent, n = 10) |> 
   select(employer_name) |> 
-  unique() |> 
-  datatable()
+  unique()
 ```
 
 Some of these look like housekeeping companies.
@@ -111,30 +109,53 @@ paygap_raw |>
   ylim(c(0, 10000)) +
   labs(x = "Difference",
        y = "Count",
-       caption = "A value of 10% implies that men earn 10% more than women.",
+       caption = "A value of 10% implies that men earn 10% more hourly wage than women.",
        title = "Median Hourly Pay Difference")
 ```
 
 There are a lot of companies that are on the positive side than they are on the negative side.
 
+# Distribution of Bonus
+
+```{r}
+paygap_raw |> 
+  ggplot(aes(diff_median_bonus_percent / 100)) +
+  geom_histogram(bins = 25) +
+  scale_x_continuous(limits = c(-0.5, 0.5), labels = scales::percent) +
+  ylim(c(0, 10000)) +
+  labs(x = "Difference",
+       y = "Count",
+       caption = "A value of 10% implies that men earned 10% more bonus than women.",
+       title = "Median Bonus Difference")
+```
+
+Ooooh. In most cases, the difference in bonus is zero. Let's see which companies have the highest difference in bonus.
+
+```{r}
+paygap_raw |> 
+  mutate(diff_median_bonus_percent = diff_median_bonus_percent/100) |> 
+  slice_max(diff_median_bonus_percent, n = 10) |> 
+  select(contains("employer"), diff_median_bonus_percent)
+```
+
+What do we have here... The Order of St. Augustine of the Mercy of Jesus ([Roman Catholic Church](https://en.wikipedia.org/wiki/Canonesses_of_St._Augustine_of_the_Mercy_of_Jesus)) has the highest difference in bonus: 40%. Bowdraper is a cleaning service company.
+
 To proceed, I need to join the SIC code values to that data frame. Before that, I have to separate the SIC codes which can be separated using `:`.
 
 ```{r}
 paygap_joined = paygap_raw |> 
-  select(employer_name, diff_median_hourly_percent, sic_codes) |> 
+  #select(employer_name, diff_median_hourly_percent, sic_codes) |> 
   separate_rows(sic_codes, sep = ":") |> 
   left_join(uk_sic_codes, by = c("sic_codes" = "sic_code"))
 
-paygap_joined |> 
-  datatable()
+paygap_joined
 ```
 
 Let's see how many unique descriptions are there for SIC codes.
 
 ```{r}
 paygap_joined |> 
-  count(description, sort = TRUE) |> 
-  datatable()
+  count(description, sort = TRUE)
 ```
 
 Many of them are similar to each other. "General secondary education" is very similar to "Primary education" --- considering teachers as one group might be more meaningful for analysis.
@@ -149,16 +170,14 @@ paygap_tokenized = paygap_joined |>
   anti_join(get_stopwords()) |> 
   na.omit()
 
-paygap_tokenized |> 
-  datatable()
+paygap_tokenized
 ```
 
 Let's see the most common words.
 
 ```{r}
 paygap_tokenized |> 
-  count(word, sort = T) |> 
-  datatable()
+  count(word, sort = T)
 ```
 
 There are 848 words. Some of them are useless, like "activities, "n.e.c", "general" and "non". I'll remove them. If I'm going to build any useful model, 858 categories are not going to be useful for me. Let's reduce them to say 40 words and call that `top_words`.
@@ -178,8 +197,7 @@ Let's take the tokenised dataset, filter only the top words. Then, we will see h
 paygap = paygap_tokenized |> 
   filter(word %in% top_words) |> 
   transmute(diff_wage = diff_median_hourly_percent / 100, word)
-paygap |> 
-  datatable()
+paygap
 ```
 
 Okay, now we are ready to analyse the differences.
@@ -191,8 +209,7 @@ paygap_joined |>
   mutate(diff_wage = diff_median_hourly_percent / 100) |> 
   group_by(description) |>
   summarise(diff_wage = mean(diff_wage)) |> 
-  arrange(desc(diff_wage)) |> 
-  datatable()
+  arrange(desc(diff_wage))
 ```
 
 What is factoring? I've never heard of it. Here's how the [website](https://www.siccode.co.uk/sic2007/code-64992) describes it.
@@ -220,15 +237,17 @@ paygap_joined |>
   mutate(diff_wage = diff_median_hourly_percent / 100) |> 
   group_by(description) |>
   summarise(diff_wage = mean(diff_wage)) |>
-  slice_max(diff_wage, n = 30) |> 
+  slice_max(diff_wage, n = 10) |> 
   mutate(description = fct_reorder(description, diff_wage)) |> 
   ggplot(aes(x = description, y = diff_wage)) +
-  geom_col(alpha = 0.9) +
+  geom_point(alpha = 0.9, size = 2) +
+  scale_x_discrete(labels = \(x) stringr::str_wrap(x, width = 50)) +
   labs(x = "Industry SIC",
        y = "Percentage",
        caption = "A value of 10% implies that men earn 10% more than women.",
        title = "Median Hourly Pay Difference") +
-  coord_flip()
+  coord_flip() +
+  theme(plot.title.position = "plot")
 ```
 
 ## Industries with lowest (average) hourly median difference
@@ -238,15 +257,17 @@ paygap_joined |>
   mutate(diff_wage = diff_median_hourly_percent / 100) |> 
   group_by(description) |>
   summarise(diff_wage = mean(diff_wage)) |>
-  slice_min(diff_wage, n = 30) |> 
+  slice_min(diff_wage, n = 10) |> 
   mutate(description = fct_reorder(description, diff_wage)) |> 
   ggplot(aes(x = description, y = diff_wage)) +
-  geom_col(alpha = 0.9) +
+  geom_point(alpha = 0.9, size = 2) +
+  scale_x_discrete(labels = \(x) stringr::str_wrap(x, width = 50)) +
   labs(x = "Industry SIC",
        y = "Percentage",
        caption = "A value of -10% implies that men earn 10% less than women.",
        title = "Median Hourly Pay Difference") +
-  coord_flip()
+  coord_flip() +
+  theme(plot.title.position = "plot")
 ```
 
 The differences are lowest in services and manufacturing activities (factory work).
@@ -259,13 +280,14 @@ Let's visualise the difference by words in description. Recall that we stored it
 paygap |> 
   group_by(word) |>
   summarise(diff_wage = mean(diff_wage)) |>
-  slice_max(diff_wage, n = 30) |> 
+  slice_max(diff_wage, n = 10) |> 
   mutate(word = fct_reorder(word, diff_wage)) |> 
   ggplot(aes(x = word, y = diff_wage)) +
-  geom_col(alpha = 0.9, size = 2) +
+  geom_point(alpha = 0.9, size = 2) +
   labs(x = NULL, y = "Percentage",
        title = "Percentage increase in men's hourly wages compared to women's") +
-  coord_flip()
+  coord_flip() +
+  theme(plot.title.position = "plot")
 ```
 
 > Education has the highest wage difference.
@@ -277,12 +299,13 @@ paygap |>
   group_by(word) |>
   summarise(diff_wage = mean(diff_wage)) |>
   mutate(word = fct_reorder(word, diff_wage)) |> 
-  slice_min(diff_wage, n = 30) |> 
+  slice_min(diff_wage, n = 10) |> 
   ggplot(aes(x = word, y = diff_wage)) +
-  geom_col(alpha = 0.9, size = 2) +
+  geom_point(alpha = 0.9, size = 2) +
   labs(x = NULL, y = "Percentage",
        title = "Percentage increase in men's hourly wages compared to women's") +
-  coord_flip()
+  coord_flip() +
+  theme(plot.title.position = "plot")
 ```
 
 > Management, business and transportation service businesses look like to have the least differences.
@@ -298,25 +321,27 @@ broom::tidy(paygap_fit)
 
 `ggstatsplot` package provides beautiful ways to present these results.
 
-```{r}
+```{r, out.height="150%"}
 library(ggstatsplot)
 
 names(paygap_fit$coefficients) = str_remove(names(paygap_fit$coefficients), "word")
 
 ggcoefstats(paygap_fit, output = "plot", sort = "descending", 
-            stats.labels = FALSE, exclude.intercept = TRUE)
+            stats.labels = FALSE, exclude.intercept = TRUE,
+            only.significant = TRUE) +
+  scale_y_discrete(labels = \(x) stringr::str_wrap(x, width = 50))
 ```
 
-Primary education (and in general education) has the highest wage gap. Can any one explain that to me?
+Primary education (and in general education) has the highest wage gap. Can any one explain that to me? (Note that in above plot, only significant variables are shown.)
 
-# But what about differences by industries?
+# What about differences by industries?
 
-I'll keep only top-30 industries and classify all others as "others".
+I'll keep only top-10 industries and classify all others as "others".
 
 ```{r}
 paygap_fit = paygap_joined |> 
   mutate(diff_wage = diff_median_hourly_percent / 100,
-         description = fct_lump_n(f = description, n = 30)) %>%
+         description = fct_lump_n(f = description, n = 10)) %>%
    lm(diff_wage ~ 0 + description, data = .)
 
 broom::tidy(paygap_fit)
@@ -324,15 +349,105 @@ broom::tidy(paygap_fit)
 
 Pictures!
 
-```{r}
+```{r, out.height="150%"}
 names(paygap_fit$coefficients) = str_remove(names(paygap_fit$coefficients), "description")
 
 ggcoefstats(paygap_fit, output = "plot", sort = "descending", 
-            stats.labels = FALSE, exclude.intercept = TRUE)
+            stats.labels = FALSE, exclude.intercept = TRUE,
+            only.significant = TRUE) +
+  scale_y_discrete(labels = \(x) stringr::str_wrap(x, width = 50))
 ```
 
-The difference is least in unlicensed cafes and restaurants, healthcare facilities and social work areas. That's something positive.
+The difference is least in unlicensed cafes and restaurants, healthcare facilities and social work areas. That's something positive. (Note that in above plot, only significant variables are shown.)
 
-It's 12:59 am now and I'm sleepy. Probably will pick this up again some day.
+# How does hourly pay gap correspond to bonus?
 
-![yawn](img/yawn_j6Uls25PT5Q4g.gif)
+## Hourly Pay and Bonus by Employer
+
+I'm averaging the data we have for each employer. Each point represents a company. I've removed companies which had more than 50% difference in pay. It is sad in itself that we have those companies, but including them would worsen our plots and hide the cases where we can have significant impact.
+
+```{r}
+paygap_employer = paygap_raw |> 
+  mutate(diff_median_bonus_percent = diff_median_bonus_percent/100,
+         diff_median_hourly_percent = diff_median_hourly_percent) |> 
+  group_by(employer_name) |> 
+  summarise(diff_median_bonus_percent = mean(diff_median_bonus_percent, na.rm = TRUE),
+            diff_median_hourly_percent = mean(diff_median_hourly_percent, na.rm = TRUE)) |> 
+  na.omit()
+paygap_employer
+```
+
+```{r}
+paygap_employer |> 
+  ggplot(aes(x = diff_median_hourly_percent/100, 
+             y = diff_median_bonus_percent/100)) +
+  geom_point(alpha = 0.3, size = 3) +
+  scale_x_continuous(limits = c(-0.5, 0.5), labels = scales::percent) +
+  scale_y_continuous(limits = c(-0.5, 0.55), labels = scales::percent) +
+  labs(x = "Hourly pay difference",
+       y = "Bonus pay difference",
+       caption = "Each point represents a company. I've removed companies which had more than 50% difference in pay.",
+       title = "How pay hourly pay and bonus difference vary by company") +
+  theme(plot.title.position = "plot")
+```
+
+## Hourly Pay and Bonus by Industry
+
+We can also look at the differences by industry.
+
+```{r}
+paygap_industry = paygap_joined |> 
+  mutate(diff_median_bonus_percent = diff_median_bonus_percent/100,
+         diff_median_hourly_percent = diff_median_hourly_percent) |> 
+  group_by(description) |> 
+  summarise(diff_median_bonus_percent = mean(diff_median_bonus_percent, na.rm = TRUE),
+            diff_median_hourly_percent = mean(diff_median_hourly_percent, na.rm = TRUE)) |> 
+  na.omit()
+paygap_industry
+```
+
+```{r}
+paygap_industry |> 
+  ggplot(aes(x = diff_median_hourly_percent/100, 
+             y = diff_median_bonus_percent/100,
+             label = description)) +
+  geom_point(alpha = 0.3, size = 3) +
+  scale_x_continuous(labels = scales::percent) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = "Hourly pay difference",
+       y = "Bonus pay difference",
+       caption = "Each point represents an industry.",
+       title = "How pay hourly pay and bonus difference vary by industry") +
+  theme(plot.title.position = "plot")
+```
+
+The two outliers are "Manufacturer of ceramic tiles" who pay 60% less bonus to women than men while having 16% less hourly wage, and "Retail sale of bread, cakes, flour confectionary and sugar confectionary in specialised stores" where women have 20% less bonus but 8% more hourly wage.
+
+## Hourly Pay and Bonus by Industry-Word
+
+Recall that we found the top common words from the descriptions that represented the general ideas.
+
+```{r}
+paygap_words = paygap_tokenized |> 
+  filter(word %in% top_words) |> 
+  transmute(diff_wage = diff_median_hourly_percent / 100, 
+            diff_bonus = diff_median_bonus_percent/ 100,
+            word) |> 
+  group_by(word) |> 
+  summarise(diff_wage = mean(diff_wage), diff_bonus = mean(diff_bonus))
+paygap_words
+```
+
+```{r}
+paygap_words |> 
+  ggplot(aes(x = diff_wage, y = diff_bonus, label = word)) +
+  ggrepel::geom_text_repel(size = 3) +
+  labs(x = "Hourly pay difference",
+       y = "Bonus pay difference",
+       title = "How does pay vary by industry?") +
+  theme(plot.title.position =  "plot")
+```
+
+# It's 12:59 am now and I'm sleepy. Probably will pick this up again some day.
+
+![Peanuts yawning GIF](https://media.giphy.com/media/12tD1lhZkf3q24/giphy.gif)
