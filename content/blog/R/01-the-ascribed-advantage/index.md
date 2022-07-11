@@ -874,6 +874,8 @@ paygap_words |>
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-32-1.png" width="100%" />
 
-# It's 12:59 am now and I'm sleepy. Probably will pick this up again some day.
+------------------------------------------------------------------------
+
+*It's 12:59 am now and I'm sleepy. Probably will pick this up again some day.*
 
 ![Peanuts yawning GIF](https://media.giphy.com/media/12tD1lhZkf3q24/giphy.gif)
