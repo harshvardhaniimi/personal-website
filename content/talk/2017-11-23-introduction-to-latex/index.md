@@ -2,7 +2,6 @@
 title: Introduction to LaTeX
 summary: LaTeX workshop for first-time users
 author: Harshvardhan
-date: '2017-11-23'
 date: '2017-11-23T10:00:00Z'
 event: 'Guest Lecture'
 location: IIM Indore

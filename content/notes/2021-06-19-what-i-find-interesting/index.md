@@ -18,8 +18,6 @@ tags: []
 
 -   **Talks At Google:** Each time, they invite a great person to share their ideas about unconventional topics. They are pretty brave --- not shying away from calling people who are critical about Google's activities. You may like to start with Yuval Noah Harari's episode.
 
--   **Make Me Smart:** Topics I love --- Economics and Technology --- mashed together.
-
 -   **Planet Money:** This is an easy listen with unique insights with practical economics lessons and examples.
 
 -   **Linear Digressions:** All about machine learning and statistics.
@@ -91,6 +89,8 @@ tags: []
 -   [Haystacks by Caitlin Hudon](https://www.caitlinhudon.com/)
 
 -   [Little Miss Data](https://www.littlemissdata.com/)
+
+-   [Cogito, Ergo Sumana](https://harihareswara.net/)
 
 ### Essayists
 
