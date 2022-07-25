@@ -25,3 +25,27 @@ Two hours later, he showed up to his father and said, "Papa, see, I have four hu
 He showed up to his father like a whimpering kid with a hanging jaw. This time, he only showed his nails and only said, "a hundred". His father asked him to sit down and think.
 
 If you can do a job super fast, ask yourself if it's the job that's unproductive or if your excitement to do it is making you productive. Would this excitement last a week? A month? A year? Day in and day out, if you would be only making nails, would you continue making 400 nails?
+
+------------------------------------------------------------------------
+
+#### Added on July 24, 2022
+
+I was listening to this podcast this morning, and the author said that grit drives most success far more than talent. She said, "effort counts twice".
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/389nPFPZKS6OBQqRHClqi9?utm_source=generator&amp;t=254336" width="100%" height="232" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+
+</iframe>
+
+Sometimes, people think it's all grit --- talent has no role. That's not the case. Talent is the rate at which you get better at something, i.e. develop your skill. When you apply effort to get better, you grow in skills. When you don't use effort to improve, you don't grow in skills. If you're talented, the same amount of effort will make them develop in skill more.[^1]
+
+[^1]: This is my understanding from listening to the podcast. I didn't verify the equation from the book.
+
+$$Skill \times Effort = Achievement$$
+
+And skill itself improves with effort. So, if Skill is decomposed as Talent + Effort, then we see how Effort counts twice. Skill has to be applied to have any beneficial impact.[^2]
+
+[^2]: Harsh from MBA times would've marvelled at this equation. Present day Harsh finds equations like this good for communication but otherwise meaningless.
+
+Grit has two components to it. The first one is Perseverance; the second one is passion. Perseverance drives humans to continue doing what they are doing even if they face temporary failures. We want to improve in the long term and not get distracted easily in the near term. Passion is what helps us decide the act. It dictates what the job you're focussing on would be. Many organisations and humans, in general, tend to overvalue talent and undervalue grit.
+
+It isn’t easy to get passionate about making nails. The business owner’s son had the passion for improving but not the perseverance to keep doing the grunt work. The workers had endurance but lost passion due to the monotonous nature of the work. A person successful would do a mixture of both, a balance of both. 
