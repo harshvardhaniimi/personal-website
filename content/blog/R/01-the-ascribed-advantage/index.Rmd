@@ -12,7 +12,7 @@ categories:
 tags: []
 ---
 
-How much more do men earn doing the same job as women? In this exploration, I will examine if the gender pay gap exists, in what jobs and how much is it. Specifically, this dataset is from United Kingdom. This dataset was part of #tidytuesday event and can be downloaded from [this link](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-06-28).
+How much more do men earn doing the same job as women? In this exploration, I will examine if the gender pay gap exists, in what jobs and how much is it. Specifically, this dataset is from United Kingdom. It was part of #tidytuesday event and can be downloaded from [this link](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-06-28).
 
 This online tool lets you [visualise](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/findoutthegenderpaygapforyourjob/2016-12-09) the difference by gender and occupation. If you're feeling brave, try this [quiz](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/articles/testyourknowledgeonthegenderpaygap/2016-12-09) too.
 
@@ -180,7 +180,7 @@ paygap_tokenized |>
   count(word, sort = T)
 ```
 
-There are 848 words. Some of them are useless, like "activities, "n.e.c", "general" and "non". I'll remove them. If I'm going to build any useful model, 858 categories are not going to be useful for me. Let's reduce them to say 40 words and call that `top_words`.
+There are 848 words. Some of them are useless, like "activities,"n.e.c", "general" and "non". I'll remove them. If I'm going to build any useful model, 858 categories are not going to be useful for me. Let's reduce them to say 40 words and call that `top_words`.
 
 ```{r}
 top_words =
