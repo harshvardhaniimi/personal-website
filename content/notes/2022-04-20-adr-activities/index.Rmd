@@ -76,17 +76,27 @@ my_map
 
 These are only the hikes in US. My hikes in India and Europe aren't included.
 
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | Name                                                                                                                                        | Location                  | Notes                                                        |
-|-----------------------------------------|---------------|----------------|
++=============================================================================================================================================+===========================+==============================================================+
 | [Alum Cave](https://hikinginthesmokys.com/alum-cave-trail/), [Mount Leconte](https://hikinginthesmokys.com/mt-leconte-via-alum-cave-trail/) | Tennessee, US             | Amazing views; easy hike; didn't go to the top               |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Virginia Creeper Trail](https://visitabingdonvirginia.com/landmarks/virginia-creeper-trail)                                                | Virginia, US              | Bike trail; you'll get dirty, so prepare accordingly         |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Midnight Hole](https://blueridgemountainlife.com/midnight-hole/)                                                                           | North Carolina, US        | Easy trail; small cliffs to dive as well                     |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Ozone Falls](https://www.tn.gov/environment/program-areas/na-natural-areas/natural-areas-east-region/east-region-/na-na-ozone-falls.html)  | Tennessee, US             | One of its kind waterfall; you can go behind the waterfall   |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Cade's Cove](https://www.nps.gov/grsm/planyourvisit/cadescove.htm)                                                                         | Tennessee, US             | Famous for wildlife; I didn't see any 🫠                     |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Charlie's Bunion](https://hikinginthesmokys.com/charlies-bunion/)                                                                          | Tennessee, US             | Delivered what's promised; loved it                          |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Shuckstack Fire Tower](https://hikinginthesmokys.com/shuckstack-fire-tower/)                                                               | North Carolina, US        | Uphill is tougher but the views from tower are worth it.     |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Lacamas Creek Park](https://www.alltrails.com/parks/us/washington/lacamas-creek-park)                                                      | Vancouver, WA             | Easy hike with beautiful sceneries                           |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 | [Dry Creek Falls](https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike)                                                            | Hood River County, Oregon | Mountainous terrain, fire-parched trees, beautiful waterfall |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------+
 
 ## Bucket List
 
@@ -102,20 +112,36 @@ These are only the hikes in US. My hikes in India and Europe aren't included.
 
 # Adventure Sports
 
-| Sports          | Location                                     | Review                                                                                        |
-|---------------|------------------|---------------------------------------|
-| Skydiving       | The Netherlands                              | best adrenaline rush ever                                                                     |
-| Rafting         | Jawahar Ghat, Jharkhand Manali, HP           | too hyped                                                                                     |
-| Kayaking        | Jawahar Ghat, Jharkhand Ijams, Knoxville, TN | relaxing if water is calm; else tiring but fun                                                |
-| Para-sailing    | Jawahar Ghat, Jharkhand                      | fun; kind of like roller coaster                                                              |
-| Para-gliding    | Manali, HP                                   | runway to start and landing are best parts                                                    |
-| Skiing          | Latvia                                       | easy to learn; difficult to master                                                            |
-| Surfing         | Gokarna, Karnataka                           | nothing like it; waves hit you hard                                                           |
-| Scuba-diving    | Fort Dickerson Quarry, Knoxville             | not great unless you have clear water                                                         |
-| Mountain Biking | Baker Creek Trail, Knoxville                 | amazing trails (easy, medium and hard); artificial ramps for skating and biking are great too |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Sports                             | Location                                     | Review                                                                                        |
++====================================+==============================================+===============================================================================================+
+| Skydiving                          | The Netherlands                              | best adrenaline rush ever                                                                     |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Rafting (still-water, white-water) | Jawahar Ghat, Jharkhand                      | too hyped; waves make things hard but also more fun                                           |
+|                                    |                                              |                                                                                               |
+|                                    | Manali, HP                                   |                                                                                               |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Kayaking                           | Jawahar Ghat, Jharkhand Ijams, Knoxville, TN | relaxing if water is calm; else tiring but fun                                                |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Para-sailing                       | Jawahar Ghat, Jharkhand                      | fun; kind of like roller coaster                                                              |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Para-gliding                       | Manali, HP                                   | runway to start and landing are best parts                                                    |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Skiing                             | Latvia                                       | easy to learn; difficult to master                                                            |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Surfing                            | Gokarna, Karnataka                           | nothing like it; waves hit you hard                                                           |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Scuba-diving                       | Fort Dickerson Quarry, Knoxville             | not great unless you have clear water                                                         |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Mountain Biking                    | Baker Creek Trail, Knoxville, TN             | amazing trails (easy, medium and hard); artificial ramps for skating and biking are great too |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Bungee Jumping                     | Pacific Northwest Bridge, Amboy, WA          | jump is scary; everything else is fun! the high only lasts for a few seconds though           |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
+| Paddle-boarding                    | Ijams, Knoxville, TN                         | use paddle board for diving :)                                                                |
++------------------------------------+----------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 ## Bucket List
 
 -   Cliff Jumping
 
--   Bungee Jumping
+-   ~~Bungee Jumping~~

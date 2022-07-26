@@ -62,6 +62,12 @@ Keep in mind two things: your duty and the axiom everything is a part of the jou
 
 To exemplify, consider the case of Volkswagen. Winterkorn and other executives were supposed to do what would give them the highest returns for their shareholders. Then the question is, what did they do wrong? They undertook something illegal, something which would not enhance shareholder value in the long term. And as I stated earlier, shareholder values not only consist of wealth but are more than that. They did something illegal in their business -- their karma. So, they failed in their karma.
 
-But what happened with Enron? They didn't do something illegal in their business *per se* (except the accounting fraud). Their mistake was that they didn't think in the long term. They increased shareholder values for a short period. Still, they harmed the company in the long run, knowing beforehand that bloating stock prices isn't a lasting solution. That's a violation of the second rule that businesses last long.
+But what happened with Enron? They didn't do something illegal in their business *per se* (at least in their mind). Their mistake was that they didn't think about the impact in the long term. They increased shareholder values for a short period. Still, they harmed the company in the long run, knowing beforehand that bloating stock prices isn't a lasting solution. That's a violation of the second rule that businesses last long.
 
 These two rules (karma and immortality) would lead you to a definite answer in most cases. Right or not, that's another debate -- who decides what's right anyway -- but at least you won't have regrets.
+
+------------------------------------------------------------------------
+
+Thanks for stopping by my digital garden. If you're visiting for the first time, here's a quick guide. You can find my academic [publications](https://www.harsh17.in/publications/), fun [projects](https://www.harsh17.in/project/) I\'ve tried, stuff I\'d like people to [care](https://www.harsh17.in/talk/) about, some random [musings](https://www.harsh17.in/blog/) and [notes](https://www.harsh17.in/note/) on my favourite things.
+
+If anything looks useful to you, [please tell me](mailto:hello@harsh17.in).

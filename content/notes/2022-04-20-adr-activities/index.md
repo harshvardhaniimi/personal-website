@@ -57,20 +57,81 @@ These are only the hikes in US. My hikes in India and Europe aren’t included.
 
 # Adventure Sports
 
-| Sports          | Location                                     | Review                                                                                        |
-|-----------------|----------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Skydiving       | The Netherlands                              | best adrenaline rush ever                                                                     |
-| Rafting         | Jawahar Ghat, Jharkhand Manali, HP           | too hyped                                                                                     |
-| Kayaking        | Jawahar Ghat, Jharkhand Ijams, Knoxville, TN | relaxing if water is calm; else tiring but fun                                                |
-| Para-sailing    | Jawahar Ghat, Jharkhand                      | fun; kind of like roller coaster                                                              |
-| Para-gliding    | Manali, HP                                   | runway to start and landing are best parts                                                    |
-| Skiing          | Latvia                                       | easy to learn; difficult to master                                                            |
-| Surfing         | Gokarna, Karnataka                           | nothing like it; waves hit you hard                                                           |
-| Scuba-diving    | Fort Dickerson Quarry, Knoxville             | not great unless you have clear water                                                         |
-| Mountain Biking | Baker Creek Trail, Knoxville                 | amazing trails (easy, medium and hard); artificial ramps for skating and biking are great too |
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 26%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sports</th>
+<th>Location</th>
+<th>Review</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Skydiving</td>
+<td>The Netherlands</td>
+<td>best adrenaline rush ever</td>
+</tr>
+<tr class="even">
+<td>Rafting (still-water, white-water)</td>
+<td><p>Jawahar Ghat, Jharkhand</p>
+<p>Manali, HP</p></td>
+<td>too hyped; waves make things hard but also more fun</td>
+</tr>
+<tr class="odd">
+<td>Kayaking</td>
+<td>Jawahar Ghat, Jharkhand Ijams, Knoxville, TN</td>
+<td>relaxing if water is calm; else tiring but fun</td>
+</tr>
+<tr class="even">
+<td>Para-sailing</td>
+<td>Jawahar Ghat, Jharkhand</td>
+<td>fun; kind of like roller coaster</td>
+</tr>
+<tr class="odd">
+<td>Para-gliding</td>
+<td>Manali, HP</td>
+<td>runway to start and landing are best parts</td>
+</tr>
+<tr class="even">
+<td>Skiing</td>
+<td>Latvia</td>
+<td>easy to learn; difficult to master</td>
+</tr>
+<tr class="odd">
+<td>Surfing</td>
+<td>Gokarna, Karnataka</td>
+<td>nothing like it; waves hit you hard</td>
+</tr>
+<tr class="even">
+<td>Scuba-diving</td>
+<td>Fort Dickerson Quarry, Knoxville</td>
+<td>not great unless you have clear water</td>
+</tr>
+<tr class="odd">
+<td>Mountain Biking</td>
+<td>Baker Creek Trail, Knoxville, TN</td>
+<td>amazing trails (easy, medium and hard); artificial ramps for skating and biking are great too</td>
+</tr>
+<tr class="even">
+<td>Bungee Jumping</td>
+<td>Pacific Northwest Bridge, Amboy, WA</td>
+<td>jump is scary; everything else is fun! the high only lasts for a few seconds though</td>
+</tr>
+<tr class="odd">
+<td>Paddle-boarding</td>
+<td>Ijams, Knoxville, TN</td>
+<td>use paddle board for diving :)</td>
+</tr>
+</tbody>
+</table>
 
 ## Bucket List
 
 -   Cliff Jumping
 
--   Bungee Jumping
+-   ~~Bungee Jumping~~
