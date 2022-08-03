@@ -76,10 +76,10 @@ params:
   twitter: harshbutjust
   utterances:
     issue_term: pathname
-    label: 'comments :crystal_ball:'
+    label: "chit-chat 💬"
     repo_name: /harshvardhaniimi/personal-website
     theme: boxy-light
-    use_utterances: no
+    use_utterances: yes
 taxonomies:
   category: categories
   series: series

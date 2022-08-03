@@ -3,7 +3,7 @@ author: Harshvardhan
 cascade:
   author: Harshvardhan
   show_author_byline: false
-  show_comments: false
+  show_comments: true
   show_post_date: true
   sidebar:
     show_sidebar_adunit: false
