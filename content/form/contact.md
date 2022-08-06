@@ -3,7 +3,7 @@ date: "2019-02-25T13:38:41-06:00"
 description: "The best way to reach me is via emailing [harsh@harsh17.in](mailto:harsh@harsh17.in). I'm usually enthusiastic to talk about ideas, events and people -- in that order. If I don't respond within a week, another nudge is welcome. Another way is using this form. Yet another way is any of the following social media channels."
 draft: false
 formspree_form_id: xdoyzjjj
-layout: split-right
+layout: split-left
 name: "Say Hi!"
 show_poweredby_formspree: false
 show_social_links: true
