@@ -1,16 +1,14 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: This template has a **contact-us** form built right in. All you need
-  to do is add a valid recipient form-id to the front matter of this form page and
-  you're ready to receive submissions.
+description: "The best way to reach me is via emailing [harsh@harsh17.in](mailto:harsh@harsh17.in). I'm usually enthusiastic to talk about ideas, events and people -- in that order. If I don't respond within a week, another nudge is welcome. Another way is using this form. Yet another way is any of the following social media channels."
 draft: false
-formspree_form_id: id-from-formspree
+formspree_form_id: xdoyzjjj
 layout: split-right
-name: Contact Us Form
-show_poweredby_formspree: true
+name: "Say Hi!"
+show_poweredby_formspree: false
 show_social_links: true
 submit_button_label: Send Message
-title: Contact
+title: "Say Hi!"
 type: form
 url: contact
 ---
