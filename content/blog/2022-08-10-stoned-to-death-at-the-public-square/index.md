@@ -53,7 +53,7 @@ People in the top-right quadrant are the ones I’m wary of. When I see distant 
 
 Another reason why we’re seeing a rebirth of them is something that’s dear to me: the internet.[^2] There were always intolerant people, no matter how far you go back in history, in any society with a reasonably large population. But transpiring information from one section to the next was hard. Now, there’s Twitter.
 
-In many cases, the stone-pelters are just [mean people](http://paulgraham.com/mean.html). There is no dearth of mean people. Meanness isn’t rare. In fact, one of the things the internet has shown us is how mean people can be. A few decades ago, only famous people and professional writers got to publish their opinions. Now everyone can, and we can all see the long tail of meanness that had previously been hidden.
+In many cases, the stone-pelters are just [mean people](http://paulgraham.com/mean.html). There is no dearth of mean people. Meanness isn’t rare. In fact, one of the things the internet has shown us is how mean people can be.[^3] A few decades ago, only famous people and professional writers got to publish their opinions. Now everyone can, and we can all see the long tail of meanness that had previously been hidden.
 
 There’s one important difference between the old and the new wave. The intolerant activists in the seventeenth century came from the right-aligned groups; today, they come from left-aligned groups.
 
@@ -63,10 +63,12 @@ Personally, what I am worried about is what happens when I get called out. I don
 
 > Be curious. Not judgmental.
 >
-> \- Walt Whitman[^3]
+> \- Walt Whitman[^4]
 
 [^1]: This model comes from Paul Graham’s essay: [The Four Quadrants of Conformism](http://www.paulgraham.com/conformism.html).
 
 [^2]: Anil Dash’s talk on [“The Web We Lost”](https://www.youtube.com/watch?v=9KKMnoTTHJk) describes this perfectly.
 
-[^3]: The quote is apparently misattributed. Whatever.
+[^3]: An example of meanness from the early days of internet is the story of Hunter Moore who used to run WhoIsUp — a revenge porn website. He had the audacity to join a talk show while sharing the stage with women whose lives had been devastated by the website.
+
+[^4]: The quote is apparently misattributed. Whatever.
