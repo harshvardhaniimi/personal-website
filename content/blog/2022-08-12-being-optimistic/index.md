@@ -11,6 +11,8 @@ categories:
 tags: []
 ---
 
+![](images/4E95D36E-9ABC-4EDD-A9FF-C730C10E8F78_1_105_c.jpeg)
+
 People tell me I'm too optimistic. Maybe. But why not?
 
 Things are bad. We know that; everyone knows that. But you can choose to look at the positives. Granted, we'll sometimes be cherry-picking. But not always. Life is like a box of chocolates; there will be good things about every negative thing and bad about most positive things. I want to be happy, so I look at the positives.
