@@ -75,10 +75,10 @@ params:
   theme: poppy
   twitter: harshbutjust
   utterances:
-    issue_term: pathname
-    label: "chit-chat 💬"
-    repo_name: /harshvardhaniimi/personal-website
-    theme: boxy-light
+    issue_term: pathname # url, pathname or title
+    label: "chit-chat :crystal_ball:"
+    repo_name: "harshvardhaniimi/personal-website"
+    theme: "boxy-light"
     use_utterances: yes
 taxonomies:
   category: categories
