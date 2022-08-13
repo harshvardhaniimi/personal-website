@@ -47,6 +47,6 @@ Dialouges have changed too. "Now we're worse than exes, we're friends," no one w
 
 What she does miss is that the movie, nonetheless, is fun. The dialouge about exes and friends made me laugh out loud. It is true the language doesn't fit nineteenth century Britain, but does it have to? The elements of the movie add up for entertainment, not authenticity. Wouldn't we be happier if we enjoyed the movie as it is without having notions of what it should be like? Dakota Johnson certainly pulls it off well.
 
-Next time when you encounter a situation, cut them some slack. Be a little more optimistic. Maybe they will miss the deadline, but they will still do it. In the long run, that's always a better problem to have.[^1] Prof Sean is right: "Be one standard deviation more positive than the most positive person you know".
+Next time when you encounter an unexpected situation, cut them some slack. Be a little more optimistic. Maybe they will miss the deadline, but they will still do it. In the long run, that's always a better problem to have.[^1] Prof Sean is right: "Be one standard deviation more positive than the most positive person you know".
 
 [^1]: This idea of missing the deadline but achieving the target comes from [Gwynne Shotwell, President and COO of SpaceX](https://www.youtube.com/watch?v=1b-vAeYTxRA "Gwynne Shotwell, President and COO of SpaceX").
