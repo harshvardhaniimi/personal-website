@@ -43,7 +43,7 @@ One of the reasons why we do choose to look at the negatives is because we judge
 
 The final reason why we should look at the positives is because it is genuinely more fun. My friend told me she didn't like the Netflix adaption of Jane Austen's Persuasion. It its attempt to appeal to current generation of viewers, the producers had diluted the essence of story. Many elements that stood out --- Anne Ellliot's innocence and inability to take a stand for herself --- is far more vivid in the novel than in the movie.
 
-Dialouges have changed too. "Now we're worse than exes, we're friends," no one would say that in the nineteenth century. The [colour-blind casting](https://en.wikipedia.org/wiki/Color-blind_casting) takes away authenticity too. It is difficult to imagine such a diverse household at that time in history. She's mostly right.
+Dialouges have changed too. "Now we're worse than exes, we're friends," no one would say that in the nineteenth century. The [colour-blind casting](https://en.wikipedia.org/wiki/Color-blind_casting) takes away authenticity. It is difficult to imagine such a diverse household at that time in history. She's mostly right.
 
 What she does miss is that the movie, nonetheless, is fun. The dialouge about exes and friends made me laugh out loud. It is true the language doesn't fit nineteenth century Britain, but does it have to? The elements of the movie add up for entertainment, not authenticity. Wouldn't we be happier if we enjoyed the movie as it is without having notions of what it should be like? Dakota Johnson certainly pulls it off well.
 
