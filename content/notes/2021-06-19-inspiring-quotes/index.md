@@ -25,6 +25,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*Anything that prevents people from doing great work has an inverse that helps them to.* --- Paul Graham
+
 *The future is already here. It's just not evenly distributed yet.* - William Gibson
 
 *If I had to put the recipe for genius into one sentence, that might be it: to have a disinterested obsession with something that matters.* - Paul Graham
@@ -53,6 +55,10 @@ In no particular order, they are:
 
 *Do the best you can until you know better. Then when you know better, do better.* - Maya Angelou
 
+*Don't get sloppy. It's the little things that trip you up.* - The Age of Adaline
+
+*"Nothing in this world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The slogan Press On! has solved and always will solve the problems of the human race.* --- Calvin Coolidge. (Also in The Founder)
+
 *For every moment of triumph, for every instance of beauty, many souls must be trampled. ---* Hunter S. Thompson
 
 *Our intuition about the future is linear. But the reality of information technology is exponential, and that makes a profound difference. If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion. ---* Ray Kurzweil
@@ -69,15 +75,15 @@ In no particular order, they are:
 
 *It is not about the capacity to think but rather the choice of what to think about.* --- David Foster Wallace
 
-*If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea.*(Antoine de Saint-Exupéry, The Little Prince)
+*If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea. ---* Antoine de Saint-Exupéry, The Little Prince
 
 *Pick battles big enough to matter, small enough to win.* --- Jonathan Kozol
 
-*The most pitiful among men is he who turns his dreams into silver and gold.* ---Kahlil Gibran
+*The most pitiful among men is he who turns his dreams into silver and gold.* --- Kahlil Gibran
 
-*Don't be too ambitious. Do the most important thing you can think of doing every year and then your career will take care of itself.* ---Henry Kissinger
+*Don't be too ambitious. Do the most important thing you can think of doing every year and then your career will take care of itself.* --- Henry Kissinger
 
-*Nobody will ever win the battle of the sexes. There is too much fraternising with the enemy.* ---Henry Kissinger
+*Nobody will ever win the battle of the sexes. There is too much fraternising with the enemy.* --- Henry Kissinger
 
 *If all you have is an opinion, then I value the expert over you.*
 
@@ -107,7 +113,7 @@ In no particular order, they are:
 
 *You got to live in the world you're in. Not the world you wish you were in.*
 
-*How can you learn from your mistakes, if you can't remember them? (Westworld, S1E1)*
+*How can you learn from your mistakes, if you can't remember them?* --- Westworld, S1E1
 
 *Consciousness isn't the journey upwards. It's the journey inwards. It's not a pyramid, it's a maze. (Westworld, S1E1)*
 
@@ -143,16 +149,12 @@ In no particular order, they are:
 
 *I think logically and write codes for the computers to do the same.*
 
-*Cleopatra to Antony, "Go, fight that uprising. Be a military leader! Be a Caesar". "I'm no Caesar". -* Shakespeare *(*Antony and Cleopatra)
+*Cleopatra to Antony, "Go, fight that uprising. Be a military leader! Be a Caesar". "I'm no Caesar". ---* Shakespeare *(*Antony and Cleopatra)
 
 *Life is like a game of Jenga. No matter how well you craft it, eventually, it's going to fall. You might try a ton of strategies and tactics but nothing can prevent it. Not like a jigsaw puzzle that if you try hard and long enough, you will make it.*
 
 *Enter with a bang and close the door on your way back!*
 
-*You don't get points for living in pain. -* Krishna Das (Pain, Dalai Lama and Hanuman, Spotify Workshop)
+*You don't get points for living in pain. ---* Krishna Das (Pain, Dalai Lama and Hanuman, Spotify Workshop)
 
 *...lost in the forests...* - Rig Veda
-
-*Don't get sloppy. It's the little things that trip you up.* - The Age of Adaline
-
-*"Nothing in this world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The slogan Press On! has solved and always will solve the problems of the human race.* - Calvin Coolidge. (Also in The Founder)
