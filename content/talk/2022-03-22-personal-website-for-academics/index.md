@@ -6,7 +6,7 @@ author: Harshvardhan
 date: '2022-03-31T13:00:00Z'
 event: 'INFORMS UTK Chapter'
 event_url: https://connect.informs.org/university-of-tennessee/about-us/university-of-tennessee-chapter
-location: Haslam College of Business, University of Tennessee
+location: University of Tennessee
 slug: personal-websites-for-academics
 categories:
   - blog
