@@ -10,7 +10,7 @@ categories:
 tags: []
 ---
 
-## Installing Packages
+# Installing Packages
 
 There are ~~two~~ three ways: `pip`, `conda` and within Jupyter Hub. If you are using Anaconda (Navigator), use `conda`. `pip` will install for all environments; `conda` will install for conda environment only. Put either of these codes in Terminal.
 
@@ -28,6 +28,21 @@ If it is a one off use case (which it usually never is), use the following comma
 !pip install <package>
 ```
 
-## Methods to Print
+# Methods to Print
 
 There are two methods: `print()` and `pprint()`. They both serve the save cause but `pprint()` is better at displaying complex data structures such as list of lists or JSON files.
+
+# Adding New Rows to Data Frame
+
+It is more efficient to create a list of rows first and then convert it to a pandas data frame. As qmeeus [said](https://stackoverflow.com/questions/55967976/python-panda-append-dataframe-in-loop?noredirect=1&lq=1) on SO,
+
+> Pandas dataframes do not work as a list, they are much more complex data structures and appending is not really considered the best approach.
+
+```{r eval = FALSE}
+df = pd.DataFrame()
+r_list = []
+for r in range(result_list):
+  results = r_list.append(result_list)
+  
+df = pd.concat([results, df], axis=0).reset_index(drop=True)
+```
