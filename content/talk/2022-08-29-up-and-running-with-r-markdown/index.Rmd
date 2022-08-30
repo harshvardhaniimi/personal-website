@@ -22,6 +22,8 @@ links:
   url: https://sage-fenglisu-c38dfb.netlify.app
 ---
 
-<iframe src="https://sage-fenglisu-c38dfb.netlify.app" width="672" height="400px" data-external="1"></iframe>
+```{r echo = FALSE}
+knitr::include_url("https://sage-fenglisu-c38dfb.netlify.app")
+```
 
 Se the discussion notes below or [here.](https://sage-fenglisu-c38dfb.netlify.app)
