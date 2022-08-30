@@ -24,6 +24,8 @@ links:
   url: https://www.harsh17.in/docs/demonstrating-shiny-apps/slides2020.pdf
 ---
 
+<iframe src="https://www.harsh17.in/docs/demonstrating-shiny-apps/slides2021.pdf" width="672" height="400px" data-external="1"></iframe>
+
 **Central Limit Theorem App:** [app.R](https://www.harsh17.in/docs/demonstrating-shiny-apps/app.R)
 
 **Slides 2021:** [here](https://www.harsh17.in/docs/demonstrating-shiny-apps/slides2021.pdf)
