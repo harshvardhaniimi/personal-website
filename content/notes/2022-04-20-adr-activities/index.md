@@ -43,12 +43,14 @@ These are only the hikes in US. My hikes in India and Europe aren’t included.
 | [Shuckstack Fire Tower](https://hikinginthesmokys.com/shuckstack-fire-tower/)                                                               | North Carolina, US        | Uphill is tougher but the views from tower are worth it.     |
 | [Lacamas Creek Park](https://www.alltrails.com/parks/us/washington/lacamas-creek-park)                                                      | Vancouver, WA             | Easy hike with beautiful sceneries                           |
 | [Dry Creek Falls](https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike)                                                            | Hood River County, Oregon | Mountainous terrain, fire-parched trees, beautiful waterfall |
+| [Clingman’s Dome](https://www.nps.gov/grsm/planyourvisit/clingmansdome.htm)                                                                 | North Carolina, US        | Easy walk, beautiful views                                   |
+| [Grotto Falls, Trillium Gap Trail](https://www.nps.gov/grsm/planyourvisit/grotto-falls.htm)                                                 | North Carolina, US        | Good hike, very crowded though                               |
 
 ### 🪣 Bucket List
 
 -   [Big south fork](https://www.nps.gov/biso/index.htm)
 -   [Bald falls](https://www.tnvacation.com/local/tellico-plains-bald-river-falls)
--   Max Patch, AT
+-   Max Patch
 -   Stone Mountain
 -   Rock city Chattanooga
 -   Sound of music
@@ -60,12 +62,14 @@ These are only the hikes in US. My hikes in India and Europe aren’t included.
 
 Since I got my VanMoof, I’ve been going on bike trips every so often.
 
-| Name                                                                                                                                          | Location      | Notes                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------|----------------------------------------|
-| [Burnt Bridge Creek Greenway](https://www.alltrails.com/trail/us/washington/burnt-bridge-creek-greenway-trail)                                | Vancouver, WA | Easy and simple ride.                  |
-| [Salmon Creek Trail](https://www.alltrails.com/trail/us/washington/salmon-creek-trail)                                                        | Vancouver, WA | Great scenery, spotted a deer.         |
-| [Lewis-Clark Discovery Greenway](https://www.alltrails.com/trail/us/washington/lewis-clark-discovery-greenway-to-renaissance-trail)           | Vancouver, WA | Passes through some cool architecture. |
-| [Waterfront Loop](https://www.portland.gov/transportation/walking-biking-transit-safety/suggested-rides#toc-the-classic-waterfront-loop-ride) | Portland, OR  | 11/10.                                 |
+| Name                                                                                                                                          | Location      | Notes                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------|
+| [Baker Creek Preserve](https://www.alltrails.com/trail/us/tennessee/sycamore-and-floyd-fox-loop)                                              | Knoxville, TN | [First](https://www.instagram.com/reel/CdMcHPNFsQAN9b73chMOxVrICo5G8Hi97AUlLE0/) mountain bike experience. |
+| [Burnt Bridge Creek Greenway](https://www.alltrails.com/trail/us/washington/burnt-bridge-creek-greenway-trail)                                | Vancouver, WA | Easy and simple ride.                                                                                      |
+| [Salmon Creek Trail](https://www.alltrails.com/trail/us/washington/salmon-creek-trail)                                                        | Vancouver, WA | Great scenery, spotted a deer.                                                                             |
+| [Lewis-Clark Discovery Greenway](https://www.alltrails.com/trail/us/washington/lewis-clark-discovery-greenway-to-renaissance-trail)           | Vancouver, WA | Passes through some cool architecture.                                                                     |
+| [Waterfront Loop](https://www.portland.gov/transportation/walking-biking-transit-safety/suggested-rides#toc-the-classic-waterfront-loop-ride) | Portland, OR  | 11/10.[^1]                                                                                                 |
+| [Third Creek Greenway](https://www.alltrails.com/trail/us/tennessee/third-creek-greenway)                                                     | Knoxville, TN | Easy, close to UT                                                                                          |
 
 # 🪂Adventure Sports
 
@@ -149,3 +153,5 @@ Since I got my VanMoof, I’ve been going on bike trips every so often.
 -   Cliff Jumping
 
 -   ~~Bungee Jumping~~
+
+[^1]: Bonus point for [Dea’s](https://deabardhoshi.medium.com) company.
