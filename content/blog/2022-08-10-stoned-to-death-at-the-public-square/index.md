@@ -55,6 +55,10 @@ People in the top-right quadrant are the ones I’m wary of. When I see distant 
 
 Another reason why we’re seeing a rebirth of them is something that’s dear to me: the internet.[^2] There were always intolerant people, no matter how far you go back in history, in any society with a reasonably large population. But transpiring information from one section to the next was hard. Now, there’s Twitter.
 
+I have a simple rule for interactions online. My limit for textual exchanges back and forth is three messages. If I can convince the other person in three notes, or they can’t convince me by then, I invite them to have a face-to-face conversation. We could meet in person, via video call, or a phone call — in that order of preference. The fourth message is, “Sorry, I don’t argue online with more than three messages. Let’s meet in person to take this further”.
+
+This rule has saved me countless hours of fighting with keyboard warriors. You wouldn’t believe how common it is for people to back down at this stage. The ease of typing makes people believe they have stronger opinions than they have. To date, only two people have ever taken up the offer to meet in person. In the first case, we agreed we were in [value disagreement](https://www.harsh17.in/arguments/), which makes us right in our place. In the second case, we realised we weren’t really in a conflict.
+
 In many cases, the stone-pelters are just [mean people](http://paulgraham.com/mean.html). There is no dearth of mean people. Meanness isn’t rare. In fact, one of the things the internet has shown us is how mean people can be.[^3] A few decades ago, only famous people and professional writers got to publish their opinions. Now everyone can, and we can all see the long tail of meanness that had previously been hidden.
 
 There’s one important difference between the old and the new wave. The intolerant activists in the seventeenth century came from the right-aligned groups; today, they come from left-aligned groups.
