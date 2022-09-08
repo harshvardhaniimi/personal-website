@@ -61,13 +61,15 @@ Another reason why we're seeing a rebirth of them is something that's dear to me
 
 [^2]: Anil Dash's talk on ["The Web We Lost"](https://www.youtube.com/watch?v=9KKMnoTTHJk) describes this perfectly.
 
-I have a simple rule for interactions online. My limit for textual exchanges back and forth is three messages. If I can convince the other person in three notes, or they can't convince me by then, I invite them to have a face-to-face conversation. We could meet in person, via video call, or a phone call --- in that order of preference. The fourth message is, "Sorry, I don't argue online with more than three messages. Let's meet in person to take this further".
+I have a simple rule for interactions online. My limit for textual arguments is three exchanges. If I can't convince the other person, or they can't convince me in three notes, I invite them to have a face-to-face conversation.[^3] We could meet in person, via video call, or a phone call --- in that order of preference. The fourth message is, "Sorry, I don't argue online with more than three messages. Let's meet in person to take this further".
+
+[^3]: This is for text messages, usually on WhatsApp. If it were on letters or emails, I might think differently. Indians love arguing. My family would routinely discuss politics, policy, life philosophy and just about anything in our WhatsApp group. When we get together in person, it's no different. Just bring up one new government policy and you'd see clashes from both ends. Most of it is superficial: we don't carry our disagreements on politics to heart and happily share dinners and dances later.
 
 This rule has saved me countless hours of fighting with keyboard warriors. You wouldn't believe how common it is for people to back down at this stage. The ease of typing makes people believe they have stronger opinions than they have. To date, only two people have ever taken up the offer to meet in person. In the first case, we agreed we were in [value disagreement](https://www.harsh17.in/arguments/), which makes us both right in our places. In the second case, we realised we weren't really in a conflict.
 
-In many cases, the stone-pelters are just [mean people](http://paulgraham.com/mean.html). There is no dearth of mean people. Meanness isn't rare. In fact, one of the things the internet has shown us is how mean people can be.[^3] A few decades ago, only famous people and professional writers got to publish their opinions. Now everyone can, and we can all see the long tail of meanness that had previously been hidden.
+In many cases, the stone-pelters are just [mean people](http://paulgraham.com/mean.html). There is no dearth of mean people. Meanness isn't rare. In fact, one of the things the internet has shown us is how mean people can be.[^4] A few decades ago, only famous people and professional writers got to publish their opinions. Now everyone can, and we can all see the long tail of meanness that had previously been hidden.
 
-[^3]: An example of meanness from the early days of internet is the story of Hunter Moore who used to run WhoIsUp --- a revenge porn website. He had the audacity to join a talk show while sharing the stage with women whose lives had been devastated by the website.
+[^4]: An example of meanness from the early days of internet is the story of Hunter Moore who used to run WhoIsUp --- a revenge porn website. He had the audacity to join a talk show while sharing the stage with women whose lives had been devastated by the website.
 
 There's one important difference between the old and the new wave. The intolerant activists in the seventeenth century came from the right-aligned groups; today, they come from left-aligned groups.
 
@@ -77,6 +79,6 @@ Personally, what I am worried about is what happens when I get called out. I don
 
 > Be curious. Not judgmental.
 >
-> \- Walt Whitman[^4]
+> \- Walt Whitman[^5]
 
-[^4]: The quote is apparently misattributed. Whatever.
+[^5]: The quote is apparently misattributed. Whatever.
