@@ -8,6 +8,7 @@ slug: []
 categories:
   - package
 tags: []
+slug: latex
 ---
 
 ## Cosmetics
