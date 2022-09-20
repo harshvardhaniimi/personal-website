@@ -4,7 +4,7 @@ subtitle: Genome, Geneology and DNA Tests
 summary: Genome, Geneology and DNA Tests
 author: Harshvardhan
 date: '2022-02-03'
-slug: how-much-do-we-know-about-our-ancestors
+slug: ancestors
 categories:
   - blog
   - life
