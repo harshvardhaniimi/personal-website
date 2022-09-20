@@ -20,7 +20,7 @@ intro: |
 show_outro: true
 
 outro: |
-  <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/harsh17)!
+  <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://www.buymeacoffee.com/harsh17)!
   <script async src="https://cse.google.com/cse.js?cx=7d9698c281e7d2001"></script>
   <div class="gcse-search"></div>
 ---
