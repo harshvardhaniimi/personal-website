@@ -24,7 +24,9 @@ Around 30 million people have purchased DNA test kits to trace their ancestry. H
 
 There are two ways to trace ancestry. First is genealogy, where you trace your family tree --- like I tried. You build a chart of your parents, grandparents and so on. The graph would grow at an exponential rate in a normal situation: `\(2^n\)`. Currently, I am at `\(n = 0\)`. It's only me. A generation before me would be two people, `\(2^1\)`; a generation before them would be four people, `\(2^2\)`, and so on.
 
-The second method is to track the genome. My genome constitutes 47 stretches of DNA: 23 pairs of chromosomes from each parent and one mitochondrial DNA from the mother. There are 118 DNA fragments that I got from Papa. When I track my ancestry this way, I get 189 pieces from my grandparents, 260 from my great grandparents and so on.
+The second method is to track the genome. My genome constitutes 47 stretches of DNA: 23 pairs of chromosomes from each parent and one mitochondrial DNA from the mother. There are 118 DNA fragments that I got from Papa. When I track my ancestry this way, I get 189 pieces from my grandparents, 260 from my great grandparents and so on.[^1]
+
+[^1]: Much of this information follows from James Cheshire and Oliver Uberti's [Atlas of The Invisible: Maps and Graphs That Will Change How You See The World](https://www.atlasoftheinvisible.com). His original comment is reproduced at the end for completion.
 
 These genome contributions look promising at first. One hundred eighteen stretches of DNA vs two genealogical parents; 189 stretches of DNA vs four genealogical parents. But what our human mind misses is that the first grows exponentially while the second grows linearly.
 
@@ -42,4 +44,16 @@ But there is a more interesting answer too. Our DNA gains permanent and non-perm
 
 If our behaviours can change the encoding in the fundamental unit of life, imagine the potentialities for the future generation.
 
-If most of DNA information is lost after just a few generations, we should concentrate our efforts on maintaining our own genealogy directory. In the long run, physical directories retains more ancestral information than DNA. We should also take results of genome DNA kits with a pinch of salt. So to answer the question, "how much can we know about ancestors?". Well, probably not a lot.
+If most of DNA information is lost after just a few generations, we should concentrate our efforts on maintaining our own genealogy directory. In the long run, physical directories retains more ancestral information than DNA. We should also take results of genome DNA kits with a pinch of salt.
+
+So to answer the question, "how much can we know about ancestors?". Well, probably not a lot.
+
+------------------------------------------------------------------------
+
+This pages are reproduced from James Cheshire and Oliver Uberti's [Atlas of The Invisible: Maps and Graphs That Will Change How You See The World](https://www.atlasoftheinvisible.com).
+
+### Partial Inheritence
+
+![](images/THIS-1.png)
+
+![](images/THIS-2.png)
