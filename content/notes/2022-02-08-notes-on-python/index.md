@@ -79,11 +79,14 @@ It is more efficient to create a list of rows first and then convert it to a pan
 
 
 ```r
-df = pd.DataFrame()
-r_list = []
-for r in range(result_list):
-  results = r_list.append(result_list)
-  
+data = []
+for row in some_function_that_yields_data():
+    data.append(row)
+
+# either this
+df = pd.DataFrame(data)
+
+# or this
 df = pd.concat([results, df], axis=0).reset_index(drop=True)
 ```
 
