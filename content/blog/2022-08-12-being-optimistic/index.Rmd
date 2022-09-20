@@ -4,7 +4,7 @@ subtitle: Be one standard deviation more positive than the most positive person 
 summary: "Things are bad. We know that; everyone knows that. But you can choose to look at the positives. Granted, we'll sometimes be cherry-picking. But not always. Life is like a box of chocolates; there will be good things about every negative thing and bad about most positive things. I want to be happy, so I look at the positives."
 author: Harshvardhan
 date: '2022-08-12'
-slug: being-optimistic
+slug: optimistic
 categories:
   - life
   - thoughts

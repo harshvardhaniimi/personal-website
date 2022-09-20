@@ -4,7 +4,7 @@ subtitle: ""
 summary: "A problem with learning in public is keeping a strong note of how to avoid heresy. Back in the seventeenth century, if you said anything against God, even if the statement were true, you would be penalised. Sometimes it meant death. It didn't matter if the statement was true. If you don't believe me, just ask Galileo."
 author: Harshvardhan
 date: '2022-08-10'
-slug: stoned-to-death-at-the-public-square
+slug: public-square
 categories:
   - life
   - thoughts
