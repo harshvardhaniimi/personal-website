@@ -16,6 +16,7 @@ links:
   icon_pack: fas
   name: Aspect Ratio's Website
   url: https://www.aspectratioai.com/
+slug: merck
 ---
 
 [![](images/Screen%20Recording%202022-03-16%20at%2010.28.44%20AM.gif)](https://www.aspectratioai.com/)
