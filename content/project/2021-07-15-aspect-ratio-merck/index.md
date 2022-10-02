@@ -4,7 +4,6 @@ subtitle: Where Data Science Met Freedom
 summary: My experience of working as an analyst for Merck Inc. at Aspect Ratio, Pune 
 author: Harshvardhan
 date: '2021-07-15'
-slug: aspect-ratio-merck
 categories:
   - business
   - life
@@ -16,7 +15,7 @@ links:
   icon_pack: fas
   name: Aspect Ratio's Website
   url: https://www.aspectratioai.com/
-slug: merck
+slug: aspect-ratio
 ---
 
 [![](images/Screen%20Recording%202022-03-16%20at%2010.28.44%20AM.gif)](https://www.aspectratioai.com/)
