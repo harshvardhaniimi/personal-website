@@ -1,0 +1,22 @@
+---
+title: Supply Chain Analytics at HP Inc.
+subtitle: "How I spent the summer of '22"
+author: Harshvardhan
+date: '2022-09-28'
+slug: hp
+categories:
+  - business
+  - life
+  - thoughts
+  - Python
+tags: []
+draft: true
+---
+
+This summer was an amazing experience for me. I spent three months toying with different machine learning models building large-scale forecasts for HP's print business. I went in with hardly a year of experience in Python and came out with deep understanding of how Python works, internally and visually. From mostly textbook examples of regression and time-series forecasting, I went to creating forecasts for more than 10,000 print products that HP produces worldwide.
+
+The steep learning rate was not at all a problem. Why? People. I was working with the [Strategic Planning and Modelling](https://www.wikiwand.com/en/HP_SPaM) team, abbreviated internally as SPaM.[^1] The SPaM team has an extensive experience in supply chain analytics. They have worked on several mission-critical projects over the last 40 years and my project was no different.
+
+[^1]: The acronym was popular before spam emails became a problem. The word wasn't in general lingo back when HP SPaM was founded in 1989.
+
+We are driven with strong ethos. Everyone around me wanted us to succeed and would all they could to enable me to do that.
