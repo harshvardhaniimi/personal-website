@@ -4,7 +4,6 @@ subtitle: Typesetting isn't that easy
 summary: Typesetting isn't that easy
 author: Harshvardhan
 date: '2021-06-19'
-slug: []
 categories:
   - package
 tags: []
@@ -30,7 +29,7 @@ slug: latex
 
 ## Images
 
--   **Inserting Images:** Use \\usepackage{graphicx,graphics} in preamble. Then, add image with the following code block.
+-   **Inserting Images:** Use \usepackage{graphicx,graphics} in preamble. Then, add image with the following code block.
 
 ``` latex
 \begin{figure}

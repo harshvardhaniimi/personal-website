@@ -1,7 +1,7 @@
 ---
 title: Adrenaline Activities
-subtitle: Hikes and Adventure Sports
-summary: Hikes and Adventure Sports
+subtitle: Places travelled, hikes, bike rides and adventure sports
+summary: Places travelled, hikes, bike rides and adventure sports
 author: Harshvardhan
 date: '2022-04-20'
 slug: my-activities
@@ -70,6 +70,7 @@ Since I got my VanMoof, I’ve been going on bike trips every so often.
 | [Lewis-Clark Discovery Greenway](https://www.alltrails.com/trail/us/washington/lewis-clark-discovery-greenway-to-renaissance-trail)           | Vancouver, WA | Passes through some cool architecture.                                                                     |
 | [Waterfront Loop](https://www.portland.gov/transportation/walking-biking-transit-safety/suggested-rides#toc-the-classic-waterfront-loop-ride) | Portland, OR  | 11/10.[^1]                                                                                                 |
 | [Third Creek Greenway](https://www.alltrails.com/trail/us/tennessee/third-creek-greenway)                                                     | Knoxville, TN | Easy, close to UT                                                                                          |
+| [Neyland Greenway, Cheerokee Farmway](https://goo.gl/maps/tnrEPirDPon88hBu8)                                                                  | Knoxville, TN | Absolutely beautiful; never crowded.                                                                       |
 
 # 🪂Adventure Sports
 
@@ -143,7 +144,7 @@ Since I got my VanMoof, I’ve been going on bike trips every so often.
 <tr class="odd">
 <td>Paddle-boarding</td>
 <td>Ijams, Knoxville, TN</td>
-<td>use paddle board for diving :)</td>
+<td>use paddle board for diving; paddle-boarding is boring by itself :)</td>
 </tr>
 </tbody>
 </table>
