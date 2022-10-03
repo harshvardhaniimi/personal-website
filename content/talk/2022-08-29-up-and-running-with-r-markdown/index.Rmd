@@ -4,7 +4,7 @@ subtitle: Introduction to R Markdown for MS (Business Analytics) Class of Fall 2
 summary: Introduction to R Markdown for MS (Business Analytics) Class of Fall 2022
 author: Harshvardhan
 date: '2022-08-24T11:30:00Z'
-event: 'Guest Lecture'
+event: 'TA Guest Lecture'
 location: University of Tennessee
 slug: up-and-running-with-r-markdown
 categories:
