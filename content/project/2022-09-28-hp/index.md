@@ -11,7 +11,7 @@ categories:
   - thoughts
   - Python
 tags: []
-draft: false
+draft: true
 ---
 
 This summer was a fantastic experience for me. I spent three months toying with different machine learning models building large-scale forecasts for HP's print business. I went in with hardly a year of experience in Python. I came out with a deep understanding of how Python works, internally and visually. From textbook examples of regression and time-series forecasting, I went to creating forecasts for thousands of products that HP produces worldwide.
