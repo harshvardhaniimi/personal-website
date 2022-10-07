@@ -8,12 +8,12 @@ show_audio_link: true
 audio_link_label: "How to say my name"
 link_list_label: "Fly! 🛸" # bookmarks, elsewhere, etc.
 link_list:
-- name: Adrenaline
-  url: /my-activities/
+- name: Activities
+  url: /adr/
 - name: Books
   url: https://www.goodreads.com/review/list/66858367-harshvardhan?order=d&shelf=read&sort=date_read
-- name: Current Work
-  url: /current-work/
+- name: Thoughts
+  url: https://twitter.com/harshbutjust
 ---
 
 ** index doesn't contain a body, just front matter above.
