@@ -4,7 +4,7 @@ subtitle: Places travelled, hikes, bike rides and adventure sports
 summary: Places travelled, hikes, bike rides and adventure sports
 author: Harshvardhan
 date: '2022-04-20'
-slug: my-activities
+slug: adr
 categories:
   - life
   - thoughts
