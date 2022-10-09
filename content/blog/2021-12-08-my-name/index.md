@@ -9,9 +9,7 @@ categories:
   - thoughts
   - publications
   - social
-tags:
-  - india
-  
+  - life
 draft: false
 ---
 
@@ -61,4 +59,6 @@ The academic world is still oblivious to single names. Sheherazade and Ardiantio
 
 Word, Sheherazade and Ardiantiono. Word.
 
-But anyway, the short term fix is more of a nuisance than trouble. I have to force my name to suit the general convention of first and last name. Thus, I also go as Harshvardhan Harshvardhan (European tradition), FNU Harshvardhan (American way), or M Harshvardhan (my [academic pen-name](https://orcid.org/0000-0001-8086-544X)).
+The short term fix is more of a nuisance than trouble. I have to force my name to suit the general convention of first and last name. Thus, I also go as Harshvardhan Harshvardhan (European tradition), FNU Harshvardhan (American way), or M Harshvardhan (my [academic pen-name](https://orcid.org/0000-0001-8086-544X)).
+
+If you reached here and went through my ramble --- or really anything on my website --- you have gained the liberty to call me "Harsh". Pronounced exactly as you imagine.
