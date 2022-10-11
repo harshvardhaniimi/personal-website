@@ -118,3 +118,95 @@ This is probably the gem of this list, especially at this point of my life when 
 > **Darwin writes in his autobiography that he found it necessary to write down every piece of evidence which appeared to contradict his beliefs because otherwise they would disappear from his mind.** When you find apparent flaws you've got to be sensitive and keep track of those things, and keep an eye out for how they can be explained or how the theory can be changed to fit them. Those are often the great contributions.
 
 ### Creativity
+
+> Now again, emotional commitment is not enough. It is a necessary condition apparently. And I think I can tell you the reason why. **Everybody who has studied creativity is driven finally to saying, "creativity comes out of your subconscious." Somehow, suddenly, there it is. It just appears.** Well, we know very little about the subconscious; but one thing you are pretty well aware of is that your dreams also come out of your subconscious.
+>
+> ...
+>
+> If you are deeply immersed and committed to a topic, day after day after day, your subconscious has nothing to do but work on your problem. And so you wake up one morning, or on some afternoon, and there's the answer. **For those who don't get committed to their current problem, the subconscious goofs off on other things and doesn't produce the big result.** So the way to manage yourself is that when you have a real important problem you don't let anything else get the center of your attention --- you keep your thoughts on the problem. Keep your subconscious starved so it has to work on your problem, so you can sleep peacefully and get the answer in the morning, free.
+
+### Lunch
+
+> Over on the other side of the dining hall was a chemistry table. I had worked with one of the fellows, Dave McCall; furthermore he was courting our secretary at the time. I went over and said, "Do you mind if I join you?" They can't say no, so I started eating with them for a while. And I started asking, "What are the important problems of your field?" And after a week or so, "What important problems are you working on?" And after some more time I came in one day and said, "If what you are doing is not important, and if you don't think it is going to lead to something important, why are you at Bell Labs working on it?" I wasn't welcomed after that; I had to find somebody else to eat with!
+
+### Important Problems
+
+> Let me warn you, "important problem" must be phrased carefully. The three outstanding problems in physics, in a certain sense, were never worked on while I was at Bell Labs. By important I mean guaranteed a Nobel Prize and any sum of money you want to mention. We didn't work on (1) time travel, (2) teleportation, and (3) antigravity. They are not important problems because we do not have an attack. It's not the consequence that makes a problem important, it is that you have a reasonable attack. That is what makes a problem important.
+>
+> ...
+>
+> The great scientists, when an opportunity opens up, get after it and they pursue it. They drop all other things. They get rid of other things and they get after an idea because they had already thought the thing through. Their minds are prepared; they see the opportunity and they go after it. Now of course lots of times it doesn't work out, but you don't have to hit many of them to do some great science. It's kind of easy. One of the chief tricks is to live a long time!
+
+### Great Thoughts Time
+
+> Along those lines at some urging from John Tukey and others, I finally adopted what I called "Great Thoughts Time." When I went to lunch Friday noon, I would only discuss great thoughts after that. By great thoughts I mean ones like: "What will be the role of computers in all of AT&T?", "How will computers change science?"
+
+### Open Door Policy
+
+> Another trait, it took me a while to notice. I noticed the following facts about people who work with the door open or the door closed. **I notice that if you have the door to your office closed, you get more work done today and tomorrow, and you are more productive than most. But 10 years later somehow you don't know quite know what problems are worth working on; all the hard work you do is sort of tangential in importance.** He who works with the door open gets all kinds of interruptions, but he also occasionally gets clues as to what the world is and what might be important.
+
+### It ain't what you do, it's the way that you do it.
+
+> I was conned into doing on a digital computer, in the absolute binary days, a problem which the best analog computers couldn't do. And I was getting an answer. When I thought carefully and said to myself, "You know, Hamming, you're going to have to file a report on this military job; after you spend a lot of money you're going to have to account for it and every analog installation is going to want the report to see if they can't find flaws in it."
+>
+> I was doing the required integration by a rather crummy method, to say the least, but I was getting the answer. And I realized that in truth the problem was not just to get the answer; it was to demonstrate for the first time, and beyond question, that I could beat the analog computer on its own ground with a digital machine. I reworked the method of solution, created a theory which was nice and elegant, and changed the way we computed the answer; the results were no different.
+>
+> The published report had an elegant method which was later known for years as "Hamming's Method of Integrating Differential Equations." It is somewhat obsolete now, but for a while it was a very good method. By changing the problem slightly, I did important work rather than trivial work.
+>
+> ...
+>
+> You should do your job in such a fashion that others can build on top of it, so they will indeed say, "Yes, I've stood on so and so's shoulders and I saw further." The essence of science is cumulative. By changing a problem slightly you can often do great work rather than merely good work.
+>
+> ...
+>
+> To end this part, I'll remind you, "It is a poor workman who blames his tools --- the good man gets on with the job, given what he's got, and gets the best answer he can." And I suggest that by altering the problem, by looking at the thing differently, you can make a great deal of difference in your final productivity because you can either do it in such a fashion that people can indeed build on what you've done, or you can do it in such a fashion that the next person has to essentially duplicate again what you've done.
+
+### Selling
+
+> ...the fact is everyone is busy with their own work. You must present it so well that they will set aside what they are doing, look at what you've done, read it, and come back and say, "Yes, that was good."
+>
+> ...
+>
+> If they don't stop and read it, you won't get credit.
+>
+> ...
+>
+> There are three things you have to do in selling. You have to learn to write clearly and well so that people will read it, you must learn to give reasonably formal talks, and you also must learn to give informal talks.
+>
+> #### Talks
+>
+> While going to meetings I had already been studying why some papers are remembered and most are not. The technical person wants to give a highly limited technical talk. Most of the time the audience wants a broad general talk and wants much more survey and background than the speaker is willing to give. As a result, many talks are ineffective. The speaker names a topic and suddenly plunges into the details he's solved. Few people in the audience may follow. You should paint a general picture to say why it's important, and then slowly give a sketch of what was done. Then a larger number of people will say, "Yes, Joe has done that," or "Mary has done that; I really see where it is; yes, Mary really gave a good talk; I understand what Mary has done."
+
+### Worth it?
+
+> Well I now come down to the topic, "Is the effort to be a great scientist worth it?" To answer this, you must ask people. When you get beyond their modesty, most people will say, "Yes, doing really first-class work, and knowing it, is as good as wine, women and song put together," or if it's a woman she says, "It is as good as wine, men and song put together."
+
+### Why people fail?
+
+> #### Drive and Commitment
+>
+> Well, one of the reasons is drive and commitment. The people who do great work with less ability but who are committed to it, get more done that those who have great skill and dabble in it, who work during the day and go home and do other things and come back and work the next day. They don't have the deep commitment that is apparently necessary for really first-class work. They turn out lots of good work, but we were talking, remember, about first-class work.
+>
+> #### Personality Defects
+>
+> good scientists will fight the system rather than learn to work with the system and take advantage of all the system has to offer. It has a lot, if you learn how to use it. It takes patience, but you can learn how to use the system pretty well, and you can learn how to get around it. After all, if you want a decision 'No', you just go to your boss and get a 'No' easy. If you want to do something, don't ask, do it. Present him with an accomplished fact. Don't give him a chance to tell you 'No'.
+>
+> ...
+>
+> By taking the trouble to tell jokes to the secretaries and being a little friendly, I got superb secretarial help.
+>
+> #### Ego Assertion
+>
+> You should dress according to the expectations of the audience spoken to. If I am going to give an address at the MIT computer center, I dress with a bolo and an old corduroy jacket or something else. I know enough not to let my clothes, my appearance, my manners get in the way of what I care about. An enormous number of scientists feel they must assert their ego and do their thing their way. They have got to be able to do this, that, or the other thing, and they pay a steady price.
+>
+> ...
+>
+> On the other hand, we can't always give in. There are times when a certain amount of rebellion is sensible. I have observed almost all scientists enjoy a certain amount of twitting the system for the sheer love of it.
+>
+> #### Excuses
+>
+> Now self-delusion in humans is very, very common. There are innumerable ways of you changing a thing and kidding yourself and making it look some other way. When you ask, "Why didn't you do such and such," the person has a thousand alibis. If you look at the history of science, usually these days there are ten people right there ready, and we pay off for the person who is there first. The other nine fellows say, "Well, I had the idea but I didn't do it and so on and so on." There are so many alibis. Why weren't you first? Why didn't you do it right? Don't try an alibi.
+
+## Steve Jobs: Letter to Himself
+
+[![](images/Screen%20Shot%202022-10-10%20at%2010.14.09%20PM.png)](https://stevejobsarchive.com/)
