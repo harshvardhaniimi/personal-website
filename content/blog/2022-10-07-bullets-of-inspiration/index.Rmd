@@ -210,3 +210,7 @@ This is probably the gem of this list, especially at this point of my life when 
 ## Steve Jobs: Letter to Himself
 
 [![](images/Screen%20Shot%202022-10-10%20at%2010.14.09%20PM.png)](https://stevejobsarchive.com/)
+
+------------------------------------------------------------------------
+
+*This is a live blog and is expected to be updated frequently.*
