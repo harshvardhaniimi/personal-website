@@ -8,7 +8,7 @@ categories:
   - thoughts
   - live
 tags: []
-draft: true
+draft: false
 ---
 
 Life is short for learning from your own mistakes; you need to play catch-up with people who tried new things. Most people do not document their learnings. The rare culturati group that notes their understandings in an essay easily trumps the large group, which keeps their learnings to themselves.
