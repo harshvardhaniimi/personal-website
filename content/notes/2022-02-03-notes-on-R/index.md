@@ -7,14 +7,9 @@ date: '2022-02-03'
 slug: notes-on-r
 categories:
   - R
+  - live
 tags: []
 ---
-
-**Update (March 5, 2022):** I finally wrote a package with all these functions. You can learn more about it [here](https://harshvardhaniimi.github.io/garlic/).[^1]
-
-[^1]: I do not imagine this package to be useful to many people but I use these functions very frequently. Particularly my `ggplot2` theme.
-
-------------------------------------------------------------------------
 
 On one fine day when I have enough time, they'll all be wrapped into a package hosted on my Github. Until then, this page in their home.
 
@@ -28,16 +23,39 @@ library(tidyverse)
 ```
 
 ```
-## ✓ ggplot2 3.3.5          ✓ purrr   0.3.4     
-## ✓ tibble  3.1.6          ✓ dplyr   1.0.8.9000
-## ✓ tidyr   1.2.0          ✓ stringr 1.4.0     
-## ✓ readr   2.0.2          ✓ forcats 0.5.1
+## ✔ ggplot2 3.3.6.9000     ✔ purrr   0.3.4     
+## ✔ tibble  3.1.7          ✔ dplyr   1.0.9     
+## ✔ tidyr   1.2.0          ✔ stringr 1.4.1     
+## ✔ readr   2.1.2          ✔ forcats 0.5.1
 ```
 
 ```
 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+```
+
+## DT Table with Download Buttons with Search
+
+
+```r
+my_DT = function(df)
+{
+  return(DT::datatable(
+    df,
+    extensions = "Buttons",
+    options = list(
+      paging = TRUE,
+      scrollX = TRUE,
+      searching = TRUE,
+      ordering = TRUE,
+      dom = 'Bfrtip',
+      buttons = c('copy', 'csv', 'excel', 'pdf'),
+      pageLength = 5,
+      lengthMenu = c(3, 5, 10)
+    )
+  ))
+}
 ```
 
 ## Show in Excel
@@ -145,7 +163,7 @@ print(x)
 ## [1] "300000"
 ```
 
-## GGPlot2 Theme
+## GGPlot2 Themes
 
 See [official guide](https://ggplot2.tidyverse.org/reference/theme.html) for more details. Also see [Benjamin's blog](https://benjaminlouis-stat.fr/en/blog/2020-05-21-astuces-ggplot-rmarkdown/).
 
@@ -159,12 +177,13 @@ iris %>%
   labs(title = "Without my theme")
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-11-1.png" width="672" />
 
 Once I run and set my theme, its way prettier.
 
 
 ```r
+# creating theme
 theme_h = function(base_size = 14) {
   theme_bw(base_size = base_size) %+replace%
     theme(
@@ -228,9 +247,31 @@ iris %>%
   labs(title = "With my theme")
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-13-1.png" width="672" />
 
-I like the arrowed axes and serif fonts.
+I like the arrowed axes and serif fonts. This theme has now been implemented in my `garlic` package. It can be set via `theme_set(garlic::gg_serif()`.
+
+### Theme Clean
+
+There are many other alternatives available --- beyond the default options. [This website](https://r-charts.com/ggplot2/themes/) has a wonderful compilation of a few of them. I really like `theme_clean()` from `ggthemes` package.
+
+
+```r
+theme_set(ggthemes::theme_clean())
+```
+
+### Tech Themes
+
+`ggtech` has [themes](https://github.com/ricardo-bion/ggtech) related to tech companies. Here are they in the order of my preference.
+
+
+```r
+theme_set(ggtech::theme_airbnb_fancy())
+theme_set(ggtech::theme_tech(theme="etsy"))
+theme_set(ggtech::theme_tech(theme="google"))
+theme_set(ggtech::theme_tech(theme="facebook"))
+theme_set(ggtech::theme_tech(theme="twitter"))
+```
 
 ## Better Quality Images in R Markdown
 
@@ -238,5 +279,13 @@ Using `.svg` as the image output format gives much better graphics quality than 
 
 
 ```r
-knitr::opts_chunk$set(dev = 'svg') # set output device to svg
+# set output device to svg
+# this can fail sometimes -- I haven't investigated when
+knitr::opts_chunk$set(dev = 'svg')
 ```
+
+------------------------------------------------------------------------
+
+**Update (March 5, 2022):** I finally wrote a package with some of these functions. You can learn more about it [here](https://harshvardhaniimi.github.io/garlic/).[^1]
+
+[^1]: I do not imagine this package to be useful to many people but I use these functions very frequently. Particularly my `ggplot2` theme.
