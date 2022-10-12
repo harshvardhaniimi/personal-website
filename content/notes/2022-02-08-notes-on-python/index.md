@@ -8,14 +8,16 @@ slug: notes-on-python
 categories:
   - Python
 tags: []
+format: hugo
 ---
+
+
 
 ## Installing Packages
 
 There are ~~two~~ three ways: `pip`, `conda` and within Jupyter Hub. If you are using Anaconda (Navigator), use `conda`. `pip` will install for all environments; `conda` will install for conda environment only. Put either of these codes in Terminal.
 
-
-```r
+``` python
 # using pip
 python -m pip install <package>
 
@@ -25,8 +27,7 @@ conda install <package>
 
 If it is a one off use case (which it usually never is), use the following command.
 
-
-```r
+``` python
 !pip install <package>
 ```
 
@@ -34,8 +35,7 @@ If it is a one off use case (which it usually never is), use the following comma
 
 Terminal commands can be passed within the Jupyter notebook, just like the `pip install` command described earlier. Any command starting with `!` would be run like a terminal command within the Jupyter notebook.
 
-
-```r
+``` python
 # list all files in current directory
 !ls
 
@@ -47,8 +47,7 @@ Terminal commands can be passed within the Jupyter notebook, just like the `pip 
 
 Many a time our code crashes and we would like to investigate the environment at that moment. Running `%debug` in Jupyter Notebook immediately after the code crashes would open a debugging environment where you can see variables' values, etc.
 
-
-```python
+``` python
 # some code that crashed
 x = some_function(y)
 
@@ -62,8 +61,7 @@ There are two methods: `print()` and `pprint()`. They both serve the save cause 
 
 It is worthwhile to mention `f`-strings. They are usually more compact than writing full print statements. Furthermore, if you want to print value of a variable, they're really short.
 
-
-```python
+``` python
 # enclose the variable in curly braces
 print(f"Value of x is {x}")
 
@@ -77,8 +75,7 @@ It is more efficient to create a list of rows first and then convert it to a pan
 
 > Pandas dataframes do not work as a list, they are much more complex data structures and appending is not really considered the best approach.
 
-
-```r
+``` python
 data = []
 for row in some_function_that_yields_data():
     data.append(row)
@@ -90,11 +87,16 @@ df = pd.DataFrame(data)
 df = pd.concat([results, df], axis=0).reset_index(drop=True)
 ```
 
-## See Details of a Function
+## Function
+
+### Getting Help
 
 To see details of a function in a Jupyter notebook, use `??` operator. It will show you the body and the associated documentation (if available).
 
-
-```r
+``` r
 ??my_function()
 ```
+
+### Modify Inplace
+
+When you modify a value passed to a function, it modifies that object inplace. For example, the following function would change the value.
