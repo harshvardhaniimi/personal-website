@@ -15,6 +15,8 @@ intro: |
 
   [Curriculum vitae](/docs/cv.pdf)
   
+  [1 page Resume](/docs/resume.pdf)
+  
   [Old Website](https://sites.google.com/view/harsh17/)
 
 show_outro: true
