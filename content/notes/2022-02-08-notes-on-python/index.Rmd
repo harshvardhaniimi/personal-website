@@ -14,12 +14,11 @@ tags: []
 
 The process to install package depends on the Python environment you are using.
 
-There are two possibilities: `pip`, `conda` and within Jupyter Hub. If you are using Anaconda (Navigator), use `conda`. `pip` will install for all environments; `conda` will install for (activated) conda environment only. See <a href="#python-environments">7</a> for details on Python environments.
+There are two possibilities: `pip`, `conda` and within Jupyter Hub. If you are using Anaconda (Navigator), use `conda`. `pip` will install for all environments; `conda` will install for (activated) conda environment only. See \@ref(python-environments) for details on Python environments.
 
 **Generally, always use `conda`**.
 
-
-```python
+```{python eval = FALSE}
 conda install <package>
 ```
 
@@ -27,8 +26,7 @@ conda install <package>
 
 Terminal commands can be passed within the Jupyter notebook. Any command starting with `!` would be run like a terminal command within the Jupyter notebook.
 
-
-```python
+```{python eval = FALSE}
 # list all files in current directory
 !ls
 
@@ -40,8 +38,7 @@ Terminal commands can be passed within the Jupyter notebook. Any command startin
 
 Many a time our code crashes and we would like to investigate the environment at that moment. Running `%debug` in Jupyter Notebook immediately after the code crashes would open a debugging environment where you can see variables' values, etc.
 
-
-```python
+```{python eval = FALSE}
 # some code that crashed
 x = some_function(y)
 
@@ -55,8 +52,7 @@ There are two methods: `print()` and `pprint()`. They both serve the save cause 
 
 It is worthwhile to mention `f`-strings. They are usually more compact than writing full print statements. Furthermore, if you want to print value of a variable, they're really short.
 
-
-```python
+```{python eval = FALSE}
 # enclose the variable in curly braces
 print(f"Value of x is {x}")
 
@@ -70,8 +66,7 @@ It is more efficient to create a list of rows first and then convert it to a pan
 
 > Pandas dataframes do not work as a list, they are much more complex data structures and appending is not really considered the best approach.
 
-
-```python
+```{python eval = FALSE}
 data = []
 for row in some_function_that_yields_data():
     data.append(row)
@@ -89,8 +84,7 @@ df = pd.concat([results, df], axis=0).reset_index(drop=True)
 
 To see details of a function in a Jupyter notebook, use `??` operator. It will show you the body and the associated documentation (if available).
 
-
-```python
+```{python eval = FALSE}
 ??my_function()
 ```
 
@@ -108,15 +102,13 @@ When you modify a value passed to a function, it modifies that object inplace. F
 
 ## List all environments
 
-
-```zsh
+```{zsh eval = FALSE}
 conda env list
 ```
 
 Here is how it looks for me.
 
-
-```python
+```{python eval = FALSE}
 (base) harshvardhan@harshmac17 ~ % conda env list
 # conda environments:
 #
@@ -128,8 +120,7 @@ env_oct22                /Users/harshvardhan/opt/anaconda3/envs/env_oct22
 
 This will create an environment called `new_env`.
 
-
-```python
+```{python eval = FALSE}
 conda create --name new_env
 ```
 
@@ -139,8 +130,7 @@ Conda will ask you for permission `proceed ([y]/n)?`. Type `y`.
 
 This will activate the environment called `new_env`. Remember that you can list all environment with `conda env list`.
 
-
-```python
+```{python eval = FALSE}
 conda activate new_env
 ```
 
@@ -150,8 +140,7 @@ conda activate new_env
 
 This will create a new environment `new_env` with the exact same packages as `old_env`.
 
-
-```python
+```{python eval = FALSE}
 conda create --clone old_env --name new_env
 ```
 
@@ -159,8 +148,7 @@ conda create --clone old_env --name new_env
 
 This will remove a Python environment called `old_env`.
 
-
-```python
+```{python eval = FALSE}
 conda env remove --name old_env
 ```
 
@@ -168,8 +156,7 @@ conda env remove --name old_env
 
 This will list all packages in the current environment.
 
-
-```python
+```{python eval = FALSE}
 conda list
 ```
 
@@ -177,8 +164,7 @@ conda list
 
 This will update all packages in the **activated** Python environment. See above to list environments and select an environment. Once you are in the activated environment, execute the following.
 
-
-```python
+```{python eval = FALSE}
 conda update --all
 ```
 
