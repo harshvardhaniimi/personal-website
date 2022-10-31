@@ -45,18 +45,19 @@ These are only the hikes in US. My hikes in India and Europe aren’t included.
 | [Dry Creek Falls](https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike)                                                            | Hood River County, Oregon | Mountainous terrain, fire-parched trees, beautiful waterfall |
 | [Clingman’s Dome](https://www.nps.gov/grsm/planyourvisit/clingmansdome.htm)                                                                 | North Carolina, US        | Easy walk, beautiful views                                   |
 | [Grotto Falls, Trillium Gap Trail](https://www.nps.gov/grsm/planyourvisit/grotto-falls.htm)                                                 | North Carolina, US        | Good hike, very crowded though                               |
+| [Norris Dam Park](https://tnstateparks.com/parks/norris-dam)                                                                                | Rocky Top, TN             | Alright — not great                                          |
 
 ### 🪣 Bucket List
 
--   [Big south fork](https://www.nps.gov/biso/index.htm)
--   [Bald falls](https://www.tnvacation.com/local/tellico-plains-bald-river-falls)
--   Max Patch
--   Stone Mountain
--   Rock city Chattanooga
--   Sound of music
--   Falls creek falls
--   Grayson Highlands
--   Cades Cove — biking
+- [Big south fork](https://www.nps.gov/biso/index.htm)
+- [Bald falls](https://www.tnvacation.com/local/tellico-plains-bald-river-falls)
+- Max Patch
+- Stone Mountain
+- Rock city Chattanooga
+- Sound of music
+- Falls creek falls
+- Grayson Highlands
+- Cades Cove — biking
 
 # 🚴 Bike Rides
 
@@ -74,11 +75,11 @@ Since I got my VanMoof, I’ve been going on bike trips every so often.
 
 # 🪂Adventure Sports
 
-<table>
+<table style="width:99%;">
 <colgroup>
 <col style="width: 21%" />
 <col style="width: 22%" />
-<col style="width: 56%" />
+<col style="width: 55%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -151,8 +152,8 @@ Since I got my VanMoof, I’ve been going on bike trips every so often.
 
 ### 🪣 Bucket List
 
--   Cliff Jumping
+- Cliff Jumping
 
--   ~~Bungee Jumping~~
+- ~~Bungee Jumping~~
 
 [^1]: Bonus point for [Dea’s](https://deabardhoshi.medium.com) company.
