@@ -76,3 +76,7 @@ Our internship project got the first runners-up in the technical contribution ca
 ## Fun continues...
 
 I thoroughly enjoyed the work. The problem was intellectually stimulating, and while many of our models are beating the current forecast performance, we still have lots of ideas for further model improvement. Therefore, I'm continuing the work through the school year, working part-time with them!
+
+------------------------------------------------------------------------
+
+Thank you, Meenal and Cara, for reviewing an early draft of this post. Your comments resulted in significant revisions and polished it.
