@@ -58,7 +58,7 @@ Added on November 12, 2022.
 
 There are two things I would like to add to this post. First, today I learnt about the America's deadliest road. US-19 in New Port Riche, Florida. A group of researches found 60 pedestarian hotspots in the US. This 1 km streth topped their list. 
 
-[Add pedestarian fatality growth picture.]
+![](ranks.png)
 
 It has got a lot to do with how the cities are designed.
 
