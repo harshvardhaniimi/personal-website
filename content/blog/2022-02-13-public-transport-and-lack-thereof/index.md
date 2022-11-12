@@ -54,9 +54,11 @@ A thriving public transport system is essential to the development of a country.
 
 ---
 
-Added on November 12, 2022.
+# America's deadliest road: New Port Riche, Florida 
 
-There are two things I would like to add to this post. First, today I learnt about the America's deadliest road. US-19 in New Port Riche, Florida. A group of researches found 60 pedestarian hotspots in the US. This 1 km streth topped their list. 
+*Added on November 12, 2022.*
+
+There are two things I would like to add to this post. First, today I learnt about America’s deadliest road. US-19 in New Port Riche, Florida. A group of researchers found 60 pedestrian hotspots in the US. This 1 km stretch topped their list.
 
 ![](ranks.png)
 
@@ -68,17 +70,17 @@ It has got a lot to do with how the cities are designed.
 
 ### Why is it this bad?
 
-Experts would tell you that speed is the primal cause. When drivers are riding at 15 miles per hour (25 km per hour), they have a wide peripheral vision. They only need 25 feet of distance to respond and stop. At 50 miles per hour (80 km per hour), the peripheral vision narrows. They require 118 feet of distance to respond and stop. Three times the speed results in almost five times the distance required to stop. The pedestraian fatality risk increases to 85\% from 2\% at 15 miles per hour.
+Experts would tell you that speed is the first cause. When drivers ride at 15 miles per hour (25 km per hour), they have broad peripheral vision. They only need 25 feet of distance to respond and stop. The peripheral vision narrows at 50 miles per hour (80 km per hour). They require 118 feet of distance to react and stop—three times the speed results in almost five times the length needed to stop. The pedestrian fatality risk increases to 85% from 2% at 15 miles per hour.
 
-Another cause is the number of lanes. 97% of the cities that had pedestarian fatalities had multiple lanes. This stretch of road has 8 lanes. Once you start crossing, you've to make sure you get all the eight lanes. [Chicken road crossing game anyone?](https://app.codemonkey.com/games/V12KldVD) The more lanes, the more the risk. The road is also straight as a ruler. There are no curves or bends to slow down the cars. The road is also wide. The cars can go at 80 km per hour without any problem. The posted speed limit is 45 miles per hour (72 km per hour).
+Another cause is the number of lanes. 97% of the cities that had pedestrian fatalities had multiple lanes. This stretch of road has eight lanes. Once you start crossing, you must ensure you get all eight lanes. [Chicken road crossing game, anyone?](https://app.codemonkey.com/games/V12KldVD) The more lanes, the more the risk. The road is also straight as a ruler. There are no curves or bends to slow down the cars. The road is also wide. The cars can go at 80 km per hour without any problem. The posted speed limit is 45 miles per hour (72 km per hour).
 
-Arterial roads are a problem too. It is a design where car-centric design mingles with resedential neighbourhoods. 
+Arterial roads are a problem too. It is a design where car-centric design mingles with residential neighbourhoods. 
 
 ![These roads make only 13% of total US road network but are sites of 40% of all pedestarian fatalities. ](arterial-roads.png)
 
-> These roads make only 13% of total US road network but are sites of 40% of all pedestarian fatalities. 
+> These roads make up only 13% of the US road network but are sites of 40% of all pedestrian fatalities. 
 
-Since the distance between the two cross walks is a km, or around 3300 ft, people resort to jaywalking. (By the way, the more appropriate term is crossing at a location where there is no signal. Jaywalking is a term invented by the car companies to blame the pedestarians for their own deaths. Before 1930s, it was socially and legally acceptable to cross the road anywhere you wanted.)
+Since the distance between the two crosswalks is a km or around 3300 ft, people resort to jaywalking. (By the way, the more appropriate term is crossing at a location where there is no signal. Jaywalking is a term invented by automobile lobbyists to blame pedestrians for their deaths. Before the 1930s, crossing the road anywhere you wanted was socially and legally acceptable.)
 
 You can learn more about it in this Vox video.
 
@@ -86,11 +88,14 @@ You can learn more about it in this Vox video.
 
 ### What can be done?
 
-As a first, we have to start reducing the number of lanes. Highways may have eight lanes but resedential areas should not have over a lane. Additionally, install street parking and sidewalks, with several additional crosswalks.
+We have to start reducing the number of lanes. Highways may have eight lanes, but residential areas should not have over a lane. Additionally, install street parking and sidewalks, with several additional crosswalks.[^7]
 
-The government of Florida is spending millions to get this [fixed](https://www.tampabay.com/news/pasco/2022/09/26/deadliest-road-pasco-county-getting-millions-safety-upgrades/). The mayor also envisions to add pedestarian and cyclist bridges, avoiding the need to cross the road altogether.
+[^7]: The city design can determine a lot about pedestrarian and bike safefy. Check out this TED talk where Jeff Speck explains how to make cities more [walkable](https://www.youtube.com/watch?v=6cL5Nud8d7w). There has to be a reason to walk, the walk has to be and feel safe, the walk has to be pleasant and comfortable, and the walk has to be interesting.
 
-## Visualising the problem
+The government of Florida is spending millions on getting this [fixed](https://www.tampabay.com/news/pasco/2022/09/26/deadliest-road-pasco-county-getting-millions-safety-upgrades/). The mayor is also envisioning to add pedestrian and cyclist bridges, avoiding the need to cross the road altogether.
+
+### Map of New Port Riche, Florida
 
 <iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Untitled-Map-n8Z2x23BQMOVHwilWpTblB?lat=28.179733&lon=-82.750579&zoom=12.579"></iframe>
  
+
