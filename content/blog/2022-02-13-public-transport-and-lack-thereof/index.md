@@ -66,7 +66,7 @@ A thriving public transport system is essential to the development of a country.
 
 *Added on November 12, 2022.*
 
-There are two things I would like to add to this post. First, today I learnt about America’s deadliest road. US-19 in New Port Riche, Florida. A group of researchers found 60 pedestrian hotspots in the US. This 1 km stretch topped their list.
+There is something I would like to add to this post. Today, Dea shared a video on America’s deadliest road. US-19 in New Port Riche, Florida. A group of researchers found 60 pedestrian hotspots in the US. This 1 km stretch topped their list.
 
 ![](ranks.png)
 
@@ -98,7 +98,7 @@ You can learn more about it in this Vox video.
 
 We have to start reducing the number of lanes. Highways may have eight lanes, but residential areas should not have over a lane. Additionally, install street parking and sidewalks, with several additional crosswalks.[^7]
 
-[^7]: The city design can determine a lot about pedestrarian and bike safefy. Check out this TED talk where Jeff Speck explains how to make cities more [walkable](https://www.youtube.com/watch?v=6cL5Nud8d7w). There has to be a reason to walk, the walk has to be and feel safe, the walk has to be pleasant and comfortable, and the walk has to be interesting.
+[^7]: The city design can determine a lot about pedestrarian and bike safefy. Check out this TED talk where Jeff Speck explains how to make cities more [walkable](https://www.youtube.com/watch?v=6cL5Nud8d7w). There has to be a reason to walk, the walk has to feel and be safe, the walk has to be pleasant and comfortable, and the walk has to be interesting.
 
 The government of Florida is spending millions on getting this [fixed](https://www.tampabay.com/news/pasco/2022/09/26/deadliest-road-pasco-county-getting-millions-safety-upgrades/). The mayor is also envisioning to add pedestrian and cyclist bridges, avoiding the need to cross the road altogether.
 
