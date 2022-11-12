@@ -50,3 +50,47 @@ Another limitation is innovation. Somehow we have stopped being creative about p
 An excellent public transport system also helps the world be greener. It is easier and cheaper to design electric buses and trains than electric cars. Elon Musk's Tesla is a strong force on making cars electric, but it will be a long while. Musk's original electric vehicles plan is to iterate from a sports car like Ferrari to a general-purpose car like Honda Civic. We are still around the sports car stage, and having all-electric vehicles would be a long shot.
 
 A thriving public transport system is essential to the development of a country. It normalises opportunities for everyone and supports the environment. Some day if I had to design a country's public transport system, I would look at the road transport in the US, railways in India and flights in Europe for inspiration.
+
+
+---
+
+Added on 2022-02-13 12:00:00.
+
+There are two things I would like to add to this post. First, today I learnt about the America's deadliest road. US-19 in New Port Riche, Florida. A group of researches found 60 pedestarian hotspots in the US. This 1 km streth topped their list. 
+
+[Add pedestarian fatality growth picture.]
+
+It has got a lot to do with how the cities are designed.
+
+> Along the road is a panoply of American consumerism: Walmart, Publix, tattoo parlors, chain hotels, motels, 7-Elevens, multiple Dunkin’s, medical equipment stores, condemned buildings, strip clubs, auto body repair shops, oil change places, custom paint job businesses, chain restaurants, deserted property waiting to be redeveloped, and a mini-golf course where you can feed baby alligators, fenced in near the sidewalk.
+
+> Walk along this road, and you might begin to notice the danger. The speed limit is 45 to 55 miles per hour, but the cars are often going much faster. The crosswalks are so few and far between that a simple act — crossing the street to get to a business a few hundred feet away — might mean walking over half a mile to reach the nearest crosswalk. Even with sidewalks set back from the road, it’s clear that US-19 wasn’t built for pedestrians.
+
+### Why is it this bad?
+
+Experts would tell you that speed is the primal cause. When drivers are riding at 15 miles per hour (25 km per hour), they have a wide peripheral vision. They only need 25 feet of distance to respond and stop. At 50 miles per hour (80 km per hour), the peripheral vision narrows. They require 118 feet of distance to respond and stop. Three times the speed results in almost five times the distance required to stop. The pedestraian fatality risk increases to 85\% from 2\% at 15 miles per hour.
+
+Another cause is the number of lanes. 97% of the cities that had pedestarian fatalities had multiple lanes. This stretch of road has 8 lanes. Once you start crossing, you've to make sure you get all the eight lanes. [Chicken road crossing game anyone?](https://app.codemonkey.com/games/V12KldVD) The more lanes, the more the risk. The road is also straight as a ruler. There are no curves or bends to slow down the cars. The road is also wide. The cars can go at 80 km per hour without any problem. The posted speed limit is 45 miles per hour (72 km per hour).
+
+Arterial roads are a problem too. It is a design where car-centric design mingles with resedential neighbourhoods. 
+
+![These roads make only 13% of total US road network but are sites of 40% of all pedestarian fatalities. ](arterial-roads.png)
+
+> These roads make only 13% of total US road network but are sites of 40% of all pedestarian fatalities. 
+
+Since the distance between the two cross walks is a km, or around 3300 ft, people resort to jaywalking. (By the way, the more appropriate term is crossing at a location where there is no signal. Jaywalking is a term invented by the car companies to blame the pedestarians for their own deaths. Before 1930s, it was socially and legally acceptable to cross the road anywhere you wanted.)
+
+You can learn more about it in this Vox video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0-nthHT-J1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### What can be done?
+
+As a first, we have to start reducing the number of lanes. Highways may have eight lanes but resedential areas should not have over a lane. Additionally, install street parking and sidewalks, with several additional crosswalks.
+
+The government of Florida is spending millions to get this [fixed](https://www.tampabay.com/news/pasco/2022/09/26/deadliest-road-pasco-county-getting-millions-safety-upgrades/). The mayor also envisions to add pedestarian and cyclist bridges, avoiding the need to cross the road altogether.
+
+## Visualising the problem
+
+<iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Untitled-Map-n8Z2x23BQMOVHwilWpTblB?lat=28.179733&lon=-82.750579&zoom=12.579"></iframe>
+ 
