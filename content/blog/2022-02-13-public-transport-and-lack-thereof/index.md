@@ -23,6 +23,8 @@ Driving is probably the riskiest adventure you do all through the day. In fact, 
 
 [^4]: According to [Esurance](https://www.news9.com/story/5e6fca6cf86011d4820c3f2d/what-are-your-chances-of-getting-into-a-car-accident), the chances of an average American into a car accident during a 1,000 mile long trip are 1 in 366. I have rounded the number in my argument.
 
+# Differences between Europe and the US
+
 Public transport in Europe is built differently. You'd see colossal parking lots for people flying out of the cities at the airports. The general trend is to get to the airport and then fly out. Contrast this with the US: people just drive through states with their luggage.
 
 There are good reasons for their choices, of course. Gasoline is cheaper in the US than in most of the world, thanks to billions of dollars spent researching how to make shale oil useful.[^5] Road connectivity in US is probably the best I've seen so far.[^6] The interstate system connects almost all cities and almost every region is accessible.
@@ -33,11 +35,15 @@ There are good reasons for their choices, of course. Gasoline is cheaper in the 
 
 In contrast, Europe provides the best locality for air travel. The area is full of mountains and difficult to drive terrain. Small-sized countries have at least one airport in their capital cities, and flights between countries are economical for obvious reasons.
 
+# Indian Railways: The Lifeline of India
+
 ![](indian-railway.jpg)
 
 Indian railway systems are economical for very different reasons. The peninsula allowed for dense railway tracks around the country. Coincidentally, high population density and high overall population ensure ridership volumes. The system is not profitable, but it doesn't have to be.
 
 The profitability of public utilities is a capitalist (and possibly American) concept. They wouldn't be "public utilities" if they were profitable --- they'd be business ventures. Some activities are not worthwhile for business, but we do them because they are necessary. Wars are largely non-profitable, but we still have them. Then why not public transport?
+
+# Pitfalls of Car Dependency
 
 However, the biggest reason is that not everyone can afford private transport. Cars are expensive, even if you ignore gas prices. Every month, you would spend \$200 on insurance, another \$200 on a parking permit --- and that's aside from the \$500 you pay for your car loan. In contrast, I can travel from any place to any place in India for a little over \$20. In many European countries and cities, they are free!
 
@@ -46,6 +52,8 @@ Disadvantaged communities do not have equal access to necessities. I understand 
 Some communities cannot travel from one place to another in the US only because they cannot afford a car. A single flight costs a fourth of their monthly income. Wouldn't Friedman be sad about this reality?
 
 Another limitation is innovation. Somehow we have stopped being creative about public transport. New technology in travel is mainly incremental than revolutionary. Bullet trains are almost sixty years old now. The boring company started an initiative, but it's experimental and not scalable. (It is in LA only because Musk lives in LA; there are no plans to expand.) We strive for improving our train speeds or have Twitter spats over leg space. We have accepted that they are expensive and stopped innovating to reduce the price!
+
+# The Future of Public Transport
 
 An excellent public transport system also helps the world be greener. It is easier and cheaper to design electric buses and trains than electric cars. Elon Musk's Tesla is a strong force on making cars electric, but it will be a long while. Musk's original electric vehicles plan is to iterate from a sports car like Ferrari to a general-purpose car like Honda Civic. We are still around the sports car stage, and having all-electric vehicles would be a long shot.
 
