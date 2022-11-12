@@ -54,7 +54,7 @@ A thriving public transport system is essential to the development of a country.
 
 ---
 
-Added on 2022-02-13 12:00:00.
+Added on November 12, 2022.
 
 There are two things I would like to add to this post. First, today I learnt about the America's deadliest road. US-19 in New Port Riche, Florida. A group of researches found 60 pedestarian hotspots in the US. This 1 km streth topped their list. 
 
