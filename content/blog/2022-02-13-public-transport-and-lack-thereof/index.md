@@ -23,7 +23,7 @@ Driving is probably the riskiest adventure you do all through the day. In fact, 
 
 [^4]: According to [Esurance](https://www.news9.com/story/5e6fca6cf86011d4820c3f2d/what-are-your-chances-of-getting-into-a-car-accident), the chances of an average American into a car accident during a 1,000 mile long trip are 1 in 366. I have rounded the number in my argument.
 
-# Differences between Europe and the US
+# Europe vs the United States
 
 Public transport in Europe is built differently. You'd see colossal parking lots for people flying out of the cities at the airports. The general trend is to get to the airport and then fly out. Contrast this with the US: people just drive through states with their luggage.
 
