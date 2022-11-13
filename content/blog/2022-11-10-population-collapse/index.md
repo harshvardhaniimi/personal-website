@@ -1,5 +1,6 @@
 ---
 title: Population Collapse
+subtitle: "Is the sale of baby diapers 👶 increasing faster than adult diapers 🧓?"
 author: Harshvardhan
 date: '2022-11-10'
 slug: population-collapse
