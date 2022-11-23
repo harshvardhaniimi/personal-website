@@ -44,7 +44,7 @@ I am looking for **Persuasion**, Jane Austen's last book. R tells me the rights 
 book = gutenberg_download(105)
 ```
 
-I can download more than one books at a time and many other fancy things. Check `gutenbergr`'s [vignette](https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html) for more information.
+I can download more than one books at a time and many other fancy things. Check `gutenbergr`'s [vignette](https://docs.ropensci.org/gutenbergr/) for more information.
 
 # Exploring the Book
 

@@ -26,6 +26,6 @@ links:
 
 [![](images/Screen%20Shot%202022-03-16%20at%2011.34.11%20AM.png)](https://github.com/harshvardhaniimi/indian-higher-education/blob/master/Final_Presentation.pdf)
 
-In this independent research study with [Tamanna Gupta](https://www.linkedin.com/in/tamannagupta/?originalSubdomain=in) under guidance of [Prof Rahul Nilakantan](http://drrahul.org/), we measured efficiency of major Indian higher educational institutes including Indian Institutes of Technology and Indian Institutes of Management. We also suggested policy measures that should be undertaken by the government to improve college education standards and improve efficiency of the institutes. See [slides](https://github.com/harshvardhaniimi/indian-higher-education/blob/master/Final_Presentation.pdf) for more details.
+In this independent research study with [Tamanna Gupta](https://www.linkedin.com/in/tamannagupta/?originalSubdomain=in) under guidance of [Prof Rahul Nilakantan](http://drrahul.org), we measured efficiency of major Indian higher educational institutes including Indian Institutes of Technology and Indian Institutes of Management. We also suggested policy measures that should be undertaken by the government to improve college education standards and improve efficiency of the institutes. See [slides](https://github.com/harshvardhaniimi/indian-higher-education/blob/master/Final_Presentation.pdf) for more details.
 
 Accessed at <https://github.com/harshvardhaniimi/indian-higher-education>.

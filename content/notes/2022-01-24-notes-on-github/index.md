@@ -93,6 +93,6 @@ If you have a better suggestion on how to handle Python notebooks in Github, I'm
 
 -   <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/>
 
--   <https://happygitwithr.com/credential-caching.html#credential-caching>
+-   <https://happygitwithr.com/https-pat.html#store-pat>
 
 -   <https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/>

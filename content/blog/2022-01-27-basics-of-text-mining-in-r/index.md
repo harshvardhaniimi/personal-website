@@ -30,16 +30,16 @@ library(tidyverse)
 ```
 
 ```
-## ✓ ggplot2 3.3.5          ✓ purrr   0.3.4     
-## ✓ tibble  3.1.6          ✓ dplyr   1.0.7.9000
-## ✓ tidyr   1.1.4          ✓ forcats 0.5.1     
-## ✓ readr   2.0.2
+## ✔ ggplot2 3.3.6.9000     ✔ purrr   0.3.4     
+## ✔ tibble  3.1.7          ✔ dplyr   1.0.9     
+## ✔ tidyr   1.2.0          ✔ forcats 0.5.1     
+## ✔ readr   2.1.2
 ```
 
 ```
 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
 ```
 
 ```r
@@ -48,9 +48,9 @@ library(quanteda)
 ```
 
 ```
-## Package version: 3.2.0
-## Unicode version: 13.0
-## ICU version: 67.1
+## Package version: 3.2.1
+## Unicode version: 14.0
+## ICU version: 70.1
 ```
 
 ```
@@ -79,9 +79,9 @@ gutenberg_works(title == "Persuasion")
 
 ```
 ## # A tibble: 1 × 8
-##   gutenberg_id title  author  gutenberg_autho… language gutenberg_books… rights 
-##          <int> <chr>  <chr>              <int> <chr>    <chr>            <chr>  
-## 1          105 Persu… Austen…               68 en       <NA>             Public…
+##   gutenberg_id title    author gutenberg_autho… language gutenberg_books… rights
+##          <int> <chr>    <chr>             <int> <chr>    <chr>            <chr> 
+## 1          105 Persuas… Auste…               68 en       <NA>             Publi…
 ## # … with 1 more variable: has_text <lgl>
 ```
 
@@ -100,7 +100,16 @@ book = gutenberg_download(105)
 ## Using mirror http://aleph.gutenberg.org
 ```
 
-I can download more than one books at a time and many other fancy things. Check `gutenbergr`'s [vignette](https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html) for more information.
+```
+## Warning in .f(.x[[i]], ...): Could not download a book at http://
+## aleph.gutenberg.org/1/0/105/105.zip
+```
+
+```
+## Warning: Unknown or uninitialised column: `text`.
+```
+
+I can download more than one books at a time and many other fancy things. Check `gutenbergr`'s [vignette](https://docs.ropensci.org/gutenbergr/) for more information.
 
 # Exploring the Book
 
@@ -112,20 +121,8 @@ book
 ```
 
 ```
-## # A tibble: 8,328 × 2
-##    gutenberg_id text         
-##           <int> <chr>        
-##  1          105 "Persuasion" 
-##  2          105 ""           
-##  3          105 ""           
-##  4          105 "by"         
-##  5          105 ""           
-##  6          105 "Jane Austen"
-##  7          105 ""           
-##  8          105 "(1818)"     
-##  9          105 ""           
-## 10          105 ""           
-## # … with 8,318 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: gutenberg_id <int>, text <chr>
 ```
 
 The `book` object has two variables: `gutenberg_id` and `text`. Unless you are downloading multiple books, `text` is the only useful variable.
@@ -141,20 +138,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 83,658 × 2
-##    gutenberg_id word      
-##           <int> <chr>     
-##  1          105 persuasion
-##  2          105 by        
-##  3          105 jane      
-##  4          105 austen    
-##  5          105 1818      
-##  6          105 chapter   
-##  7          105 1         
-##  8          105 sir       
-##  9          105 walter    
-## 10          105 elliot    
-## # … with 83,648 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: gutenberg_id <int>, word <chr>
 ```
 
 `unnest_tokens` used here has two parameters: what you want to convert *into* and what you want to convert. First we have the output column name that will be created as the text is unnested into it (`word`, in this case), and then the input column that the text comes from (`text`, in this case).
@@ -176,20 +161,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 15,505 × 2
-##    gutenberg_id word 
-##           <int> <chr>
-##  1          105 jane 
-##  2          105 1818 
-##  3          105 hall 
-##  4          105 took 
-##  5          105 book 
-##  6          105 idle 
-##  7          105 hour 
-##  8          105 were 
-##  9          105 into 
-## 10          105 from 
-## # … with 15,495 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: gutenberg_id <int>, word <chr>
 ```
 
 ```r
@@ -199,20 +172,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 37,908 × 2
-##    gutenberg_id word 
-##           <int> <chr>
-##  1          105 by   
-##  2          105 1    
-##  3          105 sir  
-##  4          105 of   
-##  5          105 in   
-##  6          105 was  
-##  7          105 a    
-##  8          105 man  
-##  9          105 who  
-## 10          105 for  
-## # … with 37,898 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: gutenberg_id <int>, word <chr>
 ```
 
 ```r
@@ -222,20 +183,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 1,636 × 2
-##    gutenberg_id word         
-##           <int> <chr>        
-##  1          105 somersetshire
-##  2          105 consolation  
-##  3          105 contemplating
-##  4          105 information  
-##  5          105 respectable  
-##  6          105 representing 
-##  7          105 parliaments  
-##  8          105 handwriting  
-##  9          105 presumptive  
-## 10          105 infatuation  
-## # … with 1,626 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: gutenberg_id <int>, word <chr>
 ```
 
 We see that there are 15,505 words that have exactly four letters. 37,908 have less than four letters (that includes numbers such as 1). There are 1,636 words that have more than ten letters in them.
@@ -251,20 +200,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 2,638 × 2
-##    gutenberg_id word         
-##           <int> <chr>        
-##  1          105 contemplating
-##  2          105 arising      
-##  3          105 adding       
-##  4          105 inserting    
-##  5          105 serving      
-##  6          105 representing 
-##  7          105 forming      
-##  8          105 concluding   
-##  9          105 handwriting  
-## 10          105 beginning    
-## # … with 2,628 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: gutenberg_id <int>, word <chr>
 ```
 
 She uses 2,638 words that end with "ing". I'm curious, what are their frequencies? I only need to add the `count()` at the end.
@@ -277,20 +214,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 549 × 2
-##    word           n
-##    <chr>      <int>
-##  1 being        220
-##  2 nothing      139
-##  3 having        92
-##  4 going         65
-##  5 something     64
-##  6 morning       59
-##  7 evening       54
-##  8 anything      49
-##  9 looking       45
-## 10 everything    43
-## # … with 539 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: word <chr>, n <int>
 ```
 
 "Being" and "nothing" are the most often used (no pun intended). What about words that start with "h"? I can use `str_starts()` from `stringr` package for this.
@@ -303,20 +228,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 216 × 2
-##    word        n
-##    <chr>   <int>
-##  1 her      1203
-##  2 had      1187
-##  3 he        961
-##  4 his       659
-##  5 have      589
-##  6 him       467
-##  7 herself   159
-##  8 how       125
-##  9 has        99
-## 10 himself    95
-## # … with 206 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: word <chr>, n <int>
 ```
 
 They're mostly pronouns. How many times does "gh" appear in her texts and in which words? (If I recall correctly, "gh" is probably one of the most common letter-pair in English.)
@@ -329,20 +242,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 97 × 2
-##    word        n
-##    <chr>   <int>
-##  1 might     166
-##  2 though    117
-##  3 thought    90
-##  4 enough     71
-##  5 ought      52
-##  6 right      43
-##  7 through    34
-##  8 brought    33
-##  9 high       27
-## 10 night      24
-## # … with 87 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: word <chr>, n <int>
 ```
 
 I did this using `str_detect()` function from `stringr`. This function usually looks for regular expressions. Since there was a fix string that I was looking for (`gh`), I used `fixed()` to tell R exactly what I was looking for. It will not make pattern matches but only exact fixed matches. I'm very naive in handling regular expressions but the starting guide could be Hadley Wickham's R for Data Science chapter on [Strings](https://r4ds.had.co.nz/strings.html).
@@ -357,27 +258,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 18 × 2
-##    word            n
-##    <chr>       <int>
-##  1 that          876
-##  2 thought        90
-##  3 tenant         13
-##  4 trust           4
-##  5 throat          2
-##  6 torment         2
-##  7 transient       2
-##  8 treat           2
-##  9 taught          1
-## 10 temperament     1
-## 11 tempt           1
-## 12 tenderest       1
-## 13 test            1
-## 14 thickest        1
-## 15 throughout      1
-## 16 tight           1
-## 17 trent           1
-## 18 trustiest       1
+## # A tibble: 0 × 2
+## # … with 2 variables: word <chr>, n <int>
 ```
 
 The most common such word is "that", followed by "thought".
@@ -397,29 +279,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 20 × 2
-##    word      n
-##    <fct> <int>
-##  1 the    3329
-##  2 to     2808
-##  3 and    2800
-##  4 of     2570
-##  5 a      1594
-##  6 in     1389
-##  7 was    1337
-##  8 her    1203
-##  9 had    1187
-## 10 she    1146
-## 11 i      1123
-## 12 it     1038
-## 13 he      961
-## 14 be      950
-## 15 not     934
-## 16 that    876
-## 17 as      810
-## 18 for     707
-## 19 but     664
-## 20 his     659
+## # A tibble: 0 × 2
+## # … with 2 variables: word <fct>, n <int>
 ```
 
 ## Frequency Plot
@@ -452,20 +313,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 2,566 × 2
-##    word      n
-##    <chr> <int>
-##  1 10        1
-##  2 11        1
-##  3 12        1
-##  4 13        1
-##  5 14        1
-##  6 17        1
-##  7 1760      1
-##  8 1784      1
-##  9 1785      1
-## 10 1787      1
-## # … with 2,556 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: word <chr>, n <int>
 ```
 
 These are all numbers. What about words?
@@ -479,20 +328,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 2,534 × 2
-##    word             n
-##    <chr>        <int>
-##  1 a'n't            1
-##  2 abbreviation     1
-##  3 abdication       1
-##  4 abide            1
-##  5 abode            1
-##  6 abominable       1
-##  7 abominate        1
-##  8 abominates       1
-##  9 absenting        1
-## 10 abstraction      1
-## # … with 2,524 more rows
+## # A tibble: 0 × 2
+## # … with 2 variables: word <chr>, n <int>
 ```
 
 I have used regular expression here to identify all the words that didn't have any numerals.
@@ -509,25 +346,8 @@ book %>%
 ```
 
 ```
-## # A tibble: 16 × 2
-##    length     n
-##     <int> <int>
-##  1      3 19955
-##  2      4 15505
-##  3      2 15212
-##  4      5  8419
-##  5      6  6489
-##  6      7  5682
-##  7      8  3450
-##  8      9  2907
-##  9      1  2741
-## 10     10  1662
-## 11     11   820
-## 12     12   486
-## 13     13   231
-## 14     14    70
-## 15     15    25
-## 16     16     4
+## # A tibble: 0 × 2
+## # … with 2 variables: length <int>, n <int>
 ```
 
 Three letter words are most commonly used, followed by four letter and two letter ones. I have first calculated the length of words using `mutate()` and `str_length()`.
