@@ -1,5 +1,5 @@
 ---
-title: Population Collapse
+title: Is the world population going to collapse?
 subtitle: "Is the sale of baby diapers 👶 increasing faster than adult diapers 🧓?"
 author: Harshvardhan
 date: '2022-11-10'
