@@ -74,7 +74,7 @@ Here are the coffees I’ve tried.
 These are some of the cafes I’ve tried in Knoxville.
 
 <div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","vertical":false,"data":[["The Golden Roast","Ale Rae","Frothy Monkey","French Market Creperie","Coffee and Chocolate","Honeybee Coffee Co","Backroads Market","Jacks Coffee and Plants"],[4,1,3,3,2,4,2,2],["Costa Rica Blend (Dark)","Pub that also sells coffee. Not good.","First good coffee in Knoxville; Rwanda Single-origin (Dark)","Lavazza (Dark)","Great chocolate selection; not so good coffee","Ethiopia (Dark)","Cozy furniture store; okay coffee","Cafe that also sold overpriced indoor plants; Half Ethiopia, Half Guatemala (Light)"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Cafe<\/th>\n      <th>Rating<\/th>\n      <th>Notes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","vertical":false,"data":[["The Golden Roast","Ale Rae","Frothy Monkey","French Market Creperie","Coffee and Chocolate","Honeybee Coffee Co","Backroads Market","Jacks Coffee and Plants"],[4,1,3,3,2,4,2,2],["Best coffee on campus; Costa Rica Blend (Dark)","Pub that also sells coffee. Not good.","First good coffee in Knoxville; Rwanda Single-origin (Dark)","Lavazza (Dark)","Great chocolate selection; not so good coffee","Ethiopia (Dark)","Cozy furniture store; okay coffee","Cafe that also sold overpriced indoor plants; Half Ethiopia, Half Guatemala (Light)"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Cafe<\/th>\n      <th>Rating<\/th>\n      <th>Notes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 ## Cafe Du Monde, New Orleans
 
@@ -84,6 +84,7 @@ Their [Café au lait](https://en.wikipedia.org/wiki/Caf%C3%A9_au_lait) might be 
 
 ## Other Interesting Stuff about Coffee
 
-- <http://www.coffeeresearch.org/agriculture/varietals.htm>
+- [The sensory experience of making coffee](https://arun.is/blog/sensory-experience-coffee/)
+- [Arabica Coffee Bean Varietals](http://www.coffeeresearch.org/agriculture/varietals.htm)
 
 [^1]: You can learn more about it from this video: [**What Michael Pollan Learned from Quitting Caffeine for 3 Months**](https://www.youtube.com/watch?v=mAPG18zNtXk&t=3s). Michael Pollen is the author of the book [This Is Your Mind on Plants](https://michaelpollan.com/books/this-is-your-mind-on-plants/).
