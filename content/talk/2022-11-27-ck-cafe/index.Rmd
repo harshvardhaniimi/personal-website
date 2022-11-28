@@ -1,5 +1,7 @@
 ---
 title: 'CK Cafe: Using Association Rules to Find Basket of Goods'
+subtitle: "In this lab session, I share how to use apriori algorithm for association mining. The goal is to find useful causal and association rules which can help in designing  promotions for the company. Plus, you get to see what's served at an Indian cafe."
+summary: "In this lab session, I share how to use apriori algorithm for association mining. The goal is to find useful causal and association rules which can help in designing  promotions for the company. Plus, you get to see what's served at an Indian cafe."
 author: Harshvardhan
 date: '2022-11-21T11:30:00Z'
 event: 'TA Lab'
@@ -13,18 +15,16 @@ categories:
 tags: []
 ---
 
-# Context
+# Business Context
 
-In this lab session, I used the (anonymised) data from a project that I worked on in 2019.
-
-CK is an Indian food and beverages chain with about 19 outlets in 5 cities. Their outlets are popular "hangout" places for young and old alike. People often go to their stores for meeting their friends, family or just getting their Chai-tea or coffee. Imagine a cafe, basically.
+CK Cafe is an Indian food and beverages chain with about 19 outlets in 5 cities. Their outlets are popular "hangout" places for young and old alike. People often go to their stores for meeting their friends, family or just getting their Chai-tea or coffee. Imagine a cafe, basically.
 
 Their prices are not low for Indian standards but they aren't a luxurious store either. They offer about 100 items at their store, though only about 20 generate most revenue.
 
 Their two most popular items are the Chai (tea) and Coffee (which they like to call Kaapi). Chai can be of several types, depending on the spice in it. It could have ginger (Adrak) and be called Adrak Chai for example. In the table below, I'm providing some popular food items and their pictures/ details.
 
 | Item                                                         | Description                                                                             | Picture                                     |
-|-------------------|------------------------|------------------------------|
+|-------------------|------------------------|-----------------------------|
 | Adrak Chai / Kadak Chai / Elaichi Chai / Other types of Chai | Chai-tea with Ginger / Chai-tea with strong spices / Chai-tea with Cardamom / etc.      | ![](images/paste-D072628C.png){width="70%"} |
 | Kulhad Chai                                                  | Chai-tea served in earthen pot. Popular in Northern India, especially New Delhi         | ![](images/paste-490124D6.png)              |
 | Indian Filter Kaapi                                          | Filter Coffee, popular in Southern India                                                | ![](images/paste-39211D42.png){width="70%"} |
@@ -80,16 +80,7 @@ for (i in invoices)
 }
 ```
 
-Here is how it looks. (Randomly sampling 200 entries; the complete data set is huge.)
-
-```{r warning=FALSE, message=FALSE}
-read_csv("CK_data_anon.csv") %>% 
-  janitor::clean_names() %>% 
-  slice_sample(n = 200) %>% 
-  datatable()
-```
-
-Or, you can directly import the list file I created for you after processing it. (I'm using permalink from GitHub repo for this.)
+Or, you can directly import the list file I created for you after processing it. [Download it here](https://github.com/harshvardhaniimi/bzan-542/tree/main/Association%20Mining%20LAB).
 
 ```{r}
 df = readRDS("CK_data_anon.RDS")
@@ -312,3 +303,7 @@ ruleExplorer(df)
 ## Reference
 
 A large part of this tutorial follows the book chapter, [Association Analysis: Basic Concepts and Algorithms](https://mhahsler.github.io/Introduction_to_Data_Mining_R_Examples/book/association-analysis-basic-concepts-and-algorithms.html).
+
+------------------------------------------------------------------------
+
+This was originally presented to MS (Business Analytics) students on November 21, 2022 at the Haslam College of Business, University of Tennessee in Prof Charles Liu's class on Data Mining. Thanks to Prof Charles for providing me this opportunity and resources to make this class a success.

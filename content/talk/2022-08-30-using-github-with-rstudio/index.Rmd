@@ -4,7 +4,7 @@ subtitle: Introduction to using Git & GitHub with RStudio for MS (Business Analy
 summary: Introduction to using Git & GitHub with RStudio for MS (Business Analytics) Class of Fall 2022
 author: Harshvardhan
 date: '2022-08-24T11:30:00Z'
-event: 'TA Guest Lecture'
+event: 'TA Lab'
 location: University of Tennessee
 slug: using-github-with-rstudio
 categories:
