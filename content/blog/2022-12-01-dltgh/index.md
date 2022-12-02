@@ -55,4 +55,4 @@ I was counting DLTGH. Same symptoms. Loss of appetite. No interest in starting s
 
 ![](featured.png)
 
-From left to right: Sarabjeet (Nalanda House Captain), Manoranjan (School Sports Captain), Mayank (School Adjutant), Sudhanshu (School Vice-captain), Wing Commander Shamim Akhtar (then Squadron Leader, Headmaster sir), me (School Captain), Ehtesham (School Academics Captain) and Pratik (School Co-curricular Captain).
+From left to right: Sarabjeet (Nalanda House Captain), Manoranjan (School Sports Captain), Mayank (School Adjutant), Sudhanshu (School Vice-captain), Wing Commander Shamim Akhtar, IAF (then Squadron Leader, Headmaster sir), me (School Captain), Ehtesham (School Academics Captain) and Pratik (School Co-curricular Captain).
