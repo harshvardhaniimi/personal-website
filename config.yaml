@@ -32,7 +32,7 @@ markup:
 params:
   custom_theme: ''
   customheadingFontFamily: "Signika Negative"
-  customtextFontFamily: "Public Sans"
+  customtextFontFamily: "Crimson Pro"
   description: Standing on the Shoulders of Giants
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
