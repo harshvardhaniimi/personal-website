@@ -1,6 +1,6 @@
 ---
 title: 'DLTGH: Days Left to Go Home'
-subtitle: "A trip down the memory lane"
+subtitle: "Today, I was at Chiyos. It's a Thai restaurant near my home in Knoxville. I asked for lo mein with spice level 8. I thought it'd make me feel homely. But I was wrong."
 summary: "Today, I was at Chiyos. It's a Thai restaurant near my home in Knoxville. I asked for lo mein with spice level 8. I thought it'd make me feel homely. But I was wrong."
 author: Harshvardhan
 date: '2022-12-01'
