@@ -1,7 +1,7 @@
 ---
 title: 'DLTGH: Days Left to Go Home'
-subtitle: "Today, I was at Chaiyos. It's a Thai restaurant near my home in Knoxville. I asked for lo mein with spice level 8. I thought it'd make me feel homely. But I was wrong."
-summary: "Today, I was at Chaiyos. It's a Thai restaurant near my home in Knoxville. I asked for lo mein with spice level 8. I thought it'd make me feel homely. But I was wrong."
+subtitle: "Today, I was at Chaiyos. It's a Thai restaurant near my home in Knoxville. I asked for lo mein with spice level 8. I thought it'd make me feel homely. I was wrong."
+summary: "Today, I was at Chaiyos. It's a Thai restaurant near my home in Knoxville. I asked for lo mein with spice level 8. I thought it'd make me feel homely. I was wrong."
 author: Harshvardhan
 date: '2022-12-01'
 slug: dltgh
@@ -11,7 +11,7 @@ categories:
 tags: []
 ---
 
-In my high school, vacations were a treasure. We would eagerly wait for those 52 days of summer break after those long six months of studies to meet family and friends. There would be another 28 days break in autumn, full of festivities like Diwali, Durga Puja and Chat. But either way, we would get excited looking forward to it.
+In my high school, vacations were a treasure. We would eagerly wait for those 52 days of summer break after those long six months of studies to meet family and friends. There would be another 28 days break in autumn, full of festivities like Diwali, Durga Puja and Chat. Either way, we would get excited looking forward to it.
 
 As the start date of vacation came closer, there was a unique turn of events that I would not understand until I was in grade 12 --- until I was the school captain.
 
@@ -39,7 +39,7 @@ In my high school classroom, we wrote the details about the day at the corner of
 
 When you were close to the vacation start date, there was a new addition: DLTGH, or Days Left to Go Home. The count began from 30 days before the vacation start date. We looked at the countdown with the same excitement as many of us look up to NASA or ISRO launching a new satellite.
 
-When the number was closer to zero, like seven or so, we couldn't begin anything significant. We had no concept of homework in my high school, so that was out of the question anyway. But I didn't play a lot, either. I wouldn't undertake any new personal project. I wouldn't start reading a new book. Everything would be postponed until after vacation, or AV as we would say it.
+When the number was closer to zero, like seven or so, we couldn't begin anything significant. We had no concept of homework in my high school, so that was out of the question anyway. I didn't play a lot. I wouldn't undertake any new personal project. I wouldn't start reading a new book. Everything would be postponed until after vacation, or AV as we would say it.
 
 ------------------------------------------------------------------------
 
