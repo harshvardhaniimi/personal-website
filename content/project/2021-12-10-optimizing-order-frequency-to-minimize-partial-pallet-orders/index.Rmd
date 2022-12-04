@@ -1,6 +1,7 @@
 ---
 title: Optimizing Order Frequency to Minimize Partial Pallet Orders
 subtitle: "How can a CPG company improve customers' ordering behaviour?"
+summary: "How can a CPG company improve customers' ordering behaviour?"
 author: Harshvardhan
 date: '2021-12-10'
 slug: optimizing-order-frequency-to-minimize-partial-pallet-orders
