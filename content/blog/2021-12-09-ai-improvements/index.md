@@ -1,16 +1,19 @@
 ---
-title: 'Dungeons and Dice: AI Improvements'
+title: 'Improvements in Artificial Intelligence'
 summary: 'What constitutes artificial general intelligence? Where are we lacking? What can we do to "get" it?'
 subtitle: 'What constitutes artificial general intelligence? Where are we lacking? What can we do to "get" it?'
 author: Harsh
 date: '2021-12-09'
-slug: dungeons-and-dice-ai-improvements
+slug: ai
 categories:
   - life
   - statistics
 tags: []
 ---
 
+<script src="{{< blogdown/postref >}}index_files/twitter-widget/widgets.js"></script>
+<script src="{{< blogdown/postref >}}index_files/twitter-widget/widgets.js"></script>
+<script src="{{< blogdown/postref >}}index_files/twitter-widget/widgets.js"></script>
 <script src="{{< blogdown/postref >}}index_files/twitter-widget/widgets.js"></script>
 
 ## The Limitations of Artificial General Intelligence
@@ -48,7 +51,7 @@ Our current models either predict or classify. Either of these actions is not a 
 
 ------------------------------------------------------------------------
 
-# It feels like it’s improvement like crazy.
+# It feels like it’s improving like crazy.
 
 Someone trained an AI on personal journal entries of their younger self. The younger self and present self had a conversation.
 
@@ -61,23 +64,23 @@ tweetrmd::tweet_embed("https://twitter.com/michellehuang42/status/15970054894137
 Here is a rap battle between Tidyverse and base R built on [OpenAI’s Chat](https://chat.openai.com/). It’s beyond what I had imagined.
 
 ``` r
-tweetrmd::tweet_screenshot("https://twitter.com/tylermorganwall/status/1599238413580132354")
+tweetrmd::tweet_embed("https://twitter.com/tylermorganwall/status/1599238413580132354")
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" />
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">&quot;Write me a poem battle between Tidyverse and Base R&quot;<br><br>AI solved the debate, folks! We never need to have this discussion again😀<a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> <a href="https://t.co/jjIKQjGlU7">pic.twitter.com/jjIKQjGlU7</a></p>&mdash; Tyler Morgan-Wall @tylermorganwall@fosstodon.org (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1599238413580132354?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote>
 
 Shakespear style! 👑
 
 ``` r
-tweetrmd::tweet_screenshot("https://twitter.com/hadleywickham/status/1599254860385628161")
+tweetrmd::tweet_embed("https://twitter.com/hadleywickham/status/1599254860385628161")
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">&quot;write me a rap battle about base R versus tidyverse in the style of Shakespeare&quot; <a href="https://t.co/2v8Qp7caEU">pic.twitter.com/2v8Qp7caEU</a></p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/1599254860385628161?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote>
 
 R vs Python 😜
 
 ``` r
-tweetrmd::tweet_screenshot("https://twitter.com/tylermorganwall/status/1599253837117739009")
+tweetrmd::tweet_embed("https://twitter.com/tylermorganwall/status/1599253837117739009")
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">It delivered on R vs Python too! And it&#39;s an equally reasonable and even-handed take on the &quot;debate&quot;👌<br><br>I for one welcome our new, nuanced AI overlords <a href="https://t.co/wBUQzA8o7i">pic.twitter.com/wBUQzA8o7i</a></p>&mdash; Tyler Morgan-Wall @tylermorganwall@fosstodon.org (@tylermorganwall) <a href="https://twitter.com/tylermorganwall/status/1599253837117739009?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote>

@@ -39,11 +39,11 @@ This problem of choosing the "how" to calculate the metric turned up in somethin
 
 > These datasets have random values and aren't real. But they give you a taste of what the company provided us.
 
-# Deciding on the metrics is way more complicated than I initially thought. 
+# Deciding on the metrics is way more complicated than I initially thought.
 
 Consider you want to estimate how many complete pallet orders were shipped from a location. Where do you start? Well, each item was in a carton which was in a pallet. So maybe, that's a reasonable starting point.
 
-We want to estimate the [proportion of orders from a location in full pallets]{.underline}. There are at least two methods to find it.
+We want to estimate the *proportion of orders from a location in full pallets*. There are at least two methods to find it.
 
 First, I find the number of full pallets for every row since each row (in the Sales sheet) is an order-item combination. Group all the entries by an order number; then, you can find what proportion of cases were sent in full pallets. But that is for every order, and we wanted to get metrics by location. So, you can aggregate the results again by (City, State) and calculate the average proportion of total pallet cases.
 
@@ -55,7 +55,7 @@ This situation of defining the right metric turns up in so many different ways. 
 
 -   If people have to perform calculations on your metrics to generate insights, they're not good metrics.
 
--   Specify what your metric represents [and]{.underline} what it doesn't represent. You'll avoid situations where your metric is misused.
+-   Specify what your metric represents *and* what it doesn't represent. You'll avoid situations where your metric is misused.
 
 -   Always consider what the company or client thinks about your metrics and their businesses. If they disagree with your formulation, your metric will be just another number.
 

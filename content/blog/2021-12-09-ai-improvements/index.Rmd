@@ -1,10 +1,10 @@
 ---
-title: 'Dungeons and Dice: AI Improvements'
+title: 'Improvements in Artificial Intelligence'
 summary: 'What constitutes artificial general intelligence? Where are we lacking? What can we do to "get" it?'
 subtitle: 'What constitutes artificial general intelligence? Where are we lacking? What can we do to "get" it?'
 author: Harsh
 date: '2021-12-09'
-slug: dungeons-and-dice-ai-improvements
+slug: ai
 categories:
   - life
   - statistics
@@ -47,7 +47,7 @@ Our current models either predict or classify. Either of these actions is not a 
 
 ------------------------------------------------------------------------
 
-# It feels like it's improvement like crazy.
+# It feels like it's improving like crazy.
 
 Someone trained an AI on personal journal entries of their younger self. The younger self and present self had a conversation. 
 
@@ -59,19 +59,19 @@ tweetrmd::tweet_embed("https://twitter.com/michellehuang42/status/15970054894137
 Here is a rap battle between Tidyverse and base R built on [OpenAI's Chat](https://chat.openai.com/). It's beyond what I had imagined.
 
 ```{r}
-tweetrmd::tweet_screenshot("https://twitter.com/tylermorganwall/status/1599238413580132354")
+tweetrmd::tweet_embed("https://twitter.com/tylermorganwall/status/1599238413580132354")
 ```
 
 Shakespear style! 👑
 
 ```{r}
-tweetrmd::tweet_screenshot("https://twitter.com/hadleywickham/status/1599254860385628161")
+tweetrmd::tweet_embed("https://twitter.com/hadleywickham/status/1599254860385628161")
 ```
 
 R vs Python 😜
 
 ```{r}
-tweetrmd::tweet_screenshot("https://twitter.com/tylermorganwall/status/1599253837117739009")
+tweetrmd::tweet_embed("https://twitter.com/tylermorganwall/status/1599253837117739009")
 ```
 
 

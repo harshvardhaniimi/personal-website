@@ -34,7 +34,7 @@ He adds: everyone including you, my dear Parth, do not have to worry.[^3] The bo
 
 [^3]: Parth is another name of Arjun, given to him by Krishna. Obviously, I love this name --- perhaps more than Arjun itself.
 
-[The true self is invulnerable. Swords don't cut him, fire doesn't burn him, the wind doesn't blow him, water doesn't wet him, and arrows don't pierce him.]{.underline}
+**The true self is invulnerable. Swords don't cut him, fire doesn't burn him, the wind doesn't blow him, water doesn't wet him, and arrows don't pierce him.**
 
 A true Kshatriya should fight, being unguided by the thought of winning or losing, but because he has to fight. No one should act by keeping their eyes on the fruits of the action.
 
@@ -82,7 +82,7 @@ Second is *Gyaan-yoga*, when you leave everything else and focus on learning you
 
 He adds:
 
-[Every human has three powers: the power to do things (बल), the power to know things (ज्ञान) and the power to believe (विश्वास). Those with a strong desire to do things are *Karma-yogi*, those with an intense curiosity to know oneself are *Gyaan-yogi*, and those willing to give up everything for the devotion of god are *Bhakti-yogi*.]{.underline}
+**Every human has three powers: the power to do things (बल), the power to know things (ज्ञान) and the power to believe (विश्वास). Those with a strong desire to do things are *Karma-yogi*, those with an intense curiosity to know oneself are *Gyaan-yogi*, and those willing to give up everything for the devotion of god are *Bhakti-yogi*.**
 
 All three routes lead to me. Any other path to me is also one of these three.
 
@@ -94,7 +94,7 @@ But, of course, all of this doesn't quite convince Arjun.
 
 The Krishna tells him to look around and Arjun notices how everything is paused. Krishna explains that the narrative won't resume unless you pick your bow and choose to fight. The war, however destructive it may turn out to be and will likely be, is destined to take place, and Arjun is destined to play his role in it.
 
-The events are foreordained and will happen as they should. [From Krishna's vantage point, the clues to shape the future are already present today. A negligent mind won't realise it; a *yogi* won't miss it.]{.underline} The events will occur as they must occur.
+The events are foreordained and will happen as they should. **From Krishna's vantage point, the clues to shape the future are already present today. A negligent mind won't realise it; a *yogi* won't miss it.** The events will occur as they must occur.
 
 # I am death, destroyer of the worlds.[^7]
 
@@ -112,4 +112,4 @@ Since your action's reactions unfold in this Prakriti, they cannot touch your pu
 
 This teaching, Krishna adds, is a *Raj-vidya*. It is for those who deserve it. Millions of years ago, I narrated this to the sun god; some berries of this tree made their way to Vedas. Now, you must learn, understand and grow.
 
-[So, Arjuna, do the thing because you ought to.]{.underline}
+**Therefore, Arjuna, do the thing because you ought to.**
