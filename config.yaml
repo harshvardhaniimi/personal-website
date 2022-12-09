@@ -31,8 +31,8 @@ markup:
     startLevel: 2
 params:
   custom_theme: ''
-  customheadingFontFamily: "EB Garamond"
-  customtextFontFamily: "Nanum Myeongjo"
+  customheadingFontFamily: "Arvo"
+  customtextFontFamily: "Fira Code"
   description: Standing on the Shoulders of Giants
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
