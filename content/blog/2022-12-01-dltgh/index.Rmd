@@ -23,7 +23,7 @@ One day in grade 12, I was talking with the Mess manager to understand what shou
 
 Initially, I thought it was a calculation mistake. How naive I was! When I pointed this out to him, he explained:
 
-Students' general food consumption decreases as we draw close to a vacation. Instead of eating the whole plate, they would reduce their diet in anticipation of home food. Additionally, they would rather eat outside, in the paid canteen, spending their savings before leaving for home. After all, they would get home food and a full bank as soon as they reached home!
+> Students' general food consumption decreases as we draw close to a vacation. Instead of eating the whole plate, they would reduce their diet in anticipation of home food. Additionally, they would rather eat outside, in the paid canteen, spending their savings before leaving for home. After all, they would get home food and a full bank as soon as they reached home!
 
 This was startling to me. I didn't have the slightest clue! In hindsight, it was obvious. Even I did it. But I definitely didn't reduce my Chicken curry consumption --- I knew that. Curiously, I asked him about Chicken consumption during those weeks.
 
