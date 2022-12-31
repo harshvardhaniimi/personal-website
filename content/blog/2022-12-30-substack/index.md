@@ -40,17 +40,22 @@ Over time, I lost a few and gained a few. Initially, my target audience was R en
 
 Now, I’ve seen people with all levels of expertise subscribing. The few responses I got from readers encouraged me to continue.
 
-*Revue was great: it gave me wide reach due to its integration with Twitter.* It was free with no ads. It had a simple interface for embedding links. With Revue coming to its end of life abruptly, I needed to find a replacement quickly. *Substack was a natural choice as now I crave consistency more than reach.*
+*Revue was great: it gave me wide reach due to its integration with Twitter.* It was free with no ads. 
+It had a simple interface for embedding links. 
+With Revue coming to its end of life abruptly, I needed to find a replacement quickly. 
+*Substack was a natural choice as now I crave consistency more than reach.*
 
-I’ve migrated my old posts, but a few technical glitches need to be fixed. Some posts’ titles don’t show up well, but that should be fine, functionally speaking. I hope you will understand. 
+I’ve migrated my old posts, but a few technical glitches need to be fixed. 
+Some posts’ titles don’t show up well, but that should be fine, functionally speaking. I hope you will understand. 
 
 
-* speaking, it was a big lesson on how private companies hold such enormous sway over years of our work.* 
+*Broadly speaking, it was a big lesson for me on how private companies hold such enormous sway over years of our work.* 
 With a week of notice, they can decide to kill it. Completely. In a week. Welcome to capitalism.
 
 Even if they do not own the copyright, they control the reach and thus have absolute power.
 
-This is another reason to own the space rather than just the content. I thought of hosting the newsletter directly on my website, but managing the subscribers’ list would require more work. *Things should be fine as long as a billionaire doesn’t own Substack…*
+This is another reason to own the space rather than just the content. 
+I thought of hosting the newsletter directly on my website, but managing the subscribers’ list would require more work.
 
 Anyway, please head over to [Substack](http://harsh17.in/next) and let’s talk there. Substack provides comments, so feel free to discuss the posts if you want!
 
