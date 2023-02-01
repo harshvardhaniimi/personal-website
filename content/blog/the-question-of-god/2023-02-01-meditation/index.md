@@ -1,6 +1,7 @@
 ---
 title: What happens when you meditate ten hours a day?
 subtitle: "Vipassana: The Art of Living"
+summary: "Between Dec 15 and 25 of 2022 I attended a meditation course called Vipassana. Vipassana is a Pali word that means 'seeing things as they are'. The course promised me to teach how to have a clear awareness of exactly what is happening as it happens. It is a form of mindfulness meditation."
 author: Harshvardhan
 date: '2023-02-01'
 slug: meditation
@@ -72,15 +73,11 @@ Day 1
 
 -   Focus on the triangle area. Just keep your focus there with no other motives.
 
-<!-- -->
-
 -   If you get distracted, no worries. Go back to the triangle. No regrets. Or blaming.
 
 Day 2
 
 -   See if you can identify which nostril you are breathing in from.
-
-<!-- -->
 
 -   You could be breathing in and out from the left nostril, right nostril, or both nostrils.
 
@@ -170,7 +167,9 @@ For example, I may feel happy in one moment and then feel sadness in the next, b
 
 #### Documentary of Tihar Jail where Vipassana was popularised by Kiran Bedi
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WkxSyv5R1sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkxSyv5R1sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
 
 ------------------------------------------------------------------------
 
