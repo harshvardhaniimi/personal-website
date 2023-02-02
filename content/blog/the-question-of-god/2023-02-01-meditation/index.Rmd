@@ -149,7 +149,7 @@ Day 10
 
 -   Remember: Meditation is a powerful tool and thus be used for positive outcomes. Therefore, this final step is important.
 
--   Tell yourself / Chant: *May all beings, living or non-living, visible or invisible, be at peace.*
+-   Always end your meditations by telling yourself / chanting: *May all beings, living or non-living, visible or invisible, be at peace.*
 
 ### The Art of Living
 
