@@ -9,6 +9,7 @@ categories:
   - life
   - thoughts
 tags: []
+draft: true
 ---
 
 [Opinion \| Elon Musk Got Twitter Because He Gets Twitter - The New York Times](https://www.nytimes.com/2022/04/27/opinion/elon-musk-twitter.html)
@@ -21,7 +22,7 @@ tags: []
 
 > Twitter began as an idea that Twitter co-founder Jack Dorsey ([\@Jack](https://twitter.com/jack)) had in 2006. Dorsey had originally imagined Twitter as an SMS-based communications platform. Groups of friends could keep tabs on what each other were doing based on their status updates. Like texting, but not.
 
-```{r echo=FALSE}
+```{r echo=FALSE, eval=FALSE}
 blogdown::shortcode('tweet', '1517215066550116354')
 blogdown::shortcode('tweet', "1519469891455234048")
 blogdown::shortcode('tweet', "1519415674111672325")
@@ -43,7 +44,7 @@ blogdown::shortcode('tweet', "1511322655609303043")
 
 It will go into textbooks for corporate communication failure, at least at business schools.
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, eval=FALSE}
 library(rtweet)
 
 last_tweet_id <- "1526250477456965634"
