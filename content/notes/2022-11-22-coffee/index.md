@@ -65,16 +65,14 @@ On Dea’s recommendation, I got a subscription to [Trade Coffee](https://www.dr
 
 Here are the coffees I’ve tried.
 
-1.  [Late Night from Methodical](https://www.drinktrade.com/late-night/p/3122), a cafe in Greenville, SC. It was a medium roast from San Jose, Tarrazu in Costa Rica.
-2.  [Black Velvet from Atomic](https://www.drinktrade.com/black-velvet/p/290), a roaster in Salem, MA. It was a medium-dark roast from Honduras, Guatemala.
-3.  [Kickstart from Greater Goods](https://www.drinktrade.com/kickstart/p/3067), a roastery in Austin, TX. It is a medium roast blend from various regions.
+![](images/Screenshot%202023-02-05%20at%2011.33.55%20AM.png)
 
 ## Cafes in Knoxville
 
 These are some of the cafes I’ve tried in Knoxville.
 
-<div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","vertical":false,"data":[["The Golden Roast","Ale Rae","Frothy Monkey","French Market Creperie","Coffee and Chocolate","Honeybee Coffee Co","Backroads Market","Jacks Coffee and Plants"],[4,1,3,3,2,4,2,2],["Best coffee on campus; Costa Rica Blend (Dark)","Pub that also sells coffee. Not good.","First good coffee in Knoxville; Rwanda Single-origin (Dark)","Lavazza (Dark)","Great chocolate selection; not so good coffee","Ethiopia (Dark)","Cozy furniture store; okay coffee","Cafe that also sold overpriced indoor plants; Half Ethiopia, Half Guatemala (Light)"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Cafe<\/th>\n      <th>Rating<\/th>\n      <th>Notes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","vertical":false,"data":[["The Golden Roast","Ale Rae","Frothy Monkey","French Market Creperie","Coffee and Chocolate","Honeybee Coffee Co","Backroads Market","Jacks Coffee and Plants","The Spice &amp; Tea Exchange of Knoxville"],[4,1,4,3,2,4,2,2,4],["Best coffee on campus; Costa Rica Blend (Dark)","Pub that also sells coffee. Not good.","First good coffee in Knoxville; Rwanda Single-origin (Dark)","Lavazza (Dark)","Great chocolate selection; not so good coffee","Ethiopia (Dark)","Cozy furniture store; okay coffee","Cafe that also sold overpriced indoor plants; Half Ethiopia, Half Guatemala (Light)","Best tea collection; you can smell/taste tea before buying"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Cafe<\/th>\n      <th>Rating<\/th>\n      <th>Notes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 ## Cafe Du Monde, New Orleans
 
@@ -86,5 +84,9 @@ Their [Café au lait](https://en.wikipedia.org/wiki/Caf%C3%A9_au_lait) might be 
 
 - [The sensory experience of making coffee](https://arun.is/blog/sensory-experience-coffee/)
 - [Arabica Coffee Bean Varietals](http://www.coffeeresearch.org/agriculture/varietals.htm)
+
+------------------------------------------------------------------------
+
+[![](images/Screenshot%202023-02-05%20at%2011.28.11%20AM.png)](https://www.youtube.com/watch?v=Rxhls4haDGc)
 
 [^1]: You can learn more about it from this video: [**What Michael Pollan Learned from Quitting Caffeine for 3 Months**](https://www.youtube.com/watch?v=mAPG18zNtXk&t=3s). Michael Pollen is the author of the book [This Is Your Mind on Plants](https://michaelpollan.com/books/this-is-your-mind-on-plants/).
