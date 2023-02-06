@@ -27,8 +27,6 @@ Producers ensured that gods did not interfere widely and not with the existing k
 
 This small innovation, which reportedly came from an underpaid intern, changed the course of life on earth.
 
-This small innovation, which reportedly came from an underpaid intern, changed the course of life on earth.
-
 Around 2000 years ago, a new god was inducted into the show, which humans called Jesus Christ. Even the chief producer hadn't imagined what humans were about to do. But the show ratings had never before hit 11/10.
 
 Well, it all started with a guy named Jesus who lived in a Middle Eastern country 2000 years ago. He was known for his unique teaching style, which involved using parables and miracles to spread his message. People were so impressed with him that they started following him in droves.
@@ -45,7 +43,7 @@ Who would have thought a carpenter's son from Nazareth could profoundly impact t
 
 ------------------------------------------------------------------------
 
-# मानो तो मैं गंगा माँ हूँ, न मानों तो बहता पानी
+## मानो तो मैं गंगा माँ हूँ, न मानों तो बहता पानी
 
 *If you believe so, I'm Mother Ganga. Else, I'm just flowing water.*
 
@@ -69,7 +67,7 @@ However, it's crucial to approach the topic of religion with an open mind and a 
 
 And if you can't help but laugh at the idea of a flying chariot, well, that's just a bonus!
 
-# The Idea of A Creator
+## The Idea of A Creator
 
 The idea of a divine creator has been a central belief in many religions for centuries. According to this belief, the world and everything in it, including human beings, were created by a higher power.
 
@@ -88,8 +86,6 @@ Yes, no and no.
 There are parallels here. If this universe is like a table, there are some assembly instructions about it. We discover them through science. Experimentation, theorising, observation, and experience are several ways to learn.
 
 But how do we transmit those learnings? Education, communication, culture and media. And guess what medium satisfies all four characteristics: stories.
-
-Memorising algorithms is hard. Consider these table assembly instructions that I asked ChatGPT to write:
 
 Memorising is hard. Consider these table assembly instructions that I asked ChatGPT to write:
 
@@ -163,7 +159,7 @@ Thus, if there is a creator, science is the creator's language. It is up to us t
 
 [^3]: Deism is a belief in the existence of a supreme being, specifically of a creator who does not intervene in the universe. I like this belief.
 
-# My Dissatisfaction with Religions
+## My Dissatisfaction with Religions
 
 Any book-following religion that believes in the supremacy of the text is problematic, particularly regarding the dynamic nature of our world and the evolution of our societies. It favours what is [correct over what is right](https://www.harsh17.in/infallible-memory/).
 
@@ -173,7 +169,7 @@ Secondly, the static nature of religious texts can be disturbing when faced with
 
 Thirdly, the emphasis on a literal interpretation of religious texts can lead to dogmatic and rigid thinking and stifle intellectual and moral growth. For example, rejecting certain scientific discoveries based solely on religious beliefs can impede medical, physics, and biology progress. A narrow interpretation of sacred texts can lead to intolerance, prejudice, and discrimination against individuals who hold different beliefs or lifestyles.
 
-## The Case of King Ashoka
+#### The Case of King Ashoka
 
 [King Ashoka](https://www.cs.colostate.edu/~malaiya/ashoka.html) was a powerful ruler who lived in India in the 3rd century BCE. He was known for his military conquests, including the brutal war of Kalinga, which claimed the lives of over 100,000 people. After witnessing the horrors of war and the people's suffering, King Ashoka renounced violence, practised [Vipassana](https://www.harsh17.in/meditation/) and converted to Buddhism. He implemented numerous reforms: building hospitals, roads and banks, allowing criminals to appeal their cases, and working towards a positive change.
 
@@ -189,11 +185,11 @@ I like this philosophy and abide by it towards all religions, as I'm sure my bel
 
 > *A Buddhist Stupa in China's Qinghai province was recently renovated and now includes an Ashoka pillar (with Ashoka emblem, India's National emblem at the top).*
 
-# The Importance of Religions
+## The Importance of Religions
 
 I'm not saying religion is useless. The biggest plus on religion's side is that it has survived the test of time.
 
-## Moral Code
+#### Moral Code
 
 Thomas Hobbes once famously said, "Men are nasty, brutish, and short." Religion provides a moral code of conduct that serves as a guideline for people to live by. It establishes a shared understanding of right and wrong, which can be a lifesaver in a world where opinions vary. Without religion, it would be like trying to herd cats to behave nicely with each other!
 
@@ -201,7 +197,7 @@ However, even the best moral code is susceptible to corruption. Like any organis
 
 Historically, religious corruption and exploitation have emerged, causing significant harm. For example, the Catholic Church once allowed prostitution on church grounds and received a commission from these practices. In Hinduism, priests became corrupted and imposed a caste system with themselves on the top, leaving deep scars in India to this day. In some Muslim societies, oppressive interpretations of religious law have led to significant restrictions on women's rights.
 
-## Stability
+#### Stability
 
 One important aspect of religion is the stability it provides. Despite political rulers and leaders changing over time, religious teachings and rules often remain constant. A prime example of this can be seen in the concept of the week.[^4]
 
@@ -213,11 +209,11 @@ Even among advanced civilisations such as ancient India and Mesopotamia, the con
 
 This is only an example, and there are a lot more. The popularity of Christianity brought uniform weights, balances, and other measurement instruments to the world. Religion added to colonialism made English commonplace, and set the world for globalisation.
 
-## Charity
+#### Charity
 
 Religion encouraged charity like nothing else. Taxation by the government is not very effective; otherwise, we wouldn't have the Income Taxes Department monitor our bank accounts. On the contrary, we wouldn't have churches, temples and numerous charitable organisations if religion weren't influential.
 
-## Stories and Culture
+#### Stories and Culture
 
 From the ancient myths and legends of Greece and Rome to the religious tales of the Bible and the Quran, religious beliefs have inspired countless narratives that have captured our imaginations and shaped our understanding of the world. Whether you're in the mood for a classic showdown between gods and monsters or just a feel-good tale of divine intervention, religion has got you covered!
 
@@ -225,7 +221,7 @@ Dances, songs, and art become vital artefacts. Just look at these [Madhubani art
 
 [![](images/Screenshot%202023-02-05%20at%206.00.34%20PM.png)](https://artsandculture.google.com/story/lgVRrh-k69BFLw?hl=en)
 
-# Concluding Remarks
+## Concluding Remarks
 
 I must confess: this essay became a lot longer than I had initially thought.
 
