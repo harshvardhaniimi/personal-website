@@ -169,7 +169,7 @@ Secondly, the static nature of religious texts can be disturbing when faced with
 
 Thirdly, the emphasis on a literal interpretation of religious texts can lead to dogmatic and rigid thinking and stifle intellectual and moral growth. For example, rejecting certain scientific discoveries based solely on religious beliefs can impede medical, physics, and biology progress. A narrow interpretation of sacred texts can lead to intolerance, prejudice, and discrimination against individuals who hold different beliefs or lifestyles.
 
-#### The Case of King Ashoka
+#### The Case of King Ashok
 
 [King Ashoka](https://www.cs.colostate.edu/~malaiya/ashoka.html) was a powerful ruler who lived in India in the 3rd century BCE. He was known for his military conquests, including the brutal war of Kalinga, which claimed the lives of over 100,000 people. After witnessing the horrors of war and the people's suffering, King Ashoka renounced violence, practised [Vipassana](https://www.harsh17.in/meditation/) and converted to Buddhism. He implemented numerous reforms: building hospitals, roads and banks, allowing criminals to appeal their cases, and working towards a positive change.
 
