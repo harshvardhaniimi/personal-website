@@ -53,13 +53,15 @@ The story I described is entirely fictional but possible. Improbable, yes. [Impo
 
 Once you ponder upon the question of god deeply, you will find many, many stories like these --- improbable but not impossible. These unanswered questions led me to question what god is. People relegate such stories as either "myths" or "truths", depending on their own beliefs.
 
-The story of Jesus healing a man from paralysis is a well-known Bible account from the New Testament. According to the account, Jesus visited a village and encountered a man who had been paralysed for many years. Jesus declared that the man would walk, and immediately, he rose to his feet and walked. This event caused a stir among the villagers, who had never seen such a remarkable display of power.
+The story of Jesus healing a man from [paralysis](https://www.biblegateway.com/passage/?search=Mark%202&version=NLT) is a well-known Bible account from the New Testament. According to the account, Jesus visited a village and encountered a man who had been paralysed for many years. Jesus declared that the man would walk, and immediately, he rose to his feet and walked. This event caused a stir among the villagers, who had never seen such a remarkable display of power.
 
-For many followers of the Christian faith, this event serves as concrete evidence of the existence of god and the divine power of Jesus. However, it's important to remember that every religion has its collection of miracles and stories of supernatural events. From the Raavan's flying chariot (Pushpak Vimaan) to the cosmic dance of Shiva, each religion has its unique accounts of events that defy explanation.
+For many followers of the Christian faith, this event serves as concrete evidence of the existence of god and the divine power of Jesus. However, it's important to remember that every religion has its collection of miracles and stories of supernatural events. From the Raavan's flying chariot ([Pushpak Vimaan](https://www.wikiwand.com/en/Vimana)) to the cosmic dance of [Shiva](https://www.wikiwand.com/en/Tandava), each religion has its unique accounts of events that defy explanation.
 
 Some even have literal, concrete proofs like [Rama Setu](https://www.wikiwand.com/en/Adam%27s_Bridge) (or Adam's Bridge) that connects India and Sri Lanka. It was built by Lord Rama when he was marching to Lanka to rescue the queen and his wife, Sita, from demon king Raavan.
 
-![](images/image-2012767703.png)
+Below is an aerial photograph of the bridge. You can find a lot more on Wiki [Commons](https://commons.wikimedia.org/wiki/Category:Aerial_photographs_of_the_Adam%27s_Bridge).
+
+![](images/image-2012767703.png){width="80%"}
 
 In this sense, it's possible to argue that religion --- a total of selected mythological stories --- is a form of ethnocentrism. Each follower of a particular religion considers their beliefs to be the "truth" and considers other beliefs to be deviations from that truth.
 
@@ -181,7 +183,7 @@ Today, he's known for his edicts, inscribed on rocks and pillars throughout Indi
 
 I like this philosophy and abide by it towards all religions, as I'm sure my beliefs don't line up precisely with anyone.
 
-![](images/image-1075233279.png)
+![](images/image-1075233279.png){width="90%"}
 
 > *A Buddhist Stupa in China's Qinghai province was recently renovated and now includes an Ashoka pillar (with Ashoka emblem, India's National emblem at the top).*
 
