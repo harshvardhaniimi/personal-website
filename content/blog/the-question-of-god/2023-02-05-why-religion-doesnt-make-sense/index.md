@@ -47,7 +47,7 @@ Who would have thought a carpenter's son from Nazareth could profoundly impact t
 
 *If you believe so, I'm Mother Ganga. Else, I'm just flowing water.*
 
-The story I described is entirely fictional but possible. Improbable, yes. Impossible, no.[^1]
+The story I described is entirely fictional but possible. Improbable, yes. [Impossible, no](https://www.harsh17.in/improbable-doesn-t-mean-impossible/).[^1]
 
 [^1]: I borrowed elements from South Park's "Cancelled" (S7E4, also known as "Cartman Gets an Anal Probe Redux").
 
