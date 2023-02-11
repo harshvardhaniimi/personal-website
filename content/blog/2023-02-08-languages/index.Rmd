@@ -40,7 +40,7 @@ Why did I have to write `cout<<` and not, say, `print()`? Why are strings stored
 
 *Why could you write something like that means nothing, does nothing and costs nothing?*
 
-``` C++
+``` c++
 [](){};
 ```
 
@@ -60,7 +60,7 @@ Then he had an evil plan.
 
 </iframe>
 
-<p><a href="https://giphy.com/gifs/planning-happy-gif-evil-plan-14nNwczrhgaQ5G">via GIPHY</a></p>
+via [GIPHY](https://giphy.com/gifs/planning-happy-gif-evil-plan-14nNwczrhgaQ5G)
 
 Uncle Ben said, "with great power comes great responsibility". Uncle Ben was late in telling this to Spiderman, and our hero hadn't watched Spiderman anyway. Being young makes you naive. He used his weekly quota of 10-minute internet time to conjure a plan. He would write a code that would specifically delete some executables from Windows `c://`, breaking the computer irrevocably and requiring a clean reinstall of Windows.
 
@@ -72,7 +72,7 @@ It damn well worked.
 
 The only problem was that no one cared. The computer was reimaged in less than a week, and Bill's Windows was back! He thought he'll have to 1-up his game. Taking inspiration from hacking scenes in a Hollywood movie, he wrote a code that would show exactly this on the screen. (All he remembers about the movie was that the hero had to crack the code to do something important. That required a password, and the hint was what you sit on but never carry with you. The password was "Chair".)
 
-``` C++
+``` c++
 > ?
 _
 ```
@@ -107,7 +107,7 @@ Like here's a code to print the first ten Fibonacci numbers in C++. (He remember
 
 ##### C++ code for generating Fibonacci sequence
 
-``` C++
+``` c++
 #include <iostream>
 
 using namespace std;
@@ -144,7 +144,7 @@ Press ENTER to exit console.
 
 ##### Here's how to do it in R.
 
-``` R
+``` r
 # function to print first "n" Fibonacci numbers
 fibonacci = function(n)
 {
@@ -179,7 +179,7 @@ The writers even added a Zen of Python: a set of 20 axioms that were part progra
 
 [^4]: The [Zen of Python](https://www.bing.com/ck/a?!&&p=6a9ac276c461b3b6JmltdHM9MTY3NTk4NzIwMCZpZ3VpZD0yN2Q3ZDVmZi03MDMxLTY1NTgtMWY4NS1jNzRjNzE1MTY0YjkmaW5zaWQ9NTQ1Ng&ptn=3&hsh=3&fclid=27d7d5ff-7031-6558-1f85-c74c715164b9&u=a1L3NlYXJjaD9xPVplbitvZitQeXRob24mZmlsdGVycz1zaWQlM2EwMjNlNjRiNi04YTI5LWI3ODAtMmFjMy1mNTM1YmQwMmE5ZjMmZm9ybT1FTlRMTks&ntb=1) is a collection of19 guiding principles that influence the design of Python. The principles were written by software engineer Tim Peters; he wanted [Guido van Rossum](https://www.bing.com/ck/a?!&&p=d219eb6bef7ae36cJmltdHM9MTY3NTk4NzIwMCZpZ3VpZD0yN2Q3ZDVmZi03MDMxLTY1NTgtMWY4NS1jNzRjNzE1MTY0YjkmaW5zaWQ9NTQ1OA&ptn=3&hsh=3&fclid=27d7d5ff-7031-6558-1f85-c74c715164b9&u=a1L3NlYXJjaD9xPUd1aWRvK3ZhbitSb3NzdW0mZmlsdGVycz1zaWQlM2E5ODAzNGIzOS00NDZjLTRhOGMtOTAxYi0wYTg5YjNjNDljOTkmZm9ybT1FTlRMTks&ntb=1), the creator of Python, to add a 20th principle. However, this never happened, so the current number stands at 19.
 
-``` SCSS
+``` scss
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
