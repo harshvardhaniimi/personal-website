@@ -236,3 +236,17 @@
        url('../fonts/hanken-grotesk-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/hanken-grotesk-v4-latin-regular.svg#HankenGrotesk') format('svg'); /* Legacy iOS */
 }
+
+/* libre-baskerville-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/libre-baskerville-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/libre-baskerville-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/libre-baskerville-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/libre-baskerville-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/libre-baskerville-v14-latin-regular.svg#LibreBaskerville') format('svg'); /* Legacy iOS */
+}

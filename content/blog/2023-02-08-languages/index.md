@@ -14,6 +14,8 @@ categories:
 tags: []
 ---
 
+![](featured.png)
+
 A ten-year-old kid was beginning his high school journey when he had to learn a third language. He was already learning two languages: his mother tongue Hindi and the common-speak English. But neither of them had prepared him for Sanskrit. Masquerading as grammar, he felt the Sanskrit was more mathematical than needed. *A language's purpose is to communicate. If it can communicate, it works. If it works, don't break it.* [Chesterton's Fence](https://fs.blog/chestertons-fence/)
 
 As much as he despised learning the new language, he loved the rhythm of it. Unlike Hindi or English, most Sanskrit literature is composed of hymns and poems. Sanskrit sounds sonorous. नभ: स्पृशं दीप्तम् --- the motto of Indian Air Force --- sounded so cool that he repeated it over hundred times a day looking at the sky.[^1] But all of that only improved his pronunciation of Sanskrit hymns. When it came to writing, he was already bad at Hindi, but he was even worse at writing Sanskrit.
@@ -40,7 +42,7 @@ Why did I have to write `cout<<` and not, say, `print()`? Why are strings stored
 
 *Why could you write something like that means nothing, does nothing and costs nothing?*
 
-``` c++
+``` cpp
 [](){};
 ```
 
@@ -72,7 +74,7 @@ It damn well worked.
 
 The only problem was that no one cared. The computer was reimaged in less than a week, and Bill's Windows was back! He thought he'll have to 1-up his game. Taking inspiration from hacking scenes in a Hollywood movie, he wrote a code that would show exactly this on the screen. (All he remembers about the movie was that the hero had to crack the code to do something important. That required a password, and the hint was what you sit on but never carry with you. The password was "Chair".)
 
-``` c++
+``` cpp
 > ?
 _
 ```
@@ -107,7 +109,7 @@ Like here's a code to print the first ten Fibonacci numbers in C++. (He remember
 
 ##### C++ code for generating Fibonacci sequence
 
-``` c++
+``` cpp
 #include <iostream>
 
 using namespace std;
