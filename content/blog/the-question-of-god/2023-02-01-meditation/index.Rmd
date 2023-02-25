@@ -56,6 +56,10 @@ It can be used constructively when in control of us, or destructively when we le
 
 ### The Art of Living
 
+Buddha taught that the ultimate peace can be attained by being equanimous and realizing the temporary nature of reality.
+Attachments to material possessions, desires, and relationships causes suffering, and that true happiness and peace can only be achieved by letting go of these attachments and accepting the impermanent nature of all things.
+By practicing mindfulness and detachment, we can cultivate a state of equanimity that allows us to remain calm and peaceful in the face of life's challenges.
+
 Being equanimous to the outcomes means not being attached to the results of our actions, accepting whatever happens with a peaceful mind.
 During Vipassana, I became aware of the sensations of my body and how they changed from moment to moment.
 This experience allowed me to realize the temporary nature of all sensations, including emotions.
@@ -70,7 +74,7 @@ By accepting this impermanence and not being attached to any specific outcome, I
 S.N. Goenka came from a wealthy Marwari family whose ancestors had relocated from India to Myanmar for business opportunities.
 Despite his success, Goenka suffered from frequent migraines and other mental health issues.
 To manage his pain, Goenka's doctor prescribed a regular dose of morphine, but the situation only worsened over time.
-Desperate for a solution, Goenka turned to religion and read various Indian texts, including the Bhagwat Geeta, which had long recited since childhood but to no avail.
+Desperate for a solution, Goenka turned to religion and read various Indian texts, including the [Bhagwat Geeta](/the-song-of-the-lord/), which had long recited since childhood but to no avail.
 
 One day, Goenka came across a Vipassana camp run by Sayagya U Ba Khin.
 Intrigued by the practice, Goenka decided to attend the camp and was immediately cured of his migraines and other health issues.
@@ -80,7 +84,8 @@ A few years later, Goenka's parents fell ill, both mentally and physically, and 
 They were living in India, so Goenka returned home to teach them the practice of Vipassana.
 Some other villagers also joined in and they, too, experienced the benefits of the practice.
 
-This was the beginning of the modern Vipassana movement, as word of its effectiveness spread and more people started to seek out Goenka's teachings.
+This was the beginning of the modern Vipassana movement.
+As word of its effectiveness spread, more people started to seek out Goenka's teachings.
 Today, Vipassana is practiced by millions of people all over the world and is widely recognized as one of the most powerful mindfulness meditation techniques.
 
 ### My Experience of Vipassana
@@ -93,11 +98,11 @@ On the fourth day, I was introduced to the practice of Vipassana.
 Using the skills I developed in the first three days, I started to scan my body from head to toe, becoming aware of sensations and emotions as they arose.
 Over the next few days, I worked on increasing my ability to scan my body and recognizing the impermanence of sensations and emotions.
 
-You'll realise how you become happy, angry, or sad because your mind will jump from meditation to a past memory or a future desire.
-I was eagerly looking forward to eating Paani-puri, for example.
-You'll see how your body feels in all of them.
-Then, you'll see those sensations come and go.
-The lesson there is the impermanence of everything.
+I become happy, angry, or sad as my mind jumped from meditation to a past memory or a future desire.
+I was eagerly looking forward to eating Paani-puri.
+I noticed how my body sensed thouse memories and desires.
+I saw those sensations come and go.
+I realised their nature of temporary visits.
 
 > Buddha said that your mind will remember how it felt even though the original stimulus would go away.
 > Every sensation is temporary.
