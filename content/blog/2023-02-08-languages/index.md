@@ -103,7 +103,7 @@ He also realised his English, which he took pride in, wasn't as good as he thoug
 
 Realizing his limitations, he approached for help. A professor advised him to start writing and reading extensively. But more than that, start discussing it with others. He liked debating, but now he had to turn it into fruitful [discussions](https://www.harsh17.in/arguments/). Slowly, he improved.
 
-Around the same time, he encountered another language, masquerading as a statistical tool: R. The name sounded funny --- and it was a pun intended by the authors of the language as the first letters of their name. But the language was sans all the `void main()` crap of C++.
+Around the same time, he encountered another language, masquerading as a statistical tool: R. The name sounded funny --- and it was a pun intended by the authors of the language as the first letters of their names. But the language was sans all the `void main()` crap of C++.
 
 Like here's a code to print the first ten Fibonacci numbers in C++. (He remembers writing codes differently in Turbo C++. But today, he doesn't use C++ at all, and that flavour of C++ is not compatible with modern operating systems like MacOS.)
 
@@ -165,7 +165,7 @@ fibonacci = function(n)
 [1]  0  1  1  2  3  5  8 13 21 34
 ```
 
-C++ and R differed in one peculiar way: indexing started in C++ with 0 but from 1 in R. He didn't think much of it then. Later, he realised how R was an outlier
+C++ and R differed in one peculiar way: indexing started in C++ with 0 but from 1 in R. He didn't think much of it then. Later, he realised how R was an outlier. R was succinct in conveying its messages.
 
 *Computer was an obedient slave. Now, he had to say fewer words to communicate. And that he did.*
 
