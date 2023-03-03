@@ -60,7 +60,7 @@ Google seems to be losing the battle. Like most incumbents of power. Even Machia
 
 Though it is difficult to say if it is a war or simply a competition. There is more evidence for the latter. Google and Meta were simply afraid of releasing such powerful generative AI tools to the general public. It could have dire consequences. In his book Zero to One, Peter Thiel posits how it is more difficult "going from zero to one" --- creating something new --- rather than "going from one to n" --- copying or scaling something that already exists
 
-Even OpenAI wasn't sure of launching ChatGPT. Sam Altman's decision wasn't appreciated by many in the company, including by many in his executive team. But his belief in "Overton window" resulted in others yielding. (Few people know that ChatGPT was available in OpenAI playground long before and can still be used with almost zero downtime.)
+Even OpenAI wasn't sure of launching ChatGPT. Sam Altman's decision wasn't appreciated by many in the company, including some in his executive team. But their belief in "Overton window" resulted in others yielding. (Few people know that ChatGPT was available in [OpenAI playground](https://platform.openai.com/playground) long before and can still be used with almost zero downtime.)
 
 The Overton window, named after Joseph Overton, is a model that describes the range of ideas and policies that are considered acceptable to the public at a given time. It is useful to identify the range of ideas or models that are acceptable to the public, and then to work within that range to make decisions that are more likely to be accepted. By doing so, decision-makers can increase the chances of success and minimize resistance or backlash from the public.
 
