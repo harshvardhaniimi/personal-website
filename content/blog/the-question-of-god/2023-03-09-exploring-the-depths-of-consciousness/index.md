@@ -13,6 +13,8 @@ tags: []
 
 "Yoga is the restraint of the fluctuations of the mind" --- Patanjali
 
+![](featured.jpg)
+
 The Yoga Sutras of Patanjali are a foundational text of the yogic tradition, offering guidance on how to cultivate a state of equanimity and inner peace through various practices and techniques.
 
 As Patanjali wrote in the opening lines of the text, "Now, the teachings of yoga" - inviting readers to embark on a journey of self-discovery and spiritual growth.
