@@ -82,6 +82,6 @@ But I still didn't answer the question I started with: what would the world look
 
 What I do know is that I shouldn't miss to ride this wave. My surfing teacher told me: "when you see a wave coming towards you, there are two options. You're either gonna be hit by it or you can ride it. Timing is important for catching it, and balance is important for staying afloat. But the most important is not missing a good wave."
 
-I guess it applies here as well.
+I'm not missing the wave.
 
 ![](images/IMG_20210322_223829_389.png)
