@@ -67,4 +67,4 @@ The arterial road design is a type of road network design that involves the cons
 
 In conclusion, urban planning is a crucial aspect of any city's development. The design of cities can have a significant impact on the health, safety, and well-being of its residents. While some urban planning decisions may seem harmless, such as the atrial road design, their impact on public safety cannot be ignored.
 
-As we continue to shape and reshape our cities, it is important to consider the long-term effects of our choices. Only by prioritizing the needs of the people and the environment can we create truly sustainable and livable cities for generations to come. Remember, the cities we build today are the legacy we leave for tomorrow
+As we continue to shape and reshape our cities, it is important to consider the long-term effects of our choices. Only by prioritizing the needs of the people and the environment can we create truly sustainable and livable cities for generations to come. Remember, the cities we build today are the legacy we leave for tomorrow.
