@@ -32,4 +32,4 @@ This paper and STAR project aimed to discover the importance and impact of class
 
 Krueger (1999) considers that class-size dummy variable and regular-size-with-aide dummy variables together can explain the effect on student achievement --- while con- trolling for other student-teacher related attributes (controlled covariates) and the school where the student is enrolled. The average percentile score with SAT measures the out- come of student achievement. Class size dummy and regular-class-with-aide are taken directly from the project database. The control variables are included as covariates such as gender, age, among others. School-related effects are included as a separate control variable in the study.
 
-For more details, see the [project report](/docs/tennessee_STAR.pdf). For STATA codes, [email me](mailto:hello@harsh17.in).
+For more details, see the [project report](/docs/tennessee_STAR.pdf).
