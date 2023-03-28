@@ -1,6 +1,6 @@
 ---
 title: "Chitta-vritis: Exploring the Depths of Consciousness"
-summary: "In his Yoga Sutras, Patanjali teaches about the chitta-vritis, or mental fluctuations, and offers timeless tips on how to cultivate inner peace and clarity. Through the chitta-vritis of pramana, smriti, nidra, vikalpa, and viparyaya, Patanjali offers insights into the workings of the mind and how we can cultivate greater awareness and understanding of our own mental processes."
+summary: "Through the chitta-vritis of pramana, smriti, nidra, vikalpa, and viparyaya, Patanjali offers insights into the workings of the mind and how we can cultivate greater awareness and understanding of our own mental processes."
 subtitle: "A short note on 2500 years old wisdom by Maharishi Patanjali on how to transform your mind and elevate your consciousness."
 author: Harshvardhan, ChatGPT
 date: '2023-03-09'
