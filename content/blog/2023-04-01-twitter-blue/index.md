@@ -25,7 +25,7 @@ tags: []
 
 Around half a year ago, Twitter made an exciting announcement about a new paid subscription service called Twitter Blue. For \$8 per month (or \$11 per month via mobile purchase), users can sign up for a host of exclusive features, including a blue badge, prioritized conversation ranking, fewer ads, bookmark folders, custom navigation, tweet editing, undoing tweets, and more.
 
-As handy as these features, the service is not yet fully available to all users, as it can only be purchased via the iOS app or web, not Androids. It’s unclear what the tangible benefits for common users are, except for a visibility boost. In my opinion, being able to edit tweets is unnecessary — you don’t the ability to edit, you just need to forgive yourself.
+As handy as these features, the service is not yet fully available to all users, as it can only be purchased via the iOS app or web, not Androids. It’s unclear what the tangible benefits for common users are, except for a visibility boost. In my opinion, being able to edit tweets is unnecessary — you don’t need the ability to edit, you just need to forgive yourself.
 
 While launching a half-baked service is not a new phenomenon in the tech industry, it’s concerning for a utility service like Twitter, which has a global user base, not to have an Android version. Twitter’s largest market is India, which is predominantly an Android market. Moreover, the prices for Twitter Blue are quite steep - who would pay ₹9,400 per year for a social media platform?
 
