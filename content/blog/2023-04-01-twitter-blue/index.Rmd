@@ -11,7 +11,7 @@ categories:
   - twitter
   - R
 tags: []
-draft: true
+draft: false
 ---
 
 Around half a year ago, Twitter made an exciting announcement about a new paid subscription service called Twitter Blue. For \$8 per month (or \$11 per month via mobile purchase), users can sign up for a host of exclusive features, including a blue badge, prioritized conversation ranking, fewer ads, bookmark folders, custom navigation, tweet editing, undoing tweets, and more.
