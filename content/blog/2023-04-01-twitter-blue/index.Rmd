@@ -13,27 +13,31 @@ categories:
 tags: []
 ---
 
-Almost a six months ago Twitter announced a new subscription service called Twitter Blue. It is a paid subscription service that costs paying \$8 per month (or \$11 per month via mobile purchase). And that monthly fee is a relative bargain: Larger institutions will have to pay at least \$1,000 a month for verification.
+Around half a year ago, Twitter made an exciting announcement about a new paid subscription service called Twitter Blue. For a mere \$8 per month (or \$11 per month via mobile purchase), users can sign up for a host of exclusive features, including a blue badge, prioritized conversation ranking, fewer ads, bookmark folders, custom navigation, tweet editing, undoing tweets, and more.
 
-One can sign up to get a blue checkmark, prioritised ranking in conversations, half ads, long Tweets, Bookmark Folders, custom navigation, Edit Tweet, Undo Tweet, and more.
+Despite these features, the service is not yet fully available to all users, as it can only be purchased via the iOS app or web, not Androids. It's unclear what the tangible benefits for common users are, except for a visibility boost. In my opinion, being able to edit tweets is unnecessary --- you don't the ability to edit, you just need to forgive yourself.
 
-Launching a half-baked service is not a news in the tech industry. However, for a uitility service like Twitter which has global users not having the Android version sounds like a bad idea. For instance, Twitter's largest market is India, an Android market. Plus, the prices are in dollars.
-
-Seriously, who will pay ₹9,400 per year for a social media?
+While launching a half-baked service is not a new phenomenon in the tech industry, it's concerning for a utility service like Twitter, which has a global user base, not to have an Android version. Twitter's largest market is India, which is predominantly an Android market. Moreover, the prices for Twitter Blue are quite steep - who would pay ₹9,400 per year for a social media platform?
 
 ### Starting today, the original Twitter verification marks are gone.
 
-On April 1, Twitter is set to strip away the legacy verification checkmarks from the platform in favor of the paid checkmarks associated with Twitter Blue subscriptions. Then starting April 15, the platform apparently will no longer promote non-paying Twitter Blue subscribers via its recommendation algorithm on the For You feed. (The inability to participate in the polls sucks.)
+On April 1, Twitter is stripping away the legacy verification badges from the platform in favor of the paid badges associated with Twitter Blue subscriptions. Then starting April 15, the platform apparently will no longer promote non-paying Twitter users via its recommendation algorithm on the For You feed. (The inability to participate in the polls sucks.)
 
-![On April 1st, we will begin winding down our legacy verified program and removing legacy verified checkmarks. To keep your blue checkmark on Twitter, individuals can sign up for Twitter Blue.](images/ss1.png)
+> ![On April 1st, we will begin winding down our legacy verified program and removing legacy verified checkmarks. To keep your blue checkmark on Twitter, individuals can sign up for Twitter Blue.](images/ss1.png)
 
-Notable figures and outlets, from LeBron James to the White House, have said they won't be paying for verification.
+While these changes may seem concerning, they are part of Twitter's ongoing efforts to increase revenue and create a more sustainable business model. It remains to be seen how these changes will affect the user experience on the platform and whether they will be beneficial in the long run.
+
+> Legacy verification badges on Twitter provided credibility and legitimacy to users, but with the introduction of paid badges, some may view the process as exclusive and biased towards those who can afford it.
+
+The decision to no longer promote non-paying users via Twitter's recommendation algorithm on the For You feed has raised concerns among influencers. This change may disproportionately affect smaller accounts and marginalized communities, who may not have the resources to pay for Twitter Blue subscriptions.
+
+But not all are excited about it. In fact, most Twitter Blue subscribers are nothing close to influencers --- over 30% has fewer than a hundred followers. Notable figures and outlets, from LeBron James to the White House, have said they won't be paying for verification.
 
 So, any Tom, Dick and Harry will have the blue checkmark but not the government agencies, celebrities, and influential figures. We're gonna see a return of "real" prefixes in profile names.
 
 ### Who uses Twitter Blue?
 
-[Travis Brown](https://github.com/travisbrown/blue/) has collated data on Twitter Blue users from the launch.
+[Travis Brown](https://github.com/travisbrown/blue/) has collected data on Twitter Blue users from its launch.
 
 > We compiled this list by combining two approaches. The first uses a Twitter profile scraper that is one of the components of the Hassreden-Tracker project, which was supported by Prototype Fund in 2022. The second involves searching the Twitter API for tweets by Twitter Blue subscribers, with queries designed to cover areas of the Twitter graph that the first approach may miss (for example non-English-language accounts).
 
@@ -41,19 +45,22 @@ I thought it would be interesting to see who are they. Here's the exploration! Y
 
 First, I will load the required libraries.
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 # libraries
 library(tidyverse)
 library(lubridate)
 library(DT)
 library(scales)
 
-# my favourite theme
-theme_set(ggthemes::theme_clean())
+# setting the theme
 theme_set(ggtech::theme_tech(theme = "google"))
 ```
 
-Reading in the data. Source: <https://github.com/travisbrown/blue>. Since it doesn't have column names, I will add it. Using `janitor`, I will clean the names. It's [clean_names()](https://github.com/sfirke/janitor) function is an absolute blast. It converts `CAPITALS` and spaces to `small_letters_with_underscores`. Pretty standard.
+### Reading in the data
+
+Data source: <https://github.com/travisbrown/blue>.
+
+Since the doesn't have column names, I will add it. Using `janitor`, I will clean the names. It's [clean_names()](https://github.com/sfirke/janitor) function is an absolute blast. It converts `CAPITALS` and spaces to `small_letters_with_underscores`. Pretty standard.
 
 ```{r}
 # reading in data
@@ -112,19 +119,31 @@ df1 = df %>%
   mutate(lab = round(count / 1000)) %>% 
   mutate(lab = paste0(lab, "k"))
 
+# This code creates a bar chart using ggplot and customizes its appearance.
+# It uses data stored in df1 and sets the x-axis to year_week, the y-axis to count, and the label to lab.
 df1 %>% 
-  ggplot(aes(x = year_week, y = count, label = lab)) +
-  geom_bar(stat = "identity", position = "dodge", width = 0.7, fill = "#1DA1F2") +
-  geom_text(vjust = -0.2, size = 4) +
+  ggplot(aes(x = year_week, y = count, label = lab)) + 
+  # adding bar plot
+  geom_bar(stat = "identity", position = "dodge", width = 0.7, fill = "#1DA1F2") + 
+  # adding text
+  geom_text(vjust = -0.2, size = 4) + 
+
+  # Editing elements of theme like position, angle and size
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.title = element_text(size = 14),
-        axis.text.y = element_blank()) +
+        axis.text.y = element_blank()) + 
+
+  # setting x, y labels and title
   labs(x = "Year and Week", y = "Number of New Subscribers",
        title = "Number of New Twitter Blue Subscribers") +
+
+  # The plot title font size is adjusted.
   theme(plot.title = element_text(size = 18))
 ```
 
-Twitter Blue added most number of users in the first two weeks of launch. The next peak is in the second week of 2023. What's that for? Tell me in comments, if you know.
+Twitter Blue added most number of users in the first two weeks of launch. The next peak is in the second week of 2023. What's that for?
+
+Tell me in comments, if you know.
 
 ### Who are the subscribers?
 
@@ -132,7 +151,7 @@ Twitter Blue added most number of users in the first two weeks of launch. The ne
 
 The list of Blue subscribers is pretty interesting.
 
-Here's the list of Blue subscribers with most followers. I am filtering only the users who are still subscribed to the service.
+Here's the list of Blue subscribers with over a million followers. I am filtering only the users who are still subscribed to the service. (So users who "tried" the service for a month aren't included.)
 
 ```{r}
 # All Hail ChatGPT!
@@ -161,8 +180,9 @@ verification = function(x) {
 
 df %>% 
   filter(sub_status == "B") %>% 
+  filter(follower_count >= 10^6) %>% 
   select(screen_name, legacy_verification_status, follower_count, date_blue_sub) %>% 
-  slice_max(order_by = follower_count, n = 100) %>%
+  arrange(desc(follower_count)) %>% 
   mutate(follower_count = scale_cut(follower_count),
          legacy_verification_status = verification(legacy_verification_status)) %>% 
   datatable(colnames = c("Username", "Old Status", "# Followers", "Joined Blue On"))
@@ -275,10 +295,10 @@ df %>%
 
 ### Conclusion
 
-There was a huge influx of Blue subscribers after the service was announced. The momentum didn't last long. The subscriber addition rate fell down significantly, except in January when something extraordinary happened.
+Twitter Blue, the premium subscription service offered by Twitter, saw a massive surge in subscriber numbers immediately following its announcement. However, this momentum was short-lived, and the rate of new subscriber additions declined significantly, with one exception. In January, something extraordinary happened, which resulted in a notable increase in new subscribers.
 
-Out of the top-10 most followed accounts on Twitter, only Elon Musk himself has a Blue account. Some celebrities and businesses do have a Blue account but their group is dwarfed by regular Twitter Blue users.
+It's worth noting that out of Twitter's top-10 most followed accounts, only Elon Musk has a Blue account. While some celebrities and businesses do have Blue accounts, they are vastly outnumbered by regular Twitter Blue users.
 
-Of the group that joined Blue, a good chunk (more than 30%) has left it already. This might be an underestimate given [Twitter is not actively removing verified badges](https://mashable.com/article/twitter-blue-subscriptions-lower) even after people stop the service.
+Interestingly, a significant percentage of the group that initially signed up for Blue has already left the service. However, it's difficult to determine the exact number, as apparently [Twitter is not actively removing verified badges](https://mashable.com/article/twitter-blue-subscriptions-lower) even after people stop their subscription.
 
-What else do you find interesting? Tell me in the comments.
+What are your thoughts on this? Do you find these trends surprising or expected? Share your insights in the comments below!
