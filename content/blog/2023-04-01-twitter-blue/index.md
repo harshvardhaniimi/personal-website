@@ -11,6 +11,7 @@ categories:
   - twitter
   - R
 tags: []
+draft: true
 ---
 
 <script src="{{< blogdown/postref >}}index_files/htmlwidgets/htmlwidgets.js"></script>
@@ -181,14 +182,10 @@ Let’s dive in.
 ``` r
 df1 = df %>% 
   # add year and week to the data
-  mutate(year = as.character(year(date_blue_sub)),
-         week = as.character(week(date_blue_sub))) %>% 
-  
-  # join year and week with a W
-  mutate(year_week = paste(year, week, sep = "W")) %>% 
+  mutate(week_blue_sub = floor_date(date_blue_sub, "weeks")) %>% 
   
   # grouping and summarising for plots
-  group_by(year_week) %>% 
+  group_by(week_blue_sub) %>% 
   summarise(count = n()) %>% 
   
   # adding rounded labels
@@ -198,22 +195,16 @@ df1 = df %>%
 # This code creates a bar chart using ggplot and customizes its appearance.
 # It uses data stored in df1 and sets the x-axis to year_week, the y-axis to count, and the label to lab.
 df1 %>% 
-  ggplot(aes(x = year_week, y = count, label = lab)) + 
-  # adding bar plot
-  geom_bar(stat = "identity", position = "dodge", width = 0.7, fill = "#1DA1F2") + 
-  # adding text
+  ggplot(aes(x = week_blue_sub, y = count, label = lab)) + 
+  geom_bar(stat = "identity", position = "dodge", width = 0.9, fill = "#1DA1F2") + 
   geom_text(vjust = -0.2, size = 4) + 
-
-  # Editing elements of theme like position, angle and size
+  scale_x_date(date_breaks = "1 week",
+               labels = scales::date_format(format = "W%W-%y")) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         axis.title = element_text(size = 14),
         axis.text.y = element_blank()) + 
-
-  # setting x, y labels and title
   labs(x = "Year and Week", y = "Number of New Subscribers",
        title = "Number of New Twitter Blue Subscribers") +
-
-  # The plot title font size is adjusted.
   theme(plot.title = element_text(size = 18))
 ```
 
