@@ -31,7 +31,7 @@ While these changes may seem concerning, they are part of Twitter's ongoing effo
 
 The decision to no longer promote non-paying users via Twitter's recommendation algorithm on the For You feed has raised concerns among influencers. This change may disproportionately affect smaller accounts and marginalized communities, who may not have the resources to pay for Twitter Blue subscriptions.
 
-But not all are excited about it. In fact, most Twitter Blue subscribers are nothing close to influencers --- over 30% has fewer than a hundred followers. Notable figures and outlets, from LeBron James to the White House, have said they won't be paying for verification.
+But not all are excited about it. In fact, most Twitter Blue subscribers are nothing close to influencers --- over 20% has fewer than a hundred followers. Notable figures and outlets, from LeBron James to the White House, have said they won't be paying for verification.
 
 So, any Tom, Dick and Harry will have the blue checkmark but not the government agencies, celebrities, and influential figures. We're gonna see a return of "real" prefixes in profile names.
 
@@ -230,7 +230,7 @@ ggplot(tibble(bins), aes(x = bins)) +
         axis.title = element_text(size = 14))
 ```
 
-Holy moly, less than 5% of all Blue subscribers are "celebrities" on Twitter. So many have fewer than 100 followers. How many of them are bots!?
+Blue seems to be more popular among the less popular accounts on Twitter. That's interesting.
 
 ### Types of Accounts: Business, Government and Society
 
