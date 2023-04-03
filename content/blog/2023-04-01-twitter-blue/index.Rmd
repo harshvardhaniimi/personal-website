@@ -26,7 +26,13 @@ On April 1, Twitter is stripping away the legacy verification badges from the pl
 
 > ![On April 1st, we will begin winding down our legacy verified program and removing legacy verified checkmarks. To keep your blue checkmark on Twitter, individuals can sign up for Twitter Blue.](images/ss1.png)
 
-While these changes may seem concerning, they are part of Twitter's ongoing efforts to increase revenue and create a more sustainable business model. It remains to be seen how these changes will affect the user experience on the platform and whether they will be beneficial in the long run.
+While these changes may seem concerning, they are part of Twitter's ongoing efforts to increase revenue and create a more sustainable business model. Majority of their past earnings were from advertisements.
+
+![](images/revenue.png)
+
+> Annual revenue of Twitter from 2010 to 2021, by segment. Advertising revenue has been increasing while data licensing revenues are relatively constant. Source: [Statista](https://www-statista-com.utk.idm.oclc.org/statistics/274566/twitters-annual-revenue-by-channel/).
+
+It remains to be seen how these changes will affect the user experience on the platform and whether they will be beneficial in the long run.
 
 > Legacy verification badges on Twitter provided credibility and legitimacy to users, but with the introduction of paid badges, some may view the process as exclusive and biased towards those who can afford it.
 
@@ -42,11 +48,15 @@ So, any Tom, Dick and Harry will have the blue checkmark but not the government 
 
 > We compiled this list by combining two approaches. The first uses a Twitter profile scraper that is one of the components of the Hassreden-Tracker project, which was supported by Prototype Fund in 2022. The second involves searching the Twitter API for tweets by Twitter Blue subscribers, with queries designed to cover areas of the Twitter graph that the first approach may miss (for example non-English-language accounts).
 
-I thought it would be interesting to see who are they. Here's the exploration! You can download the R Markdown from my website.
+I thought it would be interesting to see who are they. Here's the exploration! [You can download the R Markdown from my Github](https://github.com/harshvardhaniimi/personal-website/blob/main/content/blog/2023-04-01-twitter-blue/index.Rmd).
 
-First, I will load the required libraries.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, message = FALSE, warning = FALSE
+)
+```
 
-```{r message=FALSE, warning=FALSE}
+```{r}
 # libraries
 library(tidyverse)
 library(lubridate)
@@ -61,7 +71,7 @@ theme_set(ggtech::theme_tech(theme = "google"))
 
 Data source: <https://github.com/travisbrown/blue>.
 
-Since the doesn't have column names, I will add it. Using `janitor`, I will clean the names. It's [clean_names()](https://github.com/sfirke/janitor) function is an absolute blast. It converts `CAPITALS` and spaces to `small_letters_with_underscores`. Pretty standard.
+Since the doesn't have column names, I will add it. Using `janitor`, I will clean the names. It's [clean_names()](https://github.com/sfirke/janitor) function is an absolute blast. It converts `CAPITALS` and spaces to `small_letters_with_underscores`. Pretty standard. [See the code on my Github.](https://github.com/harshvardhaniimi/personal-website/blob/main/content/blog/2023-04-01-twitter-blue/index.Rmd)
 
 ```{r}
 # reading in data
@@ -71,8 +81,18 @@ df = read_csv("/Users/harshvardhan/Library/CloudStorage/Dropbox/Personal/persona
 names(df) = c("Account ID", "Screen name", "Legacy verification status", "Follower count",
               "Date Blue Sub", "Time Blue Sub", "Sub Status")
 df = janitor::clean_names(df)
+```
 
-df
+#### Data
+
+Here are the first ten rows of the data frame. I am using `kable` for printing a good looking table. (Later on, I will use `DT` for an interactive table where you can sort, filter and search.)
+
+```{r}
+library(kableExtra)
+df %>% 
+  slice_head(n = 10) %>% 
+  kable() %>% 
+  kable_paper()
 ```
 
 Here's a brief detail on columns.
@@ -99,7 +119,7 @@ Here's a brief detail on columns.
 
 [^1]: I find it funny that Jack Dorsey, the founder of Twitter doesn't have the first account. Who got it? Some engineer in his team?
 
-Let's dive in.
+Let's dive in to the analysis.
 
 ### Popularity of Twitter Blue
 
@@ -144,7 +164,7 @@ The list of Blue subscribers is pretty interesting.
 
 Here's the list of Blue subscribers with over a million followers. I am filtering only the users who are still subscribed to the service. (So users who "tried" the service for a month aren't included.)
 
-To make the table interactive where users can sort and search with `DT`. I like `DT` for it's simplicity. I've tried picking up several other table packages in the past like `kable`, `gt` is good for beautiful tables but they're not interactive, yada yada.
+To make the table interactive where users can sort and search, I used `DT`. I like `DT` for it's simplicity. Its function `datatable()` is great for creating interactive tables easily. I've tried picking up several other table packages in the past like `kable`, `gt` is good for beautiful tables but they're not interactive, yada yada.
 
 ```{r}
 # All Hail ChatGPT!
@@ -183,18 +203,9 @@ df %>%
 
 Of the top-10 most popular accounts on Twitter, only Elon musk is the subscriber. This kinda speaks to the popularity of the service.
 
-> [Top-10 Most Followed Accounts on Twitter, Wikipedia](https://www.wikiwand.com/en/List_of_most-followed_Twitter_accounts)
->
-> 1.  ElonMusk, 133M
-> 2.  BarakObama, 133M
-> 3.  justinbieber, 113M
-> 4.  katyperry, 108M
-> 5.  rihanna, 108M
-> 6.  Cristiano, 108M
-> 7.  taylorswift13, 93M
-> 8.  narendramodi, 88M
-> 9.  realDonaldTrump, 87M
-> 10. ladygaga, 85M
+![](images/Screenshot%202023-04-03%20at%2012.26.08%20AM.png)
+
+> Twitter accounts with most followers worldwide as of January 2023. All numbers are reported in millions. Source: [Statista](https://www-statista-com.utk.idm.oclc.org/statistics/273172/twitter-accounts-with-the-most-followers-worldwide/).
 
 ### How many followers do Blue subscribers have?
 
@@ -209,8 +220,6 @@ breaks = c(0, 100, 1000, 10^4, 10^5, Inf)
 # Create a factor variable that represents the bins
 bins = cut(x, breaks, labels = c("0-100", "100-1K", "1k-10k", "10k-100k", "100k+"))
 
-table(bins)
-
 bins = na.omit(bins)
 
 ggplot(tibble(bins), aes(x = bins)) +
@@ -221,7 +230,30 @@ ggplot(tibble(bins), aes(x = bins)) +
         axis.title = element_text(size = 14))
 ```
 
+```{r}
+tibble('Number of Followers' = table(bins) %>% names(), 'Number of Blue Subscribers' = table(bins) %>% as.numeric() %>% scale_cut()) %>% 
+  kable() %>% 
+  kable_paper()
+```
+
 Blue seems to be more popular among the less popular accounts on Twitter. That's interesting.
+
+#### How many accounts have less than 10 followers?
+
+25,550 accounts have fewer than 10 followers. Out of that, 3,480 have zero followers. Who are these people and what's the value of using Twitter Blue for them? Is it just an act of curiosity --- are they simply [early adopters of the service](https://www.harsh17.in/gartner-hype-cycle/)? Or are they in strong defiance of old Twitter, grabbing the opportunity of premium Twitter as soon as it shows up? Maybe they're just very expensive bots.
+
+Here's a histogram of number of followers for accounts with fewer than 1,000 followers.
+
+```{r}
+tibble(l = x[which(x<=1000)]) %>% 
+  ggplot(aes(x = l)) +
+  geom_histogram(fill = "#1DA1F2", colour = "white") +
+  labs(x = "Number of Followers", y = "Number of Twitter Blue Subscribers")
+```
+
+This is especially interesting because the average number of followers for an active Twitter user is around 159 (in the US). For someone willing to pay extra for a service, you would expect them to be heavy users. You wouldn't expect them to be lurkers; they'd be core users.
+
+On the other hand, 391 million Twitter accounts have no followers at all.
 
 ### Types of Accounts: Business, Government and Society
 
@@ -238,8 +270,6 @@ df2 = df %>%
   group_by(year_month, legacy_verification_status) %>% 
   summarise(count = n()) %>% 
   mutate(legacy_verification_status = verification(legacy_verification_status))
-
-df2
 
 ggplot(df2, aes(x = year_month, y = count, fill = legacy_verification_status)) +
   geom_col(position = "fill") +
@@ -282,9 +312,22 @@ df %>%
   scale_y_continuous(labels = label_number(suffix = " K", scale = 1e-3)) + # for thousands
   labs(x = "", y = "Count",
        title = "Status of Original Twitter Blue Subscribers") +
-  theme(plot.title = element_text(size = 18, hjust = 4)) + 
+  theme(plot.title = element_text(size = 16, hjust = -2.5)) + 
   coord_flip()
 ```
+
+### Who left Twitter Blue?
+
+```{r include = FALSE}
+df %>% 
+  filter(sub_status == "U") %>% 
+  group_by(legacy_verification_status) %>% 
+  summarise(n())
+```
+
+A vast majority of unsubscribers (122,823) are regular users. My guess is they were experimenting with the service as [early adopters](https://www.harsh17.in/gartner-hype-cycle/). 499 of them were verified accounts who later chose not to continue their verification. 21 of the unsubscribers are businesses, and eight of them are government agencies.
+
+Here's the list of government agencies: `r df %>% filter(sub_status == "U") %>% filter(legacy_verification_status == "G") %>% pull(var = "screen_name") %>% glue::glue_collapse(sep = ", ")` .
 
 ### Conclusion
 
@@ -295,3 +338,5 @@ It's worth noting that out of Twitter's top-10 most followed accounts, only Elon
 Interestingly, a significant percentage of the group that initially signed up for Blue has already left the service. However, it's difficult to determine the exact number, as apparently [Twitter is not actively removing verified badges](https://mashable.com/article/twitter-blue-subscriptions-lower) even after people stop their subscription.
 
 What are your thoughts on this? Do you find these trends surprising or expected? Share your insights in the comments below!
+
+The codes for this project can be found on my [Github](https://github.com/harshvardhaniimi/personal-website/blob/main/content/blog/2023-04-01-twitter-blue/index.Rmd).
