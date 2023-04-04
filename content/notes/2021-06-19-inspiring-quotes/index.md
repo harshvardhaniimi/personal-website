@@ -25,6 +25,10 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*I used to be a scientist. I warned the town about upcoming volcano. And then it became all about weed.* --- Randy, South Park
+
+*The true mind can wither all the lies and illusions without being lost. The true heart can touch the poison of hatred without being harmed.* --- Lion Turtle from Avatar: The Last Airbender
+
 *It seems, in fact, as though the second half of a person's life is made up of nothing but the habits they accumulated during the first half.* --- Fyodor Dostoyevsky
 
 *Anything that prevents people from doing great work has an inverse that helps them to.* --- Paul Graham
