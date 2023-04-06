@@ -25,6 +25,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*The world will ask you who you are, and if you don't know, the world will tell you.* --- Carl Jung
+
 *It seems, in fact, as though the second half of a person's life is made up of nothing but the habits they accumulated during the first half.* --- Fyodor Dostoyevsky
 
 *Anything that prevents people from doing great work has an inverse that helps them to.* --- Paul Graham
