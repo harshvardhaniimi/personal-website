@@ -25,6 +25,8 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*The world will ask you who you are, and if you don't know, the world will tell you.* --- Carl Jung
+
 *I used to be a scientist. I warned the town about upcoming volcano. And then it became all about weed.* --- Randy, South Park
 
 *The true mind can wither all the lies and illusions without being lost. The true heart can touch the poison of hatred without being harmed.* --- Lion Turtle from Avatar: The Last Airbender
