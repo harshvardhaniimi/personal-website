@@ -1,5 +1,5 @@
 ---
-title: 'Crafting Conversations: Chatbots Personalities with GPT-3.5-turbo'
+title: 'Crafting Conversations with GPT Personalities in Python'
 subtitle: "Building a customizable chatbot that brings unique characters to life"
 summary: "Building a customizable chatbot that brings unique characters to life"
 author: Harshvardhan
