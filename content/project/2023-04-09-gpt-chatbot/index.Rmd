@@ -34,7 +34,7 @@ First things first, you'll need to get your hands on the chatbot. Simply follow 
 
     ![](images/Screenshot%202023-04-09%20at%203.05.11%20AM.png)
 
-3.  Obtain OpenAI API keys from <https://platform.openai.com/account/api-keys> and place them in the Python script called `openai_keys_user.py`.
+3.  Obtain OpenAI API keys from <https://platform.openai.com/account/api-keys> and place them in the Python script called `openai_keys_user.py`. (The benefit of keeping keys in a separate file is that you can share the app without its keys.)
 
 4.  Navigate to the directory where you downloaded the repository. You can use `cd path/to/folder` for this.
 
