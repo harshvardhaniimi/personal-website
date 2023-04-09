@@ -78,4 +78,4 @@ As I'm always looking for ways to improve and expand this chatbot, I would love 
 
 ------------------------------------------------------------------------
 
-*ChatGPT and Gandhi's advice were used in writing this post.*
+*ChatGPT and Gandhi's advices were used in writing this post.*
