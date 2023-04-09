@@ -44,9 +44,11 @@ First things first, you'll need to get your hands on the chatbot. Simply follow 
 
 6.  That's it! Now you're ready to choose a personality to talk to and have a blast.
 
-![](images/Screenshot%202023-04-09%20at%203.11.58%20AM.png)
+Remember, if you need help, feel free to ask ChatGPT or comment below.
 
-Remember, if you need help navigating to the correct directory or have any issues, feel free to ask ChatGPT or comment below.
+### Mahatma Gandhi
+
+![](images/Screenshot%202023-04-09%20at%203.11.58%20AM.png)
 
 ### Gary, my Cat
 
