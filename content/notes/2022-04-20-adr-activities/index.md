@@ -32,25 +32,26 @@ tags: []
 
 These are only the hikes in US. My hikes in India and Europe aren’t included.
 
-| Name                                                                                                                                        | Location                  | Notes                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------------|
-| [Alum Cave](https://hikinginthesmokys.com/alum-cave-trail/), [Mount Leconte](https://hikinginthesmokys.com/mt-leconte-via-alum-cave-trail/) | Tennessee, US             | Amazing views; easy hike; didn’t go to the top                        |
-| [Virginia Creeper Trail](https://visitabingdonvirginia.com/landmarks/virginia-creeper-trail)                                                | Virginia, US              | Bike trail; you’ll get dirty, so prepare accordingly                  |
-| [Midnight Hole](https://blueridgemountainlife.com/midnight-hole/)                                                                           | North Carolina, US        | Easy trail; small cliffs to dive as well                              |
-| [Ozone Falls](https://www.tn.gov/environment/program-areas/na-natural-areas/natural-areas-east-region/east-region-/na-na-ozone-falls.html)  | Tennessee, US             | One of its kind waterfall; you can go behind the waterfall            |
-| [Cade’s Cove](https://www.nps.gov/grsm/planyourvisit/cadescove.htm)                                                                         | Tennessee, US             | Famous for wildlife; I didn’t see any 🫠                              |
-| [Charlie’s Bunion](https://hikinginthesmokys.com/charlies-bunion/)                                                                          | Tennessee, US             | Delivered what’s promised; loved it                                   |
-| [Shuckstack Fire Tower](https://hikinginthesmokys.com/shuckstack-fire-tower/)                                                               | North Carolina, US        | Uphill is tougher but the views from tower are worth it.              |
-| [Lacamas Creek Park](https://www.alltrails.com/parks/us/washington/lacamas-creek-park)                                                      | Vancouver, WA             | Easy hike with beautiful sceneries                                    |
-| [Dry Creek Falls](https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike)                                                            | Hood River County, Oregon | Mountainous terrain, fire-parched trees, beautiful waterfall          |
-| [Clingman’s Dome](https://www.nps.gov/grsm/planyourvisit/clingmansdome.htm)                                                                 | North Carolina, US        | Easy walk, beautiful views                                            |
-| [Grotto Falls, Trillium Gap Trail](https://www.nps.gov/grsm/planyourvisit/grotto-falls.htm)                                                 | North Carolina, US        | Good hike, very crowded though                                        |
-| [Norris Dam Park](https://tnstateparks.com/parks/norris-dam)                                                                                | Tennessee, US             | Alright — not great                                                   |
-| [Rocky Top](https://www.alltrails.com/trail/us/tennessee/rocky-top-from-lead-cove-trailhead)                                                | Tennessee, US             | Flagship for UTK people, steep rocky 20 km hike                       |
-| [Brushy Mountains, Trillium Gap Trail](https://www.alltrails.com/trail/us/tennessee/brushy-mountain--3)                                     | Tennessee, US             | On Mondays you can see porters with Llamas, crowded till Grotto Falls |
+| Name                                                                                                                                       | Location                  | Notes                                                                 |
+|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------------|
+| [Alum Cave](https://hikinginthesmokys.com/alum-cave-trail/)                                                                                | Tennessee, US             | Amazing views; easy hike; didn’t go to the top                        |
+| [Virginia Creeper Trail](https://visitabingdonvirginia.com/landmarks/virginia-creeper-trail)                                               | Virginia, US              | Bike trail; you’ll get dirty, so prepare accordingly                  |
+| [Midnight Hole](https://blueridgemountainlife.com/midnight-hole/)                                                                          | North Carolina, US        | Easy trail; small cliffs to dive as well                              |
+| [Ozone Falls](https://www.tn.gov/environment/program-areas/na-natural-areas/natural-areas-east-region/east-region-/na-na-ozone-falls.html) | Tennessee, US             | One of its kind waterfall; you can go behind the waterfall            |
+| [Cade’s Cove](https://www.nps.gov/grsm/planyourvisit/cadescove.htm)                                                                        | Tennessee, US             | Famous for wildlife; I didn’t see any 🫠                              |
+| [Charlie’s Bunion](https://hikinginthesmokys.com/charlies-bunion/)                                                                         | Tennessee, US             | Delivered what’s promised; loved it                                   |
+| [Shuckstack Fire Tower](https://hikinginthesmokys.com/shuckstack-fire-tower/)                                                              | North Carolina, US        | Uphill is tougher but the views from tower are worth it.              |
+| [Lacamas Creek Park](https://www.alltrails.com/parks/us/washington/lacamas-creek-park)                                                     | Vancouver, WA             | Easy hike with beautiful sceneries                                    |
+| [Dry Creek Falls](https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike)                                                           | Hood River County, Oregon | Mountainous terrain, fire-parched trees, beautiful waterfall          |
+| [Clingman’s Dome](https://www.nps.gov/grsm/planyourvisit/clingmansdome.htm)                                                                | North Carolina, US        | Easy walk, beautiful views                                            |
+| [Grotto Falls, Trillium Gap Trail](https://www.nps.gov/grsm/planyourvisit/grotto-falls.htm)                                                | North Carolina, US        | Good hike, very crowded though                                        |
+| [Norris Dam Park](https://tnstateparks.com/parks/norris-dam)                                                                               | Tennessee, US             | Alright — not great                                                   |
+| [Rocky Top](https://www.alltrails.com/trail/us/tennessee/rocky-top-from-lead-cove-trailhead)                                               | Tennessee, US             | Flagship for UTK people, steep rocky 20 km hike                       |
+| [Brushy Mountains, Trillium Gap Trail](https://www.alltrails.com/trail/us/tennessee/brushy-mountain--3)                                    | Tennessee, US             | On Mondays you can see porters with Llamas, crowded till Grotto Falls |
 
 ### 🪣 Bucket List
 
+- Mount La Conte (it starts from five trailheads. I’ve heard via Alum Cove is the best way.)
 - [Big south fork](https://www.nps.gov/biso/index.htm)
 - [Bald falls](https://www.tnvacation.com/local/tellico-plains-bald-river-falls)
 - Max Patch
