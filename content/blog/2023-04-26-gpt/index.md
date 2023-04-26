@@ -156,7 +156,21 @@ You can think of self-attention as a way for the AI model to pay different level
 
 ## Acknowledgements
 
-This document was prepared to inform and educate students, faculty, and members of the UT ChatGPT Subcommittee of the ChatGPT Taskforce. The sub-committee's feedback has been crucial in shaping the guidance on this subject, and their contributions are greatly appreciated. Special thanks go to Sally Harris and her students for their detailed and constructive feedback on earlier drafts. The opportunity to contribute to this important work has been both rewarding and valuable.
+This document was prepared to inform and educate students, faculty, and members of the UT ChatGPT Subcommittee of the ChatGPT Taskforce, especially Prof Chuanren Liu who coordinated the entire process. The sub-committee's feedback has been crucial in shaping the guidance on this subject, and their contributions are greatly appreciated. Special thanks go to Sally Harris and her students for their detailed and constructive feedback on earlier drafts. The opportunity to contribute to this important work has been both rewarding and valuable.
+
+## About the Authors
+
+-   **Harshvardhan** is a PhD candidate in the Business Analytics and Statistics at the Haslam College of Business. You can reach him at [harshvar\@vols.utk.edu](mailto:harshvar@vols.utk.edu).
+
+-   **Sally Corran Harris** is a Distinguished Lecturer and the Associate Director of Undergraduate Studies in the Department of English. You can reach her at [sallycharris\@utk.edu](mailto:sallycharris@utk.edu)**.**
+
+-   **Dania Bilal** is a Professor at the School of Information Sciences. You can get in touch with her at [dania\@utk.edu](mailto:dania@utk.edu).
+
+-   **Lena Shoemaker** is a Writer and BA Candidate (English) in the Department of English. You can email her at [hshoema2\@vols.utk.edu](mailto:hshoema2@vols.utk.edu).
+
+-   **Alexander Yu** is a BS Candidate (Computer Science) in the Department of Electrical Engineering and Computer Science. You can reach him at [ayu5\@vols.utk.edu](mailto:ayu5@vols.utk.edu).
+
+All the authors are affiliated to the University of Tennessee, Knoxville.
 
 ### Additional Resources
 
@@ -169,15 +183,3 @@ This document was prepared to inform and educate students, faculty, and members 
 4.  [GPTs are GPTs: An early look at the labor market impact potential of large language models (openai.com)](https://openai.com/research/gpts-are-gpts)
 
 5.  [Future Tools - Find The Exact AI Tool For Your Needs](https://www.futuretools.io/)
-
-## About the Authors
-
--   **Harshvardhan** is a PhD candidate Business Analytics and Statistics, studying at the Haslam College of Business. You can reach him at [harshvar\@vols.utk.edu](mailto:harshvar@vols.utk.edu).
-
--   **Sally Corran Harris** is a Distinguished Lecturer and the Associate Director of Undergraduate Studies in the Department of English. You can reach her at [sallycharris\@utk.edu](mailto:sallycharris@utk.edu)**.**
-
--   **Dania Bilal** is a Professor at the School of Information Sciences. You can get in touch with her at [dania\@utk.edu](mailto:dania@utk.edu).
-
--   **Lena Shoemaker** is a Writer and BA Candidate (English) in the Department of English. You can email her at [hshoema2\@vols.utk.edu](mailto:hshoema2@vols.utk.edu).
-
--   **Alexander Yu** is a BS Candidate (Computer Science) in the Department of Electrical Engineering and Computer Science. You can reach him at [ayu5\@vols.utk.edu](mailto:ayu5@vols.utk.edu).
