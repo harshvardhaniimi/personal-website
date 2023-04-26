@@ -14,7 +14,11 @@ tags: []
 
 ## Introduction
 
-Many people may ask what ChatGPT is. To answer this question, we asked ChatGPT to "define what ChatGPT is." Here is the definition ChatGPT provided: "ChatGPT is a large language model trained by [OpenAI](https://openai.com/), based on the GPT (Generative Pre-trained Transformer) architecture. It uses deep learning techniques to generate human-like responses to text-based inputs, such as chat messages, emails, or social media posts. ChatGPT has been trained on a vast amount of text data and is capable of understanding natural language and context, allowing it to provide accurate and coherent responses to a wide range of questions and topics. Its capabilities make it a useful tool for various applications, such as chatbots, customer service, and language translation."
+Many people may ask what ChatGPT is. To answer this question, we asked ChatGPT to "define what ChatGPT is." Here is the definition ChatGPT provided:
+
+> ChatGPT is a large language model trained by [OpenAI](https://openai.com/), based on the GPT (Generative Pre-trained Transformer) architecture. It uses deep learning techniques to generate human-like responses to text-based inputs, such as chat messages, emails, or social media posts.
+>
+> ChatGPT has been trained on a vast amount of text data and is capable of understanding natural language and context, allowing it to provide accurate and coherent responses to a wide range of questions and topics. Its capabilities make it a useful tool for various applications, such as chatbots, customer service, and language translation.
 
 This definition means that ChatGPT is an AI-powered chatbot that uses Large Language Models (LLMs) to produce a response. LLMs are trained on massive databases of knowledge or content, allowing them to predict the next "word" in a sentence. They operate at incredible speeds and integrate information from their training database with what they recall from previous conversations with the user. A "word" could be a literary word, piece of code, or any other mode of input.
 
@@ -154,7 +158,7 @@ You can think of self-attention as a way for the AI model to pay different level
 
 This document was prepared to inform and educate students, faculty, and members of the UT ChatGPT Subcommittee of the ChatGPT Taskforce. The sub-committee's feedback has been crucial in shaping the guidance on this subject, and their contributions are greatly appreciated. Special thanks go to Sally Harris and her students for their detailed and constructive feedback on earlier drafts. The opportunity to contribute to this important work has been both rewarding and valuable.
 
-# Additional Resources
+### Additional Resources
 
 1.  [What Is ChatGPT Doing ... and Why Does It Work?---Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
@@ -165,3 +169,15 @@ This document was prepared to inform and educate students, faculty, and members 
 4.  [GPTs are GPTs: An early look at the labor market impact potential of large language models (openai.com)](https://openai.com/research/gpts-are-gpts)
 
 5.  [Future Tools - Find The Exact AI Tool For Your Needs](https://www.futuretools.io/)
+
+## About the Authors
+
+-   **Harshvardhan** is a PhD candidate Business Analytics and Statistics, studying at the Haslam College of Business. You can reach him at [harshvar\@vols.utk.edu](mailto:harshvar@vols.utk.edu).
+
+-   **Sally Corran Harris** is a Distinguished Lecturer and the Associate Director of Undergraduate Studies in the Department of English. You can reach her at [sallycharris\@utk.edu](mailto:sallycharris@utk.edu)**.**
+
+-   **Dania Bilal** is a Professor at the School of Information Sciences. You can get in touch with her at [dania\@utk.edu](mailto:dania@utk.edu).
+
+-   **Lena Shoemaker** is a Writer and BA Candidate (English) in the Department of English. You can email her at [hshoema2\@vols.utk.edu](mailto:hshoema2@vols.utk.edu).
+
+-   **Alexander Yu** is a BS Candidate (Computer Science) in the Department of Electrical Engineering and Computer Science. You can reach him at [ayu5\@vols.utk.edu](mailto:ayu5@vols.utk.edu).
