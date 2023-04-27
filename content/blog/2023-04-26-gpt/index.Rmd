@@ -32,7 +32,7 @@ ChatGPT belongs to a broader class of generative models (see *Appendix* for deta
 
 Transformers with self-attention are programmed to capture intricate patterns in the data. Thus, LLMs develop a response based on the patterns the transformer blocks identify. This type of learning enables ChatGPT and other LLMs to produce answers to prompts quickly." A neural network can be trained to perform a wide range of tasks, such as image classification, object detection, speech recognition, language translation, and text generation." However, LLMs have limitations.
 
-## What ChaptGPT (and LLMs) Can Do
+## What ChatGPT (and LLMs) Can Do
 
 One of the fascinating features of ChatGPT is its ability to generate responses to user input using a language model trained on a vast corpus of human knowledge. The training data for ChatGPT is sourced from a diverse range of text sources, such as books, articles, and web content, and Engineers using natural language processing tools preprocess the data to eliminate irrelevant information and ensure consistency.
 
