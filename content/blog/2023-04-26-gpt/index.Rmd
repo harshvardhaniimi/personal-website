@@ -156,7 +156,7 @@ You can think of self-attention as a way for the AI model to pay different level
 
 ## Acknowledgements
 
-This document was prepared to inform and educate students, faculty, and members of the UT ChatGPT Subcommittee of the ChatGPT Taskforce, especially Prof Chuanren Liu who coordinated the entire process. The sub-committee's feedback has been crucial in shaping the guidance on this subject, and their contributions are greatly appreciated. Special thanks go to Sally Harris and her students for their detailed and constructive feedback on earlier drafts. The opportunity to contribute to this important work has been both rewarding and valuable.
+This document was prepared to inform and educate students, faculty, and the UT ChatGPT sub-committee members of the [ChatGPT Taskforce](https://provost.utk.edu/emergence-of-ai-tools-in-higher-education/). We thank Prof Chuanren Liu (Department of Business Analytics and Statistics) for coordinating the ChatGPT Subcommittee and for providing valuable insights into this article. The sub-committee members\' feedback has been crucial in shaping this article.
 
 ## About the Authors
 
