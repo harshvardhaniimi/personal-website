@@ -1,10 +1,10 @@
 ---
-title: An example of ChatGPT doing amazing things
+title: Comparing two BIG data frames in Pandas
 subtitle: "I needed to compare two data frames with over five million rows. I asked ChatGPT for help. I ended up learning about SHA-256 and hashes."
 summary: "I needed to compare two data frames with over five million rows. I asked ChatGPT for help. I ended up learning about SHA-256 and hashes."
 author: Harshvardhan
 date: '2023-05-06'
-slug: an-example-of-chatgpt-doing-amazing-things
+slug: pandas-compare-df
 categories:
   - life
   - thoughts
@@ -13,9 +13,13 @@ categories:
 tags: []
 ---
 
-Recently, I ran into a situation where I need to compare two huge data frames. When you have five million rows and 100 columns, all.equal function is not a good option. You have to do something creative.
+Recently, I ran into a situation where I need to compare two huge `pandas` data frames. When `df` has five million rows and 100 columns, `all.equal` function is not a good option. I had to do something creative.
 
-Then, I decided to talk to ChatGPT for ideas. Following is my conversation. I learnt how to use
+A straightforward solution was to break down the entire data frame into multiple smaller manageable chunks, and then do element-by-element comparison. With five million rows, this would take me around ten tries, depending on some other factors like runtime memory, etc. But, there must be a better method.
+
+Beginning as a brainstorming activity, I decided to ask ChatGPT for ideas. Rest of this blog is our conversations. Keep reading to learn about "hash collisons", SHA-256 encryption that powers the internet of today.
+
+If you're interested my thoughts and not this Python chat, jump to [How does ChatGPT work?].
 
 #### how to compare if two data frames are same in pandas? tell me an efficient way as my file sizes are huge
 
@@ -49,7 +53,9 @@ print("DataFrames are equal:", result)
 
 This approach first checks basic properties and then compares the hashes of the DataFrames, which is more efficient than element-wise comparison, especially for large DataFrames. Note that this method assumes your DataFrames have a deterministic order. If the row order is not guaranteed, you may want to sort the DataFrames by a unique index before hashing.
 
-This got me interested in hashing, so I asked.
+> This got me interested in hashing, so I asked.
+
+### What is hashing?
 
 Hashing is a process that takes an input (in our case, the DataFrame) and produces a fixed-length string (usually a sequence of numbers and letters), which is the output called the "hash" or "digest". A good hash function has the following properties:
 
@@ -64,6 +70,12 @@ In the context of comparing DataFrames, we use a hash function to create a uniqu
 In the provided code snippet, we use the `hashlib.sha256()` hash function from the Python standard library, which implements the SHA-256 algorithm. This is a widely-used cryptographic hash function that produces a 256-bit (32-byte) hash.
 
 The `pd.util.hash_pandas_object()` function from pandas is used to create a hashable representation of the DataFrame. It computes the hash for each row and returns a Series of hashes. We then hash this Series of hashes using SHA-256 to get a single hash that represents the entire DataFrame. This allows us to efficiently compare large DataFrames by just comparing their hashes.
+
+> Although GPT doesn't say this explicitly, SHA-256 also powers most encryption algorithms today, including protecting apps we love: Whatsapp, Email, Financial Transactions, and my digital garden. Whenever you head "256-bit encryption", it's probably this. I had no clue data frames could be converted to hashes so easily.
+>
+> Also, "hash collison" sounds like a term straight from [The Hitchhiker's Guide to the Galaxy](https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy).[^1]
+
+[^1]: As I was telling Greeshma, this book is the epitome of Sci-Fi. It was my first space adventure book and it delivers. If you haven't already, read it. And then [watch the movie](https://www.rottentomatoes.com/m/hitchhikers_guide_to_the_galaxy). Not the other way around.
 
 #### What is the probability that the data frames are not the same if they have the same hash?
 
@@ -110,13 +122,9 @@ print(rows_with_diff)
 
 This will output a DataFrame with the index, column, and the different values for each DataFrame, making it easier to identify the differences.
 
-## Thoughts
+------------------------------------------------------------------------
 
-GPT models have been making huge strides. In February 2023, Meta launched LLaMA, a relatively small but capable language model, which was soon leaked to the public. The following month saw rapid innovations and developments, including minification efforts, fine-tuning on a laptop, the release of Alpaca, and the creation of GPT4All. By the end of March, open-source GPT-3 models were available, and multimodal training could be achieved in one hour. The open-source language model ecosystem continued to expand and become more accessible for users.
-
-In April, the Koala dialogue model was launched, and it was shown that real humans couldn't consistently tell the difference between it and ChatGPT. Why Berkeley's Koala is critical? It was only trained on public data sources, including some cleverly collected data sources. Some scourged through [Sharegpt.com](https://sharegpt.com/) to find only good responses, and use them in training dataset. This improvement in underlying data more than translated to actual responses.
-
-Open Assistant then released a model and dataset for Alignment via RLHF, which made reinforcement learning from human feedback more accessible to smaller experimenters. As a [Google researcher wrote](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither), the landscape of language models evolved rapidly, with the community no longer dependent on LLaMA and open-source solutions becoming increasingly sophisticated and competitive.
+## How does ChatGPT work?
 
 Last week, some of us researchers at the [University of Tennessee](https://www.harsh17.in/gpt/), wrote up an essay explaining the basics of GPT models. It is for people who are like, "what the heck is this thing and how is it so good?".
 
@@ -124,3 +132,21 @@ Last week, some of us researchers at the [University of Tennessee](https://www.h
 -   ChatGPT can conduct human-like conversations, solve problems, and provide information related to a user's question but may provide inaccurate information, misinterpret context, and perpetuate biases.
 -   LLMs, like ChatGPT, have limitations as they are only as reliable and accurate as the data they have been trained on, and can produce irrelevant or misleading responses due to misinterpretation or hallucination.
 -   Using ChatGPT at face value can hinder creativity, critical thinking, and problem-solving skills, and users should critically evaluate its output and consider its limitations.
+
+Check it out and share your thoughts!
+
+------------------------------------------------------------------------
+
+### AI is developing fast. Light-speed fast.
+
+GPT models have been making huge strides. In February 2023, Meta launched LLaMA, a relatively small but capable language model, which was soon leaked to the public. The following month saw rapid innovations and developments, including minification efforts, fine-tuning on a laptop, the release of Alpaca, and the creation of GPT4All. By the end of March, open-source GPT-3 models were available, and multimodal training could be achieved in one hour. The open-source language model ecosystem continued to expand and become more accessible for users.
+
+In April, the Koala dialogue model was launched, and it was shown that real humans couldn't consistently tell the difference between it and ChatGPT. Why Berkeley's Koala is critical? It was only trained on public data sources, including some cleverly collected data sources. Some scourged through [Sharegpt.com](https://sharegpt.com/) to find only good responses, and use them in training dataset. This improvement in underlying data more than translated to actual responses.
+
+Open Assistant then released a model and dataset for Alignment via RLHF, which made reinforcement learning from human feedback more accessible to smaller experimenters. As a [Google researcher wrote](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither), the landscape of language models evolved rapidly, with the community no longer dependent on LLaMA and open-source solutions becoming increasingly sophisticated and competitive.
+
+When I started my [brain dump on AI](https://www.harsh17.in/ai/) about a year ago, I hadn't imagined things would accelerate this fast. Few months ago when I tried to (not) make [predictions about AI](https://www.harsh17.in/ai2/), I still hadn't imagined this trail. But I like where it's headed. Fast development usually means greater accessibility. In my mind, we should be far less concerned about "AI Takeoff" than unequal access to AI. The future is already here -- it's just not evenly distributed.[^2]
+
+[^2]: [William Gibson riffs on writing and the future \| (ted.com)](https://ideas.ted.com/william-gibson-riffs-on-writing-and-the-future/)
+
+![](images/Screenshot%202023-05-09%20at%202.09.22%20AM.png)
