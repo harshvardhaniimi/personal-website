@@ -16,7 +16,7 @@ Nestled in the arid desert landscape of Rajasthan, India, the quiet town of Push
 
 ### The Divine Pushkar Lake
 
-![](images/386B58A8-B330-4F1B-BB99-17B9BC9860ED_1_105_c.jpeg)
+![](images/lake-at-night-01.png)
 
 > Pushkar Lake at night.
 
