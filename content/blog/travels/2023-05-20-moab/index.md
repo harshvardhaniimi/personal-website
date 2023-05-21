@@ -3,7 +3,7 @@ title: "My 10-Day Escape into Nature's Embrace: A Camping Journey to Moab"
 subtitle: "From barking German shepherds to panoramic mountain vistas, I experienced the unique blend of adventure, history, and tranquility in this 10-day trip through vibrant canvas of the United States."
 summary: "From barking German shepherds to panoramic mountain vistas, I experienced the unique blend of adventure, history, and tranquility in this 10-day trip through vibrant canvas of the United States."
 author: Harshvardhan
-date: '2023-05-20'
+date: '2023-05-21'
 slug: moab
 categories:
   - life
