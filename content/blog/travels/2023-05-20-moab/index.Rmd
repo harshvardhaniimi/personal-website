@@ -128,7 +128,7 @@ What could be more exhilrating than an amusement park perched on the edge of a m
 
 Our penultimate day found us camping near Boise amidst flatlands where cows offered their own unique soundtrack to the starlit night.
 
-It was the clearest sky I've seen in my life. In India, I could see maybe a hundred at best. Now, I can literally see millions of them with my naked eye. It makes me appreciate the job of astronomers. It's seriously like finding a needle in a haystack --- tracking their movements, even identifying them. (To identify them, I use [SkyView Lite](https://apps.apple.com/us/app/skyview-lite/id413936865), a free app.)
+It was the clearest sky I've seen in my life. In India, I could maybe see a hundred stars at best. Now, I can literally see millions of them with my naked eye. It makes me appreciate the job of astronomers. It's seriously like finding a needle in a haystack --- tracking their movements, even identifying them. (To identify them, I use [SkyView Lite](https://apps.apple.com/us/app/skyview-lite/id413936865), a free app.)
 
 ## Day 10 - Wolf Creek Grand Finale
 
