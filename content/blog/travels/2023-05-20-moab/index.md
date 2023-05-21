@@ -1,7 +1,7 @@
 ---
 title: "My 10-Day Escape into Nature's Embrace: A Camping Journey to Moab"
-subtitle: "From barking German shepherds to panoramic mountain vistas, I experienced the unique blend of adventure, history, and tranquility in this 10-day trip through vibrant canvas of the United States."
-summary: "From barking German shepherds to panoramic mountain vistas, I experienced the unique blend of adventure, history, and tranquility in this 10-day trip through vibrant canvas of the United States."
+subtitle: "From dry deserts to panoramic mountain vistas, I experienced the unique blend of adventure, history, and tranquility in this 10-day trip through vibrant canvas of the United States."
+summary: "From dry deserts to panoramic mountain vistas, I experienced the unique blend of adventure, history, and tranquility in this 10-day trip through vibrant canvas of the United States."
 author: Harshvardhan
 date: '2023-05-21'
 slug: moab
@@ -12,7 +12,7 @@ categories:
 tags: []
 ---
 
-Welcome to the story of my 10-day nature escape, a journey from Maupin to Moab that promises a delightful mix of adventure, discovery, and tranquillity. Join me as I traverse vibrant landscapes, make friends with Frank, and delve into the history of Moab along the way.
+Welcome to the story of my 10-day nature escape, a journey from Maupin to Moab to Glenwood Springs that promises a delightful mix of adventure, discovery, and tranquillity. Join me as I traverse vibrant landscapes, make friends with Frank, and delve into the history of Moab along the way.
 
 I present to you not just the well-captured visuals of my experiences, but also the essence of my journey, as I revisit the star-studded nights, adrenaline-filled days, and the soulful quiet in between.
 
@@ -34,19 +34,29 @@ During my journey, I crossed through a town named Madras, which made me think of
 
 ![](images/IMG_8100.png)
 
+> Madras is the old name of Chennai, a south Indian city. Chennai was established as a fort town by the British to monitor and protect their navy. I was surprised to see Madras here in Oregon!
+
 ### Day 3 - Moab Magic Begins
 
-Arriving in Moab was like stepping into a scene from a landscape painting. After two days of camping, a shot shower and cozy bed at Field Station felt great.
+Arriving in Moab was like stepping into a scene from a landscape painting. After two days of camping, a short shower and cozy bed at Field Station felt great.
 
 ![](images/IMG_8192.png)
 
-Our car ride around Arches National Park was a spectacle best appreciated after 4pm, a tip for those keen to avoid crowds and entrance fees. When I later embarked on a bike ride, over 50 cars were queued for entry.
+> Rock formations at the Arches National Park. These are formed due to erosion, initially due to water and now due to air. The forces of erosion are sculpting more than just arches.
+>
+> Balanced Rock (second from right, height 128 ft/39 meters) clearly shows the various layers responsible for this amazing defiance of gravity.The caprock of the hard Slick Rock Member of the Entrada Sandstone is perched upon a pedestal of mudstone. This softer Dewey Bridge Member of the Carmel Formation weathers more quickly than the resistant rock above. Eventually, the faster-eroding Dewey Bridge will cause the collapse of Balanced Rock.
+
+Our car ride around Arches National Park was a spectacle best appreciated after 4pm, a tip for those keen to avoid long wait times (and entrance fees). When I later embarked on a bike ride, over 50 cars were queued for entry.
 
 ![](images/IMG_8172.png)
+
+> Driving through the Arches is the best way to see it all. The inroads are about 30 miles and take you through viewpoints and trail heads. Next day when I was biking, I cycled around 10 miles before (getting tired and) deciding to return to other greenways.
 
 ## Day 4 - Biking Bliss in Moab
 
 ![](images/IMG_8219.png)
+
+> Moab is filled with bike trails all around the Arches and Canyonlands National Parks. You can ride anytime as the parks are open 24 hours.
 
 A day dedicated to biking around Arches National Park and greenways offered a thrilling ride amidst breathtaking scenery. The evening was spent at the Sunset Grill, learning about Charles Steen's history and how Moab emerged from the Uranium mining industry.
 
@@ -58,21 +68,25 @@ His monumental find put Moab on the map, dubbing it the "Uranium Capital of the 
 
 ![](images/download.jpeg)
 
+> Sunset Grill, a family-owned restaurant which used to be home of Charles Steen --- godfather of Uranium mining in Moab.
+
 Despite losing his riches, Steen's legacy lives on. His mansion, now the Sunset Grill restaurant, stands as a testament to his influence, overlooking Moab just as Steen once did. From rags to riches and back to rags, Steen's story remains etched in the annals of Moab's history.
 
 ## Day 5 - Brewing Stories and Adventures
 
 ![](images/vc4s4NY7S5O7g6r1SJnjlA.png)
 
+> Say hi to Frank!
+
 From visiting the Moab Brewery to hiking in Corona Arch, the day was a mix of exhilarating exertion and soothing relaxation. Richard's 4x4 off-roading took us halfway through Poison Spider Trail, offering strong adrenaline rush.
 
 ![](images/IMG_8296.png)
 
-> Corona Arch Hike, Canyonlands National Park.
+> Corona Arch Hike, Canyonlands National Park. The hike was short (3 miles) but had a steep climb on the hills. At one place, chains were provided to hold tight but not everyone needed them.
 
 ![](images/IMG_8314.png)
 
-> Historic Uranium mines. You can see the paths used by transportation trucks that are now used by OHV and ATV vehicles.
+> Historic Uranium mines. You can see the paths used by transportation trucks that are now used by OHV and ATV vehicles. (Canyonlands National Park)
 
 ![](images/IMG_8319.png)
 
@@ -92,6 +106,8 @@ After the previous day's exploits, the camping at Glenwood Springs was an opport
 
 ![](images/SH3_3714.png)
 
+> Rafting in the strong waves of cold water brought back life in me. By the way, cold showers are known to [elevate mood](https://www.medicalnewstoday.com/articles/325725). It is one of the only known activities that do not cause a dip in endrophins after use. Having a bad day? Take a cold shower!
+
 The day was a cocktail of exhilarating white-water rafting and the serene Iron Mountain Hot Springs, creating a blend of adventure and tranquility unique to Glenwood Springs.
 
 My home state, Jharkhand in India, also has a few hot springs. However, they're so badly maintained and unclean that I hardly ever wanted to visit them. I've taken notes from the Iron Mountains, let's see what becomes of it!
@@ -100,11 +116,15 @@ My home state, Jharkhand in India, also has a few hot springs. However, they're 
 
 ![](images/Swing%20from%20Exclamation%20Point%20medium.jpg)
 
+> Giant swing at the Glenwood Springs Amusement Park.
+
 What could be more exhilrating than an amusement park perched on the edge of a mountain? The rides, terrifying yet thrilling, boosted my adrenaline levels to all-time highs.
 
 ## Day 9 - A Slice of Idaho
 
 ![](images/IMG_8439.jpeg)
+
+> US is darn pretty. 🥺
 
 Our penultimate day found us camping near Boise amidst flatlands where cows offered their own unique soundtrack to the starlit night.
 
@@ -112,7 +132,11 @@ It was the clearest sky I've seen in my life. In India, I could see maybe a hund
 
 ## Day 10 - Wolf Creek Grand Finale
 
-![](images/IMG_8467-01.gif)We saved the best for last - camping at Wolf Creek, arguably the most picturesque spot of our trip. It was a fitting finale to an unforgettable journey that etched an indelible memory on our hearts.
+![](images/IMG_8467-01.gif)
+
+> Playing fetch with Frank. He didn't give away this stick to me, ever. Maybe the game should be throw not fetch.
+
+We saved the best for last - camping at Wolf Creek, arguably the most picturesque spot of our trip. It was a fitting finale to an unforgettable journey that etched an indelible memory on our hearts.
 
 ## Nature: A Never-ending Panorama of Vibrancy
 
