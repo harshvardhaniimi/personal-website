@@ -3,7 +3,7 @@ title: 'From Mythology to Modernity: The Dual Faces of Pushkar'
 subtitle: "This winter I visited Pushkar, home to the iconic Pushkar Lake and one of the few Brahma temples in the world. It is a town where tranquility and vibrancy coexist, where ancient mythology mingles with a modern lifestyle. Explore the flavors of Pushkar, the colorful markets, and learn the stories behind the rarity of Brahma temples."
 summary: "This winter I visited Pushkar, home to the iconic Pushkar Lake and one of the few Brahma temples in the world. It is a town where tranquility and vibrancy coexist, where ancient mythology mingles with a modern lifestyle. Explore the flavors of Pushkar, the colorful markets, and learn the stories behind the rarity of Brahma temples."
 author: Harshvardhan
-date: '2023-05-20'
+date: '2023-01-20'
 slug: pushkar
 categories:
   - life
