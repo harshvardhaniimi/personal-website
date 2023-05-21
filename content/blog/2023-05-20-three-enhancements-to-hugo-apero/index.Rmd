@@ -12,7 +12,7 @@ tags: []
 draft: false
 ---
 
-[Hugo Apero](https://hugo-apero.netlify.app/) is the Blogdown template I use for this website. The template ships with great defaults, the best of all Hugo templates in my opinion. Beyond those defaults, it provides many options to modify your website in a meaningful way. In this blogpost, I list out three good ones.
+[Hugo Apero](https://hugo-apero.netlify.app/) is the Blogdown template I use for this website. The template ships with great defaults, the best of all Hugo templates in my opinion. Beyond those defaults, it provides many options to modify your website in a meaningful way. In this blog, I list out three good ones.
 
 From changing the color theme and adding a custom search bar, to customizing the fonts, each of these tweaks can significantly enrich your site's aesthetic and functionality. So buckle up as we delve into the nuances of the Hugo Apero template, and let's unlock the potential of your website!
 
