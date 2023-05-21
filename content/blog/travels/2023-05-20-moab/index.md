@@ -16,7 +16,7 @@ Welcome to the story of my 10-day nature escape, a journey from Maupin to Moab t
 
 I present to you not just the well-captured visuals of my experiences, but also the essence of my journey, as I revisit the star-studded nights, adrenaline-filled days, and the soulful quiet in between.
 
-### Day 1 - First Steps and Pawprints
+## Day 1 - First Steps and Pawprints
 
 ![](images/CDF33BC8-3C84-46A2-8335-9B7581DBD1C1.png)
 
@@ -114,7 +114,7 @@ It was the clearest sky I've seen in my life. In India, I could see maybe a hund
 
 ![](images/IMG_8467-01.gif)We saved the best for last - camping at Wolf Creek, arguably the most picturesque spot of our trip. It was a fitting finale to an unforgettable journey that etched an indelible memory on our hearts.
 
-## Conclusion
+## Nature: A Never-ending Panorama of Vibrancy
 
 As I conclude this journey, a vibrant canvas of experiences, sights, and sounds unfurls behind me. From our first pawprints in Maupin to the grand finale at Wolf Creek, each day was a unique chapter in this unforgettable journey. The thrill of white-water rafting, the serenity of the hot springs, the adrenaline rush of off-road driving and the giant swing, and the tranquillity under the Idaho starlight and hot springs -- all these experiences have etched themselves into the core of my being.
 
