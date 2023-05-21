@@ -116,6 +116,12 @@ It was the clearest sky I've seen in my life. In India, I could see maybe a hund
 
 ## Conclusion
 
-As I conclude this journey, a vibrant canvas of experiences, sights, and sounds unfurls behind me. From our first pawprints in Maupin to the grand finale at Wolf Creek, each day was a unique chapter in this unforgettable journey. The thrill of white-water rafting, the serenity of the hot springs, the adrenaline rush of off-road driving, and the tranquillity under the Idaho starlight -- all these experiences have etched themselves into the core of my being.
+As I conclude this journey, a vibrant canvas of experiences, sights, and sounds unfurls behind me. From our first pawprints in Maupin to the grand finale at Wolf Creek, each day was a unique chapter in this unforgettable journey. The thrill of white-water rafting, the serenity of the hot springs, the adrenaline rush of off-road driving and the giant swing, and the tranquillity under the Idaho starlight and hot springs -- all these experiences have etched themselves into the core of my being.
 
-This trip was more than just an escape into nature; it was a passage into self-discovery, history, and the sheer wonder of our vast, vibrant world. As I pack up my memories along with my camping gear, I carry with me a renewed sense of wonder and a heart full of gratitude for this magnificent journey. Until the next adventure, keep exploring, stay curious, and never stop appreciating the beauty of the world we live in.
+This trip was more than just an escape into the wild; it was a passage into history and size of our vast, vibrant nature, specifically the United States countryside. As I pack up my memories along with my camping gear, I carry with me a renewed sense of wonder and a heart full of gratitude for this magnificent life.
+
+Until the next adventure, keep exploring, stay curious, and never stop appreciating the beauty of the world we live in.
+
+------------------------------------------------------------------------
+
+*May all beings, living or non-living, visible or invisible, be at peace.*
