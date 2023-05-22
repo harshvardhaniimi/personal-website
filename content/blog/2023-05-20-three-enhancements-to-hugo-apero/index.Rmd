@@ -105,7 +105,9 @@ You like it spicy? Me too. Let's play with some nontraditional fonts from Google
   customheadingFontFamily = "Nanum Myeongjo"
 ```
 
-Push the commits to Github and enjoy your new fonts! If you're not sure which fonts to choose, my advice is experiment, experiment and experiment. Jonathan Hoefler, who created fonts for Apple, Obama's Change campaign, and more, did an episode on typeface design: ["Abstract: The Art of Design" (Netflix)](https://jonathanhoefler.com/documentary). The linked site is an introduction to typeface fundamentals.
+Push the commits to Github and enjoy your new fonts! If you're not sure which fonts to choose, my advice is experiment, experiment and experiment. Jonathan Hoefler, who created fonts for Apple, Obama's Change campaign, and more, did an episode on typeface design: ["Abstract: The Art of Design" (Netflix)](https://jonathanhoefler.com/documentary).[^3] The linked site is an introduction to typeface fundamentals.
+
+[^3]: Hat tip to Dea for the recommendation.
 
 ## And that's a wrap!
 
