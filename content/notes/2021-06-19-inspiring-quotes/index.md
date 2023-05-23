@@ -25,6 +25,12 @@ I also made a website using R-Shiny that scraps a random Wikiquote and puts it i
 
 In no particular order, they are:
 
+*Coincidence and intention are two sides of a tapestry, my lord. You may find one more agreeable to look at, but you cannot say one is true and the other is false.* --- Ted Chiang, Exhalation
+
+*Cherish your visions; cherish your ideals; cherish the music that stirs in your heart, the beauty that forms in your mind, the loveliness that drapes your purest thoughts, for out of them will grow all delightful conditions, all, heavenly environment; of these, if you but remain true to them, your world will at last be built.* --- James Allen, As a Man Thinketh
+
+*Every man is where he is by the law of his being; the thoughts which he has built into his character have brought him there, and in the arrangement of his life there is no element of chance, but all is the result of a law which cannot err.* --- James Allen, As a Man Thinketh
+
 *The world will ask you who you are, and if you don't know, the world will tell you.* --- Carl Jung
 
 *I used to be a scientist. I warned the town about upcoming volcano. And then it became all about weed.* --- Randy, South Park
