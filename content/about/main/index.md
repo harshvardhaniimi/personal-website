@@ -22,6 +22,7 @@ intro: |
 show_outro: true
 
 outro: |
+  This site uses Google Analytics for basic usage statistics. I do not collect any personal information. If you want to opt-out of Google Analytics tracking, please install the [Google Analytics Opt-out Add-on](https://tools.google.com/dlpage/gaoptout) for your browser.
   <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://www.buymeacoffee.com/harsh17)!
   <script async src="https://cse.google.com/cse.js?cx=7d9698c281e7d2001"></script>
   <div class="gcse-search"></div>
