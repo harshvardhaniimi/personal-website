@@ -136,7 +136,11 @@ It was the clearest sky I've seen in my life. In India, I could maybe see a hund
 
 > Playing fetch with Frank. He didn't give away this stick to me, ever. Maybe the game should be throw not fetch.
 
-We saved the best for last - camping at Wolf Creek, arguably the most picturesque spot of our trip. It was a fitting finale to an unforgettable journey that etched an indelible memory on our hearts.
+We saved the best for last - camping at Wolf Creek, arguably the most picturesque spot of our trip. With the ground full of daisies, clear water and sky. It was a fitting finale to an unforgettable journey that etched an indelible memory on our hearts.
+
+![](images/IMG_8465.png)
+
+![](images/IMG_8461.png)
 
 ## Nature: A Never-ending Panorama of Vibrancy
 
@@ -145,6 +149,16 @@ As I conclude this journey, a vibrant canvas of experiences, sights, and sounds 
 This trip was more than just an escape into the wild; it was a passage into history and size of our vast, vibrant nature, specifically the United States countryside. As I pack up my memories along with my camping gear, I carry with me a renewed sense of wonder and a heart full of gratitude for this magnificent life.
 
 Until the next adventure, keep exploring, stay curious, and never stop appreciating the beauty of the world we live in.
+
+## Map of All Places
+
+Here's an [interactive map](https://felt.com/map/Moab-Camping-Trip-w6ruwOS9BTj6BBMxRnXTaAD?lat=42.127488&lon=-114.992257&zoom=6.53) showcasing all the places we've visited. Please note, the exact routes aren't accurate, but each location's placement is correct. For precise directions, you might prefer using Google Maps or Gaia. This map was created using Felt.com, a user-friendly tool for making interactive maps. Click on the points to learn more about each location.
+
+Happy exploring!
+
+<iframe width="100%" height="450" frameborder="0" title="Felt Map" src="https://felt.com/embed/map/Untitled-Map-w6ruwOS9BTj6BBMxRnXTaAD?lat=42.167957&amp;lon=-114.683777&amp;zoom=5.47">
+
+</iframe>
 
 ------------------------------------------------------------------------
 
