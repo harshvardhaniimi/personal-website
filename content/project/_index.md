@@ -12,7 +12,7 @@ description: Home sweet home to my projects 🏠
 layout: list-grid
 show_author_byline: false
 show_button_links: false
-show_post_date: false
+show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Harshvardhan
