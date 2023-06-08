@@ -10,4 +10,6 @@ headline: |
 
 Here, you can find my academic [publications](/publications/), fun [projects](/project/) I've tried, stuff I'd like people to [care](/talk/) about, some random [musings](/blog/) and [notes](/note/) on my favourite things.
 
-Recently, I started a weekly [curated newsletter](https://www.harsh17.in/next/) on data science and R: "Next --- Today I Learned About R". It's been loved by more than a hundred learners so far.
+I also write a *free* weekly curated newsletter on data science: [Next](https://www.harsh17.in/next/). Five stories. Four R/Python packages. Three jargons. Two Tweets. One meme. It has over 300 subscribers. Sign up to receive the next issue coming Wednesday morning!
+
+<iframe src="https://hvsc1708.substack.com/embed" width="640" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>

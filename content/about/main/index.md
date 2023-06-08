@@ -5,13 +5,13 @@ number_featured: 3 # pulling from mainSections in config.toml
 number_categories: 5 # set to zero to exclude
 show_intro: true
 intro: |
-  I am currently a doctoral student of Business Analytics and Statistics at the Haslam College of Business, [the University of Tennessee](https://haslam.utk.edu/business-analytics-statistics), under the supervision of [Prof ChuanRen Liu](https://datamining.utk.edu/). For more than a year, I have also been a data science intern with the [Strategic Planning and Modelling team at HP Inc](https://www.wikiwand.com/en/HP_SPaM).
+  I'm a doctoral student in [Business Analytics and Statistics](https://haslam.utk.edu/business-analytics-statistics/about/) department at the Haslam College of Business, [the University of Tennessee](https://haslam.utk.edu/business-analytics-statistics), advised by [Prof ChuanRen Liu](https://datamining.utk.edu/). Alongside my studies, for over a year now, I've been delving into the world of forecasting with the Strategic Planning and Modelling team at [HP Inc](https://www.wikiwand.com/en/HP_SPaM).
 
-  Previously I earned my BA and MBA from [IIM Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/) in April 2021. I was also an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) scholar at the [University of Latvia](https://www.lu.lv/en/) between Feb-Jun 2019. I completed my schooling at [Sainik School Tilaiya](https://www.sainikschooltilaiya.org/) in 2016.
+  My academic journey began with a BA and MBA from the [Indian Institute of Management, Indore](https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/), advised by [Prof Pritam Ranjan](https://sites.google.com/site/drpritamranjan/), graduated in April 2021. During this time, I had the opportunity to be an [ERASMUS+](https://ec.europa.eu/programmes/erasmus-plus/node_en) scholar at the [University of Latvia](https://www.lu.lv/en/) for a semester. [Sainik School Tilaiya](https://www.sainikschooltilaiya.org/) made me who I am.
 
-  I enjoy programming, especially [#rstats](https://www.harsh17.in/blog/r/). In my free time, I [read books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23), participate in adventure sports, and lift my spirits with Calvin and Hobbes. [Spotify](https://open.spotify.com/user/6z25jqql0glx8o5aqhp8xkumr) has boosted how much I listen to music; my playlist of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f) is popular on Spotify.
-  
-  If you found anything useful on my website, [please tell me](mailto:hello@harsh17.in).
+  When I'm not neck-deep in data, you'll often find me [writing](/blog). Or lost in the wonderful world of [books](https://www.goodreads.com/review/list/66858367-harshvardhan?shelf=%23ALL%23). For a good adrenaline rush, I love participating in adventure sports. And nothing lifts my spirits like a good Calvin and Hobbes comic! Music is my constant companion, thanks to [Spotify](https://open.spotify.com/user/6z25jqql0glx8o5aqhp8xkumr). You might enjoy my curation of [Classical Hindi Music](https://open.spotify.com/playlist/2n6mpS4UvR3bXIpF1mrTFX?si=1ff29dd310e44d8f), it's quite a hit on Spotify.
+
+  I'd be thrilled to know what you think about my digital garden. Feel free to share your thoughts and feedback at [hello@harsh17.in](mailto:hello@harsh17.in). Let's connect!
 
   [Curriculum vitae](/docs/cv.pdf)
   
@@ -22,8 +22,7 @@ intro: |
 show_outro: true
 
 outro: |
-  This site uses Google Analytics for basic usage statistics. I do not collect any personal information. If you want to opt-out of Google Analytics tracking, please install the [Google Analytics Opt-out Add-on](https://tools.google.com/dlpage/gaoptout) for your browser.
-  <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://www.buymeacoffee.com/harsh17)!
+  This site uses Google Analytics and Microsoft Clarity to collect non-personal, aggregated usage data. It helps me remain motivated to maintain my digital garden. If you do not want your data to be collected, please use an ad-blocker. Thanks for stopping by!
   <script async src="https://cse.google.com/cse.js?cx=7d9698c281e7d2001"></script>
   <div class="gcse-search"></div>
 ---
