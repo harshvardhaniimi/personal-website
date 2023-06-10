@@ -50,8 +50,6 @@ The day ended on a flavorful note at Wasabi Sushi & Izakaya. Here, I ordered a b
 
 I also met Bob and Jenny, friends of friend. Bob grew up in India and we had Thupka at [The Everest Kitchen](https://goo.gl/maps/46YLKBaWbFhrdWti9). [Thupka](https://www.wikiwand.com/en/Thukpa) is a Tibetean soupy noodles that's super popular in India. I think I was having it after 4-5 years.
 
-![](images/Thupka.jpg)
-
 ## Chihuly Garden and Glass
 
 The next day was all about exploring Seattle's cultural side. It started with a visit to the Chihuly Garden and Glass museum, a place where the art of [Dale Chihuly](https://www.wikiwand.com/en/Dale_Chihuly) comes alive in a spectacular fashion. The vibrantly colored glass sculptures, beautifully intertwined with nature, offered a visual spectacle unlike any other.
@@ -112,7 +110,7 @@ A walk around Seattle gave me glimpses of the city's modern architectural marvel
 
 ## Seattle Aquarium
 
-Quick question: can you identify this fish?
+### Can you identify this fish?
 
 ![](images/IMG_8655.png)
 
