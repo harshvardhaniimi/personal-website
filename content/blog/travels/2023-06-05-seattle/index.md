@@ -1,5 +1,7 @@
 ---
 title: 'Seattle: Echoes of Home in the Emerald City'
+subtitle: "Sometimes, a journey far from home can unexpectedly transport you back to cherished memories. Such was my experience during my two-day sojourn in Seattle, the Emerald City. Seattle's urban charm, combined with its vibrant market scene, immediately stirred recollections of bustling 'Sabzi Bazaars' back home in India, igniting a sense of nostalgia and familiarity that added a unique warmth to my adventure."
+summary: "Sometimes, a journey far from home can unexpectedly transport you back to cherished memories. Such was my experience during my two-day sojourn in Seattle, the Emerald City. Seattle's urban charm, combined with its vibrant market scene, immediately stirred recollections of bustling 'Sabzi Bazaars' back home in India, igniting a sense of nostalgia and familiarity that added a unique warmth to my adventure."
 author: Harshvardhan
 date: '2023-06-05'
 slug: seattle
