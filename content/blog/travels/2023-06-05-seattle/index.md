@@ -12,7 +12,7 @@ categories:
 tags: []
 ---
 
-Sometimes, a journey far from home can unexpectedly transport you back to cherished memories. Such was my experience during my two-day sojourn in Seattle, the Emerald City. Seattle's urban charm, combined with its vibrant market scene, immediately stirred recollections of bustling "Sabzi Bazaars" back home in India, igniting a sense of nostalgia and familiarity that added a unique warmth to my adventure.
+Sometimes, a journey far from home can unexpectedly transport you back to cherished memories. Such was my experience during my two-day sojourn in Seattle, the Emerald City. Seattle's urban charm, combined with its vibrant market scene, immediately stirred recollections of bustling "Sabzi Bazaars" back home in India, igniting a sense of nostalgia and familiarity that added warmth to my adventure.
 
 But, let's start from the beginning.
 
