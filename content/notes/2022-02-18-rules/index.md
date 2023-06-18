@@ -40,6 +40,8 @@ tags: []
 
 14. Ask dumb questions. Don't be afraid to be wrong.
 
+15. Don't use alarm everyday. Only use when you've to wake up at a specific time. Let your brain rest.
+
 [^1]: [http://carl.flax.ie/](http://carl.flax.ie/dothingstellpeople.html)
 
 [^2]: Darwin writes in his autobiography that he found it necessary to write down every piece of evidence which appeared to contradict his beliefs because otherwise they would disappear from his mind. When you find apparent flaws you've got to be sensitive and keep track of those things, and keep an eye out for how they can be explained or how the theory can be changed to fit them.
