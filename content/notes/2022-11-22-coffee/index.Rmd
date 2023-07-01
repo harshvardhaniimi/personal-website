@@ -9,6 +9,7 @@ categories:
   - life
   - thoughts
 tags: []
+draft: true
 ---
 
 ![](images/Image-01.jpeg)
@@ -63,7 +64,7 @@ Here are the coffees I've tried.
 
 These are some of the cafes I've tried in Knoxville.
 
-```{r warning=FALSE, echo=FALSE, message = FALSE}
+```{r warning=FALSE, echo=FALSE, message = FALSE, eval = FALSE}
 library(tidyverse)
 readxl::read_excel("/Users/harshvardhan/Dropbox/personal-website/content/notes/2022-11-22-coffee/ratings.xlsx") %>% 
   DT::datatable(rownames = FALSE)
