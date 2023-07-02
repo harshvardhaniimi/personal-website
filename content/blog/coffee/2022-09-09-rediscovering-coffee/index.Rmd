@@ -1,7 +1,7 @@
 ---
 title: 'Rediscovering Coffee: A Newfound Hobby'
-subtitle: "How did I found a new hobby of making coffee and surprising everyone with my methods? By liking friends and making bad coffee."
-summary: "How did I found a new hobby of making coffee and surprising everyone with my methods? By liking friends and making bad coffee."
+subtitle: "How did I found a new hobby of making coffee and surprising everyone with my methods? By making bad coffee."
+summary: "How did I found a new hobby of making coffee and surprising everyone with my methods? By making bad coffee."
 author: Harshvardhan
 date: '2022-09-09'
 slug: rediscovering-coffee
