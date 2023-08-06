@@ -14,6 +14,16 @@ tags: []
 
 Recently, our research on end to end inventory prediction and contract allocation model got accepted to [KDD 2023 Conference](https://kdd.org/kdd2023/). I will be presenting the paper in Long Beach, CA between August 6-10, 2023. KDD (29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining) is the premier conference on data science. I am thrilled to be sharing our research and getting your feedback for improvement in two months. See you there!
 
+### Links
+
+-   [Paper PDF](/docs/kdd2023/E2E_Paper.pdf)
+
+-   [Slides](/docs/kdd2023/E2E_Slides.pdf)
+
+-   [Poster](/docs/kdd2023/E2E_Poster.pdf)
+
+-   [Video](https://www.youtube.com/watch?v=Ghh8qRZDFJw)
+
 ### Abstract
 
 Guaranteed Delivery (GD) advertising plays an essential part in e-commerce marketing, where the ad publisher signs contracts with advertisers in advance by promising delivery of advertising impressions to fulfill targeting requirements for advertisers. Previous research on GD advertising mainly focused on online serving yet overlooked the importance of contract allocation at the GD selling stage.
