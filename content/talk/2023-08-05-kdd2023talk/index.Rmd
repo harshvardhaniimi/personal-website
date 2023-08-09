@@ -17,9 +17,9 @@ categories:
 tags: []
 ---
 
-On August 7, 2023, I present our research work with Alibaba Inc. on predicting and allocating inventory using a single step model.
+Recently, our research on end to end inventory prediction and contract allocation model got accepted to [KDD 2023 Conference](https://kdd.org/kdd2023/). I presented our paper in Long Beach, CA between August 6-10, 2023. KDD (29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining) is the premier conference on data science. 
 
-[Details to be updated]
+Following are the links to the paper, slides, poster and a two-minute overview of our research work. If you have any questions, feel free to email!
 
 ### Links
 
@@ -30,3 +30,23 @@ On August 7, 2023, I present our research work with Alibaba Inc. on predicting a
 -   [Poster](/docs/kdd2023/E2E_Poster.pdf)
 
 -   [Video](https://www.youtube.com/watch?v=Ghh8qRZDFJw)
+
+### Abstract
+
+Guaranteed Delivery (GD) advertising plays an essential part in e-commerce marketing, where the ad publisher signs contracts with advertisers in advance by promising delivery of advertising impressions to fulfill targeting requirements for advertisers. Previous research on GD advertising mainly focused on online serving yet overlooked the importance of contract allocation at the GD selling stage.
+
+Traditional GD selling approaches consider impression inventory prediction and contract allocation as two separate stages.
+
+However, such a two-stage optimization often leads to inferior contract allocation performance. In this paper, our goal is to reduce this performance gap with a novel end-to-end approach. Specifically, we propose the Neural Lagrangian Selling (NLS) model to jointly predict the impression inventory and optimize the contract allocation of advertising impressions with a unified learning objective.
+
+To this end, we first develop a differentiable Lagrangian layer to backpropagate the allocation problem through the neural network and allow direct optimization of the allocation regret. Then, for effective optimization with various allocation targets and constraints, we design a graph convolutional neural network to extract predictive features from the bipartite allocation graph. Extensive experiments show that our approach can improve GD selling performance compared with existing two-stage approaches.
+
+Particularly, our optimization layer can outperform the baseline solvers in both computational efficiency and solution quality.
+
+To the best of our knowledge, this is the first study to apply the end-to-end prediction and optimization approach for industrial GD selling problems. Our work has implications for general prediction and allocation problems as well.
+
+### Citation
+
+Wuyang Mao, Chuanren Liu, Yundu Huang, Zhonglin Zu, M Harshvardhan, Liang Wang, and Bo Zheng. 2023. End-to-End Inventory Prediction and Contract Allocation for Guaranteed Delivery Advertising. In *Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '23)*, August 6--10, 2023, Long Beach, CA, USA.
+
+I sincerely thank [Prof ChuanRen Liu](https://datamining.utk.edu/) for his guidance on this project and the opportunity to contribute meaningfully.
