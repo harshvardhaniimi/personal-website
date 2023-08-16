@@ -77,7 +77,7 @@ Website: <https://sites.google.com/view/edchi/>
 
     -   Similar to how we had to deal with recommender system outputs
 
-![](images/IMG_9426.png)![](images/IMG_9425.png)![](images/IMG_9424-01.png)![](images/IMG_9423.png)![](images/IMG_9422.png)![](images/IMG_9421.png)
+![](images/IMG_9426.png)![](images/IMG_9425.png)![](images/IMG_9424.png)![](images/IMG_9423.png)![](images/IMG_9422.png)![](images/IMG_9421.png)
 
 ![](images/IMG_9430.png)![](images/IMG_9429.png)![](images/IMG_9428.png)![](images/IMG_9427.png)
 
@@ -108,8 +108,6 @@ Website: <https://sites.google.com/view/edchi/>
 ![](images/IMG_9484.png)![](images/IMG_9480.png)![](images/IMG_9479.png)![](images/IMG_9478.png)![](images/IMG_9477.png)![](images/IMG_9476.png)
 
 # Large Language Models Day
-
-## ![](images/Image.png)
 
 ## Jaime Teevan (Microsoft)
 
