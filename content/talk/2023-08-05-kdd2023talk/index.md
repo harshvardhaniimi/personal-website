@@ -19,7 +19,7 @@ tags: []
 
 Recently, our research on end to end inventory prediction and contract allocation model got accepted to [KDD 2023 Conference](https://kdd.org/kdd2023/). I presented our paper in Long Beach, CA between August 6-10, 2023. KDD (29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining) is the premier conference on data science. 
 
-Following are the links to the paper, slides, poster and a two-minute overview of our research work. If you have any questions, feel free to email!
+Following are the links to the paper, slides, poster and a two-minute overview of our research work. Scroll down for some pictures. If you have any questions, feel free to email!
 
 ### Links
 
@@ -44,6 +44,10 @@ To this end, we first develop a differentiable Lagrangian layer to backpropagate
 Particularly, our optimization layer can outperform the baseline solvers in both computational efficiency and solution quality.
 
 To the best of our knowledge, this is the first study to apply the end-to-end prediction and optimization approach for industrial GD selling problems. Our work has implications for general prediction and allocation problems as well.
+
+### Pictures
+
+![](images/IMG_9533.png)![](images/IMG_9459.png)![](images/IMG_9455.png)
 
 ### Citation
 
