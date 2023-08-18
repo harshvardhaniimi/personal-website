@@ -32,27 +32,132 @@ tags: []
 
 These are only the hikes in US. My hikes in India and Europe aren’t included.
 
-| Name                                                                                                                                       | Location                  | Notes                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|---------------------------------------------------------------------------------|
-| [Alum Cave](https://hikinginthesmokys.com/alum-cave-trail/)                                                                                | Tennessee, US             | Amazing views; easy hike; didn’t go to the top                                  |
-| [Virginia Creeper Trail](https://visitabingdonvirginia.com/landmarks/virginia-creeper-trail)                                               | Virginia, US              | Bike trail; you’ll get dirty, so prepare accordingly                            |
-| [Midnight Hole](https://blueridgemountainlife.com/midnight-hole/)                                                                          | North Carolina, US        | Easy trail; small cliffs to dive as well                                        |
-| [Ozone Falls](https://www.tn.gov/environment/program-areas/na-natural-areas/natural-areas-east-region/east-region-/na-na-ozone-falls.html) | Tennessee, US             | One of its kind waterfall; you can go behind the waterfall                      |
-| [Cade’s Cove](https://www.nps.gov/grsm/planyourvisit/cadescove.htm)                                                                        | Tennessee, US             | Famous for wildlife; I didn’t see any 🫠                                        |
-| [Charlie’s Bunion](https://hikinginthesmokys.com/charlies-bunion/)                                                                         | Tennessee, US             | Delivered what’s promised; loved it                                             |
-| [Shuckstack Fire Tower](https://hikinginthesmokys.com/shuckstack-fire-tower/)                                                              | North Carolina, US        | Uphill is tougher but the views from tower are worth it.                        |
-| [Lacamas Creek Park](https://www.alltrails.com/parks/us/washington/lacamas-creek-park)                                                     | Vancouver, WA             | Easy hike with beautiful sceneries                                              |
-| [Dry Creek Falls](https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike)                                                           | Hood River County, Oregon | Mountainous terrain, fire-parched trees, beautiful waterfall                    |
-| [Clingman’s Dome](https://www.nps.gov/grsm/planyourvisit/clingmansdome.htm)                                                                | North Carolina, US        | Easy walk, beautiful views                                                      |
-| [Grotto Falls, Trillium Gap Trail](https://www.nps.gov/grsm/planyourvisit/grotto-falls.htm)                                                | North Carolina, US        | Good hike, very crowded though                                                  |
-| [Norris Dam Park](https://tnstateparks.com/parks/norris-dam)                                                                               | Tennessee, US             | Alright — not great                                                             |
-| [Rocky Top](https://www.alltrails.com/trail/us/tennessee/rocky-top-from-lead-cove-trailhead)                                               | Tennessee, US             | Flagship for UTK people, steep rocky 20 km hike                                 |
-| [Brushy Mountains, Trillium Gap Trail](https://www.alltrails.com/trail/us/tennessee/brushy-mountain--3)                                    | Tennessee, US             | On Mondays you can see porters with Llamas, crowded till Grotto Falls           |
-| [Cape Disappointment Trail](https://www.alltrails.com/trail/us/washington/cape-disappointment-trail)                                       | Long Beach, WA            | Easy but beautiful trail passing through Lewis-Clark Observatory and Lighthouse |
+<table style="width:99%;">
+<colgroup>
+<col style="width: 49%" />
+<col style="width: 8%" />
+<col style="width: 5%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Location</th>
+<th>Roundtrip Length</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://hikinginthesmokys.com/alum-cave-trail/">Alum Cave</a></td>
+<td>Tennessee, US</td>
+<td>4.4 miles</td>
+<td>Amazing views; easy hike; if you choose not to hike up to Mt. LeConte, you can return from the caves.</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.alltrails.com/trail/us/tennessee/alum-cave-trail-to-mount-leconte">Mt. LeConte via Alum Cave</a></td>
+<td>Tennessee, US</td>
+<td>11.0 miles</td>
+<td><p>Great views; gets successively harder beond Alum Cave.</p>
+<p>There is a lodge at the top for overnight stay.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://visitabingdonvirginia.com/landmarks/virginia-creeper-trail">Virginia Creeper Trail</a></td>
+<td>Virginia, US</td>
+<td>34.3 miles</td>
+<td>10/10 recommended bike trail; you’ll get dirty, so prepare accordingly.</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.alltrails.com/trail/us/north-carolina/mouse-creek-falls-via-big-creek-trail">Mouse Creek Falls</a> / <a href="https://blueridgemountainlife.com/midnight-hole/">Midnight Hole</a></td>
+<td>North Carolina, US</td>
+<td>4 miles</td>
+<td>Easy trail; lots of space for party. Small cliffs to dive as well.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.tn.gov/environment/program-areas/na-natural-areas/natural-areas-east-region/east-region-/na-na-ozone-falls.html">Ozone Falls</a></td>
+<td>Tennessee, US</td>
+<td>1 mile</td>
+<td>One of its kind waterfall where you can go behind the waterfall. Length is short but its rocky and straight downhill so takes time.</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.nps.gov/grsm/planyourvisit/cadescove.htm">Cade’s Cove</a></td>
+<td>Tennessee, US</td>
+<td>10.5 miles</td>
+<td>Famous for wildlife; I didn’t see any 🫠</td>
+</tr>
+<tr class="odd">
+<td><a href="https://hikinginthesmokys.com/charlies-bunion/">Charlie’s Bunion</a></td>
+<td>Tennessee, US</td>
+<td>8.0 miles</td>
+<td>Delivered what’s promised; loved it</td>
+</tr>
+<tr class="even">
+<td><a href="https://hikinginthesmokys.com/shuckstack-fire-tower/">Shuckstack Fire Tower</a></td>
+<td>North Carolina, US</td>
+<td>6.6 miles</td>
+<td>Uphill is tougher but the views from tower are worth it.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.alltrails.com/parks/us/washington/lacamas-creek-park">Lacamas Creek Park</a></td>
+<td>Vancouver, Washington State</td>
+<td>3.5 miles</td>
+<td>Easy hike with beautiful sceneries</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.oregonhikers.org/field_guide/Dry_Creek_Falls_Hike">Dry Creek Falls</a></td>
+<td>Hood River County, Oregon</td>
+<td>4.4 miles</td>
+<td>Mountainous terrain, fire-parched trees, beautiful waterfall</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.nps.gov/grsm/planyourvisit/clingmansdome.htm">Clingman’s Dome</a></td>
+<td>North Carolina, US</td>
+<td>1.3 miles</td>
+<td>Easy walk, beautiful views. Paved roads. Highest point in Smokey Mountains.</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.nps.gov/grsm/planyourvisit/grotto-falls.htm">Grotto Falls, Trillium Gap Trail</a></td>
+<td>North Carolina, US</td>
+<td>2.6 miles</td>
+<td>Good hike, very crowded though</td>
+</tr>
+<tr class="odd">
+<td><a href="https://tnstateparks.com/parks/norris-dam">Norris Dam Park</a> (River Bluff Trail)</td>
+<td>Tennessee, US</td>
+<td>3.0 miles</td>
+<td>Alright — not great</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.alltrails.com/trail/us/tennessee/rocky-top-from-lead-cove-trailhead">Rocky Top</a></td>
+<td>Tennessee, US</td>
+<td><ol start="11" type="1">
+<li>4 miles</li>
+</ol></td>
+<td>Flagship for UTK people, steep rocky. It is <em>hard</em> with okay views.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.alltrails.com/trail/us/tennessee/brushy-mountain--3">Brushy Mountains, Trillium Gap Trail</a> (via Grotto Falls)</td>
+<td>Tennessee, US</td>
+<td>11.2 miles</td>
+<td>On Mondays you can see porters with Llamas, crowded till Grotto Falls.</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.alltrails.com/trail/us/washington/cape-disappointment-trail">Cape Disappointment Trail</a></td>
+<td>Long Beach, Washington</td>
+<td>1.9 miles</td>
+<td>Easy but beautiful trail passing through Lewis-Clark Observatory and Lighthouse</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.nps.gov/arch/planyourvisit/biking.htm">Arches National Park</a></td>
+<td>Moab, Utah</td>
+<td>30 miles</td>
+<td>Astonishing views of the arches. Make stops and get an e-bike.</td>
+</tr>
+</tbody>
+</table>
 
 ### 🪣 Bucket List
 
-- Mount La Conte (it starts from five trailheads. I’ve heard via Alum Cove is the best way.)
 - [Big south fork](https://www.nps.gov/biso/index.htm)
 - [Bald falls](https://www.tnvacation.com/local/tellico-plains-bald-river-falls)
 - Max Patch
@@ -158,6 +263,10 @@ Since I got my VanMoof, I’ve been going on bike trips every so often.
 
 - Cliff Jumping
 
-- ~~Bungee Jumping~~
+- Scuba with Bull sharks, Beqa Lagoon and Yasawa Islands - Fiji
+
+- Tonga, whale swimming
+
+- Marsha Shagra, Egypt - untuned diving in Red Sea
 
 [^1]: Bonus point for [Dea’s](https://deabardhoshi.medium.com) company.
