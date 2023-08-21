@@ -1,7 +1,7 @@
 ---
 title: 'Predicting Race, Age and Gender from Face: A Small-sample Example with Encoding'
-subtitle: "Using Variational Autoencoders on FairFace dataset of 108,501 facial images, we projected images into latent dimension. Using transfer learning, we applied convolutional neural networks to classify race, age and gender."
-summary: "Using Variational Autoencoders on FairFace dataset of 108,501 facial images, we projected images into latent dimension. Using transfer learning, we applied convolutional neural networks to classify race, age and gender."
+subtitle: "Predicting race, age and gender of faces using Variational Autoencoders and Convolutional Neural Networks."
+summary: "Predicting race, age and gender of faces using Variational Autoencoders and Convolutional Neural Networks."
 author: Harshvardhan, Yu Jiang
 date: '2023-06-03'
 slug: predicting-race-age-and-gender-from-face-a-small-sample-example-with-encoding
