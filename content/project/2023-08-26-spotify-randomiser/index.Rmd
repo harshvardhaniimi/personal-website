@@ -19,7 +19,7 @@ knitr::opts_chunk$set(eval = FALSE)
 
 ![](images/_6306366c-de6a-46be-8e9e-41bd55a73565.jpeg)
 
-As of today, I have 3,455 songs in my liked songs in Spotify. Needless to say, I [really like](https://open.spotify.com/track/7heMX7gyHP0mhTlNgd7Lxd?si=fccfd1c68adc40d7) listening to songs. I have many playlists in my library but almost all playlists require my active attention to maintain.
+As of today, I have 3,455 songs in my liked songs in Spotify (kinda [Trippy](https://open.spotify.com/track/39PmNHf8HzUmhxrql2J6Rf?si=823380d6f55343ed) to say). Needless to say, I [really like](https://open.spotify.com/track/7heMX7gyHP0mhTlNgd7Lxd?si=fccfd1c68adc40d7) listening to songs. I have many playlists in my library but almost all playlists require my active attention to maintain.
 
 I have maintained my playlists religiously. Historically. Not recently. I have grown reliant on Spotify's algorithm to suggest me songs. However, the reliance on algorithm has various pitfalls.
 
