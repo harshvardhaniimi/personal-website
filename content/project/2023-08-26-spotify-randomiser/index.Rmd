@@ -1,10 +1,10 @@
 ---
-title: Spotify Randomiser
+title: Spotify Randomizer
 subtitle: "A new playlist of random songs that I haven't listened in a while generated automatically every Monday"
 summary: "A new playlist of random songs that I haven't listened in a while generated automatically every Monday"
 author: Harshvardhan
 date: '2023-08-26'
-slug: spotify-randomiser
+slug: spotify-randomizer
 categories:
   - coding
   - blog
@@ -39,7 +39,7 @@ Long story short, I needed a way to handle it myself. I needed something that wo
 
 I designed a complete system for myself. The system will look through my library, identify the songs that I liked long ago (more than 90 days ago), create a weighted sample of them based on how old they are from today, and then draw 100 songs from it.
 
-In case you are interested, here is how I did it. The complete code is at [Github](https://github.com/harshvardhaniimi/spotify-randomiser). In this blogpost, I am going to describe the major challenges, how I overcame them, and how you can create a similar automation service with your Spotify **for free**.
+In case you are interested, here is how I did it. The complete code is at [Github](https://github.com/harshvardhaniimi/spotify-randomizer). In this blogpost, I am going to describe the major challenges, how I overcame them, and how you can create a similar automation service with your Spotify **for free**.
 
 ## How I Created My "Discovered" Weekly Playlist?
 
@@ -135,7 +135,7 @@ But first, we need the tokens for the first time.
 
 ### 🌓 Tokens for the first time
 
-You will need to get the access tokens for the [first time](https://open.spotify.com/track/2Gl0FzuLxflY6nPifJp5Dr?si=47794e2e298c4d45). Run the [following script](https://github.com/harshvardhaniimi/spotify-randomiser/blob/main/notebook.ipynb) that gets the tokens.
+You will need to get the access tokens for the [first time](https://open.spotify.com/track/2Gl0FzuLxflY6nPifJp5Dr?si=47794e2e298c4d45). Run the [following script](https://github.com/harshvardhaniimi/spotify-randomizer/blob/main/notebook.ipynb) that gets the tokens.
 
 ```{python}
 redirect_uri = "http://localhost:8000/"
@@ -188,15 +188,15 @@ Here's Spotify's documentation on how to get Client ID and Secret. [developer.sp
 
 ### Got it. Next?
 
-Fork my repository on [Github](https://github.com/harshvardhaniimi/spotify-randomiser). Then, head over to Secrets and Variables, Actions and create these three repository secrets.
+Fork my repository on [Github](https://github.com/harshvardhaniimi/spotify-randomizer). Then, head over to Secrets and Variables, Actions and create these three repository secrets.
 
 ![](images/ss1.png)
 
 You should have the first two from your app and the last from the code snippet I asked you to execute earlier.
 
-## [Humma, humma...](https://open.spotify.com/track/7heMX7gyHP0mhTlNgd7Lxd?si=fccfd1c68adc40d7)
+## [🫶 Humma, humma...](https://open.spotify.com/track/7heMX7gyHP0mhTlNgd7Lxd?si=fccfd1c68adc40d7) 
 
-Now you are done! Eat a 🎂 to celebrate or have a cup of coffee ☕. To test that everything is working, head over to "Actions" tab on your repo, select "Create Randomised Spotify Playlist" workflow and click run workflow.
+Now you are done! Eat a 🎂 to celebrate or have a cup of coffee ☕. To test that everything is working, head over to "Actions" tab on your repo, select "Create Randomized Spotify Playlist" workflow and click run workflow.
 
 It should take around 1-2 minutes and you should see a new playlist on your Spotify library! Pro-tip: pin it for easy access.
 
