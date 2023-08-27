@@ -77,3 +77,5 @@ There are also trends in seasonality. The coverage ratios show spikes at the end
 ```{r echo = FALSE}
 tweetrmd::include_tweet("https://twitter.com/harshbutjust/status/1567357305787744256?s=20&t=I-rIZSodqzNHSv9TFGRI7A")
 ```
+
+![](images/WhatsApp Image 2022-09-06 at 10.41.08 PM.jpeg)

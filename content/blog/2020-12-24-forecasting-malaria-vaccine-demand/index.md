@@ -28,19 +28,22 @@ A vaccine’s coverage in a country or geography depends on several factors: how
 
 Each country will have specific characteristics which are difficult to quantify. Therefore, the best approach is to select countries with “similar” features instead of only one model. We decided to work with the Human Development Index for grouping countries in this work.
 
-![HDI heatmap of world](images/Screenshot%202021-06-17%20at%2010.44.52%20PM.png)
+<figure>
+<img src="images/Screenshot%202021-06-17%20at%2010.44.52%20PM.png" alt="HDI heatmap of world" />
+<figcaption aria-hidden="true">HDI heatmap of world</figcaption>
+</figure>
 
 ### Variables in Modelling
 
 Dependent variable (`Y`) was the time-series coverage ratio of Malaria vaccine for the next T years. `X1` to `X6` were independent variables.
 
--   Y = time-series of coverage ratios for the next T years
--   X1 = Dosage number. The value is k, if k doses of the vaccine have already been given. Multiple dosages result in lower coverage.
--   X2 = Dosage time. The number of months after birth when the first dosage is taken; 0 represents ‘at birth’. Typically, vaccines given at birth have higher coverage as there’s no need to return to the hospital.
--   X3 = Efficacy. The ability of the vaccine to actually prevent the disease. Higher efficacy creates stronger motivation for vaccination.
--   X4 = Incidence per lakh. It is more likely that the parents will give their children the vaccine if the disease’s occurrence is high. When incidences are high, the population is more careful about prevention.
--   X5 = Communicability. Fear of contagion drives vaccination.
--   X6 = Years active. As time passes, coverage naturally grows.
+- Y = time-series of coverage ratios for the next T years
+- X1 = Dosage number. The value is k, if k doses of the vaccine have already been given. Multiple dosages result in lower coverage.
+- X2 = Dosage time. The number of months after birth when the first dosage is taken; 0 represents ‘at birth’. Typically, vaccines given at birth have higher coverage as there’s no need to return to the hospital.
+- X3 = Efficacy. The ability of the vaccine to actually prevent the disease. Higher efficacy creates stronger motivation for vaccination.
+- X4 = Incidence per lakh. It is more likely that the parents will give their children the vaccine if the disease’s occurrence is high. When incidences are high, the population is more careful about prevention.
+- X5 = Communicability. Fear of contagion drives vaccination.
+- X6 = Years active. As time passes, coverage naturally grows.
 
 ## Implementation
 
@@ -58,11 +61,17 @@ We forcasted the coverage for the next 38 years using these assumptions and inpu
 
 Here is the vaccine coverage at two crucial time points: soon after the launch and at the end of the simulation (38 years after launch).
 
-![Vaccine coverage at t=0 and t=38](images/Screenshot%202021-06-17%20at%2011.04.25%20PM.png)
+<figure>
+<img src="images/Screenshot%202021-06-17%20at%2011.04.25%20PM.png" alt="Vaccine coverage at t=0 and t=38" />
+<figcaption aria-hidden="true">Vaccine coverage at t=0 and t=38</figcaption>
+</figure>
 
 Vaccine coverage through the years is as follows:
 
-![vaccine coverage ratio over the years](images/Screenshot%202021-06-17%20at%2011.22.23%20PM.png)
+<figure>
+<img src="images/Screenshot%202021-06-17%20at%2011.22.23%20PM.png" alt="vaccine coverage ratio over the years" />
+<figcaption aria-hidden="true">vaccine coverage ratio over the years</figcaption>
+</figure>
 
 ## What’s Even More Interesting
 
@@ -77,3 +86,5 @@ There are also trends in seasonality. The coverage ratios show spikes at the end
 **However, a more in-depth study is necessary to make any definitive conclusions.**
 
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="hi" dir="ltr">हर साल मलेरिया लाखों जानें लेता है। मलेरिया की वैक्सीन अभी तीन देशों में फील्ड ट्रायल पर है। हमारा मॉडल कहता है की वो दिन अब दूर नहीं जब हम मलेरिया को टाटा - बाय बाय बोलेंगे!<a href="https://twitter.com/rpbreakingnews?ref_src=twsrc%5Etfw">@rpbreakingnews</a> में प्रोफेसर प्रीतम रंजन और मेरे रिसर्च का बयां। <a href="https://twitter.com/IIM_I?ref_src=twsrc%5Etfw">@IIM_I</a> <a href="https://t.co/7m7sKDFUJj">pic.twitter.com/7m7sKDFUJj</a></p>&mdash; Harshvardhan (@harshbutjust) <a href="https://twitter.com/harshbutjust/status/1567357305787744256?ref_src=twsrc%5Etfw">September 7, 2022</a></blockquote>
+
+![](images/WhatsApp%20Image%202022-09-06%20at%2010.41.08%20PM.jpeg)
