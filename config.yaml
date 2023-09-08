@@ -31,8 +31,8 @@ markup:
     startLevel: 2
 params:
   custom_theme: ''
-  customheadingFontFamily: "Crimson Pro"
-  customtextFontFamily: "Open Sans"
+  customheadingFontFamily: "Joan"
+  customtextFontFamily: "Public Sans"
   description: Standing on the Shoulders of Giants
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
