@@ -15,7 +15,13 @@ editor_options:
     wrap: sentence
 ---
 
-![](images/image.jpg)Previously, I've argued that [improbable doesn't mean impossible](/improbable-doesn-t-mean-impossible/).
+![](images/image.jpg)
+
+> "Do not be too timid and squeamish about your actions. All life is an experiment. The more experiments you make the better. What if they are a little coarse, and you may get your coat soiled or torn? What if you do fail, and get fairly rolled in the dirt once or twice. Up again, you shall never be so afraid of a tumble."
+>
+> --- Ralph Waldo Emerson
+
+Previously, I've argued that [improbable doesn't mean impossible](/improbable-doesn-t-mean-impossible/).
 If my old argument isn't convicing enough, I encourage you to take a look at this Veritasium video explaining [why most published research is wrong](https://youtu.be/42QuXLucH3Q).
 
 In the same vein, I am advocating today for you to conduct psychological experiments on youself rather than relying solely on previous research.
@@ -101,3 +107,10 @@ With this experimentation, you are already beyond your comfort zone, and discour
 Instead of relying solely on previously published psychological research, I suggest conducting personal experiments on oneself to test and develop new behaviors and attitudes.
 Experimentation is a cheap and effective way to determine what works best for you, and it allows for personalised results that can be applied directly to one's life.
 By trying new things and modifying one's behavior, a person can discover how to optimize their sleep, cultivate curiosity, or any other aspect of their life one wishes to improve.
+
+## Addendum
+
+Recently, Dea pointed me to this article (and this guy, [Max Hawkins](https://maxhawkins.me/work/randomized_living.html)) who had randomized his life, taking experimentation to the heart.
+This shows me exactly one should strive for --- experimenting new places to visit, new food to eat, and new activities to try.
+
+You can watch his [TED Talk](https://www.youtube.com/watch?v=eKkI6-HeWXo) here.
