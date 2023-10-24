@@ -37,6 +37,47 @@ Adding a small comment with #Script Monkey will save you hours looking through t
 
 Scripts are only the beginning. Later on, you might need to modify more things. In that case, use Data Monkey, Tuning Monkey, Timing Monkey -- and more!
 
+## Data Monkey 🐵
+
+In data analytics or machine learning projects, data modifications are inevitable as new data streams in or data structures evolve.
+
+
+```python
+# Data monkey: Update data source
+data = pd.read_csv('new_data_source.csv')
+
+# Data monkey: Add new features
+data['new_feature'] = data['existing_feature1'] * data['existing_feature2']
+```
+
+Utilize "Data Monkey" comments to mark places where data sources or features may need updates. A quick search for "Data Monkey" will guide you to all data-related modifications at once.
+
+## Tuning Monkey 🐵
+
+Parameter tuning is crucial for optimizing model performance.
+
+
+```python
+# Tuning monkey: Update hyperparameters
+model = RandomForestClassifier(n_estimators=100, max_depth=5)
+```
+
+By marking parameter tuning sections with "Tuning Monkey," you can swiftly locate and adjust model parameters, streamlining the tuning process.
+
+## Timing Monkey 🐵
+
+Project timelines often shift, impacting deadlines and schedules.
+
+
+```r
+# Timing monkey: Update project month
+project_month = '2023-11-01'
+```
+
+Employ "Timing Monkey" comments to highlight date or time-sensitive code segments, aiding in keeping project timelines accurate and up-to-date.
+
+Each Monkey variant simplifies managing different project elements, helping maintain a clean, organized, and efficient workflow.
+
 [Monkey will find its way to you.](https://www.instagram.com/reel/CO8WNMDnjLnKt9Pscy4_74xykrDqwZXAtrG2zw0/)[^1]
 
 [^1]: Featured image credit: <a href='https://www.freepik.com/vectors/cute-monkey'>Cute monkey vector created by catalyststuff - www.freepik.com</a>
