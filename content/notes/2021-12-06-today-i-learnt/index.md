@@ -1,7 +1,7 @@
 ---
 title: Today I Learnt
-subtitle: This is my digital kitchen sink. Basically a dump of cool things.
-summary: This is my digital kitchen sink. Basically a dump of cool things.
+subtitle: This is my digital kitchen sink. Basically a dump of random thoughts as they drop in my brain.
+summary: This is my digital kitchen sink. Basically a dump of random thoughts as they drop in my brain.
 author: Harshvardhan
 date: '2021-12-06'
 slug: til
@@ -16,172 +16,61 @@ categories:
   - statistics
   - thoughts
 tags: []
+draft: true
 ---
 
-This page contains the articles, apps and videos that I've found engaging. Not updated since I started using [Notion](https://www.notion.so/415585b6ae8144f683ef98e961e3b166?v=9abfa8b49ef54100a30deb82bcdf3748) and (more recently) ~~Pocket~~ [Matter](https://hq.getmatter.com).
+### Battle of Palassey
 
-------------------------------------------------------------------------
+When "Clive of India" gained importance in the East India Company --- and managed to survive more than two years in India where most Company officers died from diseases and change in climate, etc. --- he realized the importance of India in making Britannia, more specifically him, rich.
+To him, India was a little more than a treasure of riches, waiting to be "looted" and plundered to exhaustion.
 
-## Data Science
+With the Seven Years War (1756-63) ongoing, the British government didn't want to lose to either the French or the Spanish.
+News reached from their intelligence of a possible attack by French navy in one of the colonies.
+While the British government assumed it was India, more specifically Bengal, the French actually attacked Canada.
+All these extra millitary resources and weaponary reached Robert Clive, a East India Company official's hand.
 
-### Advice Blogs
+Jagat Seth et al., a prominent Indian banker group lead by a man whose name literally translates to "World's Banker", realized what was happening and inspired Clive to attack the Nawab of Bangal, Siraj ud-Daulah.
+Jagat Seth's methods were quite advanced for its time.
+In 16-17th century India, it wasn't easy to transfer wealth --- gold, wheat, and even taxes --- from one city to another.
+While the Mughal Emperror Akbar had established certain protection along the route for traders and travellers en route between major cities, it was nowhere close the "safe".
+There was enough risk that Jagat Seth's plan worked.
 
--   [Advice to aspiring data scientists: start a blog](http://varianceexplained.org/r/start-blog/)
+Jagat Seth's group had bankers in most major cities in India including Kolkata, New Delhi, Mathura, Allahabad, Agra among others.
+Instead of physically transfering the wealth, traders could carry a "Certificate of Deposit" from one city's bankers which could be encashed in the second city.
+Usually charging around 15-20% commission on the gross amount, they made huge profits.
 
--   [Non-Academic Careers for Astronomers and Physicists](https://speakerdeck.com/juliasilge/non-academic-careers-for-astronomers-and-physicists)
+Jagat Seth promised Robert Clive that his group would not only fund the attack against the Nawab, but would also pay the company and Mr Clive a million pounds each.
+To give you a perspective, that is almost a billion dollars in today's currency.
+Clive couldn't possibly say no; it was too good an offer to let go.
+If he lost, he would still have enough for an early retirement; if he won, he would have enough for his coming three generations, and then some.
 
--   Concept of Digital Garden [Vicki Boykis \| Your public garden \| RStudio::rconf, Youtube](https://www.youtube.com/watch?v=E5ERSfydB30)
+What did Jagat Seth have against the Nawab?
 
--   [How Do You Create A Phenomenal Job Talk?](https://bettylai.com/blog/post/phenomenal-job-talks)
+No one particularly liked Siraj ud-Daulah.
+He enjoyed watching people drown by throwing them overboard.
+He lived a lavish life and created unpredictable changes to the laws of land, based on his whims.
+Jagat Seth didn't like it --- it was bad for his business to the East India Company, which still needed to have reliable partners to trade in an unfamiliar territory.
 
--   [Amelia McNamara on Twitter: ""Things that are still on your computer are approximately useless." -\@drob #eUSR #eUSR2017](https://twitter.com/AmeliaMN/status/926509282874585089)<https://t.co/nS3IBiRHBn%22>[/ Twitter](https://twitter.com/AmeliaMN/status/926509282874585089)
+Jagat Seth had high confidence in getting back his borrowings to the company than if made to the Nawab.
+They both understood the concepts of finance and contracts.
+This becomes a lot more obvious in a few decades when the Marathas and Company have almost the same millitary might but Company wins simply because they could keep encashing Bengal and easy loans from Jagat Seth.
 
-### Industry Blogs
+British had been losing the first few days.
+On June 20, 1757, when the British attacked Bengal, they lost badly to Nawab's army.
+Siraj ud-Dhaula captured British soldiers in Fort Williams, Kolkata, and confined them in a small dungeon, leading to numerous deaths due to suffocation and heat.
 
--   Facebook: <https://research.facebook.com/blog/>
+![](images/Screenshot 2023-11-11 at 12.36.45 AM.png)
 
--   Netflix: [https://netflixtechblog.com/](https://netflixtechblog.com/?gi=343beb007429)
+June is the month of Monsoon.
+Its the time of rain.
+As nature had it, it rained heavily for the next two days and the British covered their gunpowder and artiliery to save it from the rain while the Nawab's army couldn't.
+Mir Jafar, Siraj ud-Daulah's Commander betrayed him too.
 
--   Google: <https://ai.googleblog.com/>, <https://blog.google/technology/research/>
+As soon as Clive realised that they had crucially missed this, he attacked early morning and defeated Nawab with almost zero resistence.
+Soon after, Nawab was forced to sign Diwani --- the East India Company now had right to tax the state.
+It was the dawn of colonial rule in India.
 
--   Spotify: <https://engineering.atspotify.com/>, <https://research.atspotify.com/blog/>
+Siraj ud-Daulah met his terrible fate at the hands of Miran, the son of Mir Jafar.
+Mir Jafar was appointed new Nawab of Bengal but he functioned as a puppet ruler for the Company.
+He does realize his mistake a decade later when he takes up against the Company again in the Battle of Buxar in 1964, but the East India Company's army defeat the combined forces of the Nawab of Bengal, the Nawab of Awadh, and the Mughal Emperor.
 
-### Technical Ideas
-
--   [Transfer Learning - Machine Learning's Next Frontier](https://ruder.io/transfer-learning/)
-
--   [Algorithm Archive · Arcane Algorithm Archive, Encyclopedia of algorithms](https://www.algorithm-archive.org/)
-
-### Programming
-
--   [Advent of Code](https://adventofcode.com/) is a programming challenge.
-
--   [Project Euler](https://projecteuler.net/) is similar.
-
-### R
-
--   [My Opinion on R's Upcoming Pipe](https://www.r-bloggers.com/2020/12/my-opinion-on-rs-upcoming-pipe/)
-
--   Why performance is not the issue in R [Why R? 2020 Discussion Panel - Performance in R, Youtube Video](https://www.youtube.com/watch?v=uiEhmKN1RJo)
-
--   Quanteda [Why R? 2020 \| Ken Benoit - Why you should stop using other text mining packages and embrace quanteda](https://www.youtube.com/watch?v=9hEvGBu3cnI)
-
--   [Visualising distributions with raincloud plots and how to create them with ggplot2](https://www.cedricscherer.com/2021/06/06/visualizing-distributions-with-raincloud-plots-and-how-to-create-them-with-ggplot2/)
-
--   [An R User's Note on Learning Python](https://rpubs.com/MenaWANG/LearningPython-Automation1)
-
--   [Jitter in boxplots to show distribution](https://stackoverflow.com/questions/70227169/how-to-plot-the-points-position-correspond-to-the-boxplots)
-
--   [Using databases with Shiny](https://emilyriederer.netlify.app/post/shiny-db/)
-
--   [Martin Wattenberg On Visualizing Large Textual Data \| FlowingData](https://flowingdata.com/2008/07/21/martin-wattenberg-on-visualizing-large-textual-data/)
-
--   [R as a First Programming Language](https://seankross.com/2019/10/27/R-as-a-First-Programming-Language.html)
-
--   [Do We Need Object Oriented Programming in Data Science? \| by Rose Day \| Oct, 2020 \| Towards Data Science](https://towardsdatascience.com/do-we-need-object-orientated-programming-in-data-science-b4a7c431644f)
-
-------------------------------------------------------------------------
-
-## Other Good Reads
-
-### Articles
-
--   [Tech is improving at an exponential rate. Here's what that means for society](https://www.morningbrew.com/emerging-tech/stories/2021/11/24/tech-is-improving-at-an-exponential-rate-here-s-what-that-means-for-society?utm_campaign=mb&utm_medium=newsletter&utm_source=morning_brew&mid=db18db43828180889e38a0bc0e4ac362&uid=MifcoVe3xqQeEeaWE3US3gLv)
-
--   [A free introduction to quantum computing and quantum mechanics, A New Kind of Book](https://quantum.country)
-
--   [Maps, Simpson's Paradox, Sienfield, and what not.](https://michaelnielsen.org/reinventing_explanation/index.html)
-
--   [Here's Why Movie Dialogue Has Gotten More Difficult To Understand (And Three Ways To Fix It)](https://www.slashfilm.com/673162/heres-why-movie-dialogue-has-gotten-more-difficult-to-understand-and-three-ways-to-fix-it/?s=09)
-
--   [Encyclopedic Knowledge, Then vs. Now - The New York Times](https://www.nytimes.com/2009/05/03/business/03digi.html)
-
--   [12ft \| Microsoft Encarta Dies After Long Battle With Wikipedia - The New York Times](https://12ft.io/proxy?q=http://bits.blogs.nytimes.com/2009/03/30/microsoft-encarta-dies-after-long-battle-with-wikipedia)
-
--   [Early Civilizations Had It All Figured Out \| The New Yorker](https://www.newyorker.com/magazine/2021/11/08/early-civilizations-had-it-all-figured-out-the-dawn-of-everything)
-
--   [The Surprisingly Big Business of Library E-books \| The New Yorker](https://www.newyorker.com/news/annals-of-communications/an-app-called-libby-and-the-surprisingly-big-business-of-library-e-books)
-
--   [Martha's Rules for Group Decision Making](https://third-bit.com/2019/06/13/marthas-rules/)
-
--   [Greg Wilson's Ideas](https://third-bit.com/ideas/)
-
--   [Searching for Susy Thunder](https://www.theverge.com/c/22889425/susy-thunder-headley-hackers-phone-phreakers-claire-evans)
-
-### Twitter Threads
-
--   [Jessica Price on Twitter: "Since I've gotten a lot of "why won't you debate me?" in response to talking about tabletop/geekdom's problems, I'll tell you." / Twitter](https://twitter.com/Delafina777/status/839754651230601216)
-
--   [Naval on Twitter: "How to Get Rich (without getting lucky):" / Twitter](https://twitter.com/naval/status/1002103360646823936)
-
-### Blogs (Maths)
-
--   [The Mathematics of Mind-Time](https://getpocket.com/explore/item/the-mathematics-of-mind-time)
-
--   A Brilliant Biography about about Gödel [Kurt Gödel's Brilliant Madness](https://www.privatdozent.co/p/kurt-godels-brilliant-madness)
-
--   How to imagine four or more dimensional objects [Intuitive crutches for higher dimensional thinking](https://mathoverflow.net/questions/25983/intuitive-crutches-for-higher-dimensional-thinking)
-
-### Print
-
-[***Email me***](mailto:harsh@harsh17.in) ***if you need a scanned copy of these items (for personal use only)***
-
--   Chapter on Mental Health in [Bitwise: A Life in Code](https://www.goodreads.com/book/show/35794819-bitwise)
-
--   [Playboy Interview: Steven Jobs, The best interview I've ever read by a margin](https://allaboutstevejobs.com/verbatim/interviews/playboy_1985)
-
--   It's Happened Again by Oscar Schwartz. Wired. Print: February 2022
-
--   The Big Inhale by Vince Beiser. Wired. Print: February 2022
-
-------------------------------------------------------------------------
-
-## YouTube
-
--   [How To Speak by Patrick Winston, MIT OCW](https://www.youtube.com/watch?v=Unzc731iCUY)
-
--   [NASA \| Thermonuclear Art -- The Sun In Ultra-HD (4K)](https://www.youtube.com/watch?v=6tmbeLTHC_0)
-
--   [A Buddhist asks Sadhguru a Puzzling Question #Vipassana](https://www.youtube.com/watch?v=6OdKZRnmRQ0)
-
--   [Most People Don't Know How Bikes Work](https://www.youtube.com/watch?v=9cNmUNHSBac)
-
--   [Joe Rogan Experience #1309 - Naval Ravikant - YouTube](https://www.youtube.com/watch?v=3qHkcs3kG44)
-
-------------------------------------------------------------------------
-
-## Cool Apps
-
--   Chrome [Tab Link Copier - Chrome Web Store](https://chrome.google.com/webstore/detail/tab-link-copier/ijkpnaifgolhlcfhcfamddnlnfjpjaji/related?hl=en)
-
--   Mac [jaywcjlove/awesome-mac:  Now we have become very big, Different from the original idea. Collect premium software in various categories.](https://github.com/jaywcjlove/awesome-mac)
-
--   Mac [serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS.](https://github.com/serhii-londar/open-source-mac-os-apps)<https://t.me/s/opensourcemacosapps>
-
-------------------------------------------------------------------------
-
-## Todoist Blogs
-
--   Benefits of Walking Meetings [Can Walking Meetings Lead to Healthier Lives?](https://blog.doist.com/remote-work-meetings/)
-
--   [60+ Resources for Students Who Want to Stay Productive](https://blog.doist.com/60-resources-students-stay-productive/)
-
--   [Hedonic Adaptation: Why we're never satisfied with what we've already accomplished](https://blog.doist.com/hedonic-adaptation-comic/)
-
--   [The Mere Urgency Effect](https://blog.doist.com/mere-urgency-effect-comic/)
-
--   [The Planning Fallacy: Why We're Terrible at Setting Realistic Deadlines](https://blog.doist.com/planning-fallacy-comic/)
-
--   [The Zeigarnik Effect: Why Unfinished Work Follows Us Home](https://blog.doist.com/zeigarnik-effect-comic/)
-
--   [Complexity Bias: Why We Overcomplicate Our Lives](https://blog.doist.com/complexity-bias-comic/)
-
--   [The Two-Minute Rule: Stop Procrastinating With This Simple Trick](https://blog.doist.com/two-minute-rule/)
-
--   [The Life-Changing Magic of Tidying Up Your To-Do List](https://blog.doist.com/life-changing-magic-tidying-todoist/)
-
--   [The Sunk Cost Fallacy & Your Productivity - Doist Blog](https://blog.doist.com/sunk-cost-fallacy-comic/)
-
-------------------------------------------------------------------------
-
-## 
