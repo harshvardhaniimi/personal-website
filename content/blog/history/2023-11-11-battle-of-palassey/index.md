@@ -1,7 +1,7 @@
 ---
 title: Battle of Palassey
 subtitle: "The Plot Thickens on Battles and Betrayals: Clive, Bengal, and the Birth of an Empire"
-summary: "How did the British East India company, relatively poor in resources, managed to topple the richest kingdom in the world?"
+summary: "How did the British East India company, relatively poor in resources, managed to topple the richest kingdom in the world? Was the company that good, or was it pure luck?"
 author: Harshvardhan
 date: '2023-11-11'
 slug: battle-of-palassey
