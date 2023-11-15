@@ -31,8 +31,8 @@ markup:
     startLevel: 2
 params:
   custom_theme: ''
-  customheadingFontFamily: "Joan"
-  customtextFontFamily: "Public Sans"
+  customheadingFontFamily: "Nanum Myeongjo"
+  customtextFontFamily: "Joan"
   description: Standing on the Shoulders of Giants
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
