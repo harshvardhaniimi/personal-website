@@ -15,15 +15,23 @@ links:
   url: https://harshvardhan.shinyapps.io/quotes_generator/
 ---
 
-There isn't one quote that I love. Euphemisms and quotes keep me lasting. As Zig Ziglar said, "*People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily.*"
+There isn't one quote that I love.
+Euphemisms and quotes keep me lasting.
+As Zig Ziglar said, "*People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily.*"
 
-I would like to have a collection but keep procrastinating. Starting today, I'll add new quotes, as "the best time to plant a tree was twenty years ago, the second-best time is now."
+I would like to have a collection but keep procrastinating.
+Starting today, I'll add new quotes, as "the best time to plant a tree was twenty years ago, the second-best time is now."
 
-I also made a website using R-Shiny that scraps a random Wikiquote and puts it in a nice background. [Check it out!](https://harshvardhan.shinyapps.io/quotes_generator/).
+I also made a website using R-Shiny that scraps a random Wikiquote and puts it in a nice background.
+[Check it out!](https://harshvardhan.shinyapps.io/quotes_generator/).
 
 ------------------------------------------------------------------------
 
 In no particular order, they are:
+
+*Almost everything will work again if you unplug it for a few minutes, including you.* --- Anne Lamott
+
+*If you don\'t bring it with you, you won\'t find it there.* --- Poem on pilgrimage
 
 *Coincidence and intention are two sides of a tapestry, my lord. You may find one more agreeable to look at, but you cannot say one is true and the other is false.* --- Ted Chiang, Exhalation
 
@@ -79,7 +87,8 @@ In no particular order, they are:
 
 *It is not the knowing that is difficult, but the doing.* --- Chinese proverb
 
-*There is always a well-known solution to every human problem---neat, plausible, and wrong.* --- H.L. Mencken
+*There is always a well-known solution to every human problem---neat, plausible, and wrong.* --- H.L.
+Mencken
 
 *You are only as young as the last time you changed your mind.* --- Kevin Kelly
 
