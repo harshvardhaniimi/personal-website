@@ -1,5 +1,7 @@
 ---
 title: Trapped in Beautiful Garden
+subtitle: "A poem on how I'm trapped in Apple's Walled Garden"
+summary: "A poem on how I'm trapped in Apple's Walled Garden"
 author: Harshvardhan
 date: '2023-11-23'
 slug: apple-walled-garden
