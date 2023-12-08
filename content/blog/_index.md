@@ -9,7 +9,7 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: View recent posts
     text_link_url: /blog/
-description: "I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences. You would also find some posts on working with R. Cross-listed on [R-bloggers](https://www.r-bloggers.com/blogs-list/). Subscribe to my non-technical blogs [here](https://landing.mailerlite.com/webforms/landing/e7x1q6)."
+description: "I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences."
 layout: list-sidebar
 show_author_byline: false
 show_button_links: false
@@ -17,10 +17,10 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Harshvardhan
-  description: "I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences. You would also find some posts on working with R. Cross-listed on [R-bloggers](https://www.r-bloggers.com/blogs-list/)."
+  description: "I usually pen down my thoughts here drawing heavily from anecdotes and personal experiences."
   show_sidebar_adunit: false
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
+  text_link_label: Subscribe via Email
+  text_link_url: https://follow.it/harshvardhan?leanpub
   title: Blizzard of Random Thoughts
 thumbnail_left: true
 title: Blizzard of Random Thoughts
