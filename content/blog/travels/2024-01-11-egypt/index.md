@@ -66,7 +66,7 @@ Anubis, the jackal-headed god, guided souls through twelve moral dilemmas, simil
 The heart of the Pharaoh was weighed against a feather to determine his worthiness for the afterlife.
 This ritual, overseen by Osiris, the god of the afterlife, is depicted vividly in ancient artworks.
 
-![](images/Screenshot 2024-01-11 at 6.12.24 PM.png)
+![](images/papyrus.png)
 
 > In this Papyrus[^3] print, Anubis is leading the king through twelve questions (top) and then has his heart being weighed against a feather, after which Osiris is allowing him into afterlife.
 
@@ -77,6 +77,8 @@ This ritual, overseen by Osiris, the god of the afterlife, is depicted vividly i
     Scribes used reed brushes or pens with carbon-based ink to write on papyrus.
     The scrolls, central to administrative, legal, and scholarly work, were often stored in libraries like the famous one at Alexandria.
     The use of papyrus in Egypt gradually declined with the introduction of cheaper parchment and paper but remains a symbol of the country's rich cultural and intellectual heritage.
+
+    The modern word Paper is actually derived from Papyrus.
 
 ![](images/IMG_1518.png)
 
