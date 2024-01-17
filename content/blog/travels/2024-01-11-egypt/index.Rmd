@@ -245,3 +245,11 @@ Museums in Cairo brought ancient stories to life, while the street food tour off
 The political and economic landscape, glimpsed through discussions about elections and the struggling economy, added a layer of complexity to my understanding of contemporary Egypt.
 
 Leaving Egypt, I felt enriched by the experience, having seen a country balancing its impressive heritage with the challenges of the present.
+
+### P.S. Playlist of Egyptian Arabian Songs
+
+During our stay in Egypt, we feel in love with the Egyptian songs.
+Here's a playlist of the ones we Shazamed!
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/45m9EamPM6HsnqRy8LsYrR?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
