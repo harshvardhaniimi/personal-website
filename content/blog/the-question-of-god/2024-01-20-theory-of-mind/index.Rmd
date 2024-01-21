@@ -1,5 +1,7 @@
 ---
 title: Theory of Mind
+subtitle: Four parts of our mind according to Buddha
+summary: Four parts of our mind according to Buddha
 author: Harshvardhan
 date: '2024-01-20'
 slug: theory-of-mind
@@ -9,7 +11,7 @@ categories:
 tags: []
 ---
 
-One day, a disciple complained to the Buddha about his restless mind.
+One day, a disciple complained to the Buddha about his restless mind, 2500 years ago.
 Buddha told him a parable of a tree and the monkey.
 In the story, a monkey climbs a tree and starts eating its fruits.
 Soon, he thinks another tree might have better fruits, and he jumps to it.
