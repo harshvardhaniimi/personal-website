@@ -37,6 +37,7 @@ What was daily life like 4,000 years ago under pharaohs like Tutankhamun, Hatshe
     Some other time.
 
 To bridge the gap between Egypt's past and present, I immersed myself in documentaries on History TV18 and Netflix before embarking on this week-long escapade, reminiscent of an Indiana Jones adventure.
+Soon after, Meenal and I went for week long trip neither of us was fully prepared for.
 
 ![](images/map.png)
 
@@ -246,10 +247,11 @@ The political and economic landscape, glimpsed through discussions about electio
 
 Leaving Egypt, I felt enriched by the experience, having seen a country balancing its impressive heritage with the challenges of the present.
 
-### P.S. Playlist of Egyptian Arabian Songs
+### P.S. Meenal's Blog and Playlist of Egyptian Arabian Songs
 
-During our stay in Egypt, we feel in love with the Egyptian songs.
-Here's a playlist of the ones we Shazamed!
+1.  Meenal also wrote her experience in [her newsletter](https://meenalsingh.substack.com/p/experiencing-egypt-history-streets). Her experience is less factual but more on our experience. Hope you enjoy it too!
+2.  During our stay in Egypt, we feel in love with the Egyptian songs. Here's a playlist of the ones we Shazamed!
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/45m9EamPM6HsnqRy8LsYrR?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/45m9EamPM6HsnqRy8LsYrR?utm_source=generator&amp;theme=0" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
 
+</iframe>
