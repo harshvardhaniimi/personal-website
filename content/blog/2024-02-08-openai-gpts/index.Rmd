@@ -1,5 +1,7 @@
 ---
 title: OpenAI's GPT is a terrific idea
+subtitle: "Revolutionizing Information Retrieval: The Evolution of Language Models"
+summary: "OpenAI's GPT represents a significant leap forward in language model technology, moving beyond traditional limitations by incorporating mechanisms like preprompting to reduce factual inaccuracies. The introduction of specialized GPTs for targeted tasks has enabled more accurate, context-specific interactions"
 author: Harshvardhan
 date: '2024-02-08'
 slug: openai-gpts
