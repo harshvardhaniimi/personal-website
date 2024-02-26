@@ -47,6 +47,7 @@ Yet, as we scrutinize the [Philips Curve](https://en.wikipedia.org/wiki/Phillips
 ### What counts as "work"?
 
 Take, for instance, the stark contrast in how Sweden and India approach unpaid labor.
+The following graph is from the beautiful [Atlas of The Invisible](https://www.atlasoftheinvisible.com/).
 In Sweden, policies and societal norms acknowledge and strive to compensate for this often-invisible work---such as caregiving and household chores---which is crucial for societal sustenance.
 Conversely, in India, traditional gender roles often dictate that this labor remains unrecognized in economic terms, despite its fundamental role in the fabric of daily life.
 This unpaid labor, although not accounted for in a country's GDP, is essential for the functioning of society.
