@@ -23,8 +23,13 @@ Would we deem the values we take for granted today still relevant in a world whe
 
 ### Perils of GDP as KPI
 
-> It’s a five-minute bike ride to the train station. On brisk mornings like this, I wear gloves and pack a warm coffee for the commute. My work buddy Lucy gets on two stops down, always with a pair of scones, wheeling her bike next to mine in the locker downstairs before joining me in the sunny coach section. Half an hour later, we unload the bikes and race each other along the greenway to our office. Twice a week, this; twice a week, we co-work from a cafe in the suburbs. The rest of the week is ours to enjoy.
-> — Betsy Ruckman
+> It's a five-minute bike ride to the train station.
+> On brisk mornings like this, I wear gloves and pack a warm coffee for the commute.
+> My work buddy Lucy gets on two stops down, always with a pair of scones, wheeling her bike next to mine in the locker downstairs before joining me in the sunny coach section.
+> Half an hour later, we unload the bikes and race each other along the greenway to our office.
+> Twice a week, this; twice a week, we co-work from a cafe in the suburbs.
+> The rest of the week is ours to enjoy.
+> --- Betsy Ruckman
 
 The capitalist system, with its emphasis on growth and efficiency, often quantifies success in terms of Gross Domestic Product (GDP), which is the total value of goods and services produced over a specific time period within a country.
 Yet, as we scrutinize the [Philips Curve](https://en.wikipedia.org/wiki/Phillips_curve)---an economic concept that suggests an inverse relationship between rates of unemployment and corresponding rates of inflation---we must ask: Does our relentless pursuit of economic indicators, such as GDP and low unemployment, overshadow the quest for happiness and well-being?[^1]
@@ -48,17 +53,28 @@ Yet, as we scrutinize the [Philips Curve](https://en.wikipedia.org/wiki/Phillips
 
 Take, for instance, the stark contrast in how Sweden and India approach unpaid labor.
 The following graph is from the beautiful [Atlas of The Invisible](https://www.atlasoftheinvisible.com/).
+
+On the left, we have Sweden --- the most balanced country where the average amount of paid and unpaid work for men and women are close: women do 125% more unpaid work.
+On the right, we have India --- the least balanced country where the average amount of paid and unpaid work for men and women are miles apart.
+Women do nearly six hours of unpaid work where as men do less than an hour.
+
 In Sweden, policies and societal norms acknowledge and strive to compensate for this often-invisible work---such as caregiving and household chores---which is crucial for societal sustenance.
 Conversely, in India, traditional gender roles often dictate that this labor remains unrecognized in economic terms, despite its fundamental role in the fabric of daily life.
-This unpaid labor, although not accounted for in a country's GDP, is essential for the functioning of society.
+This unpaid labor, although not accounted for in a country's GDP, is essential for the functioning of society.[^2]
+[^3]
+
+[^2]: Data Source: [OECD](https://data.oecd.org/emp/hours-worked.htm), according to the book.
+    Though India is not an OECD country so I'm not sure where was non-OECD countries' data sourced from.
+
+[^3]: This point is also reverberated in the recent news where women are avoiding [pregnancy](https://www.cleveland.com/news/2023/11/why-is-the-us-birthrate-so-low-how-about-the-cost-of-child-care.html) as childcare costs are astronomical and family support --- taken for granted for decades --- is non-existent in capitalist countries like USA.
 
 ![](images/workloads.png)
 
 This disparity invites a broader question: How do we value labor and life?
-Bhutan's pioneering [Gross National Happiness index](https://www.grossnationalhappiness.com/) serves as a reminder that there are alternatives to GDP that encompass the richness of human experiences.[^2]
+Bhutan's pioneering [Gross National Happiness index](https://www.grossnationalhappiness.com/) serves as a reminder that there are alternatives to GDP that encompass the richness of human experiences.[^4]
 This index includes measurable factors like psychological well-being, health, education, and environmental quality, providing a more holistic snapshot of societal health.
 
-[^2]: It is kind of funny that Bhutan decided to use "Gross National Happiness" over GDP in 1970s but didn't actually start measuring its happiness until 2008.
+[^4]: It is kind of funny that Bhutan decided to use "Gross National Happiness" over GDP in 1970s but didn't actually start measuring its happiness until 2008.
     Movie Rec on the topic: [Agents of Happiness](https://www.npr.org/sections/goatsandsoda/2024/02/04/1228505757/agent-of-happiness-bhutan-documentary-film-gross-national-happiness).
 
 Such metrics dare to quantify the qualitative, challenging the traditional capitalist metrics by including the welfare and happiness of the population.
@@ -91,4 +107,6 @@ We must craft economic systems that not only measure but also honor the full spe
 Capitalist metrics may have served us well in one era, but as we evolve, so too must our systems.
 It's time to redefine what we value and find new ways to measure the true wealth of nations: the well-being of its people.
 
-<iframe style="border:none;" width="100%" height="590" src="https://www.are.na/harsh/anti-capitalism-and-pro-degrowth/embed" title="Harsh's Are.na Channel on Economics et al."></iframe>
+<iframe style="border:none;" width="100%" height="590" src="https://www.are.na/harsh/anti-capitalism-and-pro-degrowth/embed" title="Harsh&#39;s Are.na Channel on Economics et al.">
+
+</iframe>
