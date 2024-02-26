@@ -1,7 +1,7 @@
 ---
 title: Against Capitalism
 subtitle: "Redefining Prosperity: The Case for Well-being Over Wealth"
-summary: "I think hard about capitalism by questioning the adequacy of GDP as a measure of success, highlighting the neglect of unpaid labor, and exploring alternative indicators like Bhutan's Gross National Happiness index."
+summary: "In this post, I wonder about capitalism by questioning the adequacy of GDP as a measure of success, highlighting the neglect of unpaid labor, and exploring alternative indicators like Bhutan's Gross National Happiness index."
 author: Harshvardhan
 date: '2024-02-26'
 slug: against-capitalism
@@ -22,6 +22,9 @@ Shouldn't we do a century-long review?
 Would we deem the values we take for granted today still relevant in a world where are knees dip in [polycrisis](https://www.bsr.org/en/blog/2023-delivering-just-sustainable-business-polycrisis)?
 
 ### Perils of GDP as KPI
+
+> It’s a five-minute bike ride to the train station. On brisk mornings like this, I wear gloves and pack a warm coffee for the commute. My work buddy Lucy gets on two stops down, always with a pair of scones, wheeling her bike next to mine in the locker downstairs before joining me in the sunny coach section. Half an hour later, we unload the bikes and race each other along the greenway to our office. Twice a week, this; twice a week, we co-work from a cafe in the suburbs. The rest of the week is ours to enjoy.
+> — Betsy Ruckman
 
 The capitalist system, with its emphasis on growth and efficiency, often quantifies success in terms of Gross Domestic Product (GDP), which is the total value of goods and services produced over a specific time period within a country.
 Yet, as we scrutinize the [Philips Curve](https://en.wikipedia.org/wiki/Phillips_curve)---an economic concept that suggests an inverse relationship between rates of unemployment and corresponding rates of inflation---we must ask: Does our relentless pursuit of economic indicators, such as GDP and low unemployment, overshadow the quest for happiness and well-being?[^1]
@@ -86,3 +89,5 @@ We must craft economic systems that not only measure but also honor the full spe
 
 Capitalist metrics may have served us well in one era, but as we evolve, so too must our systems.
 It's time to redefine what we value and find new ways to measure the true wealth of nations: the well-being of its people.
+
+<iframe style="border:none;" width="100%" height="590" src="https://www.are.na/harsh/anti-capitalism-and-pro-degrowth/embed" title="Harsh's Are.na Channel on Economics et al."></iframe>
