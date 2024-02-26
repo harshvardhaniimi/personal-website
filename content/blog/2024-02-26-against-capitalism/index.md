@@ -29,7 +29,8 @@ Would we deem the values we take for granted today still relevant in a world whe
 > Half an hour later, we unload the bikes and race each other along the greenway to our office.
 > Twice a week, this; twice a week, we co-work from a cafe in the suburbs.
 > The rest of the week is ours to enjoy.
-> --- Betsy Ruckman
+>
+> --- [Betsy Ruckman](https://grist.org/looking-forward/the-growing-popularity-of-degrowth/)
 
 The capitalist system, with its emphasis on growth and efficiency, often quantifies success in terms of Gross Domestic Product (GDP), which is the total value of goods and services produced over a specific time period within a country.
 Yet, as we scrutinize the [Philips Curve](https://en.wikipedia.org/wiki/Phillips_curve)---an economic concept that suggests an inverse relationship between rates of unemployment and corresponding rates of inflation---we must ask: Does our relentless pursuit of economic indicators, such as GDP and low unemployment, overshadow the quest for happiness and well-being?[^1]
@@ -49,6 +50,28 @@ Yet, as we scrutinize the [Philips Curve](https://en.wikipedia.org/wiki/Phillips
 > Maybe, it's time for them to slow down and focus on metrics other than GDP.
 > This graph also tells us how some countries need to grow really fast, especially those that have [substantial poverty](https://ourworldindata.org/poverty-growth-needed).
 
+[Simon Kuznets](https://en.wikipedia.org/wiki/Simon_Kuznets), the economist who developed the first comprehensive set of measures of national income, stated in his [report to Congress](https://fraser.stlouisfed.org/title/national-income-1929-1932-971) in 1937 about the limitations of GDP:
+
+> The valuable capacity of the human mind to simplify a complex situation in a compact characterization becomes dangerous when not controlled in terms of definitely stated criteria.
+> With quantitative measurements especially, the definiteness of the result suggests, often misleadingly, a precision and simplicity in the outlines of the object measured.
+>
+> ... additional difficulties will be suggested to anyone who wants to penetrate below the surface of total figures and market values.
+> Economic welfare cannot be adequately measured unless the personal distribution of income is known.
+> And no income measurement undertakes to estimate the reverse side of income, that is, the intensity and unpleasantness of effort going into the earning of income.
+
+In 1962, he further added:[^2]
+
+[^2]: Simon Kuznets.
+    "How To Judge Quality".
+    The New Republic, 20 October 1962.
+    [PDF](https://static1.squarespace.com/static/5536fbc7e4b0d3e8a9803aad/t/554d19f6e4b0005c69696961/1431116278720/Kuznets_How+to+judge+Quality_1962.pdf).
+
+> Distinctions must be kept in mind between quantity and quality of growth, between costs and returns, and between the short and long run.
+> Goals for more growth should specify more growth of what and for what.
+
+My problem is that we don't have a discussion on quantity and quality, short-run and long-run, and cost of "reversal" if at all possible.
+None of that is factored into the calculation of GDP.
+
 ### What counts as "work"?
 
 Take, for instance, the stark contrast in how Sweden and India approach unpaid labor.
@@ -60,21 +83,21 @@ Women do nearly six hours of unpaid work where as men do less than an hour.
 
 In Sweden, policies and societal norms acknowledge and strive to compensate for this often-invisible work---such as caregiving and household chores---which is crucial for societal sustenance.
 Conversely, in India, traditional gender roles often dictate that this labor remains unrecognized in economic terms, despite its fundamental role in the fabric of daily life.
-This unpaid labor, although not accounted for in a country's GDP, is essential for the functioning of society.[^2]
-[^3]
+This unpaid labor, although not accounted for in a country's GDP, is essential for the functioning of society.[^3]
+[^4]
 
-[^2]: Data Source: [OECD](https://data.oecd.org/emp/hours-worked.htm), according to the book.
+[^3]: Data Source: [OECD](https://data.oecd.org/emp/hours-worked.htm), according to the book.
     Though India is not an OECD country so I'm not sure where was non-OECD countries' data sourced from.
 
-[^3]: This point is also reverberated in the recent news where women are avoiding [pregnancy](https://www.cleveland.com/news/2023/11/why-is-the-us-birthrate-so-low-how-about-the-cost-of-child-care.html) as childcare costs are astronomical and family support --- taken for granted for decades --- is non-existent in capitalist countries like USA.
+[^4]: This point is also reverberated in the recent news where women are avoiding [pregnancy](https://www.cleveland.com/news/2023/11/why-is-the-us-birthrate-so-low-how-about-the-cost-of-child-care.html) as childcare costs are astronomical and family support --- taken for granted for decades --- is non-existent in capitalist countries like USA.
 
 ![](images/workloads.png)
 
 This disparity invites a broader question: How do we value labor and life?
-Bhutan's pioneering [Gross National Happiness index](https://www.grossnationalhappiness.com/) serves as a reminder that there are alternatives to GDP that encompass the richness of human experiences.[^4]
+Bhutan's pioneering [Gross National Happiness index](https://www.grossnationalhappiness.com/) serves as a reminder that there are alternatives to GDP that encompass the richness of human experiences.[^5]
 This index includes measurable factors like psychological well-being, health, education, and environmental quality, providing a more holistic snapshot of societal health.
 
-[^4]: It is kind of funny that Bhutan decided to use "Gross National Happiness" over GDP in 1970s but didn't actually start measuring its happiness until 2008.
+[^5]: It is kind of funny that Bhutan decided to use "Gross National Happiness" over GDP in 1970s but didn't actually start measuring its happiness until 2008.
     Movie Rec on the topic: [Agents of Happiness](https://www.npr.org/sections/goatsandsoda/2024/02/04/1228505757/agent-of-happiness-bhutan-documentary-film-gross-national-happiness).
 
 Such metrics dare to quantify the qualitative, challenging the traditional capitalist metrics by including the welfare and happiness of the population.
