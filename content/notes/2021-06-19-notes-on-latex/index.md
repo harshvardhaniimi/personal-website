@@ -10,6 +10,49 @@ tags: []
 slug: latex
 ---
 
+## Write Markdown in LaTeX for Notes
+
+I often write my "chain of thought" in documents before writing the full page.
+I used to use verbatim environment for this.
+Now, I've found an alternative --- Markdown directly!
+
+First, make sure you import `listings` and `xcolor` packages.
+
+```{latex, eval = FALSE}
+\usepackage{listings}
+\usepackage{xcolor}
+```
+
+Then, create a custom environment:
+
+```{latex, eval = FALSE}
+\lstdefinestyle{markdownstyle}{
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    moredelim=[is][\textbf]{**}{**},
+    moredelim=[is][\textit]{*}{*},
+    moredelim=[is][\textcolor{blue}]{`}{`},
+    frame=single,
+    backgroundcolor=\color{gray!10},
+}
+
+\lstnewenvironment{markdown}{
+    \lstset{style=markdownstyle}
+}{}
+```
+
+Now, whenever you want to write notes, you can put them in "markdown" environment.
+
+```{latex, eval = FALSE}
+\begin{markdown}
+Significance of research and prior work
+
+Include
+- Discussion on novelty compared to previous work
+- Why is it a hard problem?
+\end{markdown}
+```
+
 ## Cosmetics
 
 -   **Bold math symbols:** Use the command `\mathbf{}` to write bold faced symbols like matrix variables.
@@ -23,7 +66,9 @@ slug: latex
 \MakeOuterQuote{"}
 ```
 
--   **Some handy commands:** `\hfill, \vfill, \hskip, \vskip, \hspace, \vspace`. Just Google to know their usage. They're needed for extra spaces here and there in Latex documents.
+-   **Some handy commands:** `\hfill, \vfill, \hskip, \vskip, \hspace, \vspace`.
+    Just Google to know their usage.
+    They're needed for extra spaces here and there in Latex documents.
 
 -   **Horizontal Line:** `\hrulefill` for all non-tabular environments.
 
@@ -53,7 +98,9 @@ slug: latex
 \DeclareMathOperator*{\argmin}{argmin}
 ```
 
-Then, `\underset{x} \argmax f(x)` or `\underset{x} \argmax f(x)`. This might not be very right according to this thread, but okay -- it serves the purpose. If you find something better, tell me.
+Then, `\underset{x} \argmax f(x)` or `\underset{x} \argmax f(x)`.
+This might not be very right according to this thread, but okay -- it serves the purpose.
+If you find something better, tell me.
 
 -   **Sum (Sigma):** `\sum_{i = 1}^{n} x_n`
 
@@ -65,7 +112,9 @@ Then, `\underset{x} \argmax f(x)` or `\underset{x} \argmax f(x)`. This might not
 
 -   **Drawing any symbol:** It is difficult to find the appropriate symbol every time, so use [Detexify](http://detexify.kirelabs.org/classify.html) to identify what you need.
 
--   Writing algorithms in LaTeX. Use `algorithm` and `algorithmic`. See [this article](https://www.math-linux.com/latex-26/faq/latex-faq/article/how-to-write-algorithm-and-pseudocode-in-latex-usepackage-algorithm-usepackage-algorithmic) for quick review.
+-   Writing algorithms in LaTeX.
+    Use `algorithm` and `algorithmic`.
+    See [this article](https://www.math-linux.com/latex-26/faq/latex-faq/article/how-to-write-algorithm-and-pseudocode-in-latex-usepackage-algorithm-usepackage-algorithmic) for quick review.
 
 ## Typesetting *Exactly*
 
@@ -91,18 +140,23 @@ The best part is that it also works for exact text placements.
     \bibliography{bibfile}
 ```
 
-Don't forget to add `\usepackage{natbib}` in the preamble. Note that bibfile.bib contains all bibliographies. If you can't get the BibTeX citations right, use Google Scholar.
+Don't forget to add `\usepackage{natbib}` in the preamble.
+Note that bibfile.bib contains all bibliographies.
+If you can't get the BibTeX citations right, use Google Scholar.
 
 -   **Citations Generator:** Use this tool online to generate citations: <https://truben.no/latex/bibtex/>.
 
 ## Meta
 
--   **New Commands:** Outline format is `\newcommand{newname}{definition}`. See [this](https://www.overleaf.com/learn/latex/Commands) and [this](https://en.wikibooks.org/wiki/LaTeX/Macros#New_commands) for more details.
+-   **New Commands:** Outline format is `\newcommand{newname}{definition}`.
+    See [this](https://www.overleaf.com/learn/latex/Commands) and [this](https://en.wikibooks.org/wiki/LaTeX/Macros#New_commands) for more details.
 
--   **Style File (`.sty`):** Basically, they're instructions that can be used to redefine the preexisting values in the document. See my Github for two examples that I've created - one for homework assignments and other for IIM Indore's official presentation.
+-   **Style File (`.sty`):** Basically, they're instructions that can be used to redefine the preexisting values in the document.
+    See my Github for two examples that I've created - one for homework assignments and other for IIM Indore's official presentation.
 
 ## Templates
 
--   [Overleaf Gallery](https://www.overleaf.com/gallery/) is the best. Otherwise, you can find some repositories on Google.
+-   [Overleaf Gallery](https://www.overleaf.com/gallery/) is the best.
+    Otherwise, you can find some repositories on Google.
 
 -   [**By Me**](https://www.harsh17.in/latex-templates/)**:** If you are searching for reports or presentations, or are an IIM Indore student looking for presentations, check my templates.
