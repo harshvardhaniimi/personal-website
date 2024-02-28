@@ -19,7 +19,7 @@ tags: []
 Every once in a while, it is crucial to review where we are and where we are headed.
 You might be in a habit of doing a yearly or a monthly review.
 Shouldn't we do a century-long review?
-Would we deem the values we take for granted today still relevant in a world where are knees dip in [polycrisis](https://www.bsr.org/en/blog/2023-delivering-just-sustainable-business-polycrisis)?
+Would we deem the values we take for granted today still relevant in a world where we are knees dip in [polycrisis](https://www.bsr.org/en/blog/2023-delivering-just-sustainable-business-polycrisis)?
 
 ### Perils of GDP as KPI
 
