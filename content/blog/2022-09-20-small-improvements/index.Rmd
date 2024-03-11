@@ -1,6 +1,6 @@
 ---
-title: Small Improvements
-subtitle: How the government of Bihar is changing lives one girl at a time?
+title: "How the government of Bihar is changing lives one girl at a time?" 
+subtitle: "Small Improvements"
 summary: "Bihar is one of the poorest states in India. Their over all literacy rate is 70% but there's stark difference between girls (50%) and boys (70%). In 2007, the government decided to distribute bicycles to all girls for free in the hope to get higher school enrollment. The program was called Mukhyamantri Balika Cycle Yojna (Chief Minister's Programme on Cycle for Girls). The program had astonishing improvements."
 author: Harshvardhan
 date: '2022-09-20'
