@@ -102,7 +102,7 @@ In FY 2021-22, 97% of income of *Trinamool Congress* (West Bengal) was from unkn
 [Source](https://www.newindianexpress.com/nation/2017/Jan/24/69-of-funds-for-india-political-parties-from-unknown-sources-report-1563076.html).
 
 | Party                                    | Total Income  | Unknown Sources | \% Unknown Sources |
-|----------------------------|---------------|---------------|---------------|
+|-------------------------|----------------|----------------|----------------|
 | Dravida Munnetra Kazhagam                | 318.745 crore | 306.025 crore   | 96%                |
 | Biju Janata Dal                          | 307.288 crore | 291.096 crore   | 95%                |
 | Bharat Rashtra Samithi                   | 218.112 crore | 153.037 crore   | 70%                |
@@ -256,21 +256,39 @@ ggplot(filtered_data, aes(x = `year(date_of_purchase)`, y = cumulative_amount / 
   scale_y_continuous(labels = label_crores(prefix = "Rs ", suffix = " Cr"))
 ```
 
+Perhaps the most striking thing about the list of donors is the names it does not include.
+The Adani Group, the giant conglomerate whose value has grown by almost 1,000 percent since Mr. Modi took power, appears nowhere.
+Mukesh Ambani, Asia's richest man, does not either, although his Reliance Industries has a roundabout connection to the third-largest donor listed, Qwik Supply Chain.
+Reliance released a statement saying Qwik is not a subsidiary of any Reliance company.
+
+The biggest purchaser is [Future Gaming and Hotel Services](https://www.thehindubusinessline.com/news/national/santiago-martins-future-gaming-emerges-as-top-buyer-of-electoral-bonds/article67953666.ece), which snapped up ₹1,368 crore (\$165 million) in bonds.
+That is many times greater than the profits it has reported in any year!
+The company's owner, Santiago Martin, often styled as India's "lottery king," was under investigation for money laundering.
+
+The second largest contributor is [Megha Engineering and Infrastructures Limited](https://www.thequint.com/news/politics/electoral-bonds-megha-limited-pp-reddy-telangana-bjp-brs-congress#read-more) (MEIL/Megha) which purchased bonds worth ₹ 996 crores (\$120 million).
+The current owner, [PV Krishna Reddy](https://www.dnaindia.com/business/report-meet-man-who-lives-in-diamond-house-wealth-increased-by-rs-24700-crore-in-one-year-his-business-is-pp-reddy-3065317) whose wealth increased by ₹ 24700 crores in a year, is among the richest 100 people in India.
+His house "Diamond House" literally looks like diamond.
+
+The third largest contributor, Qwik Supply, whose registered office is at Navi Mumbai's Dhirubhai Ambani Knowledge City (DAKC), brought bonds worth ₹ 410 crore.
+To put in perspective, the firm had a revenue of ₹ 500 crore in 2022-23.
+The company spent almost all of what it earned on funding elections.
+
+The entire list will leave you gasping for more information.
+Nirmala Sitharaman, our finance minister, dismissed any allegation of *quid pro quo*, saying that there was nothing to establish a link between raids by investigative agencies and funding, and that any such charges were mere "assumptions".
 
 ## What else?
 
 There's not much more that we can explore here without relying on other information.
 But many questions remain:
-1. Did any company get *quid pro quo* benefits after its funding?
-2. How did Reliance support the governments? I'm very certain they supported BJP (and maybe also the opposition). But how? Why do they not feature in this dataset? Did they just donate cash (which wasn't reported in electoral bonds but reported thorough "known" sources of funding)?
-3. Now that the program is scrapped, what happens to the uncashed funding amount?
-4. Will SBI also release the funding graph, beyond just the two tables?
+
+1.  Did any company get *quid pro quo* benefits after its funding?
+2.  How did Reliance/Adani support the governments? I'm very certain they supported BJP (and maybe also the opposition). But how? Why do they not feature in this dataset? Did they just donate cash (which wasn't reported in electoral bonds but reported thorough "known" sources of funding)?
+3.  Now that the program is scrapped, what happens to the uncashed funding amount?
+4.  Will SBI also release the funding graph, beyond just the two tables?
+5.  Will Supreme Court also force more data release like this? Will it also force the companies to declare their donations like they used to before 2017?
 
 I'll sit back and relax while more people take a look at this dataset.
 In about three hours of work, I learnt so much about election funding; those who have spent months researching this topic will come up with much better insights.
 
-I hope you learnt something about election funding in general. Here are a set of related [bookmarks](https://arc.net/folder/5BDF73D2-1562-4214-A83D-8973DE7E4AB9) that may interest you.
-
-
-
-
+I hope you learnt something about election funding in general.
+Here are a set of related [bookmarks](https://arc.net/folder/5BDF73D2-1562-4214-A83D-8973DE7E4AB9) that may interest you.
