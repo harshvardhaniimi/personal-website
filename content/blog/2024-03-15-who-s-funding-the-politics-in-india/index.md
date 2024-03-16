@@ -186,7 +186,7 @@ But many questions remain:
 5.  Will Supreme Court also force more data release like this? Will it also force the companies to declare their donations like they used to before 2017?
 
 I'll sit back and relax while more people take a look at this dataset.
-In about three hours of work, I learnt so much about election funding; those who have spent months researching this topic will come up with much better insights.
+In 4-5 hours of work, I learnt so much about election funding; those who have spent months researching this topic will come up with much better insights.
 
 I hope you learnt something about election funding in general.
 Here are a set of related [bookmarks](https://arc.net/folder/5BDF73D2-1562-4214-A83D-8973DE7E4AB9) that may interest you.
