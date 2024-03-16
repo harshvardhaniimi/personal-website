@@ -102,7 +102,7 @@ In FY 2021-22, 97% of income of *Trinamool Congress* (West Bengal) was from unkn
 [Source](https://www.newindianexpress.com/nation/2017/Jan/24/69-of-funds-for-india-political-parties-from-unknown-sources-report-1563076.html).
 
 | Party                                    | Total Income  | Unknown Sources | \% Unknown Sources |
-|-------------------------|----------------|----------------|----------------|
+|-----------------------|-----------------|-----------------|-----------------|
 | Dravida Munnetra Kazhagam                | 318.745 crore | 306.025 crore   | 96%                |
 | Biju Janata Dal                          | 307.288 crore | 291.096 crore   | 95%                |
 | Bharat Rashtra Samithi                   | 218.112 crore | 153.037 crore   | 70%                |
@@ -292,3 +292,13 @@ In about three hours of work, I learnt so much about election funding; those who
 
 I hope you learnt something about election funding in general.
 Here are a set of related [bookmarks](https://arc.net/folder/5BDF73D2-1562-4214-A83D-8973DE7E4AB9) that may interest you.
+
+## Datasets
+
+Thanks to Rishabh Anand, I got the access to the complete dataset as well as a crowdsourced version which is investigating corresponding raids by federal authorities, or winning significant government contracts.
+
+1.  For this analysis, I used the raw data which you can access here. <https://github.com/harshvardhaniimi/personal-website/blob/fe7f928810a8e883a6507bd3c4c602a0d2c69854/content/blog/2024-03-15-who-s-funding-the-politics-in-india/Electoral%20Bonds%20Raw%20Data.xlsx>
+2.  For easier viewing, I'm also uploading the same raw data with two pivot tables in a Google Sheet. <https://docs.google.com/spreadsheets/d/1XqqWKoVtQwrNxsKlSiXBFZnCOyoAERBvHreUZ7PB-9I/edit?usp=sharing>
+3.  Finally, there have been some collaborative efforts to crowdsource information. <https://docs.google.com/spreadsheets/d/17iCn40APazZ_v0Ce17l51ZlYNf0tweCaywTjK6Pfef8/edit#gid=0>
+
+Let me know in comments what you think about it or send me an email to hello\@harsh17.in :D
