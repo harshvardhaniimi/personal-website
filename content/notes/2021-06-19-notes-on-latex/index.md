@@ -87,7 +87,8 @@ Include
 
 ## Tables
 
--   **Inserting Table:** Use [Table Generator](https://www.tablesgenerator.com) online. Create the schema and then fill in the content.
+-   **Inserting Table:** Use [Table Generator](https://www.tablesgenerator.com) online.
+    Create the schema and then fill in the content.
 
 -   [Resize](https://tex.stackexchange.com/a/10864/159263) Latex Tables to Column-width or Text-width using `resizebox`:
 
