@@ -89,6 +89,27 @@ Include
 
 -   **Inserting Table:** Use [Table Generator](https://www.tablesgenerator.com) online. Create the schema and then fill in the content.
 
+-   [Resize](https://tex.stackexchange.com/a/10864/159263) Latex Tables to Column-width or Text-width using `resizebox`:
+
+    ```{latex}
+    \usepackage{graphics}
+    % ...
+
+    \begin{table}
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{r|lll}
+    \multicolumn{1}{r}{}
+    & \multicolumn{1}{l}{Heading 1}
+    & \multicolumn{1}{l}{Heading 2}
+    & \multicolumn{1}{l}{Heading 3} \\ \cline{2-4}
+    Row 1 & Cell 1,1 & Cell 1,2 & Cell 1,3 \\
+    Row 2 & Cell 2,1 & Cell 2,2 & Cell 2,3
+    \end{tabular}%
+    }
+    \end{table}
+    ```
+
 ## Exact Math Symbols
 
 -   **argmin and argmax:** Use this in preamble:
