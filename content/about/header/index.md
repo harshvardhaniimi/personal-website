@@ -1,6 +1,6 @@
 ---
 ## Configure header of page
-text_align_right: false
+text_align_right: true
 show_title_as_headline: false
 headline: |
   Hi there! Welcome to my [digital garden](https://www.youtube.com/watch?v=E5ERSfydB30&t=1s).

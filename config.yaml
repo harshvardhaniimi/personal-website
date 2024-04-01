@@ -37,8 +37,7 @@ params:
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
   logo: /img/avatar.png
-  mainSections:
-    - publications
+  mainSections: ""
   math:
     renderer: katex
   navallcaps: yes
@@ -105,10 +104,14 @@ menu:
       title: Talks
       url: /talk/
       weight: 3
+    - name: CV
+      title: My CV
+      url: https://www.harsh17.in/docs/cv.pdf
+      weight: 4
     - name: Newsletter
       title: Next — Today I Learned About R
       url: https://harsh17.in/next
-      weight: 4
+      weight: 5
 privacy:
   disqus:
     disable: no
