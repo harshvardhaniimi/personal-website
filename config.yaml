@@ -38,9 +38,7 @@ params:
   headingFontFamily: sans-serif
   logo: /img/avatar.png
   mainSections:
-    - blog
-    - project
-    - talk
+    - publications
   math:
     renderer: katex
   navallcaps: yes
@@ -103,26 +101,14 @@ menu:
       title: My Publications
       url: /publications/
       weight: 2
-    - name: Projects
-      title: Project Portfolio
-      url: /project/
-      weight: 3
-    - name: Blog
-      title: Blog
-      url: /blog/
-      weight: 4
     - name: Talks
       title: Talks
       url: /talk/
-      weight: 5
-    - name: Notes
-      title: That's interesting...
-      url: /notes/
-      weight: 6
+      weight: 3
     - name: Newsletter
       title: Next — Today I Learned About R
       url: https://harsh17.in/next
-      weight: 7
+      weight: 4
 privacy:
   disqus:
     disable: no

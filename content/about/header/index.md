@@ -8,6 +8,6 @@ headline: |
 
 <!-- this is a subheadline -->
 
-Here, you can find my academic [publications](/publications/), fun [projects](/project/) I've tried, stuff I'd like people to [care](/talk/) about, some random [musings](/blog/) and [notes](/note/) on my favourite things.
+Here, you can find my academic [publications](/publications/), fun [projects](/project/) I've tried, and [talks](/talk/) I've given.
 
-I also write a *free* weekly curated newsletter on data science: [Next](https://www.harsh17.in/next/). Five stories. Four R/Python packages. Three jargons. Two Tweets. One meme. It has over 300 subscribers. Sign up on [Substack](https://hvsc1708.substack.com/) to receive the next issue coming Wednesday morning!
+I also write a *free* monthly curated newsletter on data science: [Next](https://www.harsh17.in/next/). It has over 300 subscribers. Sign up on [Substack](https://hvsc1708.substack.com/) to receive the next issue!

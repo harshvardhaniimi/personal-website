@@ -9,7 +9,7 @@ audio_link_label: "How to say my name"
 link_list_label: "Fly! 🛸" # bookmarks, elsewhere, etc.
 link_list:
 - name: Activities
-  url: /adr/
+  url: https://blog.harsh17.in/posts/adr/
 - name: Books
   url: https://www.goodreads.com/review/list/66858367-harshvardhan?order=d&shelf=read&sort=date_read
 - name: Thoughts

@@ -2,7 +2,7 @@
 ## Configure page content in wide column
 title: "About Me" # leave blank to exclude
 number_featured: 3 # pulling from mainSections in config.toml
-number_categories: 5 # set to zero to exclude
+number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
   I'm a doctoral student in [Business Analytics and Statistics](https://haslam.utk.edu/business-analytics-statistics/about/) department at the Haslam College of Business, [the University of Tennessee](https://haslam.utk.edu/business-analytics-statistics), advised by [Prof ChuanRen Liu](https://datamining.utk.edu/). Alongside my studies, for over a year now, I've been delving into the world of forecasting with the Strategic Planning and Modelling team at [HP Inc](https://www.wikiwand.com/en/HP_SPaM).
@@ -18,6 +18,8 @@ intro: |
   [1 page Resume](/docs/resume.pdf)
   
   [Old Website](https://sites.google.com/view/harsh17/)
+  
+  [Blog](https://blog.harsh17.in/)
 
 show_outro: true
 
