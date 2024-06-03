@@ -89,7 +89,7 @@ menu:
       weight: 1
     - name: Contact
       title: Contact form
-      url: /contact/
+      url: https://forms.gle/htBcXP2pBMkMh8Zm6
       weight: 2
   header:
     - name: About
