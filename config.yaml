@@ -141,3 +141,4 @@ permalinks:
   publications: /:slug/
   about: /:slug/
 
+enableRobotsTXT: true
