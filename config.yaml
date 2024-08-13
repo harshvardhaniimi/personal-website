@@ -96,22 +96,30 @@ menu:
       title: About Me
       url: /about/
       weight: 1
+    - name: Projects
+      title: Data Projects
+      url: /projects/
+      weight: 2
     - name: Publications
       title: My Publications
       url: /publications/
-      weight: 2
+      weight: 3
     - name: Talks
       title: Talks
       url: /talk/
-      weight: 3
+      weight: 4
     - name: CV
       title: My CV
       url: https://www.harsh17.in/docs/cv.pdf
-      weight: 4
+      weight: 5
+    - name: Blog
+      title: Blog
+      url: https://blog.harsh17.in/
+      weight: 6
     - name: Newsletter
       title: Next — Today I Learned About R
       url: https://harsh17.in/next
-      weight: 5
+      weight: 7
 privacy:
   disqus:
     disable: no
