@@ -8,6 +8,8 @@ headline: |
 
 <!-- this is a subheadline -->
 
-Here, you can find my academic [publications](/publications/), fun [projects](/project/) I've tried, and [talks](/talk/) I've given.
+Here, you can explore my [academic publications](/publications/), dive into the [projects](/project/) I've experimented with, and watch the [talks](/talk/) I've delivered.
 
-I also write a *free* monthly curated newsletter on data science: [Next](https://www.harsh17.in/next/). It has over 300 subscribers. Sign up on [Substack](https://hvsc1708.substack.com/) to receive the next issue!
+This year, I’m actively on the job market, seeking opportunities as a Data Scientist—whether in academia as a Professor of Business Analytics or in industry as a Researcher. My diverse skill set, ranging from business communication to advanced analytical modeling, equips me for a variety of roles, as reflected in my work.
+
+If you think I could be a great addition to your team, I'd love to hear from you! Feel free to review my [Curriculum Vitae (CV)](/docs/cv.pdf) and my concise [1-page Resume](/docs/resume.pdf).
