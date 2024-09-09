@@ -145,7 +145,7 @@ permalinks:
   blog: /:slug/
   projects: /:slug/
   notes: /:slug/
-  talk: /:slug/
+  talks: /:slug/
   publications: /:slug/
   about: /:slug/
 
