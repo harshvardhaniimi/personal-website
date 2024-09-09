@@ -143,7 +143,7 @@ privacy:
     privacyEnhanced: yes
 permalinks:
   blog: /:slug/
-  project: /:slug/
+  projects: /:slug/
   notes: /:slug/
   talk: /:slug/
   publications: /:slug/
