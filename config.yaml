@@ -106,7 +106,7 @@ menu:
       weight: 3
     - name: Talks
       title: Talks
-      url: /talk/
+      url: /talks/
       weight: 4
     - name: CV
       title: My CV
