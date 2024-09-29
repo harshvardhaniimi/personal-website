@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Home sweet home to my projects 🏠
+description: Home sweet home to my personal and professional projects 🏠
 layout: list-grid
 show_author_byline: false
 show_button_links: false
