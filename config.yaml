@@ -51,18 +51,12 @@ params:
     - icon: linkedin
       icon_pack: fab
       url: https://www.linkedin.com/in/harshvardhaniimi/
-    - icon: twitter
-      icon_pack: fab
-      url: https://twitter.com/harshbutjust
     - icon: orcid
       icon_pack: ai
       url: https://orcid.org/0000-0001-8086-544X
     - icon: graduation-cap
       icon_pack: fas
       url: https://scholar.google.com/citations?user=Q-dbCggAAAAJ&hl=en
-    - icon: spotify
-      icon_pack: fab
-      url: https://open.spotify.com/user/6z25jqql0glx8o5aqhp8xkumr?si=uVIGCHsOQEOsoTvAu3Qhfw&nd=1
     - icon: rss
       icon_pack: fas
       url: /blog/index.xml
@@ -70,7 +64,6 @@ params:
   socialInHeader: no
   textFontFamily: sans-serif
   theme: paper
-  twitter: harshbutjust
   utterances:
     issue_term: pathname # url, pathname or title
     label: "chit-chat :crystal_ball:"
