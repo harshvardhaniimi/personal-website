@@ -206,6 +206,4 @@ It should take around 1-2 minutes and you should see a new playlist on your Spot
 
 ## 🎧 My This Week's Random Playlist
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2DPl1wxg7xyhvZIAEa1Z7K?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-
-</iframe>
+[Link to Spotify](https://open.spotify.com/playlist/2DPl1wxg7xyhvZIAEa1Z7K?si=d500baea2cba43e3)
