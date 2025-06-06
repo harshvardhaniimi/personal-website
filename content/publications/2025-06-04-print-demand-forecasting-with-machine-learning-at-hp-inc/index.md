@@ -3,6 +3,7 @@ title: Print Demand Forecasting with Machine Learning at HP Inc.
 author: Harshvardhan
 date: '2025-06-04'
 slug: print-demand-forecasting-with-machine-learning-at-hp-inc
+summary: "HP Inc. replaced manual and statistical forecasting with a machine learning (LightGBM) model to improve demand prediction accuracy across 18,000+ print products. The model reduced errors, scaled globally, and now supports a human-in-the-loop forecasting process."
 categories:
   - business
   - HP
