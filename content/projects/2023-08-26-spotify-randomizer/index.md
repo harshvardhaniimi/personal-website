@@ -46,7 +46,7 @@ Spotify's API has several limitations on what can you get from it. The biggest o
 Therefore, I query songs one after another in smaller batches. Here is the code for the same.
 
 
-```python
+``` python
 # Batching through songs, one "Verse" at a time
 offset = 0
 liked_songs = []
@@ -67,7 +67,7 @@ Filtering the songs that were older than 90 days wasn't hard. All I needed to do
 Once I got the time when they were added, I need a method to weight older songs higher than newer songs. Like I said, my primary complaint with Spotify was that it played the same songs for me every (damn) time. Thus, as a statistician, I had to take a weighted sample. The below approach is not the most efficient but probably the simplest.
 
 
-```python
+``` python
 weighted_songs = []
 for song in liked_songs:
     added_date = datetime.datetime.strptime(song['added_at'],
@@ -84,7 +84,7 @@ for song in liked_songs:
 Following to getting the full list of pretentiously-serendipitous songs, I need to select 100 songs from that list. Easy peeasy.
 
 
-```python
+``` python
 random.shuffle(weighted_songs)
 selected_tracks = weighted_songs[:100]
 ```
@@ -94,7 +94,7 @@ Once I have the songs, I need to push it to a new playlist on Spotify. Since I w
 If a playlist by that name already exists, the following code will delete all songs from it and then add 100 songs found this week.
 
 
-```python
+``` python
 user_id = sp.me()['id']
 playlist_name = 'random'
 playlists = sp.user_playlists(user_id)
@@ -140,7 +140,7 @@ But first, we need the tokens for the first time.
 You will need to get the access tokens for the [first time](https://open.spotify.com/track/2Gl0FzuLxflY6nPifJp5Dr?si=47794e2e298c4d45). Run the [following script](https://github.com/harshvardhaniimi/spotify-randomizer/blob/main/notebook.ipynb) that gets the tokens.
 
 
-```python
+``` python
 redirect_uri = "http://localhost:8000/"
 
 auth_manager = SpotifyOAuth(client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri, scope="playlist-modify-public user-library-read user-read-recently-played")
@@ -154,7 +154,7 @@ From there on, I am able to create an OAuth2 object without the refresh token, t
 [^1]: I'm kinda confused on how access token and refresh token play with each other, so I'd appreciate your explanation if you know better.
 
 
-```python
+``` python
 # Function to refresh access token
 def refresh_access_token(refresh_token):
     client_id = os.environ['SPOTIPY_CLIENT_ID']
