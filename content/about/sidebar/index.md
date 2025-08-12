@@ -13,7 +13,7 @@ link_list:
 - name: Books
   url: https://www.goodreads.com/review/list/66858367-harshvardhan?order=d&shelf=read&sort=date_read
 - name: Thoughts
-  url: https://twitter.com/harshbutjust
+  url: https://www.threads.com/@harsh17.in
 ---
 
 ** index doesn't contain a body, just front matter above.
