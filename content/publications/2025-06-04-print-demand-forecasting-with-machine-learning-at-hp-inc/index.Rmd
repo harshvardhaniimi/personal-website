@@ -38,4 +38,4 @@ We also share several important principles we have applied to manage team-based 
 
 DOI: <https://doi.org/10.1287/inte.2024.0126>
 
-PDF: [Finally-accepted Preprint](https://www.harsh17.in/papers/HP_Paper_IJAA_Preprint.pdf)
+PDF: [Finally-accepted Preprint](https://www.harsh17.in/docs/papers/HP_Paper_IJAA_Preprint.pdf)
