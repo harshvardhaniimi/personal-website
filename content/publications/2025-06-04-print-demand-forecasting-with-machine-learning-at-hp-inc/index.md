@@ -3,7 +3,7 @@ title: Print Demand Forecasting with Machine Learning at HP Inc.
 author: Harshvardhan
 date: '2025-06-04'
 slug: print-demand-forecasting-with-machine-learning-at-hp-inc
-summary: "HP Inc. replaced manual and statistical forecasting with a machine learning (LightGBM) model to improve demand prediction accuracy across 18,000+ print products. The model has been deployed enterprise-wide, with demonstrated business value and principles for scaling ML in large organizations."
+summary: "HP Inc. replaced manual and statistical forecasting with a machine learning (LightGBM) model to improve demand prediction accuracy across 18,000+ print products. The model has been deployed enterprise-wide, with demonstrated business value and principles for scaling ML in large organizations. [🔗 PDF](https://www.harsh17.in/docs/papers/HP_Paper_IJAA_Preprint.pdf)"
 categories:
   - business
   - HP
@@ -13,7 +13,7 @@ tags: []
 ---
 
 My three-year-long collaboration with HP Inc.—including an 18-month internship with their Strategic Planning and Modeling team—has culminated in a new publication in the *INFORMS Journal of Applied Analytics*.
-This paper is also the primary research output from [my dissertation](/phd/), co-authored with the HP team and my advisor, Dr. Charles Liu.
+This paper is also the primary research output from [my dissertation](https://blog.harsh17.in/phd/), co-authored with the HP team and my advisor, Dr. Charles Liu.
 I’m especially grateful to Cara Curtland at HP, whose partnership was instrumental in executing this work.
 
 ## Abstract
@@ -38,4 +38,4 @@ We also share several important principles we have applied to manage team-based 
 
 DOI: <https://doi.org/10.1287/inte.2024.0126>
 
-PDF: [Finally-accepted Preprint](https://www.harsh17.in/papers/HP_Paper_IJAA_Preprint.pdf)
+PDF: [Finally-accepted Preprint](https://www.harsh17.in/docs/papers/HP_Paper_IJAA_Preprint.pdf)

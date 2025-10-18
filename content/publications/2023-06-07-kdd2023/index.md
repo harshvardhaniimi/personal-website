@@ -1,13 +1,14 @@
 ---
 title: End-to-End Inventory Prediction and Contract Allocation for Guaranteed Delivery
   Advertising
-summary: "We proposed a novel end-to-end approach, the Neural Lagrangian Selling (NLS) model, to improve Guaranteed Delivery (GD) advertising by concurrently predicting ad impression inventory and optimizing contract allocation. The model incorporates a differentiable Lagrangian layer and a graph convolutional neural network to enable direct optimization of allocation regret and effective handling of various allocation targets and constraints."
+summary: "We proposed a novel end-to-end approach, the Neural Lagrangian Selling (NLS) model, to improve Guaranteed Delivery (GD) advertising by concurrently predicting ad impression inventory and optimizing contract allocation. The model incorporates a differentiable Lagrangian layer and a graph convolutional neural network to enable direct optimization of allocation regret and effective handling of various allocation targets and constraints. [🔗 PDF](https://www.harsh17.in/docs/kdd2023/E2E_Paper.pdf)"
 author: Harshvardhan
 date: '2023-06-07'
 slug: kdd2023
 categories:
   - publication
   - publications
+  - ML
   - Python
 tags: []
 ---

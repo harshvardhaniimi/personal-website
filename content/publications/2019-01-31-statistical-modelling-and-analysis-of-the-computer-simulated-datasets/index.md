@@ -1,6 +1,6 @@
 ---
 title: Statistical Modelling and Analysis of the Computer-Simulated Datasets
-summary: "My first academic publication: a peer-reviewed book chapter on statistical modelling using Gaussian processes. We reviewed several GP models and correlation structures, and methods to handle numerical instabilities due to near-singular matrices. Finally, we reviewed several algorithms developed specifically for analysing big data obtained from computer simulators." 
+summary: "My first academic publication: a peer-reviewed book chapter on statistical modelling using Gaussian processes. We reviewed several GP models and correlation structures, and methods to handle numerical instabilities due to near-singular matrices. Finally, we reviewed several algorithms developed specifically for analysing big data obtained from computer simulators. [🔗 PDF](https://www.harsh17.in/docs/simulation_2019.pdf)" 
 author: Harshvardhan
 date: '2019-01-31'
 slug: statistical-modelling-and-analysis-of-the-computer-simulated-datasets

@@ -1,6 +1,6 @@
 ---
 title: 'Dynamic GP: Application to Malaria Vaccine Coverage Prediction'
-summary: "We applied a dynamic Gaussian process model to predict coverage for novel Malaria vaccines in 78 countries. Using publicly available WHO data on coverage of nine vaccines, we developed localised models for countries grouped using the human development index (HDI). We deployed convolutions of standard GP models with weights determined using singular value decomposition of time-series response matrix."
+summary: "We applied a dynamic Gaussian process model to predict coverage for novel Malaria vaccines in 78 countries. Using publicly available WHO data on coverage of nine vaccines, we developed localised models for countries grouped using the human development index (HDI). We deployed convolutions of standard GP models with weights determined using singular value decomposition of time-series response matrix. [🔗 PDF](https://www.harsh17.in/docs/malaria_paper.pdf)"
 author: Harshvardhan
 date: '2020-12-20'
 slug: dynamic-gp-application-to-malaria-vaccine-coverage-prediction
