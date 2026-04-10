@@ -30,10 +30,6 @@ The app works for 2020 data but extending to other years is trivial. I haven't a
 
 ![You have to choose the country and then the divider value. 29 would be most detailed (till a plot) and 1 would be most aggregated (for a country).](featured-hex.png "Screenshot of the web app")
 
-```{r, echo = FALSE}
-xfun::embed_file("/Users/harshvardhan/Documents/Old/Asar/Uploaded to Github/Slides.pdf")
-```
-
 **The [Github repository](https://github.com/harshvardhaniimi/raster-population) contains codebase and related datasets/databases for Population Raster App.**
 
 # **How does this app work?**

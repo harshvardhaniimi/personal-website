@@ -18,14 +18,14 @@ Now, I've found an alternative --- Markdown directly!
 
 First, make sure you import `listings` and `xcolor` packages.
 
-```{latex, eval = FALSE}
+```latex
 \usepackage{listings}
 \usepackage{xcolor}
 ```
 
 Then, create a custom environment:
 
-```{latex, eval = FALSE}
+```latex
 \lstdefinestyle{markdownstyle}{
     basicstyle=\ttfamily\footnotesize,
     breaklines=true,
@@ -43,7 +43,7 @@ Then, create a custom environment:
 
 Now, whenever you want to write notes, you can put them in "markdown" environment.
 
-```{latex, eval = FALSE}
+```latex
 \begin{markdown}
 Significance of research and prior work
 
@@ -92,7 +92,7 @@ Include
 
 -   [Resize](https://tex.stackexchange.com/a/10864/159263) Latex Tables to Column-width or Text-width using `resizebox`:
 
-    ```{latex}
+    ```latex
     \usepackage{graphics}
     % ...
 

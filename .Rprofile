@@ -15,5 +15,5 @@ options(
   blogdown.method = "markdown"
 )
 
-# pin Hugo version
-options(blogdown.hugo.version = "0.89.2")
+# pin Hugo version (must match netlify.toml HUGO_VERSION)
+options(blogdown.hugo.version = "0.160.1")

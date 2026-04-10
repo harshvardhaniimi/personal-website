@@ -9,25 +9,28 @@ disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
 paginate: 100
-preserveTaxonomyNames: yes
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
   - _cache$
   - \.knit\.md$
   - \.utf8\.md$
-enableEmoji: yes
+enableEmoji: true
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
+    parser:
+      attribute:
+        block: false
+        title: false
     renderer:
-      hardwraps: no
-      unsafe: yes
+      hardwraps: false
+      unsafe: true
   highlight:
     style: github
   tableOfContents:
     endLevel: 2
-    ordered: no
+    ordered: false
     startLevel: 2
 params:
   custom_theme: ''
@@ -40,7 +43,7 @@ params:
   mainSections: ""
   math:
     renderer: katex
-  navallcaps: yes
+  navallcaps: true
   orgLocal: Anywhere
   orgName: Harshvardhan
   sharing_image: /img/sharing-image.png
@@ -51,6 +54,9 @@ params:
     - icon: linkedin
       icon_pack: fab
       url: https://www.linkedin.com/in/harshvardhaniimi/
+    - icon: threads
+      icon_pack: fab
+      url: https://www.threads.net/@harsh17.in
     - icon: orcid
       icon_pack: ai
       url: https://orcid.org/0000-0001-8086-544X
@@ -60,8 +66,8 @@ params:
     - icon: rss
       icon_pack: fas
       url: /blog/index.xml
-  socialInFooter: yes
-  socialInHeader: no
+  socialInFooter: true
+  socialInHeader: false
   textFontFamily: sans-serif
   theme: paper
   utterances:
@@ -69,7 +75,7 @@ params:
     label: "chit-chat :crystal_ball:"
     repo_name: "harshvardhaniimi/personal-website"
     theme: "boxy-light"
-    use_utterances: yes
+    use_utterances: true
 taxonomies:
   category: categories
   series: series
@@ -115,25 +121,25 @@ menu:
       weight: 7
 privacy:
   disqus:
-    disable: no
+    disable: false
   googleAnalytics:
-    anonymizeIP: yes
-    disable: no
-    respectDoNotTrack: yes
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
   instagram:
-    disable: no
-    simple: yes
-  twitter:
-    disable: no
-    enableDNT: yes
-    simple: no
+    disable: false
+    simple: true
+  x:
+    disable: false
+    enableDNT: true
+    simple: false
   vimeo:
-    disable: no
-    enableDNT: yes
-    simple: yes
+    disable: false
+    enableDNT: true
+    simple: true
   youtube:
-    disable: no
-    privacyEnhanced: yes
+    disable: false
+    privacyEnhanced: true
 permalinks:
   blog: /:slug/
   projects: /:slug/
